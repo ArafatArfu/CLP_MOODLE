@@ -1,0 +1,5 @@
+# Project root .htaccess
+# The Apache vhost for moodle-clp.local sets DocumentRoot to the public/
+# subdirectory, so files in this root directory are not directly web-served.
+# This file intentionally contains no cascading access rules so it stays
+# valid in .htaccess context (the previous "AllowOverride" line caused 500s).

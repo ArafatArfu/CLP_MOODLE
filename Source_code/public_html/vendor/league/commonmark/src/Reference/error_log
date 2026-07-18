@@ -1,0 +1,40 @@
+[27-Mar-2025 15:37:14 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php on line 22
+[18-May-2025 11:49:03 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceMapInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/ReferenceMap.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/ReferenceMap.php on line 24
+[16-Jun-2025 04:53:21 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php on line 22
+[19-Jul-2025 10:57:31 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceMapInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/ReferenceMap.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/ReferenceMap.php on line 24
+[27-Jul-2025 08:54:44 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php on line 22
+[04-Sep-2025 13:23:00 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceMapInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/ReferenceMap.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/ReferenceMap.php on line 24
+[22-Oct-2025 11:54:40 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php on line 22
+[29-Jan-2026 09:06:11 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php on line 22
+[10-Feb-2026 06:59:17 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php on line 22
+[25-Mar-2026 00:10:22 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Reference\ReferenceInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Reference/Reference.php on line 22

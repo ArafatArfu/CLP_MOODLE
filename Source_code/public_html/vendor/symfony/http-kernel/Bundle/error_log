@@ -1,0 +1,88 @@
+[04-Sep-2024 09:52:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[23-Sep-2024 02:42:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[01-Oct-2024 17:03:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[14-Oct-2024 01:09:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[19-Oct-2024 03:25:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[25-Oct-2024 13:53:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[20-Feb-2025 12:21:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[26-Feb-2025 03:47:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[18-May-2025 00:19:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[29-May-2025 11:15:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[14-Jun-2025 09:24:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[30-Jun-2025 03:16:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[09-Jul-2025 14:13:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[15-Aug-2025 14:00:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[11-Oct-2025 17:17:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[16-Dec-2025 14:36:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[26-Dec-2025 04:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[14-Jan-2026 17:51:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[22-Jan-2026 01:17:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[31-Jan-2026 19:48:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[12-Feb-2026 04:49:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25
+[19-Feb-2026 15:24:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Bundle\BundleInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Bundle/Bundle.php on line 25

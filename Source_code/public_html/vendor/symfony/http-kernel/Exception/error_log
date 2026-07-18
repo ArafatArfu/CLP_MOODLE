@@ -1,0 +1,304 @@
+[31-Aug-2024 18:10:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php on line 17
+[22-Sep-2024 23:25:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php on line 18
+[29-Sep-2024 05:05:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[30-Sep-2024 20:29:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php on line 19
+[30-Sep-2024 21:15:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[01-Oct-2024 05:46:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php on line 17
+[16-Oct-2024 13:00:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php on line 17
+[25-Oct-2024 02:11:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php on line 17
+[01-Dec-2024 17:26:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[08-Dec-2024 02:15:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[10-Dec-2024 21:29:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php on line 17
+[13-Dec-2024 00:53:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[20-Jan-2025 07:05:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[25-Jan-2025 23:12:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[02-Feb-2025 16:11:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[09-Feb-2025 20:15:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[22-Feb-2025 07:02:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[02-Mar-2025 11:45:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php on line 19
+[16-Mar-2025 03:13:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[23-Mar-2025 00:11:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[23-Mar-2025 04:47:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[23-Mar-2025 20:34:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php on line 17
+[05-Apr-2025 20:14:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[07-Apr-2025 20:51:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[08-Apr-2025 17:34:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[14-Apr-2025 04:20:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php on line 17
+[17-Apr-2025 12:13:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[25-Apr-2025 00:29:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php on line 17
+[08-May-2025 20:34:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php on line 18
+[09-May-2025 15:53:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php on line 17
+[13-May-2025 18:46:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[17-May-2025 06:56:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php on line 19
+[17-May-2025 21:29:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[20-May-2025 22:12:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[21-May-2025 17:13:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[22-May-2025 21:08:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[30-May-2025 16:48:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[03-Jun-2025 23:56:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[06-Jun-2025 01:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[08-Jun-2025 17:54:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[11-Jun-2025 16:52:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php on line 17
+[11-Jun-2025 18:44:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php on line 17
+[13-Jun-2025 10:18:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[17-Jun-2025 08:23:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php on line 17
+[20-Jun-2025 22:41:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php on line 19
+[22-Jun-2025 09:14:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php on line 19
+[23-Jun-2025 07:43:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[24-Jun-2025 10:31:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php on line 17
+[26-Jun-2025 11:30:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php on line 17
+[27-Jun-2025 23:19:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnsupportedMediaTypeHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnsupportedMediaTypeHttpException.php on line 17
+[28-Jun-2025 16:07:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/PreconditionFailedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/PreconditionFailedHttpException.php on line 17
+[29-Jun-2025 03:46:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php on line 18
+[29-Jun-2025 06:45:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[01-Jul-2025 10:02:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php on line 17
+[04-Jul-2025 08:15:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php on line 17
+[05-Jul-2025 09:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php on line 19
+[05-Jul-2025 10:49:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php on line 17
+[11-Jul-2025 07:44:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[12-Jul-2025 08:01:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[15-Jul-2025 23:45:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ConflictHttpException.php on line 17
+[16-Jul-2025 00:34:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php on line 17
+[17-Jul-2025 02:35:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Exception\HttpExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/HttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/HttpException.php on line 19
+[17-Jul-2025 18:54:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php on line 17
+[19-Jul-2025 05:22:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php on line 19
+[19-Jul-2025 12:54:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php on line 18
+[21-Jul-2025 02:13:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[24-Jul-2025 00:32:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[24-Jul-2025 11:03:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php on line 17
+[27-Jul-2025 07:39:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php on line 17
+[27-Jul-2025 17:20:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php on line 17
+[29-Jul-2025 10:39:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17
+[30-Jul-2025 16:12:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/GoneHttpException.php on line 17
+[01-Aug-2025 03:02:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php on line 19
+[03-Aug-2025 06:22:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php on line 17
+[14-Aug-2025 01:35:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php on line 17
+[14-Aug-2025 02:32:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Exception\HttpException" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php on line 17

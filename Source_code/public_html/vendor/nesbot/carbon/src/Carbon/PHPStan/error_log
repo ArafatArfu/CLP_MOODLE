@@ -1,0 +1,65 @@
+[06-Nov-2024 00:01:57 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "PHPStan\Reflection\Php\BuiltinMethodReflection" does not exist in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php:20
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php(20): ReflectionMethod->__construct()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php on line 20
+[18-May-2025 17:44:41 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[09-Jun-2025 10:34:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "PHPStan\Reflection\Php\BuiltinMethodReflection" does not exist in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php:20
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php(20): ReflectionMethod->__construct()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php on line 20
+[21-Jun-2025 02:21:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "PHPStan\Reflection\Php\BuiltinMethodReflection" does not exist in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php:20
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php(20): ReflectionMethod->__construct()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php on line 20
+[20-Jul-2025 19:54:18 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[26-Jul-2025 22:23:20 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[02-Aug-2025 10:29:59 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[13-Aug-2025 23:27:57 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[08-Oct-2025 19:54:55 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[31-Oct-2025 16:02:35 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[16-Dec-2025 10:17:12 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[07-Jan-2026 00:17:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "PHPStan\Reflection\Php\BuiltinMethodReflection" does not exist in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php:20
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php(20): ReflectionMethod->__construct()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php on line 20
+[21-Jan-2026 08:11:10 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[01-Feb-2026 14:30:06 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPStan\Reflection\MethodsClassReflectionExtension" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php on line 27
+[24-Mar-2026 20:37:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "PHPStan\Reflection\Php\BuiltinMethodReflection" does not exist in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php:20
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php(20): ReflectionMethod->__construct()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php on line 20

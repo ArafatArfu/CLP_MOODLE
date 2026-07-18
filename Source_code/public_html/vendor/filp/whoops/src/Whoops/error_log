@@ -1,0 +1,16 @@
+[03-Apr-2025 17:27:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Whoops\RunInterface" not found in /home/clpwebor/public_html/vendor/filp/whoops/src/Whoops/Run.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/filp/whoops/src/Whoops/Run.php on line 22
+[16-Aug-2025 02:52:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Whoops\RunInterface" not found in /home/clpwebor/public_html/vendor/filp/whoops/src/Whoops/Run.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/filp/whoops/src/Whoops/Run.php on line 22
+[16-Aug-2025 13:48:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Whoops\RunInterface" not found in /home/clpwebor/public_html/vendor/filp/whoops/src/Whoops/Run.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/filp/whoops/src/Whoops/Run.php on line 22
+[22-Aug-2025 15:58:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Whoops\RunInterface" not found in /home/clpwebor/public_html/vendor/filp/whoops/src/Whoops/Run.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/filp/whoops/src/Whoops/Run.php on line 22

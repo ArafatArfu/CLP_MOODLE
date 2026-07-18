@@ -1,0 +1,78 @@
+[03-Sep-2024 13:23:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[13-Sep-2024 13:35:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[19-Sep-2024 22:22:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[02-Oct-2024 18:12:35 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[09-Oct-2024 12:49:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[21-Dec-2024 10:11:08 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[17-Feb-2025 07:35:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[22-Feb-2025 10:35:16 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[04-May-2025 17:17:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[29-May-2025 13:12:18 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[06-Jun-2025 09:56:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[06-Jun-2025 09:57:29 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[19-Jun-2025 15:25:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[20-Jun-2025 09:14:24 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[29-Jun-2025 23:20:29 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[19-Jul-2025 14:48:46 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[22-Jul-2025 00:37:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[30-Jul-2025 18:47:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[03-Oct-2025 23:17:21 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[07-Oct-2025 12:29:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[26-Oct-2025 14:10:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[19-Dec-2025 23:54:57 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[05-Jan-2026 11:23:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[13-Jan-2026 23:42:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[14-Jan-2026 16:43:07 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[01-Feb-2026 16:09:59 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[11-Feb-2026 23:39:23 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[02-Mar-2026 00:24:18 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 11
+[14-Mar-2026 15:33:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[14-Apr-2026 16:51:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7

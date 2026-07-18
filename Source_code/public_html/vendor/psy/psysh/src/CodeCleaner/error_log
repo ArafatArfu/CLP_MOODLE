@@ -1,0 +1,1272 @@
+[11-Sep-2024 10:01:17 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[13-Sep-2024 00:15:27 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[15-Sep-2024 15:30:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[18-Sep-2024 13:50:31 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[23-Sep-2024 10:18:09 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[26-Sep-2024 17:23:40 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22
+[03-Oct-2024 09:57:41 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php on line 28
+[10-Oct-2024 15:37:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[11-Oct-2024 22:29:41 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[13-Oct-2024 14:47:24 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[20-Oct-2024 10:18:21 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[25-Oct-2024 20:46:20 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[07-Nov-2024 01:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[26-Nov-2024 16:50:24 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[03-Dec-2024 20:48:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[13-Dec-2024 06:37:31 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[18-Dec-2024 00:00:32 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22
+[20-Dec-2024 19:51:32 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[22-Dec-2024 01:13:00 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[05-Jan-2025 15:01:55 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[08-Jan-2025 14:07:55 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[10-Jan-2025 20:49:55 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php on line 29
+[14-Jan-2025 01:44:08 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[16-Jan-2025 10:59:48 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[19-Jan-2025 16:37:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[23-Jan-2025 17:53:12 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[26-Jan-2025 23:51:37 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[03-Feb-2025 13:13:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[07-Feb-2025 02:00:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[10-Feb-2025 08:01:48 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[18-Feb-2025 23:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[24-Feb-2025 11:19:07 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[24-Feb-2025 15:08:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[25-Feb-2025 00:16:10 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[07-Mar-2025 08:51:04 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[17-Mar-2025 18:50:10 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[27-Mar-2025 12:10:15 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[29-Mar-2025 18:26:15 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[31-Mar-2025 11:30:14 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[31-Mar-2025 14:23:34 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[06-Apr-2025 15:35:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[10-Apr-2025 13:49:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[18-Apr-2025 19:28:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php on line 33
+[20-Apr-2025 04:54:20 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[01-May-2025 14:47:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[07-May-2025 07:08:33 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[10-May-2025 08:39:40 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[11-May-2025 18:30:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[12-May-2025 12:32:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[13-May-2025 23:30:02 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[14-May-2025 04:19:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[14-May-2025 05:02:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php on line 30
+[14-May-2025 12:21:40 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[17-May-2025 03:42:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[18-May-2025 13:06:17 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[19-May-2025 03:18:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[20-May-2025 06:31:07 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[21-May-2025 08:32:10 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[21-May-2025 10:44:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[21-May-2025 11:02:40 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[29-May-2025 09:26:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[30-May-2025 19:20:20 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[31-May-2025 07:31:51 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[31-May-2025 15:21:02 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[31-May-2025 16:34:42 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[31-May-2025 19:32:52 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[31-May-2025 22:17:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php on line 24
+[03-Jun-2025 05:41:36 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[03-Jun-2025 06:20:56 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22
+[04-Jun-2025 01:28:23 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[04-Jun-2025 13:13:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php on line 29
+[04-Jun-2025 20:39:15 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[06-Jun-2025 01:07:19 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[09-Jun-2025 12:59:48 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[10-Jun-2025 00:40:24 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[10-Jun-2025 04:28:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[10-Jun-2025 08:25:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[10-Jun-2025 18:05:33 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[16-Jun-2025 22:40:55 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[17-Jun-2025 22:38:10 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[18-Jun-2025 08:02:47 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[19-Jun-2025 13:57:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[19-Jun-2025 15:29:50 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[20-Jun-2025 01:49:05 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[20-Jun-2025 08:49:54 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[20-Jun-2025 22:02:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[21-Jun-2025 23:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[22-Jun-2025 02:15:53 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php on line 28
+[23-Jun-2025 03:23:40 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[23-Jun-2025 12:39:25 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[24-Jun-2025 12:57:16 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[24-Jun-2025 20:41:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[25-Jun-2025 23:08:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[27-Jun-2025 01:35:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[27-Jun-2025 10:31:32 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[28-Jun-2025 04:39:08 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidConstructorPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidConstructorPass.php on line 34
+[28-Jun-2025 14:27:47 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[28-Jun-2025 14:57:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[29-Jun-2025 11:13:02 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[29-Jun-2025 13:22:27 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[30-Jun-2025 21:45:31 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php on line 29
+[01-Jul-2025 12:45:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[03-Jul-2025 14:36:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[03-Jul-2025 15:40:17 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[04-Jul-2025 03:11:33 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[04-Jul-2025 04:51:32 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22
+[05-Jul-2025 02:11:12 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[05-Jul-2025 15:52:03 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[07-Jul-2025 08:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[07-Jul-2025 14:34:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[07-Jul-2025 15:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php on line 29
+[08-Jul-2025 11:10:37 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php on line 24
+[08-Jul-2025 16:38:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[09-Jul-2025 03:34:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[09-Jul-2025 11:05:42 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[09-Jul-2025 20:47:42 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[11-Jul-2025 12:11:00 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[11-Jul-2025 20:08:41 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[11-Jul-2025 22:00:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[12-Jul-2025 08:35:14 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php on line 33
+[12-Jul-2025 08:37:20 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[15-Jul-2025 01:56:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[15-Jul-2025 09:30:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[15-Jul-2025 10:48:53 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[15-Jul-2025 10:50:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[15-Jul-2025 20:08:37 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[15-Jul-2025 22:21:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[16-Jul-2025 03:31:28 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[16-Jul-2025 12:31:58 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/IssetPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/IssetPass.php on line 26
+[17-Jul-2025 13:19:03 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[19-Jul-2025 13:13:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php on line 28
+[20-Jul-2025 02:29:47 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[21-Jul-2025 05:00:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[24-Jul-2025 21:48:24 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[25-Jul-2025 08:14:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[27-Jul-2025 03:42:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php on line 29
+[27-Jul-2025 16:00:22 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[27-Jul-2025 19:27:00 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[29-Jul-2025 13:58:36 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[30-Jul-2025 09:57:43 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[30-Jul-2025 10:15:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[30-Jul-2025 22:38:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[31-Jul-2025 02:39:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[01-Aug-2025 08:13:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[02-Aug-2025 20:26:57 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[13-Aug-2025 13:59:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php on line 30
+[14-Aug-2025 02:30:58 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[14-Aug-2025 07:48:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[14-Aug-2025 11:28:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[15-Aug-2025 16:20:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22
+[17-Aug-2025 11:10:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[18-Aug-2025 21:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[18-Aug-2025 22:17:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[20-Aug-2025 00:33:24 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[22-Aug-2025 06:23:50 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[23-Aug-2025 00:52:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22
+[31-Aug-2025 02:22:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[31-Aug-2025 10:50:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[31-Aug-2025 22:22:19 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[02-Sep-2025 03:32:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[03-Sep-2025 12:24:09 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[03-Sep-2025 18:58:08 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[06-Oct-2025 00:46:58 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[06-Oct-2025 01:11:38 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[07-Oct-2025 23:45:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[09-Oct-2025 00:45:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[10-Oct-2025 12:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[11-Oct-2025 01:10:40 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[11-Oct-2025 10:17:59 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php on line 30
+[22-Oct-2025 02:29:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[22-Oct-2025 03:22:23 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[23-Oct-2025 00:39:47 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[23-Oct-2025 01:45:43 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[24-Oct-2025 15:27:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[24-Oct-2025 19:22:10 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22
+[25-Oct-2025 12:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[26-Oct-2025 06:48:50 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[27-Oct-2025 03:07:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[27-Oct-2025 22:56:50 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php on line 30
+[29-Oct-2025 05:58:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[30-Oct-2025 11:32:52 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[31-Oct-2025 06:19:17 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[01-Nov-2025 03:18:15 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[01-Nov-2025 15:49:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[02-Nov-2025 05:12:04 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[23-Nov-2025 14:44:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[24-Nov-2025 10:42:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[25-Nov-2025 15:28:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[15-Dec-2025 17:19:10 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[16-Dec-2025 15:40:57 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[16-Dec-2025 21:36:56 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[17-Dec-2025 02:21:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[17-Dec-2025 04:32:48 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[17-Dec-2025 08:30:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/IssetPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/IssetPass.php on line 26
+[17-Dec-2025 11:56:54 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[17-Dec-2025 19:11:37 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php on line 30
+[17-Dec-2025 23:25:42 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[19-Dec-2025 10:39:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[22-Dec-2025 00:42:02 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[22-Dec-2025 02:57:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[22-Dec-2025 03:52:54 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[22-Dec-2025 12:50:12 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[23-Dec-2025 05:38:28 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php on line 29
+[23-Dec-2025 18:52:55 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[24-Dec-2025 10:49:17 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[24-Dec-2025 20:36:56 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[25-Dec-2025 18:44:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/IssetPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/IssetPass.php on line 26
+[25-Dec-2025 19:25:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[28-Dec-2025 06:29:37 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[29-Dec-2025 11:59:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[29-Dec-2025 20:38:56 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[30-Dec-2025 12:11:17 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php on line 24
+[31-Dec-2025 06:32:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22
+[01-Jan-2026 21:28:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[02-Jan-2026 09:07:24 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[02-Jan-2026 20:27:23 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php on line 28
+[04-Jan-2026 00:48:07 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[05-Jan-2026 05:51:00 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[06-Jan-2026 21:00:28 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[07-Jan-2026 16:52:08 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[08-Jan-2026 19:47:23 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[09-Jan-2026 13:48:14 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[10-Jan-2026 05:26:57 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[10-Jan-2026 20:53:51 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[12-Jan-2026 04:58:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[12-Jan-2026 05:21:55 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[12-Jan-2026 06:10:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[13-Jan-2026 12:15:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php on line 30
+[15-Jan-2026 04:14:07 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[16-Jan-2026 21:38:34 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[19-Jan-2026 07:35:43 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[20-Jan-2026 04:09:48 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[22-Jan-2026 03:53:08 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[22-Jan-2026 14:21:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[23-Jan-2026 01:29:16 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[23-Jan-2026 13:27:21 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[24-Jan-2026 06:57:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[24-Jan-2026 16:05:32 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[25-Jan-2026 04:28:47 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[25-Jan-2026 12:20:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[26-Jan-2026 10:18:34 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php on line 30
+[26-Jan-2026 12:24:01 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[28-Jan-2026 03:10:03 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[29-Jan-2026 07:13:00 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php on line 29
+[29-Jan-2026 15:27:41 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[30-Jan-2026 02:52:32 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidConstructorPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidConstructorPass.php on line 34
+[30-Jan-2026 12:18:23 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[31-Jan-2026 21:47:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[02-Feb-2026 01:50:24 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[03-Feb-2026 08:08:12 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[03-Feb-2026 08:33:17 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php on line 33
+[05-Feb-2026 12:54:52 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php on line 29
+[05-Feb-2026 20:01:23 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php on line 29
+[06-Feb-2026 06:27:34 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[07-Feb-2026 03:06:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[07-Feb-2026 05:04:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[08-Feb-2026 06:19:36 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[08-Feb-2026 06:39:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[09-Feb-2026 07:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[10-Feb-2026 19:46:57 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php on line 30
+[10-Feb-2026 21:08:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[10-Feb-2026 21:30:05 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[12-Feb-2026 10:57:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[14-Feb-2026 12:33:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[15-Feb-2026 00:53:20 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[16-Feb-2026 05:22:30 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CallTimePassByReferencePass.php on line 28
+[17-Feb-2026 11:58:21 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[19-Feb-2026 10:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[22-Feb-2026 10:50:37 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[23-Feb-2026 07:08:19 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[23-Feb-2026 18:34:12 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php on line 28
+[25-Feb-2026 00:39:10 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[27-Feb-2026 02:14:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[27-Feb-2026 11:57:46 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[01-Mar-2026 05:48:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php on line 24
+[02-Mar-2026 21:15:30 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php on line 30
+[03-Mar-2026 06:23:34 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[05-Mar-2026 14:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php on line 29
+[07-Mar-2026 06:08:58 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[10-Mar-2026 01:47:58 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[11-Mar-2026 11:33:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[12-Mar-2026 10:41:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[12-Mar-2026 19:10:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[12-Mar-2026 19:12:15 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[12-Mar-2026 20:22:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FunctionContextPass.php on line 19
+[13-Mar-2026 01:38:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php on line 22
+[15-Mar-2026 17:39:37 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php on line 29
+[16-Mar-2026 15:35:27 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LabelContextPass.php on line 32
+[19-Mar-2026 04:43:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php on line 28
+[19-Mar-2026 15:02:57 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[21-Mar-2026 03:57:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[22-Mar-2026 06:55:52 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php on line 29
+[22-Mar-2026 07:55:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php on line 29
+[23-Mar-2026 08:37:52 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[23-Mar-2026 14:19:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[23-Mar-2026 22:38:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php on line 29
+[24-Mar-2026 18:48:31 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[25-Mar-2026 12:40:02 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[25-Mar-2026 13:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[25-Mar-2026 15:19:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/RequirePass.php on line 26
+[25-Mar-2026 15:22:09 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/EmptyArrayDimFetchPass.php on line 24
+[26-Mar-2026 15:18:55 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[29-Mar-2026 04:35:21 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\NamespaceAwarePass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php on line 33
+[29-Mar-2026 11:11:24 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/MagicConstantsPass.php on line 24
+[30-Mar-2026 06:46:08 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php on line 28
+[01-Apr-2026 02:32:26 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/AssignThisVariablePass.php on line 24
+[01-Apr-2026 06:45:43 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php on line 29
+[02-Apr-2026 14:57:02 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php on line 34
+[04-Apr-2026 08:26:53 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php on line 31
+[06-Apr-2026 07:27:21 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ExitPass.php on line 20
+[06-Apr-2026 07:31:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CodeCleanerPass.php on line 19
+[08-Apr-2026 17:58:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ListPass.php on line 30
+[10-Apr-2026 10:58:34 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php on line 21
+[12-Apr-2026 14:56:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php on line 27
+[14-Apr-2026 18:47:48 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/ReturnTypePass.php on line 29
+[16-Apr-2026 13:27:43 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php on line 29
+[17-Apr-2026 00:30:12 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php on line 21
+[17-Apr-2026 06:35:14 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\CodeCleaner\CodeCleanerPass" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php on line 22

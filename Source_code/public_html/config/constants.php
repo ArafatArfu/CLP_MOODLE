@@ -1,0 +1,6 @@
+<?php
+return [
+    'CENTER_STATUS_NOT_SUPPORTED' => 0,
+    'CENTER_STATUS_SUPPORTED' => 1,
+    'CENTER_STATUS_REACTIVATED' => 2,
+];

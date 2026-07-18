@@ -1,0 +1,84 @@
+[15-Oct-2024 02:51:00 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10
+[18-Oct-2024 12:43:13 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[27-Dec-2024 02:51:38 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[18-Apr-2025 18:31:29 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10
+[27-Apr-2025 11:31:09 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[12-May-2025 22:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10
+[31-May-2025 11:45:00 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[01-Jun-2025 13:49:38 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10
+[07-Jun-2025 23:10:51 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[14-Jun-2025 21:33:03 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php on line 8
+[16-Jun-2025 07:41:09 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[21-Jun-2025 20:28:54 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[27-Jun-2025 21:22:32 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[11-Jul-2025 00:16:12 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php on line 8
+[13-Jul-2025 18:39:49 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10
+[16-Jul-2025 06:42:10 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[20-Jul-2025 18:08:22 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10
+[22-Jul-2025 17:52:17 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php on line 8
+[28-Jul-2025 05:57:18 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10
+[03-Aug-2025 06:58:59 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[13-Aug-2025 06:26:15 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10

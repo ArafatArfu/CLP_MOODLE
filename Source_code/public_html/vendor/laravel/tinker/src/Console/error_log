@@ -1,0 +1,44 @@
+[08-Jan-2025 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[03-Jun-2025 17:33:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[14-Jul-2025 14:11:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[29-Jul-2025 21:52:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[24-Oct-2025 15:38:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[23-Nov-2025 15:36:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[22-Dec-2025 00:43:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[04-Jan-2026 11:08:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[08-Feb-2026 19:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[19-Mar-2026 15:33:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14
+[30-Mar-2026 08:12:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 14

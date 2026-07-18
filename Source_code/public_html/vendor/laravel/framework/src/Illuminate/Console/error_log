@@ -1,0 +1,172 @@
+[28-Sep-2024 19:06:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[10-Jan-2025 22:55:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Style\SymfonyStyle" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 11
+[31-Jan-2025 13:38:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[22-Mar-2025 05:04:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[18-Apr-2025 18:28:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Style\SymfonyStyle" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 11
+[29-Apr-2025 17:57:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[09-May-2025 04:41:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[17-May-2025 15:22:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[18-May-2025 12:57:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[30-May-2025 15:12:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[04-Jun-2025 09:22:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[07-Jun-2025 03:56:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[13-Jun-2025 09:17:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[13-Jun-2025 16:20:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[15-Jun-2025 08:37:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[21-Jun-2025 14:15:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[28-Jun-2025 10:53:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[29-Jul-2025 06:30:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[03-Aug-2025 06:52:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[22-Aug-2025 06:01:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[03-Sep-2025 21:24:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Style\SymfonyStyle" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 11
+[05-Oct-2025 16:49:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[10-Oct-2025 18:15:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Style\SymfonyStyle" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 11
+[02-Nov-2025 06:34:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[16-Dec-2025 16:56:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[17-Dec-2025 09:33:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[23-Dec-2025 02:21:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[24-Dec-2025 05:13:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[29-Dec-2025 23:28:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[05-Jan-2026 12:12:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Style\SymfonyStyle" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 11
+[13-Jan-2026 11:34:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[15-Jan-2026 09:32:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[16-Jan-2026 03:24:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[26-Jan-2026 12:31:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[04-Feb-2026 23:49:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[08-Feb-2026 09:25:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[11-Feb-2026 17:28:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Style\SymfonyStyle" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 11
+[15-Feb-2026 10:01:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21
+[16-Feb-2026 06:21:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[06-Mar-2026 18:17:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 13
+[18-Mar-2026 02:06:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 12
+[24-Mar-2026 14:37:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Style\SymfonyStyle" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 11
+[08-Apr-2026 13:28:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Application" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 21

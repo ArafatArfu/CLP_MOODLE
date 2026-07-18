@@ -1,0 +1,40 @@
+[08-Sep-2024 15:00:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[21-Sep-2024 03:19:09 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[17-Oct-2024 22:22:07 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[26-Oct-2024 11:04:37 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[13-Feb-2025 10:30:52 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[22-Feb-2025 17:25:37 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[01-Jun-2025 05:03:09 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[08-Jul-2025 11:23:38 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[20-Feb-2026 00:14:35 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21
+[11-Apr-2026 18:27:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Delimiter\DelimiterInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Delimiter/Delimiter.php on line 21

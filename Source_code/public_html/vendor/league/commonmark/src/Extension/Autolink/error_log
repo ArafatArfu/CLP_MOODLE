@@ -1,0 +1,24 @@
+[17-Dec-2024 09:11:32 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php on line 21
+[28-Apr-2025 16:17:42 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php on line 21
+[12-Jun-2025 09:30:49 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php on line 21
+[17-Aug-2025 04:13:24 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php on line 21
+[24-Nov-2025 19:09:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php on line 21
+[31-Jan-2026 12:56:32 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Autolink/AutolinkExtension.php on line 21

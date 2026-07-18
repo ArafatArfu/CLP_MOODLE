@@ -1,0 +1,828 @@
+[31-Aug-2024 16:11:23 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[01-Sep-2024 10:35:33 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[03-Sep-2024 23:41:59 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[07-Sep-2024 10:01:59 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[07-Sep-2024 18:08:44 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[07-Sep-2024 18:38:21 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[10-Sep-2024 10:06:24 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[10-Sep-2024 10:10:35 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[12-Sep-2024 06:54:39 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[12-Sep-2024 22:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[14-Sep-2024 09:58:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[14-Sep-2024 23:47:28 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[16-Sep-2024 15:06:45 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[16-Sep-2024 20:01:56 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[17-Sep-2024 18:01:20 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[18-Sep-2024 05:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[21-Sep-2024 14:47:58 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[23-Sep-2024 12:37:12 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[24-Sep-2024 00:41:31 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[25-Sep-2024 07:02:35 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[27-Sep-2024 09:55:05 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[27-Sep-2024 13:08:28 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[29-Sep-2024 13:37:10 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[30-Sep-2024 16:04:06 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[02-Oct-2024 10:07:59 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[02-Oct-2024 10:12:10 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[03-Oct-2024 07:12:38 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[06-Oct-2024 19:41:28 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[07-Oct-2024 00:02:45 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[07-Oct-2024 12:33:36 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[09-Oct-2024 03:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[09-Oct-2024 07:24:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[09-Oct-2024 12:53:39 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[09-Oct-2024 21:25:23 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[10-Oct-2024 00:22:52 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[13-Oct-2024 15:55:40 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[13-Oct-2024 22:22:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[14-Oct-2024 14:20:43 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[15-Oct-2024 19:42:24 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[15-Oct-2024 21:43:52 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[16-Oct-2024 05:02:23 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[18-Oct-2024 13:31:41 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[21-Oct-2024 22:36:54 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[23-Oct-2024 18:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[23-Oct-2024 22:01:08 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[24-Oct-2024 02:04:00 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[25-Oct-2024 00:43:24 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[27-Oct-2024 17:13:18 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[05-Nov-2024 15:42:21 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php on line 4
+[06-Nov-2024 10:27:03 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[06-Nov-2024 18:29:37 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[12-Nov-2024 17:41:23 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[12-Nov-2024 22:59:47 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[13-Nov-2024 05:45:47 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[13-Nov-2024 19:13:26 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[17-Dec-2024 12:44:13 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[22-Dec-2024 23:11:16 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[23-Dec-2024 06:48:29 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[21-Jan-2025 14:34:11 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[02-Feb-2025 06:17:29 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[03-Feb-2025 23:17:56 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[13-Feb-2025 17:26:47 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[14-Feb-2025 01:24:27 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[14-Feb-2025 16:49:57 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[15-Feb-2025 01:11:41 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[15-Feb-2025 18:50:50 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[21-Feb-2025 03:36:12 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[22-Feb-2025 11:13:51 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[22-Feb-2025 18:18:02 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[28-Feb-2025 07:30:20 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[28-Feb-2025 07:46:11 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[02-Mar-2025 06:20:09 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[05-Mar-2025 03:42:19 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[08-Mar-2025 00:09:20 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[22-Mar-2025 09:23:38 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[23-Mar-2025 14:06:46 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[28-Mar-2025 17:44:20 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[29-Mar-2025 02:56:11 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[03-Apr-2025 19:18:18 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[04-Apr-2025 11:49:15 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[10-Apr-2025 01:43:40 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[23-Apr-2025 09:09:04 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[29-Apr-2025 03:52:21 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[29-Apr-2025 13:55:54 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[08-May-2025 16:06:00 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[10-May-2025 21:41:02 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php on line 4
+[18-May-2025 06:40:37 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[22-May-2025 00:44:27 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[22-May-2025 00:46:04 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[22-May-2025 01:06:50 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php on line 4
+[29-May-2025 06:43:56 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[29-May-2025 11:29:44 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[29-May-2025 16:56:44 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[03-Jun-2025 12:14:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[04-Jun-2025 02:20:53 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[04-Jun-2025 20:16:01 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[07-Jun-2025 04:01:17 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[09-Jun-2025 20:17:55 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[10-Jun-2025 02:12:09 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[11-Jun-2025 23:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[15-Jun-2025 09:36:36 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[15-Jun-2025 09:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[15-Jun-2025 21:19:25 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[19-Jun-2025 05:41:22 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[19-Jun-2025 06:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[19-Jun-2025 11:11:05 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[20-Jun-2025 01:09:37 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[23-Jun-2025 11:16:21 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[23-Jun-2025 11:18:44 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[24-Jun-2025 14:26:48 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[24-Jun-2025 16:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[29-Jun-2025 21:25:37 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[30-Jun-2025 19:24:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[01-Jul-2025 16:19:07 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[01-Jul-2025 16:49:03 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[04-Jul-2025 21:09:22 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[05-Jul-2025 02:53:03 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[07-Jul-2025 15:45:27 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[07-Jul-2025 16:02:23 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[10-Jul-2025 02:59:25 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[10-Jul-2025 03:04:47 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[11-Jul-2025 02:01:10 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[12-Jul-2025 16:36:35 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[14-Jul-2025 23:57:44 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[15-Jul-2025 17:32:31 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[16-Jul-2025 13:06:01 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[20-Jul-2025 21:38:25 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[21-Jul-2025 13:06:09 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[23-Jul-2025 04:15:04 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[27-Jul-2025 14:19:53 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[27-Jul-2025 21:56:04 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[28-Jul-2025 11:22:54 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[02-Aug-2025 11:14:15 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[02-Aug-2025 13:50:16 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[03-Aug-2025 10:56:41 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[03-Aug-2025 11:57:44 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[13-Aug-2025 11:38:52 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[16-Aug-2025 09:25:55 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[25-Aug-2025 04:43:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[25-Aug-2025 04:54:01 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[31-Aug-2025 03:05:14 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php on line 4
+[01-Sep-2025 14:49:50 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[03-Sep-2025 07:49:20 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[03-Oct-2025 04:35:27 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[08-Oct-2025 18:49:27 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[09-Oct-2025 22:01:02 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[11-Oct-2025 09:45:03 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[22-Oct-2025 12:29:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[23-Oct-2025 06:53:18 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[25-Oct-2025 21:43:49 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[26-Oct-2025 14:52:32 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[29-Oct-2025 14:49:46 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[29-Oct-2025 14:55:31 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[23-Nov-2025 23:57:28 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[16-Dec-2025 03:26:22 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[17-Dec-2025 09:41:31 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[19-Dec-2025 13:18:16 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php on line 4
+[21-Dec-2025 10:54:05 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[21-Dec-2025 14:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[22-Dec-2025 05:28:31 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[23-Dec-2025 14:32:02 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[24-Dec-2025 11:31:11 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[24-Dec-2025 12:24:49 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[25-Dec-2025 08:14:07 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[28-Dec-2025 18:07:53 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[30-Dec-2025 10:31:34 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[01-Jan-2026 03:06:24 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[03-Jan-2026 05:23:39 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php on line 19
+[04-Jan-2026 10:34:43 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[08-Jan-2026 01:32:31 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[11-Jan-2026 09:47:00 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[12-Jan-2026 04:09:25 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[14-Jan-2026 00:56:37 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[15-Jan-2026 14:49:30 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[16-Jan-2026 03:37:09 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[20-Jan-2026 06:17:44 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php on line 4
+[22-Jan-2026 05:51:40 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[23-Jan-2026 11:33:51 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php on line 4
+[27-Jan-2026 22:59:17 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[30-Jan-2026 05:00:08 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[30-Jan-2026 15:56:16 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[04-Feb-2026 02:32:44 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[05-Feb-2026 01:35:17 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[05-Feb-2026 12:28:29 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[05-Feb-2026 19:41:16 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php on line 4
+[06-Feb-2026 06:12:14 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\Core\SampleBaseClass" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php on line 4
+[07-Feb-2026 04:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[08-Feb-2026 00:50:39 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[12-Feb-2026 05:00:56 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[14-Feb-2026 06:20:21 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[14-Feb-2026 06:21:54 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[22-Feb-2026 01:57:08 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[23-Feb-2026 14:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4
+[03-Mar-2026 04:50:57 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[04-Mar-2026 15:25:28 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php on line 4
+[09-Mar-2026 23:53:33 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php on line 4
+[13-Mar-2026 20:21:01 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php on line 4
+[15-Mar-2026 11:24:54 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[16-Mar-2026 09:27:45 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[19-Mar-2026 17:46:24 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php on line 4
+[28-Mar-2026 05:33:04 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[01-Apr-2026 05:05:54 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php on line 4
+[04-Apr-2026 10:58:15 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php on line 33
+[06-Apr-2026 04:58:20 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php on line 4
+[13-Apr-2026 16:10:41 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php on line 4
+[13-Apr-2026 18:18:43 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php on line 4
+[15-Apr-2026 20:46:03 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\AbstractMatcherTest" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php on line 4

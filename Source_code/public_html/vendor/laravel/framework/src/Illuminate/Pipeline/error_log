@@ -1,0 +1,119 @@
+[04-Sep-2024 20:07:07 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Conditionable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php on line 12
+[09-Sep-2024 02:41:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[22-Oct-2024 13:26:36 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Conditionable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php on line 12
+[06-Jan-2025 17:23:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[15-Jan-2025 10:58:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[27-Jan-2025 00:14:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[04-Feb-2025 19:22:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[26-Mar-2025 22:17:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[30-Mar-2025 17:43:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[01-May-2025 09:05:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[19-May-2025 23:13:31 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Conditionable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php on line 12
+[01-Jun-2025 00:44:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[10-Jun-2025 00:14:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[16-Jun-2025 04:30:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[20-Jun-2025 00:41:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[28-Jun-2025 09:21:23 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Conditionable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php on line 12
+[01-Jul-2025 15:40:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[09-Jul-2025 12:46:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[12-Jul-2025 16:58:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[01-Aug-2025 14:53:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[01-Aug-2025 22:03:42 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Conditionable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php on line 12
+[21-Aug-2025 18:35:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[22-Oct-2025 03:05:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[28-Oct-2025 12:31:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[25-Nov-2025 15:38:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[18-Jan-2026 01:44:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[25-Jan-2026 14:55:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[03-Feb-2026 07:06:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[07-Feb-2026 01:46:40 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Conditionable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php on line 12
+[28-Feb-2026 20:13:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[13-Mar-2026 09:53:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[13-Mar-2026 17:37:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9
+[24-Mar-2026 02:01:36 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Conditionable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php on line 12
+[05-Apr-2026 05:44:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php on line 9
+[09-Apr-2026 09:25:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pipeline\Hub" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Hub.php on line 9

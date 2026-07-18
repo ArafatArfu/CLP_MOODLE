@@ -1,0 +1,24 @@
+[07-Oct-2024 16:22:29 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php on line 10
+[18-May-2025 08:50:55 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php on line 10
+[17-Jul-2025 10:07:20 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php on line 10
+[16-Dec-2025 13:00:12 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php on line 10
+[02-Jan-2026 09:19:51 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php on line 10
+[25-Jan-2026 11:34:50 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php on line 10

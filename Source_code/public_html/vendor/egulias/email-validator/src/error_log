@@ -1,0 +1,60 @@
+[28-May-2025 23:29:15 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[29-May-2025 08:10:20 UTC] PHP Fatal error:  Uncaught Error: Class "Egulias\EmailValidator\Parser" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php on line 13
+[24-Jun-2025 16:20:29 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[01-Jul-2025 23:22:25 UTC] PHP Fatal error:  Uncaught Error: Class "Egulias\EmailValidator\Parser" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php on line 13
+[16-Jul-2025 07:10:07 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[24-Jul-2025 11:01:37 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[31-Aug-2025 10:56:46 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[02-Nov-2025 00:42:38 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[30-Dec-2025 00:14:27 UTC] PHP Fatal error:  Uncaught Error: Class "Egulias\EmailValidator\Parser" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php on line 13
+[30-Dec-2025 18:49:47 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[21-Jan-2026 22:44:06 UTC] PHP Fatal error:  Uncaught Error: Class "Egulias\EmailValidator\Parser" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php on line 13
+[26-Jan-2026 02:21:11 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[09-Feb-2026 06:26:04 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9
+[09-Feb-2026 10:43:12 UTC] PHP Fatal error:  Uncaught Error: Class "Egulias\EmailValidator\Parser" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailParser.php on line 13
+[06-Mar-2026 16:29:11 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Lexer\AbstractLexer" not found in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/egulias/email-validator/src/EmailLexer.php on line 9

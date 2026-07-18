@@ -1,0 +1,52 @@
+[03-Sep-2024 11:38:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[14-Sep-2024 05:10:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[22-Sep-2024 09:42:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[27-Sep-2024 12:25:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[04-Oct-2024 10:14:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[09-Oct-2024 19:28:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[06-Mar-2025 10:47:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[18-Jun-2025 08:20:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[27-Jul-2025 09:43:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[25-Nov-2025 09:16:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[15-Jan-2026 15:41:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[28-Jan-2026 15:38:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7
+[17-Mar-2026 07:05:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/clpwebor/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Http/Kernel.php on line 7

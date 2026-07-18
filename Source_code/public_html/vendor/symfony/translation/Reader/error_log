@@ -1,0 +1,12 @@
+[09-Jul-2025 00:00:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Reader\TranslationReaderInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Reader/TranslationReader.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Reader/TranslationReader.php on line 23
+[15-Dec-2025 20:41:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Reader\TranslationReaderInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Reader/TranslationReader.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Reader/TranslationReader.php on line 23
+[14-Mar-2026 12:00:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Reader\TranslationReaderInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Reader/TranslationReader.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Reader/TranslationReader.php on line 23

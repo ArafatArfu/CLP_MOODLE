@@ -1,0 +1,64 @@
+[26-Oct-2024 19:35:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php on line 43
+[22-Dec-2024 22:22:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ResponseInterface.php on line 20
+[24-Jan-2025 16:21:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php on line 43
+[19-Mar-2025 15:24:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php on line 24
+[07-Apr-2025 17:43:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php on line 24
+[29-Apr-2025 09:04:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ResponseInterface.php on line 20
+[17-May-2025 03:46:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php on line 43
+[19-May-2025 13:23:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ResponseInterface.php on line 20
+[03-Jun-2025 10:46:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php on line 43
+[17-Jun-2025 22:22:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php on line 24
+[22-Jun-2025 09:07:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ResponseInterface.php on line 20
+[27-Jun-2025 17:32:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php on line 43
+[28-Jun-2025 17:40:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php on line 24
+[19-Jul-2025 21:03:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php on line 43
+[26-Jul-2025 23:56:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/ServerRequestInterface.php on line 43
+[30-Jul-2025 08:09:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-message/src/RequestInterface.php on line 24

@@ -1,0 +1,31 @@
+[25-Oct-2024 14:24:34 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[02-Feb-2025 17:10:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ThrottleRequests" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php on line 10
+[07-Feb-2025 01:52:19 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[14-May-2025 05:10:47 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[17-May-2025 22:12:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ThrottleRequests" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php on line 10
+[29-May-2025 14:13:01 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[14-Jun-2025 23:48:21 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[22-Jun-2025 09:46:32 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[14-Jul-2025 21:01:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ThrottleRequests" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php on line 10
+[18-Jul-2025 13:16:28 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[24-Aug-2025 19:02:44 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[16-Dec-2025 13:19:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ThrottleRequests" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php on line 10
+[03-Jan-2026 23:01:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ThrottleRequests" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php on line 10
+[09-Feb-2026 05:53:03 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[16-Mar-2026 05:37:24 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15
+[12-Apr-2026 02:37:13 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php on line 15

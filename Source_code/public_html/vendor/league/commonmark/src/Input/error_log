@@ -1,0 +1,40 @@
+[29-Jan-2025 17:08:17 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[21-Mar-2025 09:17:14 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[01-Jun-2025 13:11:02 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[15-Jul-2025 11:19:48 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[25-Nov-2025 20:39:49 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[17-Dec-2025 09:11:35 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[24-Dec-2025 03:17:51 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[13-Jan-2026 02:45:50 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[01-Feb-2026 01:55:27 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18
+[14-Mar-2026 22:12:13 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Input\MarkdownInputInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Input/MarkdownInput.php on line 18

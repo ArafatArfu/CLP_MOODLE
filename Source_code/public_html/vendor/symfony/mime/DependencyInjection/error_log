@@ -1,0 +1,48 @@
+[26-Feb-2025 02:55:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[20-Apr-2025 20:23:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[20-May-2025 05:17:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[05-Jun-2025 04:16:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[12-Jun-2025 14:20:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[24-Jun-2025 10:28:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[13-Jul-2025 16:59:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[29-Oct-2025 02:17:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[23-Dec-2025 01:21:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[07-Jan-2026 15:50:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[24-Feb-2026 23:19:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23
+[30-Mar-2026 06:28:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/mime/DependencyInjection/AddMimeTypeGuesserPass.php on line 23

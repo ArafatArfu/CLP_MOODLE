@@ -1,0 +1,20 @@
+[23-Oct-2024 15:30:10 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Handler\CurlFactoryInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 21
+[04-Mar-2025 20:06:29 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Handler\CurlFactoryInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 21
+[07-Jun-2025 15:50:19 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Handler\CurlFactoryInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 21
+[12-Jun-2025 21:44:38 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Handler\CurlFactoryInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 21
+[07-Jul-2025 09:38:17 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Handler\CurlFactoryInterface" not found in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 21

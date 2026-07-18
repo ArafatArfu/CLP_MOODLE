@@ -1,0 +1,302 @@
+[26-Sep-2024 10:35:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[29-Nov-2024 12:07:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[07-Dec-2024 01:39:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[27-Dec-2024 02:54:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[18-Jan-2025 06:33:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[22-Feb-2025 18:09:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[05-Mar-2025 08:01:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[10-Mar-2025 14:11:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php on line 7
+[28-Apr-2025 07:23:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[20-May-2025 15:18:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[20-May-2025 21:06:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[04-Jun-2025 04:41:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[05-Jun-2025 10:13:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[09-Jun-2025 06:53:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[16-Jun-2025 18:34:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[18-Jun-2025 09:41:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[24-Jun-2025 11:15:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[28-Jun-2025 03:06:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[04-Jul-2025 00:32:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[05-Jul-2025 10:37:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[08-Jul-2025 13:38:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[10-Jul-2025 16:51:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[11-Jul-2025 02:20:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[14-Jul-2025 20:14:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[15-Jul-2025 11:11:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[20-Jul-2025 03:57:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[23-Jul-2025 14:25:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[27-Jul-2025 17:45:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[15-Aug-2025 13:29:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[28-Aug-2025 03:12:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[02-Sep-2025 08:46:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[09-Oct-2025 22:21:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[22-Oct-2025 03:30:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[01-Nov-2025 03:08:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[22-Nov-2025 23:43:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[25-Nov-2025 11:33:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[16-Dec-2025 02:18:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php on line 7
+[18-Dec-2025 14:23:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[24-Dec-2025 03:06:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php on line 7
+[08-Jan-2026 19:52:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[11-Jan-2026 22:07:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[12-Jan-2026 16:11:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php on line 7
+[21-Jan-2026 20:06:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[23-Jan-2026 11:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[23-Jan-2026 12:38:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php on line 7
+[24-Jan-2026 16:26:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[27-Jan-2026 06:42:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[02-Feb-2026 10:57:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[07-Feb-2026 18:36:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[10-Feb-2026 21:09:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php on line 7
+[14-Feb-2026 06:28:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[19-Feb-2026 10:53:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[21-Feb-2026 14:33:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php on line 7
+[28-Feb-2026 07:12:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[06-Mar-2026 13:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[19-Mar-2026 05:10:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[19-Mar-2026 16:31:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[21-Mar-2026 23:31:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[22-Mar-2026 01:19:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[24-Mar-2026 21:22:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
+[01-Apr-2026 04:48:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
+[03-Apr-2026 14:21:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/InterpolatedString.php on line 9
+[06-Apr-2026 20:49:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Int_.php on line 8
+[17-Apr-2026 08:57:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/InterpolatedStringPart.php on line 7
+[17-Apr-2026 08:58:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php:7
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Float_.php on line 7

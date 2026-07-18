@@ -1,0 +1,132 @@
+[02-Feb-2025 10:28:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php on line 20
+[12-Feb-2025 09:49:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php on line 20
+[18-Feb-2025 03:39:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php on line 26
+[21-Feb-2025 19:42:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[26-Feb-2025 06:00:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php on line 26
+[27-Feb-2025 02:47:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php on line 20
+[27-Feb-2025 14:37:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[02-Mar-2025 16:14:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Controller\ControllerResolver" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php on line 24
+[17-Mar-2025 11:17:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Controller\ControllerResolver" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php on line 24
+[06-Apr-2025 10:10:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[06-May-2025 01:00:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[22-May-2025 06:25:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php on line 20
+[01-Jun-2025 17:19:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[03-Jun-2025 14:23:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php on line 20
+[07-Jun-2025 13:18:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php on line 33
+[10-Jun-2025 01:10:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[10-Jun-2025 12:27:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php on line 26
+[16-Jun-2025 19:58:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php on line 33
+[20-Jun-2025 02:26:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[21-Jun-2025 18:49:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php on line 20
+[22-Jun-2025 19:56:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php on line 26
+[23-Jun-2025 03:21:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php on line 33
+[24-Jun-2025 01:41:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Controller\ControllerResolver" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php on line 24
+[28-Jun-2025 23:57:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php on line 33
+[04-Jul-2025 03:57:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php on line 26
+[04-Jul-2025 11:56:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[04-Jul-2025 20:39:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Controller\ControllerResolver" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php on line 24
+[09-Jul-2025 15:08:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php on line 26
+[13-Jul-2025 15:12:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ArgumentResolver.php on line 33
+[16-Jul-2025 17:51:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php on line 20
+[18-Jul-2025 10:55:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ControllerResolver.php on line 26
+[18-Jul-2025 14:58:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/TraceableArgumentResolver.php on line 20
+[30-Jul-2025 02:27:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Controller\ControllerResolver" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php on line 24

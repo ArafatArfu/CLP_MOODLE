@@ -1,0 +1,48 @@
+[24-Oct-2024 12:26:06 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[17-May-2025 05:10:54 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[20-Jun-2025 07:32:52 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[09-Jul-2025 14:36:16 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[03-Aug-2025 08:29:36 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[07-Oct-2025 16:44:48 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[22-Dec-2025 01:45:51 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[30-Jan-2026 17:03:13 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[10-Feb-2026 19:00:31 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[20-Feb-2026 13:03:03 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[03-Mar-2026 23:40:52 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13
+[13-Mar-2026 16:56:22 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Date/DateIntervalFilter.php on line 13

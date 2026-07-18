@@ -1,0 +1,864 @@
+[04-Sep-2024 20:23:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[10-Sep-2024 09:54:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[13-Sep-2024 13:31:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[04-Oct-2024 22:05:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[07-Oct-2024 05:21:36 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[13-Oct-2024 19:43:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Identifier" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php on line 12
+[14-Oct-2024 22:18:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[16-Oct-2024 05:59:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[23-Oct-2024 10:15:50 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[23-Oct-2024 22:55:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[27-Nov-2024 20:49:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[29-Nov-2024 20:11:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[10-Dec-2024 12:15:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[16-Dec-2024 06:36:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[16-Dec-2024 09:50:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[06-Jan-2025 17:09:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[12-Jan-2025 17:41:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[24-Jan-2025 01:41:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[01-Feb-2025 09:55:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php on line 5
+[03-Feb-2025 17:21:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[13-Feb-2025 16:51:01 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[15-Feb-2025 09:06:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[23-Feb-2025 03:58:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[03-Mar-2025 22:28:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[04-Mar-2025 08:06:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[04-Mar-2025 19:37:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[16-Mar-2025 05:51:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[17-Mar-2025 15:04:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[19-Mar-2025 15:37:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[30-Mar-2025 03:55:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[30-Mar-2025 07:41:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[07-Apr-2025 00:51:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[07-Apr-2025 17:19:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[19-Apr-2025 04:40:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[19-Apr-2025 10:01:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[21-Apr-2025 15:40:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[22-Apr-2025 02:25:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[05-May-2025 08:25:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[10-May-2025 05:11:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[13-May-2025 08:01:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[16-May-2025 18:06:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[17-May-2025 04:01:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[17-May-2025 04:05:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[17-May-2025 14:11:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[17-May-2025 16:00:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[17-May-2025 22:18:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php on line 7
+[18-May-2025 02:17:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[18-May-2025 18:17:02 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[20-May-2025 23:58:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[23-May-2025 01:40:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[28-May-2025 23:02:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[28-May-2025 23:06:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[29-May-2025 11:19:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[30-May-2025 08:29:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[30-May-2025 08:33:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[30-May-2025 19:14:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[01-Jun-2025 02:25:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[01-Jun-2025 04:33:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[06-Jun-2025 11:39:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[08-Jun-2025 11:47:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[10-Jun-2025 12:47:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[10-Jun-2025 15:23:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[11-Jun-2025 16:58:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[13-Jun-2025 19:33:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Identifier" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php on line 12
+[16-Jun-2025 17:37:51 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[16-Jun-2025 19:56:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[17-Jun-2025 17:54:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[19-Jun-2025 02:09:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php on line 5
+[19-Jun-2025 11:24:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[21-Jun-2025 12:27:37 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[22-Jun-2025 03:30:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[24-Jun-2025 21:08:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[25-Jun-2025 03:28:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[25-Jun-2025 03:49:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[26-Jun-2025 01:20:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[26-Jun-2025 20:46:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[28-Jun-2025 14:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[01-Jul-2025 11:56:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[01-Jul-2025 16:40:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[01-Jul-2025 23:51:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[04-Jul-2025 03:20:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php on line 7
+[04-Jul-2025 20:35:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[07-Jul-2025 14:35:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[08-Jul-2025 12:56:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[09-Jul-2025 13:36:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[14-Jul-2025 12:40:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[15-Jul-2025 11:16:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[15-Jul-2025 16:12:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[16-Jul-2025 15:28:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[16-Jul-2025 19:24:01 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[18-Jul-2025 04:27:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[19-Jul-2025 05:40:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[19-Jul-2025 10:45:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php on line 7
+[20-Jul-2025 05:26:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Identifier" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php on line 12
+[20-Jul-2025 07:34:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[20-Jul-2025 16:36:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[21-Jul-2025 17:56:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[22-Jul-2025 11:15:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[22-Jul-2025 15:43:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[22-Jul-2025 20:28:10 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[24-Jul-2025 04:56:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[24-Jul-2025 09:55:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[26-Jul-2025 17:28:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[26-Jul-2025 22:38:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[26-Jul-2025 22:53:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[27-Jul-2025 19:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[28-Jul-2025 10:23:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[29-Jul-2025 06:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[29-Jul-2025 14:00:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[31-Jul-2025 11:48:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[31-Jul-2025 17:45:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[14-Aug-2025 22:41:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[16-Aug-2025 17:07:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Identifier" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php on line 12
+[17-Aug-2025 12:32:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[18-Aug-2025 10:43:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[24-Aug-2025 03:21:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Identifier" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php on line 12
+[24-Aug-2025 04:00:36 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[26-Aug-2025 02:15:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[28-Aug-2025 03:48:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[03-Sep-2025 19:35:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[04-Sep-2025 01:25:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[02-Oct-2025 21:48:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[05-Oct-2025 15:51:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[05-Oct-2025 18:04:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[06-Oct-2025 00:10:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[09-Oct-2025 14:47:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[24-Oct-2025 07:15:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[27-Oct-2025 02:13:56 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[28-Oct-2025 12:30:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[28-Oct-2025 13:24:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[28-Oct-2025 20:03:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[29-Oct-2025 14:01:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[31-Oct-2025 06:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[22-Nov-2025 20:47:39 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[23-Nov-2025 21:45:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[15-Dec-2025 07:36:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[16-Dec-2025 14:37:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[18-Dec-2025 01:39:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php on line 5
+[18-Dec-2025 23:36:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[21-Dec-2025 03:40:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[22-Dec-2025 22:43:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[24-Dec-2025 18:45:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[24-Dec-2025 21:45:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[26-Dec-2025 03:37:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[27-Dec-2025 03:59:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[27-Dec-2025 21:19:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[28-Dec-2025 08:31:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[30-Dec-2025 11:05:12 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[30-Dec-2025 19:31:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[31-Dec-2025 03:54:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[01-Jan-2026 10:29:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[03-Jan-2026 13:59:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[03-Jan-2026 20:13:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[05-Jan-2026 14:10:53 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[07-Jan-2026 21:19:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[09-Jan-2026 11:38:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[11-Jan-2026 14:20:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[11-Jan-2026 22:56:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[11-Jan-2026 23:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[12-Jan-2026 15:43:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[13-Jan-2026 10:43:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[13-Jan-2026 12:22:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[14-Jan-2026 09:56:03 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[15-Jan-2026 03:00:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php on line 7
+[16-Jan-2026 22:02:01 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[18-Jan-2026 23:34:37 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[19-Jan-2026 01:10:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[19-Jan-2026 13:07:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[19-Jan-2026 21:22:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[23-Jan-2026 23:01:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[24-Jan-2026 13:30:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[24-Jan-2026 14:22:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[25-Jan-2026 12:23:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[25-Jan-2026 23:45:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[26-Jan-2026 19:42:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[26-Jan-2026 21:51:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[28-Jan-2026 05:17:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[31-Jan-2026 20:14:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[03-Feb-2026 00:05:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[03-Feb-2026 07:13:51 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[04-Feb-2026 04:14:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php on line 7
+[05-Feb-2026 10:48:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[05-Feb-2026 22:27:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[06-Feb-2026 22:11:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[07-Feb-2026 01:45:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[08-Feb-2026 21:05:25 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[09-Feb-2026 03:06:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[12-Feb-2026 02:49:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 5
+[14-Feb-2026 03:52:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[14-Feb-2026 14:08:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[14-Feb-2026 16:08:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[15-Feb-2026 01:49:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[16-Feb-2026 14:59:39 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[19-Feb-2026 03:18:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[23-Feb-2026 06:40:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[24-Feb-2026 03:10:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[01-Mar-2026 10:34:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7
+[02-Mar-2026 07:53:36 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[09-Mar-2026 18:51:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[12-Mar-2026 10:58:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php on line 7
+[16-Mar-2026 22:45:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php on line 7
+[18-Mar-2026 07:39:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[19-Mar-2026 01:46:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[21-Mar-2026 04:34:23 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[22-Mar-2026 02:11:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php on line 5
+[23-Mar-2026 14:43:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Identifier" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php on line 12
+[24-Mar-2026 11:49:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[24-Mar-2026 19:23:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[25-Mar-2026 20:41:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[25-Mar-2026 21:46:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[30-Mar-2026 07:11:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8
+[06-Apr-2026 02:18:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[12-Apr-2026 06:58:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[13-Apr-2026 01:18:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[15-Apr-2026 19:57:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[17-Apr-2026 13:00:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 7

@@ -1,0 +1,60 @@
+[30-Sep-2024 23:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php on line 13
+[17-May-2025 08:32:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Bus\QueueingDispatcher" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 17
+[17-May-2025 08:35:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php on line 13
+[13-Jul-2025 13:33:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Bus\QueueingDispatcher" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 17
+[20-Jul-2025 10:00:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php on line 13
+[18-Aug-2025 22:47:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Bus\QueueingDispatcher" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 17
+[28-Aug-2025 23:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php on line 13
+[04-Oct-2025 15:46:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php on line 13
+[19-Dec-2025 20:47:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Bus\QueueingDispatcher" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 17
+[23-Jan-2026 23:11:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Bus\QueueingDispatcher" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 17
+[08-Feb-2026 18:22:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Bus\QueueingDispatcher" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 17
+[09-Feb-2026 06:05:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php on line 13
+[06-Mar-2026 13:30:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php on line 13
+[06-Mar-2026 22:46:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Bus\QueueingDispatcher" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 17
+[14-Apr-2026 07:19:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Bus\QueueingDispatcher" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 17

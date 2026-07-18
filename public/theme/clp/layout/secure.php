@@ -1,0 +1,38 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+defined('MOODLE_INTERNAL') || die();
+
+$bodyattributes = $OUTPUT->body_attributes();
+$blockspre = $OUTPUT->blocks('side-pre');
+
+$hassidepre = $PAGE->blocks->region_has_content('side-pre', $OUTPUT);
+
+// Add CLP theme JS files.
+$PAGE->requires->js('/theme/clp/assets/js/bootstrap.min.js', true);
+$PAGE->requires->js('/theme/clp/assets/js/menu.js', true);
+$PAGE->requires->js('/theme/clp/assets/js/custom.js', true);
+
+$templatecontext = [
+    'sitename' => format_string($SITE->shortname, true, ['context' => context_course::instance(SITEID), "escape" => false]),
+    'output' => $OUTPUT,
+    'sidepreblocks' => $blockspre,
+    'haspreblocks' => $hassidepre,
+    'bodyattributes' => $bodyattributes,
+    'currentyear' => date('Y'),
+];
+
+echo $OUTPUT->render_from_template('theme_clp/secure', $templatecontext);

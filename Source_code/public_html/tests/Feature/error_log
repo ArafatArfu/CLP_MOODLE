@@ -1,0 +1,20 @@
+[04-Sep-2024 10:15:33 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/clpwebor/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/tests/Feature/ExampleTest.php on line 8
+[19-Mar-2025 11:26:12 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/clpwebor/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/tests/Feature/ExampleTest.php on line 8
+[16-Jul-2025 13:48:35 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/clpwebor/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/tests/Feature/ExampleTest.php on line 8
+[26-Jan-2026 12:32:24 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/clpwebor/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/tests/Feature/ExampleTest.php on line 8
+[26-Jan-2026 21:50:22 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/clpwebor/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/tests/Feature/ExampleTest.php on line 8

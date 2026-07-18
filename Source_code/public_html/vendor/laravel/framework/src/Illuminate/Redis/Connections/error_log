@@ -1,0 +1,186 @@
+[12-Sep-2024 19:15:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PhpRedisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php on line 5
+[06-Jan-2025 10:12:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[20-Jan-2025 01:17:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[23-Jan-2025 07:42:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[10-Mar-2025 08:51:46 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php on line 12
+[17-Mar-2025 02:16:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[01-Apr-2025 02:10:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[12-May-2025 22:59:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[18-May-2025 15:38:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[18-May-2025 17:21:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[01-Jun-2025 02:39:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[14-Jun-2025 22:47:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[15-Jun-2025 15:48:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[24-Jun-2025 14:00:13 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php on line 12
+[24-Jun-2025 19:38:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[06-Jul-2025 19:05:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[15-Jul-2025 15:53:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[17-Jul-2025 18:48:45 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php on line 12
+[24-Jul-2025 05:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[24-Jul-2025 05:14:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PhpRedisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php on line 5
+[28-Jul-2025 05:23:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[14-Aug-2025 23:54:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[15-Aug-2025 01:06:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[04-Oct-2025 00:39:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[11-Oct-2025 07:26:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[11-Oct-2025 10:16:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PhpRedisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php on line 5
+[27-Oct-2025 23:37:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[01-Nov-2025 14:58:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PhpRedisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php on line 5
+[22-Nov-2025 20:22:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PhpRedisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php on line 5
+[25-Nov-2025 11:00:19 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php on line 12
+[16-Dec-2025 23:13:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[02-Jan-2026 08:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[07-Jan-2026 08:26:54 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php on line 12
+[08-Jan-2026 21:01:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[11-Jan-2026 21:44:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[19-Jan-2026 12:28:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[25-Jan-2026 03:41:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[28-Jan-2026 23:32:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[31-Jan-2026 11:39:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[06-Feb-2026 17:02:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[07-Feb-2026 23:36:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PhpRedisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php on line 5
+[21-Feb-2026 09:12:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[28-Feb-2026 08:01:28 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php on line 12
+[02-Mar-2026 11:11:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[03-Mar-2026 06:58:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[16-Mar-2026 13:39:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 13
+[23-Mar-2026 23:47:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[31-Mar-2026 13:02:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PhpRedisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisClusterConnection.php on line 5
+[01-Apr-2026 11:32:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8
+[03-Apr-2026 03:57:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\Connection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php on line 12
+[08-Apr-2026 04:09:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Redis\Connections\PredisConnection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisClusterConnection.php on line 8

@@ -1,0 +1,164 @@
+[17-Sep-2024 04:24:34 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[15-Oct-2024 10:25:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[19-Oct-2024 10:03:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[15-Dec-2024 00:44:39 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[24-Dec-2024 00:24:49 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[23-Jan-2025 21:50:21 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[08-Feb-2025 23:21:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[05-Mar-2025 03:06:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[23-Mar-2025 14:34:12 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[11-Apr-2025 15:49:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[15-Apr-2025 13:15:00 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[11-May-2025 15:10:57 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[18-May-2025 12:54:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[21-May-2025 17:07:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[29-May-2025 09:24:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[09-Jun-2025 10:27:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[09-Jun-2025 11:36:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[10-Jun-2025 16:18:53 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[18-Jun-2025 09:34:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[22-Jun-2025 03:20:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[24-Jun-2025 12:54:52 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[25-Jun-2025 03:29:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[03-Jul-2025 13:48:25 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[07-Jul-2025 03:00:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[18-Jul-2025 23:29:45 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[24-Jul-2025 06:10:03 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[27-Jul-2025 19:39:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[31-Aug-2025 16:08:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[03-Sep-2025 05:18:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[04-Sep-2025 01:15:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[29-Oct-2025 16:02:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[25-Nov-2025 08:17:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[20-Dec-2025 06:17:32 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[16-Jan-2026 19:03:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[19-Jan-2026 09:02:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[22-Jan-2026 06:11:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[06-Feb-2026 15:12:58 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Readline\GNUReadline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Libedit.php on line 26
+[10-Feb-2026 11:10:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[27-Feb-2026 21:19:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19
+[23-Mar-2026 15:25:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/GNUReadline.php on line 21
+[06-Apr-2026 21:02:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Readline\Readline" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Readline/Transient.php on line 19

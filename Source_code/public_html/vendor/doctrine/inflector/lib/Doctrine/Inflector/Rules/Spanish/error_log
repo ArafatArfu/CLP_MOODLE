@@ -1,0 +1,44 @@
+[17-Mar-2025 15:46:55 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[05-Jun-2025 05:04:56 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[14-Jun-2025 13:31:24 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[22-Jun-2025 22:02:47 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[04-Jul-2025 10:37:19 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[10-Jul-2025 04:42:06 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[27-Jul-2025 13:14:26 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[28-Oct-2025 00:13:28 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[20-Dec-2025 08:01:36 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[11-Jan-2026 04:00:53 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10
+[03-Feb-2026 17:03:02 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php on line 10

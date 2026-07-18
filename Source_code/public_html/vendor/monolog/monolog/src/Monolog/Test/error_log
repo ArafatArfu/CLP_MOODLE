@@ -1,0 +1,28 @@
+[06-Jul-2025 15:09:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php on line 28
+[03-Oct-2025 03:51:15 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php on line 28
+[09-Oct-2025 08:51:08 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php on line 28
+[14-Jan-2026 18:45:05 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php on line 28
+[28-Feb-2026 11:59:19 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php on line 28
+[11-Mar-2026 11:57:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php on line 28
+[19-Mar-2026 22:14:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Test/TestCase.php on line 28

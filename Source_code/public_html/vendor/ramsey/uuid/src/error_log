@@ -1,0 +1,101 @@
+[11-Oct-2024 13:32:13 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[06-Nov-2024 12:37:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\DeprecatedUuidInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php on line 30
+[30-Jan-2025 23:08:36 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[11-Mar-2025 14:39:10 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[19-Mar-2025 21:04:27 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[08-Apr-2025 20:54:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[30-Apr-2025 19:23:49 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[17-May-2025 20:18:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[29-May-2025 06:53:54 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[31-May-2025 03:30:49 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Uuid\Uuid" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/DegradedUuid.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/DegradedUuid.php on line 23
+[14-Jun-2025 00:46:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[21-Jun-2025 03:28:06 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[01-Jul-2025 16:55:06 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[03-Jul-2025 16:27:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\DeprecatedUuidInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php on line 30
+[13-Jul-2025 04:04:11 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[17-Jul-2025 14:05:53 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Uuid\Uuid" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/DegradedUuid.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/DegradedUuid.php on line 23
+[26-Jul-2025 16:30:43 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[01-Aug-2025 14:48:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[30-Aug-2025 03:38:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[02-Oct-2025 01:24:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[05-Oct-2025 18:40:28 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Uuid\Uuid" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/DegradedUuid.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/DegradedUuid.php on line 23
+[06-Oct-2025 05:49:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\DeprecatedUuidInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php on line 30
+[18-Dec-2025 08:16:22 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[21-Dec-2025 08:24:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[05-Jan-2026 05:07:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[05-Jan-2026 10:48:33 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46
+[27-Jan-2026 16:52:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\DeprecatedUuidInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php on line 30
+[29-Jan-2026 17:05:04 UTC] PHP Fatal error:  Uncaught Error: Class "Ramsey\Uuid\Uuid" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/DegradedUuid.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/DegradedUuid.php on line 23
+[06-Feb-2026 08:27:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[12-Feb-2026 10:35:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[20-Feb-2026 06:46:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\DeprecatedUuidInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php on line 30
+[13-Mar-2026 06:50:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\DeprecatedUuidInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidInterface.php on line 30
+[17-Mar-2026 01:09:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[01-Apr-2026 01:12:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Ramsey\Uuid\UuidFactoryInterface" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/ramsey/uuid/src/UuidFactory.php on line 47
+[12-Apr-2026 07:52:23 UTC] PHP Fatal error:  Trait "Ramsey\Uuid\DeprecatedUuidMethodsTrait" not found in /home/clpwebor/public_html/vendor/ramsey/uuid/src/Uuid.php on line 46

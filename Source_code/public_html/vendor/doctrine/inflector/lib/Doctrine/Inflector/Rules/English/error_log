@@ -1,0 +1,20 @@
+[22-Feb-2025 01:11:19 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php on line 10
+[18-May-2025 14:49:46 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php on line 10
+[04-Jun-2025 10:03:08 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php on line 10
+[09-Jul-2025 03:48:41 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php on line 10
+[03-Feb-2026 09:49:56 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Inflector\GenericLanguageInflectorFactory" not found in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php on line 10

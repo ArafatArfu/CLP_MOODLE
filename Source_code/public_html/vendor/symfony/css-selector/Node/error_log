@@ -1,0 +1,416 @@
+[02-Sep-2024 04:39:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[14-Oct-2024 21:05:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[21-Nov-2024 04:11:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[02-Dec-2024 06:20:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[12-Dec-2024 15:08:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php on line 24
+[20-Jan-2025 15:27:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[26-Jan-2025 15:21:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[04-Feb-2025 09:37:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[07-Feb-2025 09:59:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[08-Feb-2025 19:50:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[11-Feb-2025 14:11:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Node\NodeInterface" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php on line 24
+[12-Feb-2025 06:31:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[16-Feb-2025 00:17:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[22-Feb-2025 21:53:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[26-Feb-2025 04:04:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php on line 24
+[09-Mar-2025 15:14:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[23-Mar-2025 10:29:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[28-Mar-2025 04:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 24
+[15-Apr-2025 20:31:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[30-Apr-2025 23:53:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[03-May-2025 15:51:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[13-May-2025 03:32:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[14-May-2025 03:51:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[17-May-2025 05:34:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[18-May-2025 20:42:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[22-May-2025 22:06:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php on line 24
+[22-May-2025 23:10:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[30-May-2025 22:51:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 24
+[31-May-2025 18:55:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[01-Jun-2025 16:16:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[04-Jun-2025 01:16:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[04-Jun-2025 21:52:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[10-Jun-2025 00:36:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[13-Jun-2025 09:55:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[13-Jun-2025 17:45:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[17-Jun-2025 17:36:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[17-Jun-2025 19:56:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[20-Jun-2025 06:28:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[24-Jun-2025 23:27:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[26-Jun-2025 03:55:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Node\NodeInterface" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php on line 24
+[29-Jun-2025 13:34:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[03-Jul-2025 18:55:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[04-Jul-2025 19:18:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[08-Jul-2025 04:21:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[11-Jul-2025 14:33:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[13-Jul-2025 08:05:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[13-Jul-2025 08:40:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[16-Jul-2025 03:16:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[18-Jul-2025 05:00:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[21-Jul-2025 01:53:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[24-Jul-2025 11:47:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[25-Jul-2025 08:38:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[26-Jul-2025 16:22:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[27-Jul-2025 20:57:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[28-Jul-2025 16:13:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php on line 24
+[31-Jul-2025 05:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[03-Aug-2025 05:59:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Node\NodeInterface" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php on line 24
+[03-Aug-2025 06:29:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[24-Aug-2025 08:28:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[31-Aug-2025 02:57:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[01-Sep-2025 14:19:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[05-Oct-2025 15:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[08-Oct-2025 03:39:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[11-Oct-2025 13:44:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[27-Oct-2025 09:54:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[23-Nov-2025 21:39:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 24
+[24-Nov-2025 15:56:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[25-Nov-2025 06:55:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[15-Dec-2025 20:06:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[18-Dec-2025 07:17:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[19-Dec-2025 18:45:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[20-Dec-2025 12:25:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[21-Dec-2025 23:58:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[26-Dec-2025 02:26:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[28-Dec-2025 21:50:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[29-Dec-2025 00:05:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[30-Dec-2025 11:15:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[30-Dec-2025 18:31:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 24
+[14-Jan-2026 08:25:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php on line 24
+[21-Jan-2026 01:12:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[22-Jan-2026 14:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[24-Jan-2026 13:31:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[26-Jan-2026 18:40:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[02-Feb-2026 12:06:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[06-Feb-2026 16:30:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[08-Feb-2026 08:46:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Node\NodeInterface" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php on line 24
+[11-Feb-2026 03:26:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[13-Feb-2026 16:12:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[15-Feb-2026 01:01:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AttributeNode.php on line 24
+[02-Mar-2026 20:39:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[03-Mar-2026 21:10:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 24
+[14-Mar-2026 05:15:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[14-Mar-2026 10:54:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[15-Mar-2026 06:57:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[18-Mar-2026 22:20:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[24-Mar-2026 14:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[25-Mar-2026 19:27:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[28-Mar-2026 16:55:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 24
+[29-Mar-2026 12:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[29-Mar-2026 13:49:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[30-Mar-2026 07:24:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[06-Apr-2026 02:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[13-Apr-2026 00:29:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Node\AbstractNode" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 24
+[17-Apr-2026 18:30:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Node\NodeInterface" not found in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/css-selector/Node/AbstractNode.php on line 24

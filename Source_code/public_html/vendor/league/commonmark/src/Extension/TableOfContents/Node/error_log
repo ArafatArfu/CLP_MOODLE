@@ -1,0 +1,140 @@
+[16-Oct-2024 06:26:31 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[21-Oct-2024 10:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[01-Dec-2024 17:15:19 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[19-Dec-2024 13:59:02 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[26-Jan-2025 17:46:49 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[03-Feb-2025 09:45:44 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[09-Feb-2025 06:49:22 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[03-Mar-2025 01:06:34 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[28-May-2025 23:09:49 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[01-Jun-2025 15:37:26 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[10-Jun-2025 07:23:54 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[10-Jun-2025 16:04:38 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[19-Jun-2025 10:30:39 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[30-Jun-2025 03:28:49 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[06-Jul-2025 17:18:25 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[09-Jul-2025 15:10:03 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[13-Jul-2025 17:44:05 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[24-Jul-2025 09:57:44 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[28-Jul-2025 11:03:49 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[10-Oct-2025 01:56:30 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[23-Oct-2025 07:50:59 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[28-Oct-2025 07:08:23 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[21-Dec-2025 13:20:16 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[11-Jan-2026 04:12:46 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[15-Jan-2026 10:38:57 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[22-Jan-2026 07:46:15 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[05-Feb-2026 01:21:21 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[05-Feb-2026 22:20:51 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[18-Feb-2026 06:08:25 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[23-Feb-2026 06:31:58 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[11-Mar-2026 17:51:45 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[22-Mar-2026 05:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18
+[23-Mar-2026 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[07-Apr-2026 18:04:36 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Extension\CommonMark\Node\Block\ListBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContents.php on line 18
+[09-Apr-2026 10:20:22 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/TableOfContents/Node/TableOfContentsPlaceholder.php on line 18

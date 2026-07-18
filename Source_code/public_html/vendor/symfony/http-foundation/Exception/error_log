@@ -1,0 +1,48 @@
+[31-Aug-2024 22:46:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18
+[16-Oct-2024 22:30:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php on line 19
+[22-Nov-2024 09:03:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18
+[19-Apr-2025 10:21:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php on line 19
+[18-May-2025 10:09:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18
+[19-May-2025 18:34:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php on line 19
+[05-Jun-2025 04:06:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18
+[14-Jun-2025 13:04:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php on line 19
+[15-Jun-2025 09:23:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18
+[02-Jul-2025 07:30:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18
+[27-Jul-2025 23:10:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18
+[28-Jul-2025 00:09:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Exception\UnexpectedValueException" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php on line 19

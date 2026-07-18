@@ -1,0 +1,183 @@
+[10-Sep-2024 16:51:54 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[12-Sep-2024 22:41:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[14-Oct-2024 01:08:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[19-Oct-2024 21:51:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php on line 8
+[19-Dec-2024 03:20:17 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[07-Jan-2025 13:25:38 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[20-Jan-2025 07:08:21 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[20-Feb-2025 21:41:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Manager" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/ChannelManager.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/ChannelManager.php on line 12
+[20-Feb-2025 22:39:56 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[11-Mar-2025 09:55:49 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[17-Mar-2025 20:21:27 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[18-Mar-2025 00:43:48 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[22-Mar-2025 05:21:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[23-Mar-2025 16:17:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php on line 8
+[08-May-2025 15:35:49 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[09-May-2025 04:35:17 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[14-May-2025 05:12:10 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[17-May-2025 20:28:12 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[18-May-2025 00:24:17 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[18-May-2025 16:33:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php on line 8
+[19-May-2025 13:01:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[20-May-2025 21:19:13 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[22-May-2025 22:28:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[03-Jun-2025 05:32:50 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[03-Jun-2025 08:21:00 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[03-Jun-2025 15:20:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[07-Jun-2025 11:26:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[09-Jun-2025 14:52:16 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[10-Jun-2025 18:49:47 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[13-Jun-2025 05:22:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[14-Jun-2025 12:51:59 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[16-Jun-2025 13:09:05 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[20-Jun-2025 17:01:59 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[21-Jun-2025 02:31:08 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[21-Jun-2025 15:54:03 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[27-Jun-2025 16:39:12 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[28-Jun-2025 14:39:55 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[29-Jun-2025 01:20:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php on line 8
+[30-Jun-2025 17:22:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[03-Jul-2025 06:59:35 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[06-Jul-2025 17:23:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Manager" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/ChannelManager.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/ChannelManager.php on line 12
+[09-Jul-2025 14:38:01 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[11-Jul-2025 17:54:36 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[13-Jul-2025 19:31:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[15-Jul-2025 11:37:25 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[23-Jul-2025 07:05:34 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[01-Aug-2025 03:29:00 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[02-Aug-2025 18:02:25 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[16-Aug-2025 21:54:31 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[30-Aug-2025 23:31:49 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[02-Sep-2025 01:09:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php on line 8
+[03-Oct-2025 12:47:00 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[10-Oct-2025 02:02:23 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[24-Oct-2025 16:02:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[28-Oct-2025 05:04:39 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[28-Oct-2025 20:13:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[28-Oct-2025 20:36:53 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[22-Nov-2025 19:49:07 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[15-Dec-2025 08:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php on line 8
+[17-Dec-2025 00:16:43 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[22-Dec-2025 09:56:01 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[24-Dec-2025 03:56:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[28-Dec-2025 02:41:09 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[31-Dec-2025 06:29:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[13-Jan-2026 02:38:52 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[16-Jan-2026 20:07:51 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[16-Jan-2026 20:09:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[17-Jan-2026 22:01:14 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[20-Jan-2026 07:54:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[24-Jan-2026 12:31:17 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[26-Jan-2026 20:03:03 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[28-Jan-2026 13:31:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[05-Feb-2026 10:19:36 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[05-Feb-2026 20:12:15 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[09-Feb-2026 04:01:21 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[10-Feb-2026 01:57:58 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[13-Feb-2026 15:42:55 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[16-Feb-2026 04:12:39 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[21-Feb-2026 03:02:07 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[23-Feb-2026 06:48:41 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[26-Feb-2026 15:51:08 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[04-Mar-2026 14:10:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[04-Mar-2026 23:08:30 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[05-Mar-2026 19:10:57 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15
+[07-Mar-2026 22:09:02 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php on line 15
+[09-Mar-2026 18:11:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php on line 8
+[17-Mar-2026 21:28:57 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[18-Mar-2026 07:23:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[25-Mar-2026 12:59:59 UTC] PHP Fatal error:  Trait "Illuminate\Notifications\HasDatabaseNotifications" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 5
+[28-Mar-2026 17:52:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Collection" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php on line 13
+[02-Apr-2026 08:28:38 UTC] PHP Fatal error:  Trait "Illuminate\Queue\SerializesModels" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php on line 7
+[02-Apr-2026 17:28:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php on line 9
+[07-Apr-2026 18:29:04 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Localizable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php on line 15

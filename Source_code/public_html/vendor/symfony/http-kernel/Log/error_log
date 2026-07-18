@@ -1,0 +1,12 @@
+[18-Feb-2025 05:47:03 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Log/Logger.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Log/Logger.php on line 25
+[31-May-2025 04:22:22 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Log/Logger.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Log/Logger.php on line 25
+[23-Jul-2025 09:34:21 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Log/Logger.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Log/Logger.php on line 25

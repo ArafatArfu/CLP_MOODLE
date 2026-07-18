@@ -1,0 +1,32 @@
+[19-May-2025 04:05:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Session\Middleware\AuthenticatesSessions" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php on line 11
+[15-Jul-2025 05:14:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Session\Middleware\AuthenticatesSessions" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php on line 11
+[03-Sep-2025 12:50:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Session\Middleware\AuthenticatesSessions" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php on line 11
+[24-Dec-2025 03:41:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Session\Middleware\AuthenticatesSessions" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php on line 11
+[25-Jan-2026 05:35:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Session\Middleware\AuthenticatesSessions" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php on line 11
+[04-Mar-2026 02:16:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Session\Middleware\AuthenticatesSessions" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php on line 11
+[24-Mar-2026 13:11:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Session\Middleware\AuthenticatesSessions" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php on line 11
+[06-Apr-2026 09:56:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Session\Middleware\AuthenticatesSessions" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php on line 11

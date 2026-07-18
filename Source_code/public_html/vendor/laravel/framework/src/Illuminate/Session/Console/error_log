@@ -1,0 +1,16 @@
+[13-Jul-2025 05:06:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\MigrationGeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php on line 9
+[30-Jan-2026 02:38:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\MigrationGeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php on line 9
+[15-Mar-2026 07:58:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\MigrationGeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php on line 9
+[27-Mar-2026 10:18:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\MigrationGeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php on line 9

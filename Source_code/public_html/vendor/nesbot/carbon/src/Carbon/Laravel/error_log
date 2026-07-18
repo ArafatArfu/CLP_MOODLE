@@ -1,0 +1,48 @@
+[02-Sep-2024 16:26:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[24-Oct-2024 12:46:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[30-May-2025 11:57:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[11-Jun-2025 18:02:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[20-Jun-2025 15:33:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[01-Aug-2025 14:35:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[30-Aug-2025 04:36:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[24-Dec-2025 03:39:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[07-Jan-2026 10:32:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[12-Jan-2026 17:00:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[02-Feb-2026 02:56:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25
+[13-Mar-2026 15:24:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php on line 25

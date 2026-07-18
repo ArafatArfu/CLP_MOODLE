@@ -1,0 +1,28 @@
+[29-Jun-2025 06:47:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php on line 27
+[18-Jul-2025 07:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php on line 27
+[31-Oct-2025 01:18:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php on line 27
+[15-Dec-2025 11:42:10 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php on line 27
+[26-Dec-2025 02:27:37 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php on line 27
+[21-Mar-2026 22:50:47 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php on line 27
+[12-Apr-2026 02:23:58 UTC] PHP Fatal error:  Uncaught Error: Class "Psr\Log\AbstractLogger" not found in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Logger/ConsoleLogger.php on line 27

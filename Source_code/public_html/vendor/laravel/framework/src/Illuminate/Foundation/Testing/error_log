@@ -1,0 +1,62 @@
+[07-Sep-2024 16:05:01 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[15-Oct-2024 01:29:44 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php on line 8
+[24-Nov-2024 21:42:48 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[19-Jan-2025 09:53:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[31-Jan-2025 09:59:59 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[21-Feb-2025 05:25:59 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8
+[18-Mar-2025 10:30:39 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8
+[21-May-2025 04:28:00 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8
+[01-Jun-2025 05:12:49 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php on line 8
+[14-Jun-2025 12:33:38 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8
+[03-Jul-2025 19:02:12 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php on line 8
+[18-Jul-2025 03:16:09 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[14-Aug-2025 00:28:44 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8
+[15-Aug-2025 19:50:39 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[02-Oct-2025 23:38:38 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[11-Oct-2025 10:30:17 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8
+[11-Oct-2025 16:37:27 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[03-Jan-2026 04:40:44 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8
+[15-Jan-2026 06:12:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[03-Feb-2026 09:16:29 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php on line 8
+[09-Feb-2026 03:55:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[21-Feb-2026 01:33:33 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php on line 8
+[03-Mar-2026 16:42:50 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[21-Mar-2026 06:09:26 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8
+[30-Mar-2026 09:41:56 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 8
+[13-Apr-2026 12:55:32 UTC] PHP Fatal error:  Trait "Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php on line 8

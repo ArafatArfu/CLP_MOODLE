@@ -1,0 +1,347 @@
+[03-Sep-2024 05:40:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[03-Sep-2024 05:45:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[05-Sep-2024 20:17:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php on line 26
+[07-Sep-2024 19:13:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[15-Sep-2024 06:05:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[17-Sep-2024 23:23:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DependencyInjection\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php on line 28
+[18-Sep-2024 16:21:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[19-Sep-2024 00:53:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[22-Sep-2024 04:06:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[23-Sep-2024 12:59:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[27-Sep-2024 05:49:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[28-Sep-2024 10:17:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php on line 26
+[02-Oct-2024 10:29:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[05-Oct-2024 04:52:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DependencyInjection\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php on line 28
+[05-Oct-2024 15:42:21 UTC] PHP Fatal error:  Trait "Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ControllerArgumentValueResolverPass.php on line 29
+[06-Oct-2024 04:22:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[07-Oct-2024 06:54:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[07-Oct-2024 09:56:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[10-Oct-2024 19:01:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[12-Oct-2024 03:59:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[17-Oct-2024 13:59:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[17-Oct-2024 20:06:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[21-Oct-2024 11:05:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[24-Oct-2024 04:50:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DependencyInjection\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php on line 28
+[24-Oct-2024 18:46:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[26-Oct-2024 02:03:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[06-Nov-2024 03:02:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[06-Nov-2024 16:02:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[12-Nov-2024 13:08:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php on line 26
+[12-Nov-2024 17:37:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[04-Dec-2024 13:30:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[18-Dec-2024 10:59:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[15-Jan-2025 06:57:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[03-Feb-2025 12:52:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[09-Feb-2025 09:43:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[15-Feb-2025 00:13:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[15-Feb-2025 01:53:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[16-Feb-2025 22:48:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[19-Feb-2025 06:40:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[21-Feb-2025 11:16:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[18-Mar-2025 11:51:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[23-Mar-2025 11:09:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[15-Apr-2025 22:13:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[24-Apr-2025 17:20:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[12-May-2025 18:47:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[12-May-2025 22:00:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[17-May-2025 11:52:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DependencyInjection\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php on line 28
+[18-May-2025 22:11:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[20-May-2025 11:51:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php on line 21
+[21-May-2025 04:14:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[30-May-2025 11:02:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[31-May-2025 07:53:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DependencyInjection\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php on line 28
+[31-May-2025 15:52:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[03-Jun-2025 10:11:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[03-Jun-2025 14:55:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php on line 35
+[04-Jun-2025 02:53:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[06-Jun-2025 08:48:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/FragmentRendererPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/FragmentRendererPass.php on line 26
+[06-Jun-2025 13:43:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php on line 21
+[07-Jun-2025 02:27:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[14-Jun-2025 09:42:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[18-Jun-2025 18:30:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[19-Jun-2025 10:28:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php on line 21
+[20-Jun-2025 05:59:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[21-Jun-2025 00:39:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php on line 35
+[22-Jun-2025 16:58:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[23-Jun-2025 03:48:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php on line 26
+[28-Jun-2025 04:15:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/FragmentRendererPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/FragmentRendererPass.php on line 26
+[28-Jun-2025 04:20:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[29-Jun-2025 12:22:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[01-Jul-2025 20:27:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php on line 26
+[05-Jul-2025 15:35:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[08-Jul-2025 13:33:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[10-Jul-2025 17:44:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php on line 24
+[11-Jul-2025 14:28:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RemoveEmptyControllerArgumentLocatorsPass.php on line 22
+[13-Jul-2025 09:32:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php on line 21
+[15-Jul-2025 08:41:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ServicesResetter.php on line 26
+[19-Jul-2025 06:52:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LoggerPass.php on line 26
+[20-Jul-2025 02:13:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php on line 25
+[20-Jul-2025 09:14:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[21-Jul-2025 06:46:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php on line 35
+[22-Jul-2025 10:15:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Extension\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/Extension.php on line 21
+[22-Jul-2025 20:23:16 UTC] PHP Fatal error:  Trait "Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ControllerArgumentValueResolverPass.php on line 29
+[27-Jul-2025 13:18:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php on line 35
+[28-Jul-2025 13:58:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Fragment\FragmentHandler" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php on line 24
+[01-Aug-2025 09:27:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterLocaleAwareServicesPass.php on line 24
+[01-Aug-2025 21:39:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DependencyInjection\Extension" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ConfigurableExtension.php on line 28
+[13-Aug-2025 10:37:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php on line 35
+[14-Aug-2025 08:42:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\DependencyInjection\Compiler\MergeExtensionConfigurationPass" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php on line 22
+[15-Aug-2025 06:42:22 UTC] PHP Fatal error:  Trait "Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DependencyInjection/ControllerArgumentValueResolverPass.php on line 29

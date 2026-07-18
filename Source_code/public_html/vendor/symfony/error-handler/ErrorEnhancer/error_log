@@ -1,0 +1,148 @@
+[06-Sep-2024 12:38:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[16-Jan-2025 19:06:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[22-Jan-2025 03:01:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[26-Apr-2025 21:19:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[06-May-2025 07:08:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[09-May-2025 19:12:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[21-May-2025 16:31:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[03-Jun-2025 18:01:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[04-Jun-2025 08:55:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[16-Jun-2025 18:23:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[17-Jun-2025 19:54:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[18-Jun-2025 18:45:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[26-Jun-2025 22:50:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[28-Jun-2025 11:00:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[06-Jul-2025 17:27:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[11-Jul-2025 21:07:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[12-Jul-2025 09:12:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[19-Jul-2025 11:08:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[22-Jul-2025 07:54:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[25-Aug-2025 17:41:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[02-Sep-2025 06:58:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[01-Nov-2025 11:32:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[23-Nov-2025 20:45:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[20-Dec-2025 07:18:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[24-Dec-2025 20:53:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[02-Jan-2026 18:03:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[11-Jan-2026 04:09:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[12-Jan-2026 16:38:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[22-Jan-2026 04:20:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[26-Jan-2026 20:53:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[05-Feb-2026 21:34:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[12-Feb-2026 20:05:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[09-Mar-2026 17:00:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/ClassNotFoundErrorEnhancer.php on line 22
+[24-Mar-2026 00:59:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[24-Mar-2026 11:29:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20
+[04-Apr-2026 21:19:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedFunctionErrorEnhancer.php on line 20
+[18-Apr-2026 00:19:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\ErrorHandler\ErrorEnhancer\ErrorEnhancerInterface" not found in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/error-handler/ErrorEnhancer/UndefinedMethodErrorEnhancer.php on line 20

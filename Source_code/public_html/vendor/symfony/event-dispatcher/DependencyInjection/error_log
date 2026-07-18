@@ -1,0 +1,32 @@
+[01-Apr-2025 03:55:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php on line 26
+[11-Jun-2025 22:59:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php on line 22
+[24-Jun-2025 01:47:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php on line 22
+[29-Jun-2025 10:01:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php on line 26
+[24-Jul-2025 00:18:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php on line 22
+[18-Dec-2025 14:11:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php on line 22
+[10-Feb-2026 03:01:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php on line 22
+[18-Apr-2026 00:14:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php on line 22

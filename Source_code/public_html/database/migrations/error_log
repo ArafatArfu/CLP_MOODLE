@@ -1,0 +1,4 @@
+[18-Jan-2026 23:45:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/clpwebor/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7

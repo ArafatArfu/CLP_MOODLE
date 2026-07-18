@@ -1,0 +1,64 @@
+[07-Sep-2024 05:31:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[02-Mar-2025 01:55:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[13-May-2025 23:32:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[03-Jun-2025 06:31:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[13-Jun-2025 15:13:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[04-Jul-2025 20:14:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[23-Jul-2025 09:39:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[04-Oct-2025 09:12:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[25-Nov-2025 07:39:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[28-Dec-2025 16:09:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[08-Jan-2026 05:54:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[22-Jan-2026 06:22:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[20-Feb-2026 02:30:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[03-Mar-2026 02:16:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[16-Mar-2026 02:07:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35
+[05-Apr-2026 04:18:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/monolog/monolog/src/Monolog/Logger.php on line 35

@@ -1,0 +1,156 @@
+[17-Sep-2024 11:56:41 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[01-Oct-2024 13:22:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Queue\QueueManager" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php on line 14
+[07-Oct-2024 19:17:27 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[25-Oct-2024 11:46:52 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[13-Nov-2024 13:28:29 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[28-Nov-2024 06:08:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[29-Nov-2024 09:08:28 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[22-Jan-2025 14:00:27 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[09-Feb-2025 06:57:46 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[11-Feb-2025 02:26:16 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[31-Mar-2025 20:19:42 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[09-Apr-2025 13:18:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[13-Apr-2025 07:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Queue\QueueManager" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php on line 14
+[09-May-2025 11:47:05 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[09-May-2025 11:49:01 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[11-May-2025 06:17:57 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[17-May-2025 18:22:23 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[18-May-2025 03:12:24 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[21-May-2025 15:33:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Queue\QueueManager" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php on line 14
+[23-May-2025 04:31:07 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[24-May-2025 03:22:34 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[26-May-2025 01:23:15 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[27-May-2025 01:48:29 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[28-May-2025 10:26:45 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[29-May-2025 16:11:05 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[30-May-2025 09:52:43 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[30-May-2025 09:54:48 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[31-May-2025 09:29:21 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[31-May-2025 23:11:16 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[02-Jun-2025 04:16:47 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[02-Jun-2025 20:52:11 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[05-Jun-2025 01:28:09 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[05-Jun-2025 06:00:34 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[05-Jun-2025 06:01:00 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[06-Jun-2025 07:24:28 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[06-Jun-2025 07:25:58 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[10-Jun-2025 13:13:19 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[10-Jun-2025 16:56:22 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[11-Jun-2025 20:50:38 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[12-Jun-2025 19:48:58 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[13-Jun-2025 10:06:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Queue\QueueManager" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php on line 14
+[13-Jun-2025 23:56:45 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[16-Jun-2025 03:17:15 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[18-Jun-2025 12:09:59 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[19-Jun-2025 07:03:50 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[19-Jun-2025 19:12:52 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[20-Jun-2025 18:41:08 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[24-Jun-2025 00:19:35 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[24-Jun-2025 00:21:50 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[25-Jun-2025 01:39:46 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[25-Jun-2025 17:21:10 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[25-Jun-2025 21:50:32 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[25-Jun-2025 21:52:48 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[27-Jun-2025 00:09:04 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[27-Jun-2025 00:11:22 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[27-Jun-2025 20:21:53 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[28-Jun-2025 20:07:39 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[28-Jun-2025 20:09:51 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[29-Jun-2025 21:12:23 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ReflectsClosures" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/BusFake.php on line 16
+[02-Jul-2025 01:46:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Queue\QueueManager" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php on line 14
+[02-Jul-2025 20:24:24 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[05-Jul-2025 18:05:26 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[08-Jul-2025 19:20:17 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[09-Jul-2025 19:03:45 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[09-Jul-2025 20:17:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[12-Jul-2025 20:46:13 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[19-Jul-2025 03:45:26 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[21-Jul-2025 16:59:08 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[23-Jul-2025 06:02:29 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[29-Jul-2025 00:05:36 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ReflectsClosures" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/BusFake.php on line 16
+[30-Jul-2025 15:54:04 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[01-Aug-2025 23:04:14 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[18-Aug-2025 13:10:24 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[18-Aug-2025 21:25:52 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[02-Oct-2025 02:02:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[03-Oct-2025 03:57:02 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ReflectsClosures" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/BusFake.php on line 16
+[23-Oct-2025 19:41:32 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[24-Oct-2025 15:19:29 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[27-Oct-2025 23:51:13 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[30-Oct-2025 16:25:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[25-Nov-2025 06:47:33 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[16-Dec-2025 21:59:42 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[21-Dec-2025 11:05:08 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ReflectsClosures" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/BusFake.php on line 16
+[22-Dec-2025 03:02:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[22-Dec-2025 07:27:55 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[31-Dec-2025 12:35:07 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ReflectsClosures" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/BusFake.php on line 16
+[01-Jan-2026 02:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[04-Jan-2026 14:30:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Queue\QueueManager" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php on line 14
+[09-Jan-2026 12:53:29 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[10-Jan-2026 05:36:40 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[12-Jan-2026 05:09:21 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[20-Jan-2026 05:02:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[25-Jan-2026 09:52:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[28-Jan-2026 18:59:53 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[02-Feb-2026 17:07:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\PendingMail" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/PendingMailFake.php on line 8
+[02-Feb-2026 20:51:03 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[02-Feb-2026 21:57:09 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[04-Feb-2026 05:31:43 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ReflectsClosures" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/BusFake.php on line 16
+[05-Feb-2026 10:15:27 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[26-Feb-2026 15:37:14 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[04-Mar-2026 13:58:50 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[14-Mar-2026 17:16:23 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[15-Mar-2026 07:56:23 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16
+[04-Apr-2026 14:12:34 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ReflectsClosures" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/BusFake.php on line 16
+[06-Apr-2026 07:25:00 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[11-Apr-2026 02:45:28 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\Macroable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php on line 18
+[14-Apr-2026 12:00:09 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php on line 16
+[15-Apr-2026 14:25:52 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php on line 16

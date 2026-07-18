@@ -1,0 +1,28 @@
+[10-Sep-2024 04:14:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14
+[21-Mar-2025 19:36:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14
+[20-May-2025 04:05:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14
+[01-Jun-2025 14:37:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14
+[21-Jun-2025 03:48:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14
+[30-Jun-2025 06:07:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14
+[13-Jul-2025 10:12:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/http-client/src/RequestExceptionInterface.php on line 14

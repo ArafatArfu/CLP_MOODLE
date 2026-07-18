@@ -1,0 +1,92 @@
+[17-Oct-2024 02:45:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[10-Feb-2025 20:34:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[23-Mar-2025 05:18:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[14-May-2025 04:23:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[12-Jun-2025 01:03:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[21-Jun-2025 18:58:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[01-Jul-2025 22:46:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[11-Jul-2025 23:21:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[15-Jul-2025 17:23:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[13-Aug-2025 00:38:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[11-Oct-2025 15:51:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[26-Oct-2025 08:10:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[24-Nov-2025 15:58:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[25-Nov-2025 12:13:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[18-Dec-2025 14:37:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[29-Dec-2025 22:16:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[22-Jan-2026 05:48:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[25-Jan-2026 05:44:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[19-Feb-2026 08:26:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[04-Mar-2026 18:41:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[07-Mar-2026 07:49:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 14
+[15-Mar-2026 20:23:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10
+[22-Mar-2026 22:36:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 10

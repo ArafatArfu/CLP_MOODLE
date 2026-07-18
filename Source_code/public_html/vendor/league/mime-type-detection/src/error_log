@@ -1,0 +1,220 @@
+[09-Sep-2024 16:15:32 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[20-Sep-2024 19:31:01 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[24-Sep-2024 15:43:41 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[13-Oct-2024 07:12:15 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[17-Oct-2024 16:33:54 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php on line 7
+[11-Dec-2024 02:55:00 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[18-Dec-2024 21:47:55 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[11-Jan-2025 03:01:04 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[24-Jan-2025 10:43:38 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[18-Feb-2025 06:36:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[16-Mar-2025 01:58:13 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[18-Mar-2025 20:39:32 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[07-May-2025 19:54:27 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[21-May-2025 09:48:58 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[22-May-2025 22:20:38 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[30-May-2025 21:34:30 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[31-May-2025 08:09:25 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[05-Jun-2025 10:19:02 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[10-Jun-2025 18:38:27 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[12-Jun-2025 13:10:49 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[15-Jun-2025 08:02:29 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[22-Jun-2025 18:06:24 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[27-Jun-2025 23:46:58 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[28-Jun-2025 16:55:27 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[01-Jul-2025 17:44:04 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[16-Jul-2025 23:10:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[20-Jul-2025 03:16:27 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[22-Jul-2025 18:45:27 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[25-Jul-2025 08:56:26 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[13-Aug-2025 12:32:43 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[30-Aug-2025 08:00:25 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[04-Sep-2025 00:19:31 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[05-Oct-2025 11:30:08 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[09-Oct-2025 15:31:54 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[26-Oct-2025 14:30:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[26-Oct-2025 20:40:36 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[29-Oct-2025 14:29:44 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[15-Dec-2025 08:07:39 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php on line 7
+[17-Dec-2025 18:58:42 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[18-Dec-2025 15:33:00 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[19-Dec-2025 20:24:48 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[06-Jan-2026 08:08:44 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php on line 7
+[06-Jan-2026 20:45:09 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php on line 5
+[14-Jan-2026 17:17:53 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php on line 7
+[17-Jan-2026 08:11:08 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[24-Jan-2026 09:19:58 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[25-Jan-2026 17:18:56 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[01-Feb-2026 20:30:05 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[08-Feb-2026 17:40:54 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[17-Feb-2026 17:01:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/EmptyExtensionToMimeTypeMap.php on line 7
+[14-Mar-2026 17:07:15 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9
+[22-Mar-2026 22:09:41 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 12
+[23-Mar-2026 18:04:58 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[29-Mar-2026 12:54:49 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\ExtensionToMimeTypeMap" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php on line 7
+[29-Mar-2026 13:36:10 UTC] PHP Fatal error:  Uncaught Error: Interface "League\MimeTypeDetection\MimeTypeDetector" not found in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/mime-type-detection/src/ExtensionMimeTypeDetector.php on line 9

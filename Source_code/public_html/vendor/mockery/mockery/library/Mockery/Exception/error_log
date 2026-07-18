@@ -1,0 +1,292 @@
+[21-Oct-2024 13:08:51 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[06-Jan-2025 10:30:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[11-Jan-2025 02:21:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php on line 13
+[04-Feb-2025 17:30:14 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[11-Feb-2025 14:20:07 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[16-Feb-2025 09:32:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[02-Mar-2025 04:04:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[11-Mar-2025 11:12:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[17-Mar-2025 20:17:21 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[26-Apr-2025 10:39:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php on line 13
+[26-Apr-2025 10:55:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[01-May-2025 01:58:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[07-May-2025 15:45:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[16-May-2025 19:43:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[01-Jun-2025 16:29:35 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[05-Jun-2025 07:49:58 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[05-Jun-2025 17:49:49 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[10-Jun-2025 06:32:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[10-Jun-2025 19:37:53 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[22-Jun-2025 00:48:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15
+[26-Jun-2025 04:00:02 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[01-Jul-2025 07:04:46 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[10-Jul-2025 01:53:26 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[11-Jul-2025 06:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[13-Jul-2025 04:48:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15
+[14-Jul-2025 07:37:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[15-Jul-2025 23:06:42 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[19-Jul-2025 10:24:16 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[24-Jul-2025 00:37:31 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[27-Jul-2025 13:10:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15
+[28-Jul-2025 08:57:32 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[03-Aug-2025 12:31:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[02-Oct-2025 23:19:09 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[07-Oct-2025 06:03:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15
+[09-Oct-2025 20:17:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[10-Oct-2025 04:15:24 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[23-Oct-2025 13:21:40 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[26-Oct-2025 06:00:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php on line 13
+[02-Nov-2025 05:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[22-Nov-2025 18:33:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15
+[18-Dec-2025 08:00:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php on line 13
+[18-Dec-2025 14:59:09 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[20-Dec-2025 09:00:59 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[22-Dec-2025 09:12:41 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[23-Dec-2025 18:08:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[26-Dec-2025 12:58:24 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[27-Dec-2025 22:08:44 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[31-Dec-2025 17:56:56 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[12-Jan-2026 15:09:10 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[16-Jan-2026 00:08:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[20-Jan-2026 04:16:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15
+[21-Jan-2026 10:33:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[23-Jan-2026 13:39:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php on line 13
+[25-Jan-2026 05:11:15 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[28-Jan-2026 21:41:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[03-Feb-2026 16:44:08 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[05-Feb-2026 07:34:04 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[10-Feb-2026 22:30:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php on line 13
+[11-Feb-2026 08:03:50 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[20-Feb-2026 20:27:20 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[23-Feb-2026 05:41:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[28-Feb-2026 08:34:54 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[02-Mar-2026 09:03:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[03-Mar-2026 15:18:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15
+[11-Mar-2026 10:44:34 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[13-Mar-2026 17:01:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/BadMethodCallException.php on line 13
+[16-Mar-2026 13:18:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15
+[16-Mar-2026 16:24:52 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\CountValidator\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidCountException.php on line 18
+[19-Mar-2026 17:15:50 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidOrderException.php on line 16
+[21-Mar-2026 15:04:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[03-Apr-2026 16:26:33 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Exception" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/NoMatchingExpectationException.php on line 16
+[07-Apr-2026 15:44:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/InvalidArgumentException.php on line 13
+[15-Apr-2026 23:13:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Exception\MockeryExceptionInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Exception/RuntimeException.php on line 15

@@ -1,0 +1,112 @@
+[25-Sep-2024 22:02:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[20-Dec-2024 19:56:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[07-Jan-2025 20:14:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Extractor\ExtractorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php on line 21
+[19-May-2025 02:30:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[29-May-2025 18:13:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Extractor\ExtractorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php on line 21
+[08-Jun-2025 07:05:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php on line 14
+[26-Jun-2025 04:28:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Extractor\ExtractorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php on line 21
+[04-Jul-2025 19:24:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[16-Jul-2025 06:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php on line 14
+[18-Jul-2025 09:07:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[19-Jul-2025 20:56:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Extractor\ExtractorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php on line 21
+[23-Jul-2025 18:42:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[02-Aug-2025 05:33:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Extractor\ExtractorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php on line 21
+[15-Aug-2025 13:06:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[23-Aug-2025 22:55:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[26-Oct-2025 07:20:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[02-Nov-2025 03:02:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Extractor\ExtractorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php on line 21
+[01-Jan-2026 02:48:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php on line 14
+[17-Jan-2026 07:17:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php on line 14
+[29-Jan-2026 09:00:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php on line 14
+[12-Feb-2026 20:23:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php on line 14
+[13-Feb-2026 13:40:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[19-Feb-2026 11:48:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php on line 14
+[20-Feb-2026 09:12:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[28-Feb-2026 06:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[20-Mar-2026 15:21:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpStringTokenParser.php on line 14
+[06-Apr-2026 02:34:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14
+[17-Apr-2026 14:38:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Translation\Extractor\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Extractor/PhpExtractor.php on line 14

@@ -1,0 +1,420 @@
+[23-Sep-2024 00:16:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[06-Oct-2024 05:20:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[08-Oct-2024 01:57:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[11-Oct-2024 15:35:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[24-Oct-2024 13:21:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[08-Jan-2025 23:42:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[25-Jan-2025 13:29:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[07-Feb-2025 13:51:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[09-Feb-2025 06:03:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[15-Feb-2025 09:34:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[24-Mar-2025 19:40:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[01-May-2025 07:30:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[14-May-2025 10:15:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[17-May-2025 22:58:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[18-May-2025 22:08:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[21-May-2025 08:25:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[29-May-2025 06:52:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[31-May-2025 08:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[31-May-2025 19:21:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[03-Jun-2025 08:50:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[04-Jun-2025 08:59:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php on line 21
+[07-Jun-2025 16:17:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[09-Jun-2025 01:13:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[15-Jun-2025 15:27:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[15-Jun-2025 16:45:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[17-Jun-2025 21:20:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[22-Jun-2025 09:30:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php on line 21
+[24-Jun-2025 10:14:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[24-Jun-2025 20:46:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[30-Jun-2025 16:23:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[02-Jul-2025 02:43:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[03-Jul-2025 06:08:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php on line 19
+[06-Jul-2025 02:24:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[11-Jul-2025 21:09:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[16-Jul-2025 04:56:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[16-Jul-2025 18:43:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[19-Jul-2025 15:30:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[19-Jul-2025 22:54:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[27-Jul-2025 19:37:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[30-Jul-2025 09:04:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[30-Jul-2025 09:20:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[30-Jul-2025 11:09:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[31-Jul-2025 12:42:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[31-Jul-2025 16:30:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[01-Aug-2025 01:00:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[02-Aug-2025 09:37:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[14-Aug-2025 22:26:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[15-Aug-2025 01:42:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[28-Aug-2025 12:50:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[02-Sep-2025 13:02:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[06-Oct-2025 17:32:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[08-Oct-2025 13:20:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[09-Oct-2025 21:15:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[22-Oct-2025 15:13:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[23-Oct-2025 10:42:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php on line 21
+[26-Oct-2025 14:39:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[31-Oct-2025 16:14:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[15-Dec-2025 14:03:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[16-Dec-2025 23:26:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php on line 19
+[22-Dec-2025 18:07:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[23-Dec-2025 03:40:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[23-Dec-2025 15:05:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[24-Dec-2025 01:12:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[05-Jan-2026 05:45:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[05-Jan-2026 06:51:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[09-Jan-2026 11:49:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[09-Jan-2026 17:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[10-Jan-2026 18:16:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[11-Jan-2026 00:30:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[13-Jan-2026 23:02:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[14-Jan-2026 10:03:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[22-Jan-2026 16:17:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[24-Jan-2026 07:46:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[25-Jan-2026 02:45:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[25-Jan-2026 13:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[25-Jan-2026 14:12:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[25-Jan-2026 22:47:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[26-Jan-2026 11:02:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ImgStub.php on line 17
+[30-Jan-2026 10:39:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[08-Feb-2026 14:46:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[09-Feb-2026 14:41:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[10-Feb-2026 20:07:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[24-Feb-2026 15:45:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[27-Feb-2026 02:53:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[27-Feb-2026 12:13:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php on line 19
+[01-Mar-2026 02:51:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[02-Mar-2026 10:37:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/EnumStub.php on line 21
+[07-Mar-2026 07:57:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[16-Mar-2026 07:20:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[16-Mar-2026 07:22:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[16-Mar-2026 14:59:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[18-Mar-2026 03:05:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[22-Mar-2026 00:22:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/DsPairStub.php on line 19
+[23-Mar-2026 00:45:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[24-Mar-2026 04:06:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[25-Mar-2026 01:11:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[25-Mar-2026 13:51:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[29-Mar-2026 22:30:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[03-Apr-2026 11:21:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Cloner\Stub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[04-Apr-2026 07:16:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ClassStub.php on line 21
+[05-Apr-2026 10:57:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[06-Apr-2026 21:56:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[12-Apr-2026 06:44:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\ConstStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[12-Apr-2026 22:41:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\EnumStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/FrameStub.php on line 19
+[14-Apr-2026 00:29:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\VarDumper\Caster\CutStub" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19

@@ -1,0 +1,100 @@
+[13-Sep-2024 10:28:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7
+[12-May-2025 22:07:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[17-May-2025 01:07:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7
+[30-May-2025 20:56:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7
+[09-Jun-2025 00:40:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7
+[16-Jun-2025 22:47:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[24-Jun-2025 19:36:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7
+[29-Jun-2025 00:32:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[05-Jul-2025 05:55:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[12-Jul-2025 08:43:36 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[18-Jul-2025 04:35:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[26-Jul-2025 17:04:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[18-Aug-2025 07:52:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[28-Aug-2025 10:55:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[06-Oct-2025 19:27:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[24-Oct-2025 04:49:37 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[30-Oct-2025 11:35:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[16-Dec-2025 21:38:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[25-Dec-2025 07:16:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[22-Jan-2026 05:41:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[22-Jan-2026 15:27:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7
+[17-Feb-2026 01:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[23-Feb-2026 06:19:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[07-Mar-2026 14:10:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7
+[27-Mar-2026 08:28:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7

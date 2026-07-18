@@ -1,0 +1,20 @@
+[07-Sep-2024 17:52:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\ShouldBroadcast" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php on line 5
+[18-Jan-2025 10:50:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\ShouldBroadcast" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php on line 5
+[15-Jul-2025 00:31:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\ShouldBroadcast" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php on line 5
+[29-Jul-2025 11:24:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\ShouldBroadcast" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php on line 5
+[04-Apr-2026 19:47:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\ShouldBroadcast" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php on line 5

@@ -1,0 +1,48 @@
+[04-Jul-2025 12:50:56 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[01-Aug-2025 09:55:21 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[11-Oct-2025 12:58:03 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[26-Oct-2025 07:54:15 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[23-Nov-2025 23:21:49 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[14-Jan-2026 10:07:10 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[07-Feb-2026 01:07:24 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[14-Feb-2026 14:06:59 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[22-Mar-2026 14:25:09 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[01-Apr-2026 06:06:21 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[11-Apr-2026 12:52:00 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8
+[11-Apr-2026 18:31:17 UTC] PHP Fatal error:  Uncaught Error: Interface "DeepCopy\TypeFilter\TypeFilter" not found in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8

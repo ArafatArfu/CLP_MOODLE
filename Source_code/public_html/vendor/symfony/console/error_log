@@ -1,0 +1,48 @@
+[27-Sep-2024 10:21:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[21-Jan-2025 06:30:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[31-Mar-2025 22:22:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[13-Jul-2025 06:59:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[21-Jul-2025 05:17:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[20-Aug-2025 06:58:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[12-Jan-2026 16:59:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[17-Jan-2026 17:55:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[28-Jan-2026 20:50:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[21-Feb-2026 02:44:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[06-Mar-2026 09:34:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73
+[14-Apr-2026 21:12:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Application.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Application.php on line 73

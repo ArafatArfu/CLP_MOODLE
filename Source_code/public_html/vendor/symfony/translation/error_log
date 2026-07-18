@@ -1,0 +1,262 @@
+[23-Sep-2024 20:45:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[10-Oct-2024 02:29:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php on line 34
+[12-Oct-2024 19:13:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Oct-2024 13:11:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[01-Dec-2024 06:00:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[07-Feb-2025 22:45:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[26-Feb-2025 06:56:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Mar-2025 03:47:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[14-Apr-2025 09:14:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[19-Apr-2025 14:28:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[18-May-2025 14:44:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[30-May-2025 10:49:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[04-Jun-2025 15:14:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[11-Jun-2025 06:07:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php on line 20
+[12-Jun-2025 00:54:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[18-Jun-2025 03:43:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[23-Jun-2025 10:29:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Jun-2025 10:16:35 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[28-Jun-2025 23:59:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[04-Jul-2025 19:16:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php on line 34
+[07-Jul-2025 01:28:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[16-Jul-2025 13:46:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[20-Jul-2025 19:39:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[21-Jul-2025 22:12:05 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[28-Jul-2025 11:08:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[02-Aug-2025 05:00:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[17-Aug-2025 09:53:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Aug-2025 01:17:04 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[29-Aug-2025 09:28:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[02-Oct-2025 23:26:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[06-Oct-2025 07:00:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[10-Oct-2025 10:53:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php on line 20
+[28-Oct-2025 19:59:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[30-Oct-2025 21:02:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php on line 20
+[31-Oct-2025 16:00:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[01-Nov-2025 03:25:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[23-Nov-2025 21:37:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Nov-2025 10:00:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[15-Dec-2025 19:08:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[16-Dec-2025 03:08:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php on line 34
+[17-Dec-2025 12:03:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php on line 20
+[18-Dec-2025 04:03:38 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[21-Dec-2025 05:35:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Dec-2025 19:00:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[28-Dec-2025 16:22:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[31-Dec-2025 05:57:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[08-Jan-2026 22:37:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php on line 20
+[10-Jan-2026 07:28:12 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[10-Jan-2026 15:07:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[12-Jan-2026 21:42:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[20-Jan-2026 11:27:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[23-Jan-2026 01:48:02 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[23-Jan-2026 23:42:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Jan-2026 23:37:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[28-Jan-2026 03:30:22 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[02-Feb-2026 13:18:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[03-Feb-2026 16:05:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php on line 34
+[08-Feb-2026 18:53:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[13-Feb-2026 20:43:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[17-Feb-2026 02:46:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[17-Feb-2026 20:47:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php on line 34
+[20-Feb-2026 08:57:19 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Feb-2026 19:23:30 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[27-Feb-2026 11:39:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[09-Mar-2026 22:01:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[10-Mar-2026 01:15:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/MessageCatalogue.php on line 20
+[10-Mar-2026 20:05:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Mar-2026 22:59:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Translator.php on line 34
+[25-Mar-2026 06:58:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[28-Mar-2026 15:41:01 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/clpwebor/public_html/vendor/symfony/translation/IdentityTranslator.php on line 23
+[03-Apr-2026 19:55:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/LoggingTranslator.php on line 22
+[05-Apr-2026 10:36:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[15-Apr-2026 13:53:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollectorTranslator.php on line 22

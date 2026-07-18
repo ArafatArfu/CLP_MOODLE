@@ -1,0 +1,68 @@
+[12-Sep-2024 00:04:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[14-Mar-2025 09:42:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[03-May-2025 17:21:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[06-Jun-2025 13:41:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[14-Jul-2025 10:50:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[24-Jul-2025 06:00:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[01-Oct-2025 11:52:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[25-Nov-2025 08:10:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[19-Dec-2025 19:48:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[05-Jan-2026 15:20:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[14-Jan-2026 09:15:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[22-Feb-2026 00:01:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[27-Feb-2026 10:41:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[07-Mar-2026 18:40:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[17-Mar-2026 00:33:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[26-Mar-2026 17:09:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26
+[10-Apr-2026 11:29:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 26

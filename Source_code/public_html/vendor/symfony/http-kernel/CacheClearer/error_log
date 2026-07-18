@@ -1,0 +1,40 @@
+[22-Sep-2024 17:50:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
+[01-Oct-2024 16:01:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
+[28-Dec-2024 22:11:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
+[27-Mar-2025 04:27:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
+[22-Apr-2025 11:49:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
+[22-May-2025 06:37:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
+[31-May-2025 07:24:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/ChainCacheClearer.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/ChainCacheClearer.php on line 21
+[04-Jun-2025 08:10:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
+[25-Jun-2025 15:54:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
+[10-Jul-2025 22:21:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/ChainCacheClearer.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/CacheClearer/ChainCacheClearer.php on line 21

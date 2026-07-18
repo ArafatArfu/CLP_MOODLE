@@ -1,0 +1,80 @@
+[24-Oct-2024 18:54:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Encryption\Encrypter" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php on line 11
+[07-Feb-2025 01:32:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Encryption\Encrypter" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php on line 11
+[10-May-2025 11:00:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[17-May-2025 16:20:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[30-May-2025 22:15:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[09-Jun-2025 18:56:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Encryption\Encrypter" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php on line 11
+[09-Jun-2025 19:35:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[21-Jun-2025 03:07:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[29-Jun-2025 05:55:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[07-Jul-2025 09:24:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Encryption\Encrypter" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php on line 11
+[15-Jul-2025 06:37:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[20-Aug-2025 14:25:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[30-Oct-2025 02:18:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[16-Dec-2025 03:13:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[28-Dec-2025 16:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[18-Jan-2026 03:20:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[05-Feb-2026 19:36:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[15-Feb-2026 07:29:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Encryption\Encrypter" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php on line 11
+[23-Feb-2026 06:52:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 9
+[22-Mar-2026 03:06:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Encryption\Encrypter" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php on line 11

@@ -1,0 +1,89 @@
+{{!
+    @template theme_clp/innerpage
+
+    CLP generic inner page (About Us sub-pages).
+
+    Context:
+    * output - core renderer
+    * bodyattributes - body tag attributes
+    * title - page title (h1)
+    * breadcrumbparent - parent breadcrumb label
+    * content - raw HTML body of the page
+}}
+{{> theme_boost/head }}
+
+<body {{{ bodyattributes }}}>
+
+<div id="page-wrapper" class="d-print-block">
+
+    {{{ output.standard_top_of_body_html }}}
+
+    {{> theme_clp/navbar }}
+
+    <div id="page" class="container-fluid d-print-block">
+
+        <!-- Inner Banner -->
+        <section class="inner-banner">
+            <div class="container">
+                <div class="box">
+                    <h1>{{{ title }}}</h1>
+                    <div class="breadcumb-wrapper">
+                        <ul class="list-inline link-list">
+                            <li>
+                                <a href="{{ config.wwwroot }}/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                            </li>
+                            <li>
+                                <a href="{{ config.wwwroot }}/about.php">{{ breadcrumbparent }}</a>
+                            </li>
+                            <li>
+                                {{{ title }}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page Content -->
+        <section class="content">
+            {{{ content }}}
+        </section>
+
+        <!-- Scroll Top -->
+        <button class="scroll-top tran3s"><span class="fa fa-angle-up"></span></button>
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+        <script>
+        (function() {
+            var timeout = setTimeout(function() {
+                var preloader = document.querySelector('.preloader');
+                if (preloader) {
+                    preloader.style.transition = 'opacity 0.5s ease';
+                    preloader.style.opacity = '0';
+                    setTimeout(function() {
+                        preloader.style.display = 'none';
+                    }, 500);
+                }
+            }, 3000);
+            window.addEventListener('load', function() {
+                clearTimeout(timeout);
+                var preloader = document.querySelector('.preloader');
+                if (preloader) {
+                    preloader.style.transition = 'opacity 0.5s ease';
+                    preloader.style.opacity = '0';
+                    setTimeout(function() {
+                        preloader.style.display = 'none';
+                    }, 500);
+                }
+            });
+        })();
+        </script>
+
+    </div>
+    {{{ output.standard_after_main_region_html }}}
+    {{> theme_clp/footer }}
+</div>
+
+</body>
+</html>

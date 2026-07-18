@@ -1,0 +1,72 @@
+[06-Apr-2025 23:22:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[02-May-2025 02:42:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[07-May-2025 06:20:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[13-May-2025 07:56:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 18
+[17-May-2025 07:12:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[29-May-2025 07:22:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 18
+[31-May-2025 19:12:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[14-Jul-2025 01:18:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 18
+[27-Jul-2025 18:25:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[12-Aug-2025 18:14:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 18
+[02-Sep-2025 12:49:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[16-Dec-2025 15:56:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 18
+[23-Dec-2025 17:23:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[12-Jan-2026 00:10:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10
+[03-Feb-2026 15:09:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 18
+[23-Feb-2026 07:52:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 18
+[01-Mar-2026 11:18:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 18
+[04-Mar-2026 15:13:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\GeneratorCommand" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 10

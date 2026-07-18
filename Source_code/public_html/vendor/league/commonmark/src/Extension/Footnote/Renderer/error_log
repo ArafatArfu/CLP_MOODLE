@@ -1,0 +1,188 @@
+[16-Sep-2024 17:31:06 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[01-Oct-2024 01:09:26 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[21-Dec-2024 10:13:51 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[11-Jan-2025 12:03:55 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[05-Feb-2025 16:54:11 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[10-Mar-2025 23:05:32 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[04-May-2025 23:47:51 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[10-May-2025 07:10:44 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php on line 26
+[22-May-2025 19:16:57 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[29-May-2025 08:44:37 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[04-Jun-2025 10:29:45 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[05-Jun-2025 06:54:22 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[10-Jun-2025 16:05:40 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php on line 26
+[11-Jun-2025 13:03:35 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[13-Jun-2025 04:45:29 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[16-Jun-2025 01:19:18 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[22-Jun-2025 09:44:10 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[28-Jun-2025 05:09:59 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[04-Jul-2025 00:19:57 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[04-Jul-2025 12:30:26 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[10-Jul-2025 09:16:46 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[25-Jul-2025 03:08:43 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[25-Jul-2025 09:01:01 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[13-Aug-2025 22:13:46 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[15-Aug-2025 00:10:24 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php on line 26
+[29-Aug-2025 08:18:22 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[03-Sep-2025 23:28:23 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[05-Oct-2025 23:34:51 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[31-Oct-2025 16:19:05 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php on line 26
+[15-Dec-2025 08:10:27 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php on line 26
+[19-Dec-2025 12:27:35 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[20-Dec-2025 08:11:15 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[21-Dec-2025 07:22:01 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[24-Dec-2025 15:43:43 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php on line 26
+[01-Jan-2026 04:05:02 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[15-Jan-2026 02:41:51 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php on line 26
+[19-Jan-2026 07:46:51 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[26-Jan-2026 00:54:04 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[26-Jan-2026 04:51:50 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[10-Feb-2026 01:53:47 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php on line 26
+[12-Feb-2026 00:17:19 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[18-Feb-2026 11:51:58 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[24-Feb-2026 13:52:42 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteContainerRenderer.php on line 26
+[09-Mar-2026 19:18:18 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[27-Mar-2026 03:38:56 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26
+[11-Apr-2026 05:59:56 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRefRenderer.php on line 26
+[14-Apr-2026 19:25:41 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteRenderer.php on line 26

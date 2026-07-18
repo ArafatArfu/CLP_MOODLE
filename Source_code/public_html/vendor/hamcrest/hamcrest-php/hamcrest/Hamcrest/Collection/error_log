@@ -1,0 +1,52 @@
+[20-Dec-2024 06:48:06 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php on line 13
+[15-Feb-2025 13:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14
+[19-May-2025 04:21:36 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14
+[16-Jun-2025 11:30:46 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14
+[23-Jun-2025 08:40:01 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php on line 13
+[14-Aug-2025 07:15:39 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14
+[08-Oct-2025 17:29:45 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14
+[20-Dec-2025 14:57:31 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14
+[21-Dec-2025 04:46:12 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php on line 13
+[04-Jan-2026 00:27:13 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14
+[03-Feb-2026 18:34:23 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14
+[14-Mar-2026 14:38:11 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\BaseMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php on line 13
+[16-Mar-2026 16:58:24 UTC] PHP Fatal error:  Uncaught Error: Class "Hamcrest\FeatureMatcher" not found in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php on line 14

@@ -1,0 +1,280 @@
+[21-Sep-2024 20:52:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[25-Sep-2024 20:51:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php on line 26
+[28-Sep-2024 06:27:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[05-Oct-2024 02:31:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[07-Oct-2024 05:53:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[16-Oct-2024 05:52:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[06-Nov-2024 07:52:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[12-Nov-2024 23:31:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[29-Nov-2024 15:18:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[09-Dec-2024 18:56:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php on line 26
+[24-Dec-2024 13:41:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[06-Jan-2025 21:36:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php on line 26
+[26-Jan-2025 22:01:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[18-Feb-2025 09:45:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[20-Feb-2025 06:59:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php on line 30
+[02-Mar-2025 08:48:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[14-Mar-2025 14:28:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[20-Mar-2025 06:29:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[06-Apr-2025 19:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php on line 26
+[28-Apr-2025 14:04:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[09-May-2025 07:27:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[12-May-2025 11:44:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[16-May-2025 23:27:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php on line 26
+[20-May-2025 09:22:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[20-May-2025 22:12:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php on line 30
+[20-May-2025 23:12:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[21-May-2025 21:09:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerEvent.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerEvent.php on line 28
+[22-May-2025 12:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[29-May-2025 04:27:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[29-May-2025 07:24:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php on line 26
+[29-May-2025 11:13:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php on line 30
+[31-May-2025 21:54:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php on line 26
+[01-Jun-2025 02:17:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[07-Jun-2025 18:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php on line 26
+[11-Jun-2025 18:46:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[12-Jun-2025 12:26:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php on line 26
+[13-Jun-2025 14:45:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[13-Jun-2025 16:06:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php on line 30
+[19-Jun-2025 20:50:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php on line 26
+[20-Jun-2025 09:07:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[21-Jun-2025 12:16:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[21-Jun-2025 18:35:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/FinishRequestEvent.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/FinishRequestEvent.php on line 19
+[24-Jun-2025 01:38:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php on line 30
+[24-Jun-2025 10:34:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[24-Jun-2025 15:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[04-Jul-2025 07:04:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[05-Jul-2025 19:51:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[07-Jul-2025 21:00:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php on line 26
+[08-Jul-2025 04:12:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[09-Jul-2025 10:54:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/FinishRequestEvent.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/FinishRequestEvent.php on line 19
+[09-Jul-2025 11:23:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php on line 30
+[09-Jul-2025 19:22:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php on line 26
+[12-Jul-2025 07:55:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerEvent.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerEvent.php on line 28
+[14-Jul-2025 12:52:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/RequestEvent.php on line 25
+[18-Jul-2025 23:27:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerArgumentsEvent.php on line 29
+[21-Jul-2025 01:51:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[21-Jul-2025 20:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[22-Jul-2025 07:08:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/FinishRequestEvent.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/FinishRequestEvent.php on line 19
+[25-Jul-2025 03:48:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ViewEvent.php on line 26
+[27-Jul-2025 13:46:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\RequestEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ExceptionEvent.php on line 30
+[29-Jul-2025 00:01:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Contracts\EventDispatcher\Event" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/KernelEvent.php on line 23
+[01-Aug-2025 02:49:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/TerminateEvent.php on line 26
+[01-Aug-2025 13:40:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerEvent.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ControllerEvent.php on line 28
+[18-Aug-2025 00:20:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[25-Nov-2025 08:08:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[17-Dec-2025 19:01:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[12-Jan-2026 03:41:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[28-Jan-2026 18:51:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[06-Feb-2026 18:10:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27
+[19-Mar-2026 13:49:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\Event\KernelEvent" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/Event/ResponseEvent.php on line 27

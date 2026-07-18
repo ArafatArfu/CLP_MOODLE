@@ -1,0 +1,148 @@
+[11-Sep-2024 02:06:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20
+[29-Sep-2024 18:01:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[01-Dec-2024 20:01:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[07-Dec-2024 06:12:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php on line 22
+[01-Feb-2025 06:19:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RequestContextAwareInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24
+[08-Feb-2025 16:17:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[24-Apr-2025 23:54:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20
+[27-Apr-2025 06:40:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[03-May-2025 03:38:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RequestContextAwareInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24
+[10-May-2025 14:43:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[30-May-2025 20:37:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[07-Jun-2025 15:49:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[09-Jun-2025 14:30:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[20-Jun-2025 19:33:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[29-Jun-2025 04:47:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[29-Jun-2025 09:56:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[01-Jul-2025 19:01:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RequestContextAwareInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24
+[12-Jul-2025 22:28:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RequestContextAwareInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24
+[29-Jul-2025 20:41:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RequestContextAwareInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24
+[03-Oct-2025 03:53:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20
+[08-Oct-2025 11:18:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[10-Oct-2025 17:46:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[24-Oct-2025 03:34:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RequestContextAwareInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24
+[26-Oct-2025 06:43:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[02-Nov-2025 00:14:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20
+[16-Dec-2025 05:35:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php on line 22
+[08-Jan-2026 12:59:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php on line 22
+[10-Jan-2026 16:18:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[16-Jan-2026 19:49:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php on line 22
+[22-Jan-2026 06:19:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20
+[23-Jan-2026 18:50:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[01-Feb-2026 23:57:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/CompiledUrlMatcher.php on line 22
+[19-Feb-2026 02:42:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[28-Feb-2026 16:03:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[17-Mar-2026 19:45:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[07-Apr-2026 16:04:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Routing\Matcher\UrlMatcher" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[15-Apr-2026 15:36:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29

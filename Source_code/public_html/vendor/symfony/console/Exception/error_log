@@ -1,0 +1,264 @@
+[07-Sep-2024 09:49:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[06-Oct-2024 18:04:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php on line 17
+[16-Dec-2024 18:33:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[23-Dec-2024 15:06:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php on line 17
+[26-Jan-2025 20:32:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[26-Feb-2025 04:39:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[11-Mar-2025 06:01:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\CommandNotFoundException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/NamespaceNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/NamespaceNotFoundException.php on line 19
+[30-Apr-2025 04:28:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[06-May-2025 19:51:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[17-May-2025 18:54:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php on line 17
+[22-May-2025 12:21:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php on line 17
+[30-May-2025 13:20:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[13-Jun-2025 14:52:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[16-Jun-2025 21:21:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[29-Jun-2025 10:38:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[30-Jun-2025 20:26:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[03-Jul-2025 23:38:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[06-Jul-2025 04:25:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[14-Jul-2025 19:44:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[16-Jul-2025 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php on line 17
+[17-Jul-2025 01:26:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[19-Jul-2025 21:56:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[21-Jul-2025 16:10:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[14-Aug-2025 17:08:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[04-Sep-2025 00:43:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[03-Oct-2025 12:41:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php on line 17
+[05-Oct-2025 09:51:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[08-Oct-2025 23:23:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php on line 17
+[28-Oct-2025 19:32:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[28-Oct-2025 19:47:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php on line 17
+[29-Oct-2025 15:47:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[22-Nov-2025 19:07:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php on line 17
+[23-Nov-2025 21:23:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[15-Dec-2025 19:46:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[17-Dec-2025 18:50:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[19-Dec-2025 12:21:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[28-Dec-2025 15:59:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[01-Jan-2026 21:39:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php on line 17
+[03-Jan-2026 23:14:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[05-Jan-2026 14:22:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[06-Jan-2026 22:04:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[14-Jan-2026 18:43:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[17-Jan-2026 05:34:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[21-Jan-2026 07:38:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[25-Jan-2026 02:40:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php on line 17
+[25-Jan-2026 22:53:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[29-Jan-2026 08:25:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[01-Feb-2026 20:03:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/RuntimeException.php on line 17
+[05-Feb-2026 21:04:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[11-Feb-2026 05:36:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[12-Feb-2026 00:14:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[17-Feb-2026 11:19:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[19-Feb-2026 15:41:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidArgumentException.php on line 17
+[22-Feb-2026 11:11:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[27-Feb-2026 11:42:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[01-Mar-2026 03:57:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[02-Mar-2026 03:42:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[04-Mar-2026 12:06:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[06-Mar-2026 18:49:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[21-Mar-2026 15:29:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17
+[26-Mar-2026 03:56:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[01-Apr-2026 06:04:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[09-Apr-2026 00:40:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/MissingInputException.php on line 19
+[09-Apr-2026 07:40:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/CommandNotFoundException.php on line 19
+[16-Apr-2026 11:43:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/InvalidOptionException.php on line 19
+[16-Apr-2026 22:31:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Console\Exception\ExceptionInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/Exception/LogicException.php on line 17

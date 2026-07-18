@@ -1,0 +1,120 @@
+[02-Sep-2024 00:47:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[05-Nov-2024 03:38:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[19-Dec-2024 00:38:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[04-May-2025 08:54:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[31-May-2025 01:33:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[01-Jun-2025 14:03:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[12-Jun-2025 13:54:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[19-Jun-2025 07:46:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[20-Jun-2025 01:46:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Jun-2025 12:40:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[11-Jul-2025 17:16:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[20-Jul-2025 04:05:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[30-Jul-2025 07:14:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[18-Aug-2025 12:05:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[29-Aug-2025 22:00:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[02-Oct-2025 07:24:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[10-Oct-2025 20:51:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[23-Dec-2025 04:46:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[28-Dec-2025 15:31:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[02-Jan-2026 00:18:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[07-Jan-2026 15:52:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[12-Jan-2026 00:25:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[18-Jan-2026 22:38:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Jan-2026 23:16:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[01-Feb-2026 23:52:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[12-Feb-2026 23:24:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[13-Feb-2026 13:43:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[04-Mar-2026 18:10:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[23-Mar-2026 14:58:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[02-Apr-2026 16:04:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19

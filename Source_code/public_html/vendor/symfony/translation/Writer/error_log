@@ -1,0 +1,52 @@
+[07-Oct-2024 01:50:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[13-Jan-2025 12:10:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[15-Mar-2025 16:41:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[07-May-2025 18:40:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[21-May-2025 09:21:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[29-Jun-2025 05:13:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[20-Jul-2025 11:01:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[29-Jul-2025 06:54:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[08-Oct-2025 17:38:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[04-Jan-2026 00:20:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[01-Feb-2026 21:30:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[06-Mar-2026 09:53:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24
+[16-Apr-2026 21:24:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\Writer\TranslationWriterInterface" not found in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/translation/Writer/TranslationWriter.php on line 24

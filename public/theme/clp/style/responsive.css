@@ -1,0 +1,1579 @@
+@media (min-width: 1200px) {
+    .col-5 {
+        width: 20%;
+        padding: 0px;
+    }
+    .single-event .col-5 {
+        width: 20%;
+        padding: 0 15px;
+    }
+    .main-footer .footer-widget.link-column {
+        margin-left: 65px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .theme_menu .defaultmainmenu {
+        float: left;
+    }
+    .nav_side_content {
+        margin-top: 37px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    /*====menu=======*/
+    .defaultmainmenu-menu>li>a {
+        padding: 37px 7px;
+    }
+    /*====menu=======*/
+    .theme_menu .menu-column {
+        padding-right: 60px;
+    }
+    .theme_menu .right-column {
+        right: 6px;
+    }
+}
+
+@media (max-width: 991px) {
+    .defaultmainmenu-menu li .indicator {
+        display: block;
+    }
+    .nav_side_content {
+        margin-top: 29px;
+    }
+    /*====logo=======*/
+    .main-logo {
+        margin: 0;
+        position: relative;
+        top: 22px;
+    }
+    /*====menu=======*/
+    .theme_menu {
+        background-color: #333;
+        padding: 0px;
+    }
+    .theme_menu .menu-column {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .defaultmainmenu-menu>li>a {
+        padding: 30px 7px;
+    }
+    .defaultmainmenu-menu>li>.megamenu-style2 {
+        display: none;
+    }
+    .defaultmainmenu-responsive.defaultmainmenu {
+        position: relative;
+        padding-bottom: 15px;
+    }
+    .defaultmainmenu .showhide {
+        width: 30px;
+        padding: 0;
+        height: 30px;
+        position: relative;
+        top: -14px;
+    }
+    .defaultmainmenu .showhide span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin: 4px 0;
+        background: #ff5722;
+    }
+    .defaultmainmenu-menu>li:first-child a {
+        padding-left: 20px;
+    }
+    .defaultmainmenu-menu ul.dropdown li a {
+        color: #aaa;
+    }
+    .defaultmainmenu-menu ul.dropdown {
+        background: #303030 !important;
+        padding: 0;
+    }
+    .defaultmainmenu-responsive .defaultmainmenu-menu.defaultmainmenu-indented>li>ul.dropdown>li:hover>a {
+        padding-left: 40px !important;
+    }
+    /*====menu=======*/
+    /*=========search=========*/
+    .theme_menu .right-column {
+        right: 60px;
+        top: 4px;
+    }
+    .nav_side_content .search_option>button {
+        border: 0px;
+    }
+    /*======top-bar=========*/
+    .top-bar-text {
+        float: none;
+        text-align: center;
+    }
+    .top-bar-text p {
+        color: #999;
+        margin-bottom: 12px;
+    }
+    .right-column {
+        float: none;
+        text-align: center;
+    }
+    .top-bar .social li a {
+        color: #999;
+    }
+    #polyglotLanguageSwitcher a.current:link,
+    #polyglotLanguageSwitcher a.current:visited,
+    #polyglotLanguageSwitcher a.current:active {
+        color: #999;
+        border-color: #999;
+    }
+    /*========================================*/
+    .rev_slider_wrapper {
+        margin-top: -90px;
+    }
+    .inner-banner {
+        margin-top: -90px;
+        background-position: top 0px center;
+    }
+    .feature {
+        background-position: left center;
+    }
+    .single-event .event-timeline {
+        margin-bottom: 50px;
+    }
+    .blog-single-post .post-area,
+    .blog-large .post-area {
+        border: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .defaultmainmenu-menu .event-section2,
+    .defaultmainmenu-menu .menu-item,
+    .megamenu .recent-post {
+        width: 100%;
+    }
+    .rev_slider_wrapper {
+        margin-top: 0px;
+    }
+    .our-mission {
+        margin-top: 0px;
+    }
+    .team-style-3 {
+        text-align: center;
+    }
+    .team-style-1 {
+        text-align: center;
+    }
+    .social-icon li a {
+        font-size: 18px;
+        margin-right: 12px;
+    }
+    .impact-count-blk,
+    .impact-count-blk.left-mrg {
+        margin: 40px auto;
+    }
+    .sec-padd {
+        padding: 30px 10px;
+    }
+    .inner-banner h1 {
+        line-height: 36px;
+        font-size: 28px;
+        padding-top: 40px;
+    }
+    .card.partner-items.literacy {
+        margin-bottom: 30px;
+    }
+    .card-columns.literacy-columns .partner-items.literacy {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 690px) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    img.img-responsive {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-logo img {
+        width: 260px;
+    }
+    .nav_side_content {
+        margin-top: 21px;
+    }
+    .defaultmainmenu .showhide {
+        top: -16px;
+    }
+    .main-logo .text {
+        padding-top: 4px;
+        margin-left: 14px;
+        font-size: 15px;
+        max-width: 220px;
+    }
+    .call-out h4 {
+        font-size: 20px;
+        padding: 0 35px;
+    }
+    .welcome-inner,
+    .introduction-wrap .welcome-inner {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 475px) {
+    .fact-counter .column {
+        width: inherit;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        float: inherit;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 420px) {
+    .top-bar-text p {
+        margin-bottom: 0px;
+    }
+}
+
+
+/* responsive*/
+
+
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {}
+
+
+/* Medium Layout: 1100px / 1024px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu nav ul li a {
+        padding: 35px 10px;
+    }
+    .event-single {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .event-thumb {
+        width: 100%;
+    }
+    .event-content {
+        padding-left: 0;
+        padding: 35px 20px;
+    }
+    .event-meta .fix h2,
+    .event-meta .fix p {
+        font-size: 13px;
+    }
+    .w-gallery-img li {
+        flex-basis: calc(100% * (1/3) - 5px);
+    }
+    .widget-brand ul.fsocial li {
+        margin-right: 2px;
+    }
+    /*------------------------
+	 Home Two
+	 ------------------------*/
+    .benefit-single h4 {
+        font-size: 16px;
+    }
+    /*------------------------
+	 Home Three
+	 ------------------------*/
+    .donate-form h2 {
+        font-size: 23px;
+    }
+    .benefit-content h3 {
+        font-size: 31px;
+    }
+    .subscribe-content h2 {
+        font-size: 27px;
+    }
+}
+
+
+/* Tablet Layout: 900px / 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*------------------------
+	 Home One
+	 ------------------------*/
+    .header-bottom,
+    .header-bottom.header-fixed {
+        background-color: #1f1e1e;
+        padding-top: 24px;
+        position: relative;
+        top: 0px;
+    }
+    .header-bottom .d-flex {
+        display: block;
+    }
+    .search-form {
+        right: -92px;
+    }
+    .search-form:before {
+        display: none;
+    }
+    .slider-content h2 {
+        font-size: 34px;
+        line-height: 47px;
+    }
+    .about-area,
+    .event-area,
+    .causes-area {
+        padding: 90px 0px;
+    }
+    .cause-item {
+        margin-bottom: 30px;
+    }
+    .team-area {
+        padding: 90px 0px 80px;
+        text-align: center;
+    }
+    .team-member {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .subscribe-content h2 {
+        font-size: 25px;
+    }
+    .subscribe-content p {
+        font-size: 14px;
+    }
+    .event-single {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .event-thumb {
+        width: 100%;
+    }
+    .event-content {
+        padding-left: 0;
+        padding: 20px;
+    }
+    .memories-area {
+        padding: 90px 0px 70px;
+    }
+    .event-meta .fix h2,
+    .event-meta .fix p {
+        font-size: 13px;
+    }
+    footer .widget {
+        margin-bottom: 40px;
+    }
+    .w-gallery-img {
+        display: block;
+    }
+    .w-gallery-img li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    /*------------------------
+	 Home Two
+	 ------------------------*/
+    .header_style_two .header-bottom,
+    .header_style_two .header-bottom.header-fixed {
+        background-color: #1f1e1e;
+        padding-top: 24px;
+        position: relative;
+        top: 0px;
+    }
+    .header_style_two .slicknav_menu>a {
+        top: -25px;
+    }
+    .header_style_two .ht-contact ul li {
+        margin-right: 15px;
+    }
+    .volunteer-inner p {
+        font-size: 18px;
+    }
+    .ev2-list-item .ev2-meta span:first-child {
+        display: none;
+    }
+    .blog-area {
+        padding: 100px 0px 70px;
+    }
+    .blog-single {
+        margin-bottom: 30px;
+    }
+    .achivement-single p {
+        font-size: 16px;
+    }
+    /*------------------------
+	 Home Three
+	 ------------------------*/
+    .knw-single h2 {
+        font-size: 30px;
+    }
+    .about-title h2 {
+        font-size: 29px;
+    }
+    .ev3-countdown .cdown {
+        display: inline-block;
+        margin: 0px 5px;
+    }
+    .ev3-countdown .cdown .time-count {
+        height: 50px;
+        width: 50px;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 0;
+        display: block;
+    }
+    .ev3-caption {
+        padding-bottom: 110px;
+    }
+    .single-volunteer .text span,
+    .single-volunteer .text h4 {
+        font-size: 12px;
+    }
+    .single-volunteer .text {
+        padding: 20px 13px;
+    }
+    .single-volunteer .t-social {
+        bottom: 25%;
+    }
+    /*------------------------
+     About US
+     ------------------------*/
+    .welcome-area {
+        padding: 90px 0px;
+    }
+    .welcome-content {
+        display: block;
+    }
+    .about-video {
+        margin-top: 25px;
+        height: 300px;
+    }
+    /*------------------------
+     Cause Page
+     ------------------------*/
+    .cause-single .cause-item {
+        width: 50%;
+        float: left;
+    }
+    .sidebar-area {
+        padding-left: 0px;
+    }
+    /*------------------------
+     Event grid
+     ------------------------*/
+    .event-grid {
+        padding: 90px 0px;
+    }
+    /*------------------------
+     Event List
+     ------------------------*/
+    .event-list-area {
+        padding: 80px 0px;
+    }
+    .ev3-single {
+        display: block;
+        width: calc(50% - 30px);
+        float: left;
+        margin: 0px 15px;
+        margin-bottom: 30px;
+    }
+    /*------------------------
+     Event Details
+     ------------------------*/
+    .event-details {
+        padding: 80px 0px;
+    }
+    /*------------------------
+     Gallery Fullwide
+     ------------------------*/
+    .gallery-fullwide {
+        padding: 90px 0px;
+    }
+    /*------------------------
+     Gallery Fullwide
+     ------------------------*/
+    .blog-standard {
+        padding: 90px 0px;
+    }
+    /*------------------------
+     Gallery Details
+     ------------------------*/
+    .blog-details-area {
+        padding: 90px 0px;
+    }
+    .next-prev {
+        display: block;
+    }
+    .next-prev .np-single {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .next-prev .np-single:last-child {
+        text-align: right;
+    }
+    .comment-area {
+        margin-top: 50px;
+    }
+    /*------------------------
+     Contact
+     ------------------------*/
+    .contact-area {
+        padding: 90px 0px;
+    }
+    /*------------------------
+     Donate Page
+     ------------------------*/
+    .donate-us {
+        padding: 90px 0px;
+    }
+    /*------------------------
+     All Team Member
+     ------------------------*/
+    .all-team-member {
+        padding: 90px 0px 60px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    /*------------------------
+	 Home One
+	 ------------------------*/
+    .slider-item {
+        height: 658px;
+        padding-bottom: 50px;
+    }
+    .team-area {
+        text-align: center;
+    }
+    .team-member {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    /*------------------------
+	 Home Two
+	 ------------------------*/
+    .header_style_two .logo {
+        text-align: center;
+        margin-bottom: 28px;
+    }
+    .header_style_two .header-bottom.header-fixed,
+    .header_style_two .header-bottom {
+        background: rgba(0, 0, 0, 0.9);
+    }
+    .header_style_two .slicknav_menu a {
+        top: -4px;
+    }
+    .header_style_two .slicknav_nav {
+        padding: 18px 0px 9px;
+    }
+    /*------------------------
+	 Home Three
+	 ------------------------*/
+    .ev3-countdown .cdown {
+        display: inline-block;
+        margin: 0px 5px;
+    }
+    .ev3-countdown .cdown .time-count {
+        height: 50px;
+        width: 50px;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 0;
+        display: block;
+    }
+    .ev3-caption {
+        padding-bottom: 110px;
+    }
+    /*------------------------
+	 Home Three
+	 ------------------------*/
+    .donate-form {
+        padding: 26px 10px;
+    }
+    .donate-form h2 {
+        font-size: 19px;
+    }
+    .donate-form form input[type='text'] {
+        height: 39px;
+        margin-bottom: 12px;
+    }
+    /*------------------------
+     Cause Page
+     ------------------------*/
+    .cause-single .cause-info h2 a {
+        margin-top: 18px;
+    }
+    .sidebar-area {
+        max-width: 420px;
+        width: 100%;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .crumbs-area {
+        padding: 80px 0px 80px;
+    }
+    /*------------------------
+     Gallery Details
+     ------------------------*/
+    .next-prev {
+        display: block;
+    }
+    .next-prev .np-single {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .next-prev .np-single:last-child {
+        text-align: right;
+    }
+    .team-item {
+        min-width: 290px;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .iframe-container {
+        width: 100%;
+        padding-bottom: 60%;
+    }
+    .iframe-container iframe {
+        left: 0;
+        width: 100%;
+    }
+    .welcome-content iframe {
+        width: 100%;
+    }
+    .read-more {
+        margin: 10px 0 30px;
+    }
+    .stand-inner-col {
+        border-right: 0;
+        margin: 30px 0;
+    }
+    .clc-stands-wrap .mrg-top {
+        margin-top: 0;
+    }
+    .clp-footer .copyright-text {
+        margin-top: 20px;
+    }
+    .footer-title {
+        margin: 20px 0;
+    }
+    .btn-area.donate-now {
+        margin: 40px 0 0;
+    }
+    .statement-innertestimonial h4 {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 18px;
+    }
+    .statement-innertestimonial span {
+        margin: 10px 30px 0 0;
+    }
+    .impact-thm-btn {
+        margin: 0;
+    }
+    .for-each {
+        margin: 0;
+    }
+    .qt {
+        text-align: center;
+    }
+    .introduction-wrap .welcome-inner,
+    .welcome-inner .description {
+        min-height: initial;
+    }
+    .btn-success {
+        margin-bottom: 30px;
+    }
+    .sponsor-clc-scr .inner ul {
+        min-height: initial;
+    }
+    .defaultmainmenu-responsive .defaultmainmenu-menu>li:first-child>a {
+        border-top: solid 1px #6d6d6d;
+    }
+    .defaultmainmenu-responsive .defaultmainmenu-menu>li>a,
+    .defaultmainmenu-responsive .defaultmainmenu-menu ul.dropdown li a {
+        border-bottom: solid 1px #6d6d6d;
+    }
+    .defaultmainmenu-responsive .defaultmainmenu-menu li .indicator {
+        border-left: 0;
+    }
+    .defaultmainmenu-menu ul.dropdown,
+    .defaultmainmenu-menu ul.dropdown li ul.dropdown {
+        max-width: 100%;
+    }
+    .defaultmainmenu-menu ul.dropdown li a:before {
+        right: 15px;
+    }
+    .team-item h4 {
+        margin: 25px 0 15px;
+        min-height: initial;
+    }
+    .news-right-cont .titles {
+        margin: 20px 0;
+    }
+    .news-left-cont,
+    .news-right-cont {
+        margin-bottom: 20px;
+    }
+    .news-right-cont .text {
+        margin: 0 0 30px 0;
+    }
+}
+
+
+/* Wide Mobile Layout:767px */
+
+@media only screen and (max-width: 640px) {
+    .inner-banner h1 {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+    .learn-more-btn {
+        margin: 15px 0 0;
+    }
+    .card.partner-items.literacy {
+        margin-bottom: 0;
+    }
+    .section-title {
+        margin: 20px 0 5px !important;
+    }
+    .spns-benefits-list {
+        padding-left: 20px;
+    }
+    .theme_menu.stricky-fixed {
+        padding: 0 !important;
+    }
+    .partner-items .img-col {
+        min-height: 200px;
+    }
+    .partner-items .text-col {
+        padding: 30px 20px;
+    }
+    .amazonSmile-right {
+        padding: 20px;
+    }
+    .amazonSmile-left {
+        padding: 0 20px;
+    }
+    .amazonSmile-left .note {
+        margin: 40px 0 30px;
+    }
+}
+
+
+/* Wide Mobile Layout:640px */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /*------------------------
+	 Home One
+	 ------------------------*/
+    .header-bottom,
+    .header-bottom.header-fixed {
+        background-color: #1f1e1e;
+        padding-top: 24px;
+        position: relative;
+        top: 0px;
+    }
+    .header-bottom .d-flex {
+        display: block;
+    }
+    .search-form {
+        right: -92px;
+    }
+    .search-form:before {
+        display: none;
+    }
+    .ht-contact ul li {
+        margin-right: 4px;
+    }
+    .ht-contact ul li i {
+        margin-right: 7px;
+    }
+    .slider-content h2 {
+        font-size: 33px;
+    }
+    .slider-item {
+        height: 495px;
+    }
+    .about-left-img {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .cause-item {
+        margin-bottom: 30px;
+    }
+    .about-area,
+    .causes-area,
+    .event-area {
+        padding: 90px 0px;
+    }
+    .team-area {
+        padding: 90px 0px 70px;
+    }
+    .subscribe-area .d-flex {
+        display: block;
+    }
+    .subscribe-form {
+        margin-top: 30px;
+    }
+    .event-single {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .event-thumb {
+        width: 100%;
+    }
+    .event-content {
+        padding-left: 0;
+        padding: 20px;
+    }
+    .event-meta .fix h2,
+    .event-meta .fix p {
+        font-size: 13px;
+    }
+    footer .widget {
+        margin-bottom: 50px;
+    }
+    .widget-quick ul {
+        padding-left: 16px;
+    }
+    .w-gallery-img {
+        display: block;
+    }
+    .w-gallery-img li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .fb-inner {
+        display: block;
+        text-align: center;
+    }
+    .fb-inner ul {
+        text-align: center;
+    }
+    .footer-bottom {
+        padding-bottom: 40px;
+    }
+    /*------------------------
+	 Home Two
+	 ------------------------*/
+    .header_style_two .header-top {
+        height: 130px;
+    }
+    .header_style_two .ht-contact ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .header_style_two .logo {
+        margin-top: 28px;
+    }
+    .header_style_two .ht-donate {
+        margin-top: 30px;
+    }
+    .header_style_two .search-btn {
+        text-align: left;
+    }
+    .header_style_two .search-btn>i {
+        display: block;
+    }
+    .header_style_two .search-form {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        right: auto;
+        top: 51px;
+    }
+    .header_style_two .search-form.show-hide-search {
+        opacity: 1;
+        visibility: visible;
+    }
+    .feature-item {
+        margin-bottom: 30px;
+    }
+    .feature-area {
+        padding: 100px 0px 80px;
+    }
+    .benefit-content h3 {
+        font-size: 36px;
+    }
+    .benefit-content h5 {
+        font-size: 22px;
+    }
+    .achivements-area {
+        padding: 100px 0px 30px
+    }
+    .achivement-single {
+        margin-bottom: 50px;
+    }
+    .volunteer-inner p {
+        font-size: 18px;
+    }
+    .causes-area {
+        padding: 90px 0px 70px;
+    }
+    .upcooming-events {
+        padding: 90px 0px 70px;
+    }
+    .memories-area {
+        padding: 80px 0px 60px;
+    }
+    .testimonial-carousel .tst-items {
+        margin: 0px 26px;
+    }
+    .blog-area {
+        padding: 90px 0px 70px;
+    }
+    .blog-single {
+        margin-bottom: 30px;
+    }
+    /*------------------------
+	 Home Three
+	 ------------------------*/
+    .full-screen-slider .slingle-slider .d-flex {
+        display: block;
+    }
+    .full-screen-slider .btn-area a {
+        margin-left: 0;
+        margin-bottom: 12px;
+    }
+    .knw-single {
+        margin-bottom: 30px;
+    }
+    .know-more-area {
+        padding: 90px 0px 60px;
+    }
+    .about-title h2 {
+        font-size: 28px;
+    }
+    .vision-area {
+        padding: 90px 0px 60px;
+    }
+    .vision-item {
+        margin-bottom: 30px;
+    }
+    .testimonial-tow {
+        padding: 90px 0px;
+    }
+    .vt3-quotes-slider {
+        margin-top: 0;
+    }
+    .vt3-quotes-slider .slick-arrow {
+        left: -211px;
+        right: 0;
+        top: 0;
+    }
+    .vt3-quotes-slider .slick-arrow.slick-next {
+        left: -84px;
+    }
+    .team-style-two {
+        padding-top: 90px;
+    }
+    .single-volunteer {
+        margin-bottom: 30px;
+    }
+    .h3-blog {
+        padding: 60px 0px;
+    }
+    /*------------------------
+     About US
+     ------------------------*/
+    .welcome-area {
+        padding: 80px 0px;
+    }
+    .welcome-content {
+        display: block;
+    }
+    .welcome-inner h2 {
+        font-size: 30px;
+    }
+    .about-video {
+        margin-top: 25px;
+        height: 300px;
+    }
+    /*------------------------
+     Cause Details
+     ------------------------*/
+    .cause-details {
+        padding-bottom: 60px;
+    }
+    /*------------------------
+     Event grid
+     ------------------------*/
+    .event-grid {
+        padding: 80px 0px;
+    }
+    .event-grid .ev3-caption {
+        padding-bottom: 50px;
+    }
+    /*------------------------
+     Event List
+     ------------------------*/
+    .event-list-area {
+        padding: 80px 0px;
+    }
+    .ev3-single {
+        display: block;
+    }
+    /*------------------------
+     Event Details
+     ------------------------*/
+    .event-details {
+        padding: 80px 0px;
+    }
+    /*------------------------
+     Gallery Fullwide
+     ------------------------*/
+    .gallery-fullwide {
+        padding: 80px 0px;
+    }
+    /*------------------------
+     Gallery Fullwide
+     ------------------------*/
+    .blog-standard {
+        padding: 80px 0px;
+    }
+    /*------------------------
+     Gallery Details
+     ------------------------*/
+    .blog-details-area {
+        padding: 80px 0px;
+    }
+    .comment-area {
+        margin-top: 30px;
+    }
+    /*------------------------
+     Contact
+     ------------------------*/
+    .contact-area {
+        padding: 80px 0px;
+    }
+    .contact-us-form {
+        margin-top: 40px;
+    }
+    /*------------------------
+     Donate Page
+     ------------------------*/
+    .donate-us {
+        padding: 80px 0px;
+    }
+    /*------------------------
+     All Team Member
+     ------------------------*/
+    .all-team-member {
+        padding: 80px 0px 50px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .col-1 {
+        float: left;
+        width: 8.33333333%;
+    }
+    .col-2 {
+        float: left;
+        width: 16.66666667%;
+    }
+    .col-3 {
+        float: left;
+        width: 25%;
+    }
+    .col-4 {
+        float: left;
+        width: 33.33333333%;
+    }
+    .col-5 {
+        float: left;
+        width: 41.66666667%;
+    }
+    .col-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-7 {
+        float: left;
+        width: 58.33333333%;
+    }
+    .col-8 {
+        float: left;
+        width: 66.66666667%;
+    }
+    .col-9 {
+        float: left;
+        width: 75%;
+    }
+    .col-10 {
+        float: left;
+        width: 83.33333333%;
+    }
+    .col-11 {
+        float: left;
+        width: 91.66666667%;
+    }
+    .col-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+
+/* Wide Mobile Layout: 320px / 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    /*------------------------
+	 Home One
+	 ------------------------*/
+    .header-top {
+        height: auto;
+        padding: 18px 0px 10px;
+    }
+    .header-bottom,
+    .header-bottom.header-fixed {
+        background-color: #1f1e1e;
+        padding-top: 24px;
+        position: relative;
+        top: 0px;
+    }
+    .ht-contact ul li {
+        display: inline-block;
+        margin: 0px 1px;
+        border-right: 1px solid #fff;
+        padding-right: 9px;
+    }
+    .ht-contact ul li:last-child {
+        padding-bottom: 0;
+        margin: 0;
+        border: none;
+    }
+    .ht-contact ul li i {
+        margin-right: 6px;
+        border: none;
+        width: 16px;
+    }
+    .ht-donate {
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .header-bottom .d-flex {
+        display: block;
+    }
+    .search-form {
+        right: -92px;
+    }
+    .search-form:before {
+        display: none;
+    }
+    .slider-content h2 {
+        font-size: 21px;
+        line-height: 44px;
+    }
+    .slider-content .btn-area a {
+        margin: 0px 8px 10px;
+    }
+    .about-right-text>h2 {
+        font-size: 27px;
+    }
+    .about-left-img {
+        margin-bottom: 40px;
+    }
+    .donate-count {
+        flex-wrap: wrap;
+    }
+    .donate-count .d-single {
+        flex-basis: calc(100% * (2/4) - 20px);
+        margin-bottom: 20px;
+    }
+    .about-area,
+    .causes-area,
+    .event-area {
+        padding: 70px 0px;
+    }
+    .cause-item {
+        margin-bottom: 30px;
+    }
+    .see-all {
+        margin-top: 20px;
+    }
+    .team-area {
+        text-align: center;
+        padding: 70px 0px 50px;
+    }
+    .team-member {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .volunteer-inner h2 {
+        font-size: 22px;
+    }
+    .memories-area {
+        padding: 70px 0px 50px;
+    }
+    .donate-form h2 {
+        font-size: 27px;
+    }
+    .subscribe-area .d-flex {
+        display: block;
+    }
+    .subscribe-content h2 {
+        font-size: 20px;
+    }
+    .subscribe-form {
+        margin-top: 30px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .event-single {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .event-thumb {
+        width: 100%;
+    }
+    .event-content {
+        padding-left: 0;
+        padding: 30px;
+    }
+    .event-meta .fix h2,
+    .event-meta .fix p {
+        font-size: 13px;
+    }
+    .footer-bottom {
+        padding-bottom: 30px;
+    }
+    footer .widget {
+        margin-bottom: 50px;
+    }
+    .widget-quick ul {
+        padding-left: 15px;
+    }
+    .fb-inner {
+        display: block;
+        text-align: center;
+    }
+    .fb-inner ul {
+        text-align: center;
+    }
+    /*------------------------
+	 Home Two
+	 ------------------------*/
+    .header_style_two .search-btn {
+        text-align: left;
+    }
+    .header_style_two .search-btn>i {
+        display: block;
+    }
+    .header_style_two .search-form {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        right: auto;
+        top: 51px;
+    }
+    .header_style_two .search-form.show-hide-search {
+        opacity: 1;
+        visibility: visible;
+    }
+    .feature-area {
+        padding: 70px 0px 50px;
+    }
+    .feature-item {
+        margin-bottom: 30px;
+    }
+    .benefit-content {
+        padding: 70px 25px;
+    }
+    .causes-slider .cause-item {
+        margin-bottom: 0;
+    }
+    .benefit-content h3 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .benefit-content h5 {
+        font-size: 18px;
+    }
+    .achivement-single {
+        margin-bottom: 50px;
+    }
+    .achivements-area {
+        padding: 100px 0px 50px;
+    }
+    .causes-slider .owl-item:last-child .cause-item {
+        margin-bottom: 0;
+    }
+    .upcooming-events {
+        padding: 70px 0px 50px;
+    }
+    .ev2-list-item .ev2-meta span:first-child {
+        display: none;
+    }
+    .ev2-list-item .meta-left img {
+        max-width: 66px;
+    }
+    .ev2-list-item .meta-left .event-date span {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .ev2-list-item .meta-content h2 a {
+        line-height: 20px;
+    }
+    .tst-style-two {
+        padding-bottom: 59px;
+    }
+    .blog-area {
+        padding: 70px 0px 50px;
+    }
+    .blog-single {
+        margin-bottom: 30px;
+    }
+    .testimonial-carousel .tst-items {
+        margin: 0px 15px;
+    }
+    /*------------------------
+	 Home Three
+	 ------------------------*/
+    .full-screen-slider .slingle-slider {
+        text-align: center;
+    }
+    .full-screen-slider .slingle-slider .d-flex {
+        display: block;
+    }
+    .full-screen-slider .owl-dots {
+        display: none;
+    }
+    .knw-single {
+        margin-bottom: 30px;
+    }
+    .know-more-area {
+        padding: 80px 0px 50px;
+    }
+    .about-title h2 {
+        font-size: 19px;
+    }
+    .about-title img {
+        margin-top: 47px;
+    }
+    .vision-area {
+        padding: 80px 0px 50px;
+    }
+    .vision-item {
+        margin-bottom: 30px;
+    }
+    .ev3-item {
+        margin-bottom: 30px;
+    }
+    .upcooming-event-two {
+        padding-bottom: 60px;
+    }
+    .volunteer-list {
+        padding-left: 0;
+        text-align: center;
+    }
+    .vt3-thumbnail-slider {
+        position: relative;
+        display: inline-block;
+    }
+    .vt3-quotes-slider {
+        padding-left: 0px;
+        margin-top: 100px;
+    }
+    .vt3-quotes-slider .slick-arrow.slick-prev {
+        right: auto;
+        left: 25px;
+    }
+    .vt3-quotes-slider .slick-arrow.slick-next {
+        left: auto;
+        right: 25px;
+    }
+    .testimonial-tow {
+        padding: 40px 0px 80px;
+    }
+    .single-volunteer {
+        margin-bottom: 30px;
+    }
+    .team-style-two {
+        padding-top: 80px;
+    }
+    .h3-blog {
+        padding: 50px 0px;
+    }
+    /*------------------------
+     About US
+     ------------------------*/
+    .welcome-area {
+        padding: 0 0px 30px;
+    }
+    .welcome-content {
+        display: block;
+    }
+    .welcome-inner h2 {
+        font-size: 26px;
+    }
+    .about-video {
+        margin-top: 25px;
+        height: 195px;
+    }
+    /*------------------------
+     Cause Page
+     ------------------------*/
+    .cause-share-meta .btn-area {
+        margin-top: 16px;
+    }
+    .social-share {
+        margin-top: 21px;
+    }
+    .cause-details {
+        padding-bottom: 50px;
+    }
+    /*------------------------
+     Event grid
+     ------------------------*/
+    .event-grid {
+        padding: 70px 0px;
+    }
+    .event-grid .ev3-caption {
+        padding-bottom: 50px;
+    }
+    /*------------------------
+     Event List
+     ------------------------*/
+    .event-list-area {
+        padding: 70px 0px;
+    }
+    .ev3-single {
+        display: block;
+    }
+    /*------------------------
+     Event Details
+     ------------------------*/
+    .event-details {
+        padding: 70px 0px;
+    }
+    /*------------------------
+     Gallery Masonary
+     ------------------------*/
+    .gallery-filter ul li+li:before {
+        display: none;
+    }
+    .gallery-filter ul li {
+        font-size: 14px;
+        margin: 0px 5px;
+        border: 1px solid #efe8e8;
+        padding: 6px 12px;
+        margin-bottom: 8px;
+    }
+    /*------------------------
+     Gallery Fullwide
+     ------------------------*/
+    .gallery-fullwide {
+        padding: 70px 0px;
+    }
+    /*------------------------
+     Gallery Fullwide
+     ------------------------*/
+    .blog-standard {
+        padding: 70px 0px;
+    }
+    /*------------------------
+     Gallery Details
+     ------------------------*/
+    .blog-details-area {
+        padding: 70px 0px;
+    }
+    .blog-thumb .meta-date b {
+        padding: 10px;
+        line-height: 19px;
+        font-size: 15px;
+    }
+    .blog-thumb .meta-date span {
+        font-size: 18px;
+        padding: 6px 0px;
+    }
+    .blog-details blockquote {
+        padding: 40px 15px 40px 67px;
+    }
+    .comment-area {
+        margin-top: 40px;
+    }
+    .comment-info-inner .meta-left img {
+        max-width: 60px;
+    }
+    .comment-info-inner a.reply-btn {
+        position: relative;
+        bottom: 0;
+        top: 0;
+        margin-top: 30px;
+    }
+    .children {
+        padding-left: 10px;
+    }
+    .comment-info-inner p.category span:last-child {
+        display: block;
+    }
+    .comment-info-inner p.category span:first-child {
+        border: none;
+    }
+    /*------------------------
+     Contact
+     ------------------------*/
+    .contact-area {
+        padding: 70px 0px;
+    }
+    .contact-us-form {
+        margin-top: 40px;
+    }
+    /*------------------------
+     Donate Page
+     ------------------------*/
+    .donate-us {
+        padding: 70px 0px;
+    }
+    .donate-title h2 {
+        font-size: 22px;
+    }
+    .d-form-box h4 {
+        font-size: 16px;
+    }
+    .select-custome-box {
+        width: 100%;
+        overflow: hidden;
+    }
+    .donation-count .select-box {
+        margin-right: 10px;
+    }
+    /*------------------------
+     All Team Member
+     ------------------------*/
+    .all-team-member {
+        padding: 70px 0px 40px;
+    }
+    .top-bar .thm-btn {
+        padding: 4px 30px !important;
+    }
+    .testimonial-section-one .owl-theme .owl-prev span,
+    .testimonial-section-one .owl-theme .owl-next span {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+}

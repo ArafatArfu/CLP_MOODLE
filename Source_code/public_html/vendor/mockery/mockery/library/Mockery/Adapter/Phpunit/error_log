@@ -1,0 +1,72 @@
+[09-Oct-2024 03:29:31 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[19-Dec-2024 10:05:04 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[14-Jan-2025 06:37:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[25-Jan-2025 20:18:30 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[19-Mar-2025 01:02:27 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[11-Apr-2025 04:25:16 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[17-May-2025 16:24:58 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[18-May-2025 00:34:13 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[29-May-2025 15:43:49 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[31-May-2025 22:33:58 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[24-Jun-2025 06:04:21 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[03-Jul-2025 13:06:27 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[08-Jul-2025 23:58:28 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[18-Jul-2025 18:46:37 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[19-Jul-2025 08:45:19 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[28-Jul-2025 11:50:29 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[30-Jul-2025 11:29:31 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[21-Aug-2025 23:34:43 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[01-Nov-2025 16:16:15 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[24-Nov-2025 04:45:11 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[15-Dec-2025 19:51:17 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[28-Dec-2025 07:12:51 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[07-Jan-2026 15:56:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[08-Jan-2026 04:30:08 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[16-Jan-2026 11:55:53 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[16-Jan-2026 19:44:22 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[06-Feb-2026 06:44:18 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[22-Feb-2026 00:59:10 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[13-Mar-2026 17:03:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[18-Mar-2026 14:18:09 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[28-Mar-2026 06:12:09 UTC] PHP Fatal error:  Trait "PHPUnit\Framework\TestListenerDefaultImplementation" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php on line 18
+[29-Mar-2026 14:12:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15
+[31-Mar-2026 05:03:32 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[07-Apr-2026 03:48:20 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[12-Apr-2026 16:13:47 UTC] PHP Fatal error:  Trait "Mockery\Adapter\Phpunit\MockeryPHPUnitIntegrationAssertPostConditions" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php on line 23
+[16-Apr-2026 19:41:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php on line 15

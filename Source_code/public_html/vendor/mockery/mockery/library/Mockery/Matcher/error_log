@@ -1,0 +1,828 @@
+[09-Sep-2024 18:02:11 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[29-Sep-2024 10:10:50 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[04-Oct-2024 03:37:17 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[04-Oct-2024 10:17:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[11-Oct-2024 07:28:04 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[16-Oct-2024 00:31:50 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[24-Oct-2024 00:48:39 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[19-Dec-2024 14:53:35 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[22-Dec-2024 06:30:21 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[05-Jan-2025 01:53:08 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[09-Jan-2025 18:38:54 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[10-Jan-2025 13:43:03 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[28-Jan-2025 20:51:06 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[02-Feb-2025 23:20:55 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[04-Feb-2025 01:56:52 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[04-Feb-2025 09:54:02 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[05-Feb-2025 20:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[09-Feb-2025 20:32:15 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[24-Feb-2025 03:12:08 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[02-Mar-2025 03:07:35 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php on line 13
+[14-Apr-2025 04:25:40 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[15-Apr-2025 14:59:55 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 18
+[17-Apr-2025 19:25:44 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[03-May-2025 21:43:45 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[05-May-2025 04:26:37 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[06-May-2025 06:40:05 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[06-May-2025 17:50:46 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[12-May-2025 16:43:20 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[16-May-2025 18:34:12 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[17-May-2025 05:18:36 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[18-May-2025 14:19:30 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[18-May-2025 16:22:01 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[21-May-2025 09:33:10 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[28-May-2025 23:25:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[29-May-2025 13:04:10 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[31-May-2025 06:17:07 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[31-May-2025 17:12:19 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[31-May-2025 19:10:44 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[04-Jun-2025 08:41:38 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[04-Jun-2025 10:36:05 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[05-Jun-2025 16:47:50 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[07-Jun-2025 04:09:22 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[07-Jun-2025 16:15:40 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[08-Jun-2025 05:54:09 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[10-Jun-2025 21:03:37 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[14-Jun-2025 15:12:23 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 18
+[14-Jun-2025 15:29:42 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[16-Jun-2025 07:04:21 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[16-Jun-2025 22:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[18-Jun-2025 13:36:41 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[19-Jun-2025 11:04:53 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php on line 13
+[19-Jun-2025 15:38:25 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 18
+[23-Jun-2025 08:12:42 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[24-Jun-2025 13:35:57 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[25-Jun-2025 00:15:46 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[25-Jun-2025 09:07:59 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[25-Jun-2025 17:07:03 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[27-Jun-2025 16:41:32 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[28-Jun-2025 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[29-Jun-2025 00:40:55 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[29-Jun-2025 10:03:08 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[30-Jun-2025 23:09:37 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php on line 13
+[04-Jul-2025 22:29:06 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[05-Jul-2025 21:06:47 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[07-Jul-2025 16:59:19 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[07-Jul-2025 19:41:17 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[08-Jul-2025 14:44:58 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[10-Jul-2025 08:27:02 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[11-Jul-2025 12:59:39 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[13-Jul-2025 07:03:31 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[14-Jul-2025 06:21:38 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php on line 13
+[15-Jul-2025 15:46:59 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[16-Jul-2025 03:14:10 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[16-Jul-2025 05:28:03 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[16-Jul-2025 07:34:10 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Subset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Subset.php on line 17
+[16-Jul-2025 11:47:24 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[17-Jul-2025 00:31:57 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[17-Jul-2025 11:58:51 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 18
+[17-Jul-2025 15:46:44 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[20-Jul-2025 11:10:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[21-Jul-2025 02:11:09 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[22-Jul-2025 14:50:26 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[24-Jul-2025 00:33:58 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[24-Jul-2025 09:23:02 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[27-Jul-2025 13:48:46 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[28-Jul-2025 04:55:47 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[29-Jul-2025 00:03:28 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[29-Jul-2025 12:00:22 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[29-Jul-2025 21:44:53 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php on line 13
+[29-Jul-2025 21:47:25 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[30-Jul-2025 22:41:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[01-Aug-2025 15:45:27 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[01-Aug-2025 23:39:19 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[03-Aug-2025 01:00:05 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[03-Aug-2025 11:59:52 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[13-Aug-2025 11:36:05 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[17-Aug-2025 14:46:57 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[18-Aug-2025 01:56:03 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[18-Aug-2025 13:02:36 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[23-Aug-2025 14:18:30 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[28-Aug-2025 08:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php on line 13
+[29-Aug-2025 22:46:19 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[03-Sep-2025 19:37:55 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[29-Sep-2025 09:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[03-Oct-2025 11:23:33 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[05-Oct-2025 10:53:56 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[07-Oct-2025 14:33:19 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[07-Oct-2025 23:17:13 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[09-Oct-2025 21:36:00 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php on line 13
+[10-Oct-2025 01:55:01 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[24-Oct-2025 15:23:26 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[26-Oct-2025 07:55:40 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php on line 13
+[27-Oct-2025 12:54:43 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[29-Oct-2025 05:24:12 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[29-Oct-2025 16:19:13 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[30-Oct-2025 11:41:48 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[31-Oct-2025 13:24:45 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[31-Oct-2025 14:20:12 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[02-Nov-2025 03:51:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[23-Nov-2025 23:24:57 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[25-Nov-2025 07:05:28 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[25-Nov-2025 16:01:02 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[16-Dec-2025 11:42:41 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[17-Dec-2025 09:02:06 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[17-Dec-2025 09:50:54 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[18-Dec-2025 02:59:33 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[18-Dec-2025 21:26:51 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php on line 13
+[19-Dec-2025 10:52:03 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[19-Dec-2025 23:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 18
+[22-Dec-2025 00:48:22 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[24-Dec-2025 12:26:36 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[24-Dec-2025 22:49:37 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[25-Dec-2025 08:42:47 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[29-Dec-2025 13:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[30-Dec-2025 09:17:13 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[01-Jan-2026 22:27:04 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 18
+[03-Jan-2026 14:31:52 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[05-Jan-2026 12:57:59 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[06-Jan-2026 10:16:41 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[06-Jan-2026 23:39:31 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[08-Jan-2026 06:20:35 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[09-Jan-2026 11:02:09 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[10-Jan-2026 17:07:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[14-Jan-2026 08:02:49 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[15-Jan-2026 05:15:11 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[16-Jan-2026 13:18:32 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[17-Jan-2026 16:53:58 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[18-Jan-2026 19:50:14 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[21-Jan-2026 00:16:53 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[23-Jan-2026 12:49:44 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php on line 13
+[23-Jan-2026 23:44:50 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[25-Jan-2026 02:59:45 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[26-Jan-2026 02:39:34 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[26-Jan-2026 20:30:55 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 18
+[28-Jan-2026 01:41:22 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[28-Jan-2026 14:49:34 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php on line 13
+[30-Jan-2026 17:08:49 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[31-Jan-2026 00:11:00 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[31-Jan-2026 10:43:16 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[02-Feb-2026 21:08:06 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[03-Feb-2026 18:08:52 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[04-Feb-2026 03:47:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[05-Feb-2026 13:09:16 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[06-Feb-2026 16:43:43 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[08-Feb-2026 07:08:51 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[08-Feb-2026 18:18:20 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[12-Feb-2026 01:19:14 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyArgs.php on line 13
+[12-Feb-2026 21:36:51 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[14-Feb-2026 17:10:49 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[15-Feb-2026 07:11:30 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[16-Feb-2026 15:46:26 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[16-Feb-2026 21:32:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[19-Feb-2026 03:33:45 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[19-Feb-2026 15:42:24 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[23-Feb-2026 18:04:19 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 18
+[27-Feb-2026 17:17:06 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 17
+[28-Feb-2026 06:35:08 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[03-Mar-2026 03:08:58 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[03-Mar-2026 16:19:44 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[03-Mar-2026 16:21:52 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[04-Mar-2026 05:26:22 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[07-Mar-2026 00:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[09-Mar-2026 16:17:53 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[10-Mar-2026 17:16:47 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[11-Mar-2026 04:24:10 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Pattern.php on line 15
+[12-Mar-2026 08:52:40 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[13-Mar-2026 18:27:20 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[14-Mar-2026 05:30:18 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php on line 13
+[14-Mar-2026 18:33:25 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[19-Mar-2026 04:54:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Mockery\Matcher\MatcherInterface" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php on line 17
+[19-Mar-2026 18:50:23 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[21-Mar-2026 16:19:53 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[22-Mar-2026 08:57:11 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MultiArgumentClosure.php on line 13
+[22-Mar-2026 12:16:47 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 18
+[23-Mar-2026 06:17:21 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 16
+[23-Mar-2026 16:59:11 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 20
+[26-Mar-2026 14:59:06 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[27-Mar-2026 03:36:29 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13
+[27-Mar-2026 23:04:10 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[01-Apr-2026 08:18:40 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[02-Apr-2026 14:30:44 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 13
+[11-Apr-2026 02:23:37 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php on line 13
+[11-Apr-2026 18:58:21 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AndAnyOtherArgs.php on line 13
+[12-Apr-2026 15:45:47 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 19
+[12-Apr-2026 17:45:28 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/NoArgs.php on line 15
+[14-Apr-2026 03:18:01 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 15
+[14-Apr-2026 16:08:25 UTC] PHP Fatal error:  Uncaught Error: Class "Mockery\Matcher\MatcherAbstract" not found in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 13

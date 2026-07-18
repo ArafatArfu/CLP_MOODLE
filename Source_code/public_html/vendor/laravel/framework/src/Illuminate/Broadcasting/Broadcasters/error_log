@@ -1,0 +1,120 @@
+[20-Sep-2024 00:00:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[26-Sep-2024 14:34:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php on line 12
+[15-Dec-2024 03:17:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[11-Jan-2025 23:04:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php on line 12
+[09-Feb-2025 01:24:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[18-Feb-2025 23:19:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php on line 12
+[18-Mar-2025 15:42:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[29-May-2025 07:32:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php on line 12
+[10-Jun-2025 08:36:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php on line 12
+[10-Jun-2025 20:15:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[20-Jun-2025 22:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php on line 12
+[04-Jul-2025 12:13:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/NullBroadcaster.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/NullBroadcaster.php on line 5
+[14-Jul-2025 02:09:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php on line 12
+[14-Jul-2025 15:45:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php on line 12
+[24-Jul-2025 03:50:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[02-Oct-2025 16:47:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[09-Oct-2025 06:19:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php on line 12
+[25-Oct-2025 23:59:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php on line 18
+[24-Nov-2025 12:46:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php on line 12
+[17-Dec-2025 00:26:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[01-Jan-2026 11:07:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[05-Jan-2026 14:13:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php on line 18
+[25-Jan-2026 06:18:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php on line 12
+[29-Jan-2026 10:31:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php on line 12
+[30-Jan-2026 05:56:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[01-Feb-2026 17:08:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php on line 18
+[08-Feb-2026 09:26:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php on line 12
+[01-Mar-2026 23:06:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php on line 7
+[21-Mar-2026 09:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Broadcasting\Broadcasters\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php on line 12
+[22-Mar-2026 03:15:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Broadcasting\Broadcaster" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php on line 18

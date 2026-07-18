@@ -1,0 +1,136 @@
+[18-Sep-2024 20:35:49 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[21-Sep-2024 21:15:58 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[19-Mar-2025 11:53:15 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[09-Apr-2025 09:03:55 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[29-May-2025 10:47:25 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[31-May-2025 17:29:32 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[13-Jun-2025 04:17:08 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[18-Jun-2025 16:05:22 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[21-Jun-2025 00:46:08 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php on line 27
+[01-Jul-2025 04:10:31 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[09-Jul-2025 21:30:35 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[18-Jul-2025 18:48:39 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[19-Jul-2025 04:25:57 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[28-Jul-2025 12:41:53 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[29-Jul-2025 21:50:06 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[07-Oct-2025 09:32:02 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php on line 27
+[25-Oct-2025 17:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[16-Dec-2025 02:20:04 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[21-Dec-2025 10:22:33 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[26-Dec-2025 15:41:25 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php on line 27
+[01-Jan-2026 22:31:14 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php on line 27
+[11-Jan-2026 02:49:33 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[19-Jan-2026 12:57:42 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[24-Jan-2026 13:10:20 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[25-Jan-2026 15:50:19 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php on line 27
+[03-Feb-2026 08:58:23 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[07-Feb-2026 11:46:47 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[20-Feb-2026 20:28:42 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[09-Mar-2026 19:19:32 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25
+[11-Mar-2026 07:08:33 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[11-Mar-2026 17:59:59 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php on line 27
+[22-Mar-2026 02:35:18 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteRefParser.php on line 25
+[23-Mar-2026 17:37:25 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Parser\Inline\InlineParserInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/AnonymousFootnoteRefParser.php on line 27
+[17-Apr-2026 14:07:40 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Parser\Block\AbstractBlockContinueParser" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Footnote/Parser/FootnoteParser.php on line 25

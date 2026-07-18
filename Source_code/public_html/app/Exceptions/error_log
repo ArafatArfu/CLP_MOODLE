@@ -1,0 +1,28 @@
+[15-Feb-2025 20:48:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/clpwebor/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Exceptions/Handler.php on line 8
+[20-May-2025 06:32:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/clpwebor/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Exceptions/Handler.php on line 8
+[13-Jul-2025 10:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/clpwebor/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Exceptions/Handler.php on line 8
+[01-Aug-2025 10:57:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/clpwebor/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Exceptions/Handler.php on line 8
+[09-Oct-2025 07:30:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/clpwebor/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Exceptions/Handler.php on line 8
+[27-Jan-2026 18:50:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/clpwebor/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Exceptions/Handler.php on line 8
+[03-Feb-2026 10:34:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/clpwebor/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/app/Exceptions/Handler.php on line 8

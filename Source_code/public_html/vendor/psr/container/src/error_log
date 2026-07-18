@@ -1,0 +1,20 @@
+[16-Sep-2024 05:39:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php on line 8
+[11-Oct-2025 15:39:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php on line 8
+[31-Dec-2025 14:08:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php on line 8
+[08-Feb-2026 06:40:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php on line 8
+[20-Feb-2026 09:50:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerExceptionInterface" not found in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psr/container/src/NotFoundExceptionInterface.php on line 8

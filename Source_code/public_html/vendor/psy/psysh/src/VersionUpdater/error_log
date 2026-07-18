@@ -1,0 +1,112 @@
+[17-Sep-2024 17:54:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[28-Oct-2024 10:28:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php on line 16
+[20-Mar-2025 19:03:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php on line 16
+[21-May-2025 11:27:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[22-May-2025 21:47:25 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[04-Jun-2025 23:32:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[09-Jun-2025 11:25:47 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[20-Jun-2025 04:54:57 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[21-Jun-2025 00:43:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[29-Jun-2025 14:11:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[30-Jun-2025 05:12:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[22-Jul-2025 13:16:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php on line 16
+[28-Jul-2025 11:12:18 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[28-Jul-2025 18:16:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php on line 16
+[15-Dec-2025 20:23:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[18-Dec-2025 23:30:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[21-Dec-2025 10:10:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php on line 16
+[25-Dec-2025 07:46:38 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[01-Jan-2026 02:58:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[01-Jan-2026 12:51:14 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[01-Jan-2026 20:12:48 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[18-Jan-2026 12:06:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[28-Jan-2026 20:00:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[06-Feb-2026 08:59:56 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[13-Feb-2026 08:47:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[07-Mar-2026 21:51:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\VersionUpdater\GitHubChecker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14
+[22-Mar-2026 11:29:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[08-Apr-2026 11:23:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\VersionUpdater\Checker" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19

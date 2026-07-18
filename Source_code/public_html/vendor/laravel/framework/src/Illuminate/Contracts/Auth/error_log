@@ -1,0 +1,40 @@
+[12-Oct-2024 04:14:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[15-Feb-2025 17:23:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[08-Apr-2025 22:11:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[09-May-2025 04:37:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[17-Jul-2025 00:09:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[31-Aug-2025 23:14:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[02-Mar-2026 21:19:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[09-Mar-2026 20:20:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[16-Mar-2026 20:16:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5
+[07-Apr-2026 03:40:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Auth\Guard" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php on line 5

@@ -1,0 +1,252 @@
+[06-Sep-2024 10:18:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[24-Sep-2024 06:36:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[19-Oct-2024 02:21:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[30-Nov-2024 12:41:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[27-Dec-2024 06:27:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[31-Jan-2025 06:46:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[13-Feb-2025 20:50:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php on line 11
+[23-Mar-2025 13:38:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[23-Mar-2025 19:33:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[08-May-2025 21:58:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[14-May-2025 09:14:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php on line 11
+[17-May-2025 07:52:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[17-May-2025 21:24:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[29-May-2025 10:55:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[30-May-2025 22:17:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[31-May-2025 02:13:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[05-Jun-2025 16:50:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[11-Jun-2025 00:24:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[12-Jun-2025 15:30:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[14-Jun-2025 23:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[15-Jun-2025 07:21:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[24-Jun-2025 14:09:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[29-Jun-2025 21:19:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[03-Jul-2025 12:36:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[08-Jul-2025 12:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[08-Jul-2025 19:49:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[19-Jul-2025 00:26:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[19-Jul-2025 01:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[19-Jul-2025 07:27:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[21-Jul-2025 14:50:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php on line 11
+[02-Aug-2025 14:44:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[02-Sep-2025 23:15:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php on line 11
+[24-Oct-2025 21:54:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[30-Oct-2025 20:33:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[31-Oct-2025 13:43:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[01-Nov-2025 04:22:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[16-Dec-2025 22:23:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[18-Dec-2025 15:42:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[20-Dec-2025 19:52:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php on line 11
+[27-Dec-2025 21:24:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[30-Dec-2025 11:09:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[01-Jan-2026 06:53:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php on line 11
+[02-Jan-2026 01:08:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[04-Jan-2026 20:25:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[08-Jan-2026 06:21:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[10-Jan-2026 17:09:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[26-Jan-2026 19:53:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[28-Jan-2026 04:14:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[29-Jan-2026 09:48:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[30-Jan-2026 02:39:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[02-Feb-2026 16:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[11-Feb-2026 17:27:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[11-Feb-2026 22:18:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[24-Feb-2026 11:16:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[26-Feb-2026 03:38:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[27-Feb-2026 01:56:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[07-Mar-2026 12:44:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13
+[07-Mar-2026 19:46:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php on line 17
+[10-Mar-2026 18:35:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[19-Mar-2026 15:46:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php on line 11
+[27-Mar-2026 05:12:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php on line 10
+[07-Apr-2026 23:30:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php on line 11
+[15-Apr-2026 02:41:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Schema\Grammars\Grammar" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php on line 13

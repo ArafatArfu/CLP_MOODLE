@@ -1,0 +1,84 @@
+[14-Sep-2024 19:43:24 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[31-May-2025 01:58:11 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[05-Jun-2025 17:54:15 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[16-Jun-2025 13:04:53 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[06-Jul-2025 12:33:42 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[17-Jul-2025 09:08:19 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[03-Oct-2025 09:44:20 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[10-Oct-2025 15:29:29 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[23-Nov-2025 04:09:08 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[17-Dec-2025 17:29:06 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[23-Dec-2025 03:47:57 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[06-Jan-2026 13:15:47 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[24-Jan-2026 08:53:33 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[07-Feb-2026 21:10:51 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[24-Feb-2026 22:10:36 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[14-Mar-2026 06:12:12 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[18-Mar-2026 05:15:35 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[23-Mar-2026 04:10:00 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[27-Mar-2026 03:41:27 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/AttributesInline.php on line 19
+[29-Mar-2026 18:37:54 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19
+[17-Apr-2026 14:13:16 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Block\AbstractBlock" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/Attributes/Node/Attributes.php on line 19

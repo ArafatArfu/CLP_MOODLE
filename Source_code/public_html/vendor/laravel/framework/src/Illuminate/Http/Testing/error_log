@@ -1,0 +1,44 @@
+[20-Jan-2025 20:31:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[11-Jun-2025 19:53:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[04-Oct-2025 04:31:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[11-Oct-2025 10:15:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[15-Dec-2025 18:52:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[23-Dec-2025 05:43:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[11-Jan-2026 02:30:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[25-Jan-2026 05:40:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[04-Feb-2026 03:13:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[09-Feb-2026 23:38:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7
+[13-Mar-2026 06:06:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\UploadedFile" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Testing/File.php on line 7

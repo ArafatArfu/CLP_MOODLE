@@ -1,0 +1,40 @@
+[12-Nov-2024 03:51:59 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[22-Feb-2025 16:26:59 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[14-May-2025 04:36:00 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[31-May-2025 02:02:49 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[05-Jun-2025 05:09:07 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[20-Jun-2025 16:53:34 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[24-Oct-2025 13:57:28 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[19-Jan-2026 21:20:42 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[07-Feb-2026 22:30:38 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16
+[24-Feb-2026 23:42:50 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Exception\CommonMarkException" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Exception/UnexpectedEncodingException.php on line 16

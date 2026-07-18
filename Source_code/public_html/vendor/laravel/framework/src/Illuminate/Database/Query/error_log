@@ -1,0 +1,96 @@
+[27-Sep-2024 05:15:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[13-Dec-2024 13:31:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[22-Jan-2025 06:55:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[25-Jan-2025 23:17:41 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[07-Mar-2025 21:21:29 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[05-May-2025 03:46:39 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[17-May-2025 15:43:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[20-Jun-2025 18:21:17 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[23-Jun-2025 16:00:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[16-Jul-2025 01:43:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Query\Builder" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php on line 7
+[17-Jul-2025 00:07:44 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[18-Jul-2025 09:44:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[31-Aug-2025 15:42:57 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[05-Oct-2025 03:15:37 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[22-Oct-2025 06:51:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Query\Builder" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php on line 7
+[27-Oct-2025 22:24:03 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[27-Oct-2025 23:10:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[16-Dec-2025 13:32:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Query\Builder" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php on line 7
+[03-Jan-2026 15:20:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[09-Jan-2026 08:58:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[10-Jan-2026 08:52:20 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[11-Jan-2026 20:53:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Query\Builder" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php on line 7
+[25-Jan-2026 04:06:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[28-Jan-2026 23:23:05 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[30-Jan-2026 04:40:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[31-Jan-2026 18:38:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Query\Builder" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php on line 7
+[07-Feb-2026 04:42:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[13-Feb-2026 08:19:01 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[23-Feb-2026 11:58:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[15-Mar-2026 10:04:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8
+[30-Mar-2026 09:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Query\Builder" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php on line 7
+[31-Mar-2026 13:04:10 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 31
+[06-Apr-2026 22:15:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Database\Query\Expression" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Expression.php on line 8

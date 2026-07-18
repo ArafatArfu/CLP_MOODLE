@@ -1,0 +1,34 @@
+[25-Sep-2024 21:37:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Notifications\Messages\SimpleMessage" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php on line 13
+[29-May-2025 18:49:23 UTC] PHP Fatal error:  Trait "Illuminate\Bus\Queueable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/BroadcastMessage.php on line 7
+[04-Jul-2025 04:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Notifications\Messages\SimpleMessage" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php on line 13
+[10-Oct-2025 19:00:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Notifications\Messages\SimpleMessage" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php on line 13
+[25-Oct-2025 11:49:51 UTC] PHP Fatal error:  Trait "Illuminate\Bus\Queueable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/BroadcastMessage.php on line 7
+[24-Nov-2025 19:53:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Notifications\Messages\SimpleMessage" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php on line 13
+[03-Jan-2026 20:16:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Notifications\Messages\SimpleMessage" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php on line 13
+[06-Jan-2026 10:01:45 UTC] PHP Fatal error:  Trait "Illuminate\Bus\Queueable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/BroadcastMessage.php on line 7
+[25-Jan-2026 22:50:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Notifications\Messages\SimpleMessage" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php on line 13
+[31-Jan-2026 09:31:20 UTC] PHP Fatal error:  Trait "Illuminate\Bus\Queueable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/BroadcastMessage.php on line 7
+[05-Mar-2026 00:26:50 UTC] PHP Fatal error:  Trait "Illuminate\Bus\Queueable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/BroadcastMessage.php on line 7
+[03-Apr-2026 14:34:14 UTC] PHP Fatal error:  Trait "Illuminate\Bus\Queueable" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/BroadcastMessage.php on line 7
+[13-Apr-2026 23:23:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Notifications\Messages\SimpleMessage" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php on line 13

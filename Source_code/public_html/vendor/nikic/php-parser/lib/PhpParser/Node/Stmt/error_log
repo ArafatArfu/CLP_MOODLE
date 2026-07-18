@@ -1,0 +1,2097 @@
+[04-Sep-2024 06:35:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[04-Sep-2024 21:12:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 9
+[05-Sep-2024 01:17:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php on line 7
+[05-Sep-2024 05:51:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[05-Sep-2024 12:53:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[09-Sep-2024 04:28:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[09-Sep-2024 21:47:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[12-Sep-2024 23:08:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[13-Sep-2024 22:38:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[14-Sep-2024 09:57:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[16-Sep-2024 10:16:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[18-Sep-2024 00:14:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[25-Sep-2024 10:21:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[27-Sep-2024 10:36:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[27-Sep-2024 22:22:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[30-Sep-2024 07:26:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php on line 7
+[02-Oct-2024 10:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[05-Oct-2024 23:30:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[07-Oct-2024 22:44:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[16-Oct-2024 22:10:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[22-Oct-2024 10:01:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[27-Oct-2024 04:43:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[28-Oct-2024 01:59:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[01-Dec-2024 00:52:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[04-Dec-2024 19:41:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[05-Dec-2024 12:55:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[10-Dec-2024 15:34:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[12-Dec-2024 15:11:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[13-Dec-2024 10:19:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php on line 7
+[16-Dec-2024 06:33:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[18-Dec-2024 00:08:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[21-Dec-2024 15:39:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[22-Dec-2024 21:25:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[24-Dec-2024 00:12:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[26-Dec-2024 00:43:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[28-Dec-2024 14:43:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[28-Dec-2024 23:08:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[09-Jan-2025 06:57:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[09-Jan-2025 18:54:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[10-Jan-2025 18:39:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[14-Jan-2025 20:49:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php on line 8
+[15-Jan-2025 01:58:01 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[16-Jan-2025 18:28:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[18-Jan-2025 19:27:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[24-Jan-2025 23:00:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[25-Jan-2025 01:20:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[26-Jan-2025 07:49:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[28-Jan-2025 08:54:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[28-Jan-2025 21:01:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[31-Jan-2025 17:21:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[02-Feb-2025 06:38:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[02-Feb-2025 19:36:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[03-Feb-2025 09:29:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[03-Feb-2025 19:54:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[04-Feb-2025 06:41:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[05-Feb-2025 00:49:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[05-Feb-2025 17:55:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[11-Feb-2025 02:17:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[11-Feb-2025 17:55:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[12-Feb-2025 06:48:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[12-Feb-2025 14:31:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[13-Feb-2025 22:52:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[15-Feb-2025 06:09:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[15-Feb-2025 06:48:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[16-Feb-2025 19:14:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[25-Feb-2025 16:06:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[25-Feb-2025 18:53:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[26-Feb-2025 11:49:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[01-Mar-2025 21:09:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[04-Mar-2025 16:23:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[10-Mar-2025 03:18:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[10-Mar-2025 17:12:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php on line 9
+[11-Mar-2025 04:03:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[15-Mar-2025 04:01:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[16-Mar-2025 01:20:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[18-Mar-2025 22:02:36 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[18-Mar-2025 22:55:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[19-Mar-2025 11:00:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[20-Mar-2025 12:39:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[21-Mar-2025 08:13:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[21-Mar-2025 09:31:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[23-Mar-2025 10:53:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[23-Mar-2025 14:45:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[29-Mar-2025 08:12:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[29-Mar-2025 21:56:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[30-Mar-2025 15:32:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[31-Mar-2025 23:48:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[03-Apr-2025 15:53:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[06-Apr-2025 04:54:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[11-Apr-2025 02:21:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[13-Apr-2025 19:18:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[19-Apr-2025 09:18:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[20-Apr-2025 00:16:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[03-May-2025 18:20:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[04-May-2025 04:16:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[06-May-2025 22:14:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[09-May-2025 04:10:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[11-May-2025 19:10:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[13-May-2025 07:10:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[13-May-2025 08:05:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Finally_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Finally_.php on line 7
+[13-May-2025 16:42:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[17-May-2025 01:11:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[17-May-2025 21:11:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[18-May-2025 11:28:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[18-May-2025 17:19:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[18-May-2025 18:15:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[19-May-2025 18:55:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[20-May-2025 20:29:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[21-May-2025 22:44:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[21-May-2025 23:02:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[29-May-2025 04:53:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[29-May-2025 08:37:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[29-May-2025 08:42:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[29-May-2025 08:56:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[29-May-2025 13:30:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[30-May-2025 08:06:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[31-May-2025 15:38:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[01-Jun-2025 05:40:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[03-Jun-2025 06:29:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[03-Jun-2025 11:34:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[03-Jun-2025 12:16:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php on line 7
+[03-Jun-2025 16:07:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[03-Jun-2025 16:19:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[04-Jun-2025 00:21:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[04-Jun-2025 14:15:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[04-Jun-2025 15:30:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[05-Jun-2025 15:32:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[05-Jun-2025 17:27:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[06-Jun-2025 09:29:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[07-Jun-2025 05:02:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[07-Jun-2025 14:01:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php on line 8
+[08-Jun-2025 04:48:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[08-Jun-2025 08:58:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[09-Jun-2025 03:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php on line 7
+[10-Jun-2025 00:43:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[10-Jun-2025 06:31:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[10-Jun-2025 06:36:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[10-Jun-2025 10:35:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[10-Jun-2025 19:09:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[12-Jun-2025 13:13:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[12-Jun-2025 19:33:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php on line 7
+[13-Jun-2025 05:59:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php on line 7
+[13-Jun-2025 07:25:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[14-Jun-2025 13:38:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[14-Jun-2025 15:17:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[15-Jun-2025 05:28:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[15-Jun-2025 16:26:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php on line 8
+[15-Jun-2025 21:54:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[15-Jun-2025 22:46:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[16-Jun-2025 05:16:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[16-Jun-2025 13:44:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[16-Jun-2025 23:21:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[17-Jun-2025 17:49:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[17-Jun-2025 22:26:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[18-Jun-2025 11:48:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[18-Jun-2025 16:01:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[19-Jun-2025 01:21:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[19-Jun-2025 08:15:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[19-Jun-2025 21:02:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[19-Jun-2025 21:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[20-Jun-2025 05:46:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[20-Jun-2025 18:30:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[21-Jun-2025 11:55:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[21-Jun-2025 19:44:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[22-Jun-2025 01:27:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[23-Jun-2025 15:41:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[24-Jun-2025 07:19:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[24-Jun-2025 11:13:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[24-Jun-2025 13:19:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[24-Jun-2025 19:29:01 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php on line 8
+[24-Jun-2025 21:29:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[25-Jun-2025 23:22:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[25-Jun-2025 23:24:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[26-Jun-2025 03:25:36 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[26-Jun-2025 12:34:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[28-Jun-2025 10:29:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[28-Jun-2025 15:08:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[28-Jun-2025 23:46:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[29-Jun-2025 00:30:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[29-Jun-2025 00:34:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[29-Jun-2025 20:46:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[30-Jun-2025 16:36:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php on line 8
+[01-Jul-2025 02:51:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[01-Jul-2025 05:39:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[01-Jul-2025 20:53:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[03-Jul-2025 15:29:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[03-Jul-2025 23:47:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[04-Jul-2025 06:27:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[04-Jul-2025 09:27:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[05-Jul-2025 00:53:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[05-Jul-2025 06:30:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php on line 7
+[05-Jul-2025 10:33:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php on line 9
+[05-Jul-2025 15:58:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[07-Jul-2025 14:57:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[07-Jul-2025 18:19:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[07-Jul-2025 22:54:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[08-Jul-2025 16:49:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php on line 8
+[09-Jul-2025 10:51:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php on line 7
+[09-Jul-2025 15:20:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[09-Jul-2025 20:13:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[10-Jul-2025 07:49:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[11-Jul-2025 02:28:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php on line 7
+[11-Jul-2025 20:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[12-Jul-2025 00:21:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php on line 7
+[12-Jul-2025 00:30:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[12-Jul-2025 08:49:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[12-Jul-2025 23:31:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[13-Jul-2025 11:20:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[14-Jul-2025 07:47:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[14-Jul-2025 20:05:37 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[14-Jul-2025 20:07:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[14-Jul-2025 20:53:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[15-Jul-2025 16:33:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[16-Jul-2025 12:21:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php on line 8
+[18-Jul-2025 16:45:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[19-Jul-2025 00:04:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[19-Jul-2025 11:38:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[20-Jul-2025 01:45:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[20-Jul-2025 03:12:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[20-Jul-2025 19:18:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[20-Jul-2025 23:41:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[21-Jul-2025 02:33:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[22-Jul-2025 14:46:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[22-Jul-2025 18:49:01 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[22-Jul-2025 20:26:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[23-Jul-2025 11:22:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[23-Jul-2025 16:42:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[23-Jul-2025 19:36:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[24-Jul-2025 00:22:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[24-Jul-2025 00:23:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[24-Jul-2025 20:58:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[25-Jul-2025 02:46:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[26-Jul-2025 17:07:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[27-Jul-2025 01:33:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[27-Jul-2025 08:36:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php on line 8
+[27-Jul-2025 17:43:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[27-Jul-2025 21:20:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[29-Jul-2025 12:49:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[29-Jul-2025 13:44:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[29-Jul-2025 20:14:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[29-Jul-2025 21:34:37 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php on line 8
+[30-Jul-2025 07:39:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[30-Jul-2025 22:56:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[31-Jul-2025 02:11:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[31-Jul-2025 12:50:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[31-Jul-2025 17:43:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[02-Aug-2025 10:25:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[02-Aug-2025 12:52:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[02-Aug-2025 15:35:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[03-Aug-2025 00:11:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[03-Aug-2025 08:27:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[13-Aug-2025 13:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[14-Aug-2025 00:21:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[14-Aug-2025 23:22:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[15-Aug-2025 15:11:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[16-Aug-2025 02:04:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[17-Aug-2025 23:39:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[19-Aug-2025 17:03:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[20-Aug-2025 22:16:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[22-Aug-2025 05:05:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[23-Aug-2025 09:50:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[24-Aug-2025 06:25:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[29-Aug-2025 00:34:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[01-Sep-2025 06:47:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[03-Sep-2025 02:17:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[03-Sep-2025 23:00:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[04-Sep-2025 01:17:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[02-Oct-2025 22:09:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[03-Oct-2025 06:25:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[03-Oct-2025 19:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php on line 7
+[05-Oct-2025 04:41:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[05-Oct-2025 10:59:36 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[05-Oct-2025 17:27:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[06-Oct-2025 21:27:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[07-Oct-2025 06:52:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[08-Oct-2025 05:16:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[08-Oct-2025 05:52:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[08-Oct-2025 18:46:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[08-Oct-2025 19:48:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[09-Oct-2025 00:57:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[09-Oct-2025 02:23:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[09-Oct-2025 20:43:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[11-Oct-2025 17:22:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[11-Oct-2025 20:01:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[23-Oct-2025 02:32:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[23-Oct-2025 09:37:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[23-Oct-2025 10:46:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[23-Oct-2025 19:26:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[24-Oct-2025 15:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[25-Oct-2025 19:15:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[26-Oct-2025 13:25:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[27-Oct-2025 02:20:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[28-Oct-2025 13:22:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[30-Oct-2025 02:56:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php on line 7
+[30-Oct-2025 12:07:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[30-Oct-2025 20:45:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[01-Nov-2025 10:27:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[01-Nov-2025 22:20:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[01-Nov-2025 23:49:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[02-Nov-2025 03:48:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[02-Nov-2025 04:43:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[22-Nov-2025 19:32:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[23-Nov-2025 20:54:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[23-Nov-2025 23:52:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php on line 9
+[24-Nov-2025 00:47:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[25-Nov-2025 00:20:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[25-Nov-2025 06:58:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[25-Nov-2025 07:13:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[25-Nov-2025 07:36:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[25-Nov-2025 08:26:45 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[15-Dec-2025 07:28:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[16-Dec-2025 13:47:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[16-Dec-2025 15:00:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[16-Dec-2025 23:21:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[17-Dec-2025 19:51:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[18-Dec-2025 05:07:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[18-Dec-2025 14:20:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[19-Dec-2025 10:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[20-Dec-2025 07:34:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[20-Dec-2025 08:14:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[21-Dec-2025 04:00:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[21-Dec-2025 04:27:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[21-Dec-2025 04:43:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[22-Dec-2025 00:17:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[22-Dec-2025 18:21:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[22-Dec-2025 18:54:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[23-Dec-2025 00:42:44 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[23-Dec-2025 15:43:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[24-Dec-2025 11:32:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[26-Dec-2025 03:45:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[27-Dec-2025 04:03:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[28-Dec-2025 05:37:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[30-Dec-2025 10:08:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[30-Dec-2025 20:45:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php on line 9
+[31-Dec-2025 17:55:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[01-Jan-2026 04:27:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[02-Jan-2026 04:20:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[02-Jan-2026 16:49:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[02-Jan-2026 19:02:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php on line 7
+[03-Jan-2026 14:01:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[03-Jan-2026 14:43:01 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[03-Jan-2026 22:28:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[04-Jan-2026 00:31:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[05-Jan-2026 06:54:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[05-Jan-2026 15:22:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[05-Jan-2026 16:29:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[06-Jan-2026 23:07:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[07-Jan-2026 18:00:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[08-Jan-2026 02:15:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 9
+[08-Jan-2026 06:40:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[08-Jan-2026 20:16:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[09-Jan-2026 15:48:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[10-Jan-2026 17:06:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[11-Jan-2026 01:57:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[11-Jan-2026 22:54:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[12-Jan-2026 15:24:28 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[13-Jan-2026 02:23:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[13-Jan-2026 10:29:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[13-Jan-2026 12:20:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[13-Jan-2026 22:37:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[14-Jan-2026 08:32:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[14-Jan-2026 11:08:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[14-Jan-2026 16:40:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[16-Jan-2026 18:56:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[16-Jan-2026 21:47:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[17-Jan-2026 00:29:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[17-Jan-2026 03:04:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[18-Jan-2026 19:43:16 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[19-Jan-2026 19:13:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php on line 8
+[20-Jan-2026 05:40:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[20-Jan-2026 10:08:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[21-Jan-2026 00:28:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[21-Jan-2026 06:18:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[21-Jan-2026 11:25:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[22-Jan-2026 17:10:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php on line 7
+[23-Jan-2026 04:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[23-Jan-2026 12:24:39 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[24-Jan-2026 08:35:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[24-Jan-2026 18:10:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[25-Jan-2026 09:07:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php on line 8
+[25-Jan-2026 13:40:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[26-Jan-2026 05:34:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[26-Jan-2026 08:27:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[26-Jan-2026 18:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 9
+[26-Jan-2026 20:57:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[27-Jan-2026 01:24:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[27-Jan-2026 04:53:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[27-Jan-2026 07:47:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[27-Jan-2026 16:41:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[27-Jan-2026 21:16:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[28-Jan-2026 03:47:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php on line 9
+[28-Jan-2026 04:28:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[28-Jan-2026 17:53:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[28-Jan-2026 22:31:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php on line 8
+[29-Jan-2026 19:48:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[30-Jan-2026 05:37:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Finally_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Finally_.php on line 7
+[30-Jan-2026 05:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[31-Jan-2026 02:20:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[31-Jan-2026 07:33:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[31-Jan-2026 13:02:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[31-Jan-2026 22:33:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[03-Feb-2026 00:07:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[03-Feb-2026 10:09:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[04-Feb-2026 03:38:13 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[05-Feb-2026 00:25:36 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[05-Feb-2026 10:07:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[05-Feb-2026 10:25:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[05-Feb-2026 12:35:05 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[05-Feb-2026 21:43:43 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 9
+[05-Feb-2026 22:19:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[06-Feb-2026 16:49:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[07-Feb-2026 17:35:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[07-Feb-2026 19:46:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[07-Feb-2026 20:13:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[08-Feb-2026 21:08:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[09-Feb-2026 05:15:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[10-Feb-2026 06:14:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[11-Feb-2026 16:22:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[12-Feb-2026 03:25:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[12-Feb-2026 22:50:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[14-Feb-2026 12:30:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[15-Feb-2026 01:38:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 9
+[16-Feb-2026 15:15:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 12
+[16-Feb-2026 16:26:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[17-Feb-2026 10:11:04 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[17-Feb-2026 11:41:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[18-Feb-2026 05:55:29 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php on line 7
+[19-Feb-2026 09:48:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php on line 7
+[19-Feb-2026 11:45:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[19-Feb-2026 16:18:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php on line 7
+[20-Feb-2026 05:52:57 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[20-Feb-2026 06:06:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[20-Feb-2026 09:02:53 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[20-Feb-2026 11:51:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[23-Feb-2026 21:32:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[24-Feb-2026 22:30:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[24-Feb-2026 23:34:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[26-Feb-2026 16:51:01 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[27-Feb-2026 03:38:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[28-Feb-2026 09:15:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[28-Feb-2026 16:37:07 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[28-Feb-2026 16:41:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[01-Mar-2026 12:14:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[02-Mar-2026 18:06:12 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[02-Mar-2026 20:58:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[03-Mar-2026 15:01:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[03-Mar-2026 23:13:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[03-Mar-2026 23:55:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php on line 8
+[06-Mar-2026 06:29:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[07-Mar-2026 08:56:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[07-Mar-2026 09:59:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[07-Mar-2026 10:44:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[10-Mar-2026 17:57:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[12-Mar-2026 01:59:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[12-Mar-2026 08:11:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[12-Mar-2026 10:54:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[12-Mar-2026 10:56:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[12-Mar-2026 19:22:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[12-Mar-2026 19:24:48 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php on line 7
+[13-Mar-2026 07:03:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/DeclareItem.php on line 8
+[13-Mar-2026 07:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[14-Mar-2026 01:07:31 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[14-Mar-2026 05:26:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php on line 7
+[15-Mar-2026 05:39:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[16-Mar-2026 16:20:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[17-Mar-2026 20:15:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 9
+[19-Mar-2026 02:46:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[20-Mar-2026 15:28:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[20-Mar-2026 16:50:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[21-Mar-2026 07:12:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php on line 7
+[22-Mar-2026 11:49:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[22-Mar-2026 11:51:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[23-Mar-2026 06:00:40 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[23-Mar-2026 06:27:11 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[24-Mar-2026 12:40:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[24-Mar-2026 18:38:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[24-Mar-2026 19:26:24 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[26-Mar-2026 06:06:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php on line 8
+[26-Mar-2026 15:58:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 8
+[27-Mar-2026 03:29:52 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/StaticVar.php on line 8
+[27-Mar-2026 04:53:59 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[27-Mar-2026 22:29:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[28-Mar-2026 17:11:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[29-Mar-2026 01:24:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php:9
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/UseItem.php on line 9
+[29-Mar-2026 02:03:32 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[29-Mar-2026 12:36:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[30-Mar-2026 15:51:33 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[31-Mar-2026 05:36:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[31-Mar-2026 06:01:09 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 9
+[02-Apr-2026 06:54:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[02-Apr-2026 16:09:03 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[03-Apr-2026 23:13:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Finally_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Finally_.php on line 7
+[04-Apr-2026 12:58:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[05-Apr-2026 11:18:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 8
+[05-Apr-2026 16:47:00 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[06-Apr-2026 02:14:20 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[06-Apr-2026 03:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 8
+[06-Apr-2026 04:08:49 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php on line 9
+[07-Apr-2026 03:41:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[07-Apr-2026 14:30:27 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 8
+[11-Apr-2026 05:49:35 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php:8
+Stack trace:
+#0 /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php(3): require()
+#1 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/PropertyItem.php on line 8
+[12-Apr-2026 01:44:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[12-Apr-2026 08:15:56 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[15-Apr-2026 08:18:47 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[15-Apr-2026 17:12:51 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[16-Apr-2026 17:52:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[17-Apr-2026 08:55:15 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[17-Apr-2026 10:37:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[17-Apr-2026 10:42:21 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[17-Apr-2026 14:54:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7

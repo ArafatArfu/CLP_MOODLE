@@ -1,0 +1,220 @@
+[14-Sep-2024 17:28:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[02-Oct-2024 15:26:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[14-Oct-2024 06:12:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[20-Nov-2024 20:14:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php on line 14
+[21-Dec-2024 06:24:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php on line 21
+[28-Jan-2025 06:31:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[31-Jan-2025 09:43:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 18
+[10-Feb-2025 00:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php on line 21
+[20-Feb-2025 23:41:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[13-Mar-2025 11:04:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php on line 14
+[15-Mar-2025 17:52:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/JsonResponse.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[22-Mar-2025 05:45:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php on line 14
+[09-May-2025 04:16:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[09-May-2025 05:52:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 18
+[14-May-2025 09:48:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php on line 14
+[18-May-2025 07:47:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[19-May-2025 08:20:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 18
+[19-May-2025 13:22:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[20-May-2025 19:41:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/RequestMatcher.php on line 14
+[22-May-2025 01:14:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/JsonResponse.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[22-May-2025 23:39:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[29-May-2025 03:23:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php on line 21
+[29-May-2025 13:28:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[03-Jun-2025 04:38:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[03-Jun-2025 13:13:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[14-Jun-2025 01:42:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[14-Jun-2025 07:15:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php on line 21
+[21-Jun-2025 10:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 18
+[21-Jun-2025 13:42:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[22-Jun-2025 00:35:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[03-Jul-2025 10:01:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[11-Jul-2025 03:50:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[12-Jul-2025 00:11:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php on line 21
+[12-Jul-2025 00:19:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[15-Jul-2025 15:29:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/JsonResponse.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[16-Jul-2025 13:25:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[19-Jul-2025 15:00:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[22-Jul-2025 08:21:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 18
+[23-Jul-2025 08:01:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ServerBag.php on line 21
+[24-Jul-2025 11:55:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/BinaryFileResponse.php on line 26
+[24-Jul-2025 22:17:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/JsonResponse.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[28-Jul-2025 04:38:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ExpressionRequestMatcher.php on line 18
+[01-Aug-2025 14:20:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\Response" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/StreamedResponse.php on line 27
+[16-Aug-2025 00:41:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[17-Aug-2025 19:24:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[20-Aug-2025 17:41:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[01-Sep-2025 12:39:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[05-Oct-2025 21:47:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[22-Oct-2025 22:57:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[05-Feb-2026 10:37:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[06-Mar-2026 14:35:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[15-Mar-2026 00:53:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[28-Mar-2026 07:15:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22
+[01-Apr-2026 05:38:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\HeaderBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 19
+[07-Apr-2026 16:06:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpFoundation\ParameterBag" not found in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-foundation/FileBag.php on line 22

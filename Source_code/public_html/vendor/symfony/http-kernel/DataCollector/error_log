@@ -1,0 +1,372 @@
+[31-Aug-2024 15:19:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\DataCollector\DataCollectorInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php on line 29
+[01-Sep-2024 23:29:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[05-Sep-2024 12:20:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/RequestDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/RequestDataCollector.php on line 32
+[29-Sep-2024 19:49:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[16-Oct-2024 03:16:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[26-Oct-2024 02:08:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[26-Oct-2024 20:29:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php on line 27
+[08-Dec-2024 23:54:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[18-Dec-2024 10:37:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[18-Dec-2024 21:27:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php on line 22
+[27-Dec-2024 01:43:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[15-Jan-2025 07:18:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[22-Jan-2025 02:23:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php on line 22
+[29-Jan-2025 02:13:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[03-Feb-2025 09:03:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[09-Feb-2025 21:16:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php on line 27
+[11-Feb-2025 18:57:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[12-Feb-2025 19:55:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[17-Feb-2025 06:56:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[20-Mar-2025 02:53:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[22-Mar-2025 15:12:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[30-Mar-2025 13:54:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php on line 25
+[07-Apr-2025 05:25:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[07-Apr-2025 16:56:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php on line 22
+[08-Apr-2025 11:42:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[08-May-2025 21:39:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/EventDataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/EventDataCollector.php on line 29
+[20-May-2025 05:49:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[21-May-2025 17:30:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php on line 25
+[22-May-2025 06:48:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[30-May-2025 12:03:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php on line 27
+[31-May-2025 01:02:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[31-May-2025 15:55:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ConfigDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ConfigDataCollector.php on line 26
+[01-Jun-2025 11:01:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\DataCollector\DataCollectorInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php on line 29
+[05-Jun-2025 03:46:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[05-Jun-2025 10:24:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[07-Jun-2025 02:29:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php on line 25
+[07-Jun-2025 02:30:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/EventDataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/EventDataCollector.php on line 29
+[08-Jun-2025 20:04:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[11-Jun-2025 01:08:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[12-Jun-2025 08:32:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php on line 25
+[15-Jun-2025 11:39:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/RouterDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/RouterDataCollector.php on line 22
+[17-Jun-2025 14:16:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php on line 22
+[17-Jun-2025 16:33:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php on line 27
+[19-Jun-2025 06:16:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[20-Jun-2025 15:18:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php on line 25
+[20-Jun-2025 15:21:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\DataCollector\DataCollectorInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php on line 29
+[26-Jun-2025 02:56:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[26-Jun-2025 16:22:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[27-Jun-2025 09:52:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\DataCollector\DataCollectorInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php on line 29
+[28-Jun-2025 23:33:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[30-Jun-2025 15:57:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/TimeDataCollector.php on line 25
+[01-Jul-2025 19:05:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php on line 22
+[03-Jul-2025 10:57:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[03-Jul-2025 17:11:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[05-Jul-2025 07:47:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/EventDataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/EventDataCollector.php on line 29
+[05-Jul-2025 23:38:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[08-Jul-2025 18:41:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[08-Jul-2025 23:21:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php on line 22
+[09-Jul-2025 14:32:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[13-Jul-2025 09:50:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php on line 32
+[14-Jul-2025 19:19:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\DataCollector\DataCollectorInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollector.php on line 29
+[14-Jul-2025 19:56:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/RouterDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/RouterDataCollector.php on line 22
+[17-Jul-2025 03:11:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/RequestDataCollector.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/RequestDataCollector.php on line 32
+[19-Jul-2025 19:49:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[24-Jul-2025 05:20:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php on line 22
+[31-Jul-2025 02:53:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ExceptionDataCollector.php on line 23
+[02-Aug-2025 04:35:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[02-Aug-2025 08:38:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php on line 22
+[03-Aug-2025 00:34:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ConfigDataCollector.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/ConfigDataCollector.php on line 26
+[12-Aug-2025 23:52:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/EventDataCollector.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/EventDataCollector.php on line 29
+[16-Aug-2025 21:01:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[17-Aug-2025 12:25:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[26-Aug-2025 00:39:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[27-Oct-2025 15:02:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[29-Oct-2025 01:09:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[16-Dec-2025 23:19:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[18-Dec-2025 14:03:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[25-Dec-2025 08:01:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[30-Dec-2025 01:52:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[04-Jan-2026 08:13:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[05-Jan-2026 15:42:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[13-Jan-2026 10:53:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[23-Jan-2026 03:50:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[31-Jan-2026 19:28:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[02-Feb-2026 11:34:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[07-Feb-2026 00:53:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[14-Feb-2026 11:36:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[16-Feb-2026 14:43:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\HttpKernel\DataCollector\DataCollector" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/AjaxDataCollector.php on line 22
+[25-Feb-2026 02:35:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[12-Mar-2026 07:17:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[21-Mar-2026 03:42:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[31-Mar-2026 05:55:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23
+[06-Apr-2026 01:33:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Service\ResetInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/DataCollector/DataCollectorInterface.php on line 23

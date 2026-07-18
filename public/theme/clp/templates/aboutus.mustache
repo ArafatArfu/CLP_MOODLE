@@ -1,0 +1,171 @@
+{{!
+    @template theme_clp/aboutus
+
+    CLP About Us page.
+
+    Context variables required for this template:
+    * sitename - The name of the site
+    * output - The core renderer for the page
+    * bodyattributes - attributes for the body tag as a string of html attributes
+}}
+{{> theme_boost/head }}
+
+<body {{{ bodyattributes }}}>
+
+<div id="page-wrapper" class="d-print-block">
+
+    {{{ output.standard_top_of_body_html }}}
+
+    {{> theme_clp/navbar }}
+
+    <div id="page" class="container-fluid d-print-block">
+
+        <!-- Inner Banner -->
+        <section class="inner-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>About Us</h1>
+                        <ul class="breadcrumb">
+                            <li><a href="{{ config.wwwroot }}/">Home</a></li>
+                            <li class="active">About Us</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Statement / Intro -->
+        <section class="call-out">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="statement-inner">
+                            <h4>Empowering underprivileged youths through computer literacy training and technology-aided education.</h4>
+                            <span class="statement-innert"><b>CLP MISSION STATEMENT</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Content -->
+        <section class="here-bangladesh-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <div class="blog-info">
+                            <h2 class="sec-title">Who We Are</h2>
+                            <p>Computer Literacy Program (CLP) is a non-profit organization that promotes the knowledge and usage of computers and information technology among underprivileged youths in Bangladesh. We do so in following ways:</p>
+                            <ul class="mission-wrap">
+                                <li>We equip Computer Literacy Centers (CLCs) with computers, internet connectivity, curriculum and trained teachers for students to become computer literate.</li>
+                                <li>We equip Smart Classrooms (SCRs) with large screen monitors, computers, contents and subject-based trained teachers for students' enjoyable and sustainable learning.</li>
+                                <li>We create opportunities for rural students to participate in different live online classes of subject-based experts who connect from locations across the globe.</li>
+                                <li>We bring students together from two different countries, aiming at fostering cultural communication, friendship and English communication skills development.</li>
+                                <li>We provide students an entertaining platform for acquiring knowledge on tolerance, global awareness, entrepreneurship and to sharpen communication skills.</li>
+                            </ul>
+                            <p>We engage with experts to design fitting curriculum for computer literacy training in CLCs and the subjects taught in SCRs. Since its inception, CLP has established dozens of Computer Literacy Centers and Smart Class Rooms across Bangladesh with support from sponsors and local school administrations.</p>
+                            <p class="about-us-btn"><a class="read-more" href="{{ config.wwwroot }}/">OUR WORK</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="panel panel-default latest-program">
+                            <div class="panel-body">
+                                <h4 style="color:#006b4f;"><strong>At a Glance</strong></h4>
+                                <div class="latestNews green">
+                                    <ul>
+                                        <li>Computer Literacy Centers established in Bangladesh</li>
+                                        <li>Smart Class Rooms bringing technology-aided learning to rural schools</li>
+                                        <li>Thousands of underprivileged students trained in basic computer literacy</li>
+                                        <li>Live online classes connecting rural students with global volunteers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Images -->
+        <section class="clc-stands-wrap">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Our Mission in Pictures</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <p><img alt="CLP mission" src="{{ config.wwwroot }}/theme/clp/assets/images/mission/mission_1.webp" class="img-responsive"/></p>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <p><img alt="CLP mission" src="{{ config.wwwroot }}/theme/clp/assets/images/mission/mission_2.webp" class="img-responsive"/></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <p><img alt="CLP training" src="{{ config.wwwroot }}/theme/clp/assets/images/mission1.JPG" class="img-responsive"/></p>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <p><img alt="CLP training" src="{{ config.wwwroot }}/theme/clp/assets/images/mission2.JPG" class="img-responsive"/></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Story -->
+        <section class="introduction-wrap fact-counter-2 sec-padd" style="background-image: url({{ config.wwwroot }}/theme/clp/assets/images/bg.webp);">
+            <div class="welcome-area">
+                <div class="container">
+                    <div class="welcome-content">
+                        <div class="story-video">
+                            <a class="gallery_video" href="https://youtu.be/LyfZvb2KGU0">
+                                <img src="{{ config.wwwroot }}/theme/clp/assets/images/play.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="welcome-inner">
+                            <div class="blog-info">
+                                <h2>Success Story Spotlight: Merina Rashid</h2>
+                                <p class="we-belong work_para" style="font-size: 14px;">Merina Rashid was one of our society's underprivileged girls. Since her father died when she was eight years old, Dustho Meyeder Nirapad Ashram o Punorbashan Kendro (DMNAPK) located in Gazipur stood by her as her family's financial condition deteriorated. She found asylum at DMNAPK and attended classes there from elementary to higher secondary school. She learnt computer for free in her struggling life after setting up a Computer Literacy Center (CLC) from Computer Literacy Program (CLP) at DMNAPK in 2017. Following this, she is currently working in an organization called ATI Limited by applying this computer education in her life.</p>
+                                <a class="read-more" href="{{ config.wwwroot }}/">More Stories</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll Top -->
+        <button class="scroll-top tran3s"><span class="fa fa-angle-up"></span></button>
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+        <script>
+        (function() {
+            var timeout = setTimeout(function() {
+                var preloader = document.querySelector('.preloader');
+                if (preloader) {
+                    preloader.style.transition = 'opacity 0.5s ease';
+                    preloader.style.opacity = '0';
+                    setTimeout(function() {
+                        preloader.style.display = 'none';
+                    }, 500);
+                }
+            }, 3000);
+            window.addEventListener('load', function() {
+                clearTimeout(timeout);
+                var preloader = document.querySelector('.preloader');
+                if (preloader) {
+                    preloader.style.transition = 'opacity 0.5s ease';
+                    preloader.style.opacity = '0';
+                    setTimeout(function() {
+                        preloader.style.display = 'none';
+                    }, 500);
+                }
+            });
+        })();
+        </script>
+
+    </div>
+    {{{ output.standard_after_main_region_html }}}
+    {{> theme_clp/footer }}
+</div>

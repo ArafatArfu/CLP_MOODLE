@@ -1,0 +1,56 @@
+[17-Dec-2024 03:02:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[11-Feb-2025 06:43:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[28-Feb-2025 13:46:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[06-May-2025 07:11:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[20-May-2025 14:07:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[30-Jun-2025 15:35:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[06-Jul-2025 16:04:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[13-Jul-2025 12:32:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[30-Jul-2025 02:19:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[22-Nov-2025 20:16:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[24-Dec-2025 01:55:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[24-Jan-2026 07:07:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[01-Feb-2026 05:29:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30
+[13-Apr-2026 01:32:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 30

@@ -1,0 +1,80 @@
+[12-Oct-2024 16:19:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[01-Dec-2024 09:15:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[14-Apr-2025 12:33:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[18-May-2025 18:53:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[15-Jun-2025 04:43:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[24-Jun-2025 20:56:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[08-Jul-2025 04:57:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[22-Jul-2025 08:47:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[30-Jul-2025 16:39:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[22-Oct-2025 02:15:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[27-Oct-2025 04:12:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[07-Jan-2026 15:53:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[25-Jan-2026 11:15:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[30-Jan-2026 16:56:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[11-Feb-2026 06:28:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[24-Feb-2026 23:58:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[03-Mar-2026 05:06:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[19-Mar-2026 16:08:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[25-Mar-2026 10:40:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25
+[09-Apr-2026 08:18:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\EventDispatcher\EventSubscriberInterface" not found in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/console/EventListener/ErrorListener.php on line 25

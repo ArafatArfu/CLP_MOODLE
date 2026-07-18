@@ -1,0 +1,140 @@
+[18-Oct-2024 01:56:26 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Environment\EnvironmentAwareInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php on line 30
+[06-Feb-2025 17:06:05 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[01-May-2025 03:19:34 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[21-May-2025 03:09:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[22-May-2025 07:51:16 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[29-May-2025 09:09:41 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[01-Jun-2025 13:12:32 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[11-Jun-2025 01:10:55 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[22-Jun-2025 23:47:00 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[04-Jul-2025 07:08:49 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[20-Jul-2025 16:44:32 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[21-Jul-2025 05:19:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php on line 27
+[27-Jul-2025 19:52:10 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Environment\EnvironmentAwareInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php on line 30
+[31-Jul-2025 13:11:28 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[02-Aug-2025 08:33:27 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php on line 27
+[30-Sep-2025 16:23:07 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[01-Oct-2025 07:11:20 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Environment\EnvironmentAwareInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php on line 30
+[25-Oct-2025 11:26:07 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php on line 27
+[25-Oct-2025 19:22:55 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[16-Dec-2025 21:44:15 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php on line 27
+[30-Dec-2025 09:37:01 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[12-Jan-2026 03:53:35 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php on line 27
+[16-Jan-2026 00:42:06 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Environment\EnvironmentAwareInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php on line 30
+[16-Jan-2026 19:11:58 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[25-Jan-2026 23:52:48 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[29-Jan-2026 21:28:39 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[02-Feb-2026 12:07:55 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Environment\EnvironmentAwareInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php on line 30
+[09-Feb-2026 14:47:25 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[12-Feb-2026 00:48:12 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25
+[01-Mar-2026 05:20:42 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[01-Mar-2026 09:36:41 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Renderer\NodeRendererInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php on line 27
+[04-Mar-2026 14:55:56 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Environment\EnvironmentAwareInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php on line 30
+[05-Apr-2026 04:51:47 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Environment\EnvironmentAwareInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkProcessor.php on line 30
+[16-Apr-2026 05:43:25 UTC] PHP Fatal error:  Uncaught Error: Class "League\CommonMark\Node\Inline\AbstractInline" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalink.php on line 21
+[17-Apr-2026 14:04:52 UTC] PHP Fatal error:  Uncaught Error: Interface "League\CommonMark\Extension\ConfigurableExtensionInterface" not found in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkExtension.php on line 25

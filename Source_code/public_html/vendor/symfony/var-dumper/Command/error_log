@@ -1,0 +1,48 @@
+[18-Sep-2024 01:53:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[21-May-2025 10:59:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[21-Jul-2025 21:45:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[14-Aug-2025 09:13:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[24-Dec-2025 18:28:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[19-Jan-2026 13:43:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[27-Jan-2026 15:20:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[02-Feb-2026 23:52:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[20-Feb-2026 07:11:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[28-Feb-2026 14:18:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[16-Mar-2026 23:30:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39
+[01-Apr-2026 20:22:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Console\Command\Command" not found in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/var-dumper/Command/ServerDumpCommand.php on line 39

@@ -1,0 +1,4 @@
+"use strict"; // Start of use strict
+
+// 7. google map
+function gMap(){$(".google-map").length&&$(".google-map").each(function(){var a,t=$(this).attr("id"),l=$(this).data("map-lat"),o=$(this).data("map-lng"),e=$(this).data("icon-path"),i=$(this).data("map-zoom"),n=$(this).data("map-title");if(!i)i=15;a=new GMaps({div:"#"+t,scrollwheel:!1,lat:l,lng:o,zoom:i}),e&&(a.addMarker({icon:e,lat:l,lng:o,title:n}),a.addMarker({icon:e,lat:40.938022,lng:-74.036042,title:"South Bloming Grove"}),a.addMarker({icon:e,lat:40.938541,lng:-73.904893,title:"South Bloming Grove"}),a.addMarker({icon:e,lat:40.965207,lng:-73.814403,title:"Eastchester"}))})}jQuery(document).on("ready",function(){jQuery,gMap()});

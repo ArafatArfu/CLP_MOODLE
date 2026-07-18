@@ -1,0 +1,396 @@
+[13-Nov-2024 12:17:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[21-Dec-2024 13:00:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[04-Jan-2025 16:49:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[08-Jan-2025 16:50:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php on line 17
+[31-Jan-2025 00:06:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[01-Feb-2025 23:14:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[07-Feb-2025 22:53:31 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[12-Feb-2025 16:40:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[18-Feb-2025 10:11:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[21-Feb-2025 15:56:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[15-Mar-2025 10:34:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php on line 17
+[18-Mar-2025 12:43:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[22-Mar-2025 23:06:43 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[20-Apr-2025 03:18:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[29-Apr-2025 03:36:32 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php on line 14
+[30-Apr-2025 14:25:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[03-May-2025 06:53:34 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[04-May-2025 06:42:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[10-May-2025 11:23:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[17-May-2025 05:40:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[18-May-2025 14:00:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[21-May-2025 06:13:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[29-May-2025 16:05:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[30-May-2025 11:17:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[30-May-2025 22:38:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[31-May-2025 07:12:36 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Error" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ParseErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ParseErrorException.php on line 17
+[10-Jun-2025 10:19:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php on line 17
+[16-Jun-2025 16:17:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[20-Jun-2025 15:37:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[22-Jun-2025 03:22:35 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php on line 14
+[24-Jun-2025 15:29:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[25-Jun-2025 16:14:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[26-Jun-2025 11:23:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[27-Jun-2025 17:30:36 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[01-Jul-2025 22:09:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php on line 17
+[04-Jul-2025 10:06:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[09-Jul-2025 13:10:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[13-Jul-2025 10:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php on line 14
+[18-Jul-2025 06:55:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[22-Jul-2025 19:22:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[22-Jul-2025 21:16:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[23-Jul-2025 13:25:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[24-Jul-2025 08:20:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php on line 17
+[25-Jul-2025 02:04:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[27-Jul-2025 20:59:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[27-Jul-2025 21:39:15 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[01-Aug-2025 09:44:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[03-Aug-2025 05:55:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[14-Aug-2025 03:13:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php on line 14
+[17-Aug-2025 18:47:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[20-Aug-2025 13:38:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[23-Aug-2025 02:19:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[25-Aug-2025 17:43:36 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[28-Aug-2025 23:11:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[03-Sep-2025 20:40:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php on line 17
+[03-Oct-2025 10:09:50 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[09-Oct-2025 04:04:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[09-Oct-2025 21:49:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[24-Oct-2025 03:39:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[25-Oct-2025 20:39:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[28-Oct-2025 00:53:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[28-Oct-2025 19:53:20 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php on line 14
+[02-Nov-2025 06:01:57 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[23-Nov-2025 14:39:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[25-Nov-2025 14:05:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[21-Dec-2025 11:41:53 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php on line 14
+[22-Dec-2025 11:15:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[23-Dec-2025 18:51:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[27-Dec-2025 18:37:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[29-Dec-2025 21:09:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[30-Dec-2025 19:46:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[01-Jan-2026 02:10:41 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Error" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ParseErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ParseErrorException.php on line 17
+[06-Jan-2026 06:59:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[07-Jan-2026 03:57:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php on line 17
+[07-Jan-2026 23:58:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[09-Jan-2026 08:52:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[10-Jan-2026 19:00:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[18-Jan-2026 11:52:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[22-Jan-2026 07:23:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[28-Jan-2026 12:56:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php on line 14
+[30-Jan-2026 02:18:11 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[30-Jan-2026 14:16:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[04-Feb-2026 05:20:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[10-Feb-2026 05:34:16 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/UnexpectedTargetException.php on line 14
+[14-Feb-2026 03:01:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[16-Feb-2026 08:43:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[24-Feb-2026 01:46:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[25-Feb-2026 18:28:08 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Error" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ParseErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ParseErrorException.php on line 17
+[27-Feb-2026 03:52:44 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17
+[02-Mar-2026 20:57:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ErrorException.php on line 17
+[16-Mar-2026 19:04:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[19-Mar-2026 13:25:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/ThrowUpException.php on line 17
+[22-Mar-2026 13:58:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[24-Mar-2026 12:22:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/FatalErrorException.php on line 17
+[25-Mar-2026 13:01:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/RuntimeException.php on line 17
+[29-Mar-2026 04:02:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[04-Apr-2026 12:23:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[10-Apr-2026 14:14:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Exception\Exception" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/BreakException.php on line 17
+[14-Apr-2026 13:50:58 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\Exception\RuntimeException" not found in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/psy/psysh/src/Exception/DeprecatedException.php on line 17

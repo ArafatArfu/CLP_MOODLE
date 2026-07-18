@@ -1,0 +1,4 @@
+[28-Oct-2024 01:51:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactoryInterface" not found in /home/clpwebor/public_html/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadataFactory.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadataFactory.php on line 19

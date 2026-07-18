@@ -1,0 +1,49 @@
+[21-Sep-2024 01:21:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5
+[09-Oct-2024 13:30:06 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[23-Dec-2024 17:42:27 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[13-Mar-2025 16:32:21 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[21-Mar-2025 14:17:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5
+[01-Jun-2025 13:33:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5
+[11-Jun-2025 17:58:02 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[06-Jul-2025 20:07:04 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[07-Jul-2025 09:18:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5
+[09-Oct-2025 20:47:11 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[10-Oct-2025 17:06:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5
+[31-Oct-2025 06:26:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5
+[16-Dec-2025 22:12:17 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[26-Dec-2025 05:33:30 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[06-Jan-2026 04:08:03 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[19-Jan-2026 20:33:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5
+[25-Jan-2026 07:12:36 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[20-Feb-2026 18:28:51 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[01-Mar-2026 08:01:55 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[09-Mar-2026 20:06:17 UTC] PHP Fatal error:  Trait "Illuminate\Support\Traits\ForwardsCalls" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/DelegatesToResource.php on line 9
+[23-Mar-2026 09:17:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5
+[14-Apr-2026 10:46:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Http\Resources\PotentiallyMissing" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php on line 5

@@ -1,0 +1,428 @@
+[18-Sep-2024 23:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[22-Sep-2024 22:19:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/logging.php on line 21
+[18-Oct-2024 05:24:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[07-Dec-2024 06:46:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/logging.php on line 21
+[23-Dec-2024 14:20:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[11-Jan-2025 23:43:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/queue.php on line 16
+[02-Feb-2025 18:38:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[15-Feb-2025 23:43:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[10-Mar-2025 08:33:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/queue.php on line 16
+[17-Mar-2025 22:22:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/logging.php on line 21
+[19-Mar-2025 10:17:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/filesystems.php on line 16
+[29-Mar-2025 03:11:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[10-Apr-2025 15:21:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[22-Apr-2025 16:56:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[01-May-2025 02:35:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/app.php on line 19
+[01-May-2025 02:37:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/services.php on line 18
+[10-May-2025 04:18:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/queue.php on line 16
+[12-May-2025 17:56:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/filesystems.php on line 16
+[12-May-2025 23:46:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[30-May-2025 18:23:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/services.php on line 18
+[31-May-2025 13:14:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[01-Jun-2025 09:24:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[03-Jun-2025 16:33:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[07-Jun-2025 01:05:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[13-Jun-2025 17:21:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[14-Jun-2025 05:58:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[14-Jun-2025 08:23:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/filesystems.php on line 16
+[14-Jun-2025 15:19:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[16-Jun-2025 14:03:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[20-Jun-2025 00:50:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/services.php on line 18
+[20-Jun-2025 03:48:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/clpwebor/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/view.php on line 17
+[22-Jun-2025 16:31:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[23-Jun-2025 00:05:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/logging.php on line 21
+[25-Jun-2025 20:07:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/queue.php on line 16
+[29-Jun-2025 22:21:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/app.php on line 19
+[01-Jul-2025 14:20:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/logging.php on line 21
+[04-Jul-2025 02:11:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[04-Jul-2025 11:05:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/filesystems.php on line 16
+[09-Jul-2025 01:11:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[10-Jul-2025 17:01:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[12-Jul-2025 02:41:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/queue.php on line 16
+[13-Jul-2025 06:19:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[16-Jul-2025 14:22:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[18-Jul-2025 16:08:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/clpwebor/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/view.php on line 17
+[21-Jul-2025 14:52:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[30-Jul-2025 15:33:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/queue.php on line 16
+[31-Jul-2025 14:26:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[15-Aug-2025 21:39:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[16-Aug-2025 12:17:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[26-Aug-2025 12:02:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[28-Aug-2025 04:43:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[07-Oct-2025 11:04:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[08-Oct-2025 07:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[22-Oct-2025 17:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[22-Oct-2025 23:47:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[23-Oct-2025 00:43:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/app.php on line 19
+[27-Oct-2025 23:06:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[28-Oct-2025 04:20:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/services.php on line 18
+[30-Oct-2025 00:18:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[24-Nov-2025 13:32:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/app.php on line 19
+[24-Nov-2025 16:41:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[17-Dec-2025 10:19:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[18-Dec-2025 04:40:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[20-Dec-2025 20:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[21-Dec-2025 23:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/services.php on line 18
+[23-Dec-2025 04:43:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[24-Dec-2025 18:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[25-Dec-2025 09:22:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/clpwebor/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/view.php on line 17
+[27-Dec-2025 21:31:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[04-Jan-2026 15:45:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[09-Jan-2026 12:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/app.php on line 19
+[10-Jan-2026 18:36:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/services.php on line 18
+[12-Jan-2026 21:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[13-Jan-2026 15:01:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[15-Jan-2026 11:27:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[16-Jan-2026 05:04:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/services.php on line 18
+[17-Jan-2026 20:06:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[19-Jan-2026 11:15:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[21-Jan-2026 23:23:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/logging.php on line 21
+[24-Jan-2026 16:02:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[27-Jan-2026 18:45:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[28-Jan-2026 15:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[28-Jan-2026 23:39:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/app.php on line 19
+[31-Jan-2026 21:13:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[06-Feb-2026 06:38:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/logging.php on line 21
+[07-Feb-2026 14:55:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[08-Feb-2026 10:56:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[09-Feb-2026 08:10:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/app.php on line 19
+[09-Feb-2026 15:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[13-Feb-2026 10:28:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[22-Feb-2026 23:25:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[23-Feb-2026 13:33:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/broadcasting.php on line 18
+[02-Mar-2026 01:17:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/clpwebor/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/view.php on line 17
+[03-Mar-2026 19:03:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[05-Mar-2026 02:41:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[08-Mar-2026 01:01:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/cache.php on line 18
+[11-Mar-2026 01:55:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/hashing.php on line 32
+[17-Mar-2026 06:52:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/services.php on line 18
+[23-Mar-2026 02:44:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/filesystems.php on line 16
+[23-Mar-2026 21:08:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16
+[25-Mar-2026 13:40:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[31-Mar-2026 08:25:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[31-Mar-2026 08:27:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[02-Apr-2026 03:37:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/queue.php on line 16
+[07-Apr-2026 00:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/session.php on line 21
+[08-Apr-2026 16:20:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/database.php on line 18
+[10-Apr-2026 17:36:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/clpwebor/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/config/mail.php on line 16

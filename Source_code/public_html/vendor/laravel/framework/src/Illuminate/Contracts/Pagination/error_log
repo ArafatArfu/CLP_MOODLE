@@ -1,0 +1,52 @@
+[13-Nov-2024 16:39:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[28-Dec-2024 03:20:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[14-Feb-2025 11:47:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[11-Jun-2025 14:21:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[18-Jul-2025 05:04:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[29-Jul-2025 14:47:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[16-Aug-2025 15:57:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[29-Aug-2025 01:06:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[23-Oct-2025 09:38:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[17-Dec-2025 18:19:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[08-Feb-2026 09:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[14-Mar-2026 13:37:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
+[10-Apr-2026 06:15:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Pagination\Paginator" not found in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/clpwebor/public_html/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php on line 5
