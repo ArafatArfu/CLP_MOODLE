@@ -59,7 +59,9 @@ function local_centermanagement_render_centers_table(array $rows, int $startno =
                 } elseif ($support === 'reactivated') {
                     $rowColor = $lightGreen;
                 } else {
-                    $rowColor = '#FFFFFF';
+                    // Unknown / unset support (e.g. invalid '0' data) -> treat as
+                    // a standard active center so the row is never left white.
+                    $rowColor = $green;
                 }
 
                 $isClc = strtolower($center->center_type ?? 'clc') === 'clc';
@@ -72,9 +74,9 @@ function local_centermanagement_render_centers_table(array $rows, int $startno =
                     . '<td>' . htmlspecialchars($center->center_name ?? '', ENT_QUOTES) . '</td>'
                     . '<td>' . htmlspecialchars($districtName, ENT_QUOTES) . '</td>'
                     . '<td>' . $startDate . '</td>'
-                    . '<td><span class="badge badge-secondary text-uppercase ml-1">' . $typeLabel . '</span></td>'
+                    . '<td><span class="clp-type ' . ($isClc ? 'clp-type-clc' : 'clp-type-scr') . '">' . $typeLabel . '</span></td>'
                     . '<td>' . htmlspecialchars($center->sponsor_name ?? '', ENT_QUOTES) . '</td>'
-                    . '<td><a class="btn btn-primary" href="school-details.php?schoolInfo=' . (int) $center->id . '">View</a></td>'
+                    . '<td class="clp-view-cell"><a class="btn btn-primary" href="school-details.php?schoolInfo=' . (int) $center->id . '">View</a></td>'
                     . '</tr>';
 
                 $sl++;

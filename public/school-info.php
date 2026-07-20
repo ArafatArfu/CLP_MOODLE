@@ -43,8 +43,8 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
             vertical-align: middle;
         }
         .clp-centers-table thead th {
-            background-color: #f9cdb7;
-            color: #000;
+            background-color: #006b4f;
+            color: #fff;
             font-size: 1.15em;
             position: sticky;
             top: 0;
@@ -53,7 +53,8 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
         }
         .clp-centers-table tbody tr:nth-child(even) { background-color: #EEE; }
         .clp-centers-table .clp-district-row td {
-            background-color: #ffc107 !important;
+            background-color: #1f3a5f !important;
+            color: #fff;
             font-size: 18px;
             font-weight: bold;
             text-align: center;
@@ -63,6 +64,21 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
             text-align: center;
             white-space: nowrap;
         }
+        .clp-centers-table .clp-type {
+            display: inline-block;
+            padding: 3px 12px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .3px;
+            text-transform: uppercase;
+            color: #fff;
+            white-space: nowrap;
+        }
+        .clp-centers-table .clp-type-clc { background-color: #0d9488; }
+        .clp-centers-table .clp-type-scr { background-color: #2563eb; }
+        .clp-centers-table .clp-view-cell { text-align: center; }
+        .clp-centers-table .clp-view-cell .btn { white-space: nowrap; }
         .clp-centers-table .clp-empty {
             text-align: center;
             padding: 30px;
