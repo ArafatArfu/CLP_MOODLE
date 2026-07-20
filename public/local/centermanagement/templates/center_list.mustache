@@ -1,0 +1,30 @@
+{{< local_centermanagement/header }}
+{{< boost/notification_wrapper }}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h3 class="card-title">{{#str}}allcenters, local_centermanagement{{/str}}</h3>
+                    <div class="card-tools">
+                        <a href="{{addurl}}" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> {{#str}}addcenter, local_centermanagement{{/str}}
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    {{> local_centermanagement/center_filters }}
+                    {{#centers}}
+                        {{> local_centermanagement/center_table }}
+                    {{/centers}}
+                    {{^centers}}
+                        {{> local_centermanagement/empty_state }}
+                    {{/centers}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{< boost/footer }}

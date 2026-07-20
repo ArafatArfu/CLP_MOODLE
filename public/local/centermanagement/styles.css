@@ -1,0 +1,18 @@
+.local_centermanagement .card {
+    margin-bottom: 1rem;
+}
+.local_centermanagement .card-title {
+    font-weight: 600;
+}
+.local_centermanagement .btn {
+    margin-right: 0.25rem;
+}
+.local_centermanagement table th {
+    background-color: #f9cdb7;
+    color: black;
+    text-align: left;
+    font-size: 1.1em;
+}
+.local_centermanagement table tr:nth-child(even) {
+    background-color: #EEE;
+}

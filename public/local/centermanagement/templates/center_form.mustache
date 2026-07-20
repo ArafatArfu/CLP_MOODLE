@@ -1,0 +1,123 @@
+{{< local_centermanagement/header }}
+{{< boost/notification_wrapper }}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h3 class="card-title">{{#str}}addcenter, local_centermanagement{{/str}}</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="{{formaction}}" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="id_center_code">{{#str}}centercode, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
+                                    <input type="text" name="center_code" id="id_center_code" value="{{center_code}}" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_center_name">{{#str}}centername, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
+                                    <input type="text" name="center_name" id="id_center_name" value="{{center_name}}" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_school_name">{{#str}}schoolname, local_centermanagement{{/str}}</label>
+                                    <input type="text" name="school_name" id="id_school_name" value="{{school_name}}" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_center_type">{{#str}}centertype, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
+                                    <select name="center_type" id="id_center_type" class="form-control" required>
+                                        <option value="clc" {{#center_type_clc}}selected{{/center_type_clc}}>{{#str}}centertypeclc, local_centermanagement{{/str}}</option>
+                                        <option value="scr" {{#center_type_scr}}selected{{/center_type_scr}}>{{#str}}centertypescr, local_centermanagement{{/str}}</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_division">{{#str}}division, local_centermanagement{{/str}}</label>
+                                    <input type="text" name="division" id="id_division" value="{{division}}" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_district">{{#str}}district, local_centermanagement{{/str}}</label>
+                                    <input type="text" name="district" id="id_district" value="{{district}}" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_upazila">{{#str}}upazila, local_centermanagement{{/str}}</label>
+                                    <input type="text" name="upazila" id="id_upazila" value="{{upazila}}" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_address">{{#str}}address, local_centermanagement{{/str}}</label>
+                                    <textarea name="address" id="id_address" class="form-control">{{address}}</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_contact_person">{{#str}}contactperson, local_centermanagement{{/str}}</label>
+                                    <input type="text" name="contact_person" id="id_contact_person" value="{{contact_person}}" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="id_contact_number">{{#str}}contactnumber, local_centermanagement{{/str}}</label>
+                                    <input type="text" name="contact_number" id="id_contact_number" value="{{contact_number}}" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_email">{{#str}}email, local_centermanagement{{/str}}</label>
+                                    <input type="email" name="email" id="id_email" value="{{email}}" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_establishment_date">{{#str}}establishmentdate, local_centermanagement{{/str}}</label>
+                                    <input type="date" name="establishment_date" id="id_establishment_date" value="{{establishment_date}}" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_start_date">{{#str}}startdate, local_centermanagement{{/str}}</label>
+                                    <input type="date" name="start_date" id="id_start_date" value="{{start_date}}" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_support">{{#str}}support, local_centermanagement{{/str}}</label>
+                                    <select name="support" id="id_support" class="form-control">
+                                        <option value="">{{#str}}all, local_centermanagement{{/str}}</option>
+                                        <option value="maintained" {{#support_maintained}}selected{{/support_maintained}}>{{#str}}maintained, local_centermanagement{{/str}}</option>
+                                        <option value="activated" {{#support_activated}}selected{{/support_activated}}>{{#str}}activated, local_centermanagement{{/str}}</option>
+                                        <option value="reactivated" {{#support_reactivated}}selected{{/support_reactivated}}>{{#str}}reactivated, local_centermanagement{{/str}}</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_sponsor_name">{{#str}}sponsorname, local_centermanagement{{/str}}</label>
+                                    <textarea name="sponsor_name" id="id_sponsor_name" class="form-control">{{sponsor_name}}</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_devices_count">{{#str}}devicescount, local_centermanagement{{/str}}</label>
+                                    <input type="number" name="devices_count" id="id_devices_count" value="{{devices_count}}" class="form-control" min="0">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_students_count">{{#str}}studentscount, local_centermanagement{{/str}}</label>
+                                    <input type="number" name="students_count" id="id_students_count" value="{{students_count}}" class="form-control" min="0">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_status">{{#str}}status, local_centermanagement{{/str}}</label>
+                                    <select name="status" id="id_status" class="form-control">
+                                        <option value="1" {{#status_1}}selected{{/status_1}}>{{#str}}statusactive, local_centermanagement{{/str}}</option>
+                                        <option value="0" {{#status_0}}selected{{/status_0}}>{{#str}}statusinactive, local_centermanagement{{/str}}</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_image">{{#str}}image, local_centermanagement{{/str}}</label>
+                                    <input type="file" name="image" id="id_image" class="form-control-file" accept="image/*">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_description">{{#str}}description, local_centermanagement{{/str}}</label>
+                                    <textarea name="description" id="id_description" class="form-control">{{description}}</textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="hidden" name="sesskey" value="{{sesskey}}">
+                            <input type="hidden" name="id" value="{{id}}">
+                            <button type="submit" class="btn btn-primary">{{#str}}save, local_centermanagement{{/str}}</button>
+                            <a href="{{cancelurl}}" class="btn btn-secondary">{{#str}}cancel{{/str}}</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{< boost/footer }}

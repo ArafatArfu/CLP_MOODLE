@@ -1,0 +1,27 @@
+{{< local_centermanagement/header }}
+{{< boost/notification_wrapper }}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h3 class="card-title">{{#str}}deletecenter, local_centermanagement{{/str}}</h3>
+                </div>
+                <div class="card-body">
+                    <p>{{#str}}centerdeleteconfirm, local_centermanagement{{/str}}</p>
+                    <form method="post" action="{{deleteurl}}">
+                        <div>
+                            <input type="hidden" name="sesskey" value="{{sesskey}}">
+                            <input type="hidden" name="id" value="{{id}}">
+                            <button type="submit" class="btn btn-danger">{{#str}}delete, local_centermanagement{{/str}}</button>
+                            <a href="{{cancelurl}}" class="btn btn-secondary">{{#str}}cancel{{/str}}</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{< boost/footer }}

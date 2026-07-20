@@ -1,0 +1,126 @@
+{{#ispublic}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{#str}}publiccenters, local_centermanagement{{/str}}</title>
+    <link href="{{{wwwroot}}}/theme/{{theme}}/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="{{{wwwroot}}}/theme/{{theme}}/assets/css/style.css">
+    <link rel="stylesheet" href="{{{wwwroot}}}/theme/{{theme}}/assets/css/responsive.css">
+    <style>
+        .tableFixHead { font-family: 'Noto Serif', serif; font-size: 1em; border-collapse: collapse; color: black; }
+        .tableFixHead thead th { position: sticky; top: 70px; }
+        thead tr th { background-color: #f9cdb7; color: black; text-align: left; font-size: 1.3em; }
+        tr:nth-child(even) { background-color: #EEE; }
+        .district { font-size: 20px; font-weight: bold; }
+        .green-bg { background-color: #47c9a2 !important; }
+        .light-green-bg { background-color: #b4f1df !important; }
+    </style>
+</head>
+<body>
+    {{{navbar}}}
+
+    <section class="content">
+        <div class="container">
+            <br>
+            <h3 style="text-align:center;">{{#str}}publiccenters, local_centermanagement{{/str}}</h3>
+            <br>
+            <p class="work_para">{{#str}}publiccentersdesc, local_centermanagement, years{{/str}}</p>
+            <p class="work_para">{{#str}}totalclccount, local_centermanagement, clccount{{/str}}</p>
+            <p class="work_para">{{#str}}totalscrcount, local_centermanagement, scrcount{{/str}}</p>
+            <p class="work_para">{{#str}}maintainedhighlight, local_centermanagement{{/str}}</p>
+            <p class="work_para">{{#str}}activatedhighlight, local_centermanagement{{/str}}</p>
+            <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-header">
+                        <form style="margin-right: 20px;" action="{{{wwwroot}}}/school-info.php" method="GET">
+                            <div class="row">
+                                <div class="col" style="float: right">
+                                    <button id="reset-search" class="btn btn-warning">{{#str}}reset{{/str}}</button>
+                                </div>
+                                <div class="col" style="float: right">
+                                    <button class="btn btn-primary" type="submit">{{#str}}search{{/str}}</button>
+                                </div>
+                                <div class="col-md-3" style="float: right">
+                                    <input type="text" class="form-control" placeholder="{{#str}}searchbyname, local_centermanagement{{/str}}" name="query" value="{{searchquery}}" style="width: 100%">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="panel-body">
+                        <div class="tableFixHead">
+                            <table class="table table-stripped">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 1%;">Sl</th>
+                                        <th style="width: 32%;">{{#str}}centername, local_centermanagement{{/str}}</th>
+                                        <th style="width: 8%;">{{#str}}district, local_centermanagement{{/str}}</th>
+                                        <th style="width: 9%;">{{#str}}startdate, local_centermanagement{{/str}}</th>
+                                        <th style="width: 18%;">{{#str}}centertype, local_centermanagement{{/str}}</th>
+                                        <th style="width: 28%;">{{#str}}sponsorname, local_centermanagement{{/str}}</th>
+                                        <th colspan=2>{{#str}}schoollink, local_centermanagement{{/str}}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {{^schoolsByDistrict}}
+                                        <tr><td colspan="7" class="text-center">{{#str}}nocentersfound, local_centermanagement{{/str}}</td></tr>
+                                    {{/schoolsByDistrict}}
+                                    {{#schoolsByDistrict}}
+                                        <tr>
+                                            <td colspan="7" class="text-center bg-warning district">{{district_name}}</td>
+                                        </tr>
+                                        {{#schools}}
+                                            <tr style="background-color: {{row_color}}">
+                                                <td>{{sl}}</td>
+                                                <td>{{school_name}}</td>
+                                                <td>{{district_name}}</td>
+                                                <td>{{start_date}}</td>
+                                                <td>
+                                                    {{#is_clc}}
+                                                        <span class="badge badge-secondary text-uppercase ml-1">{{#str}}centertypeclc, local_centermanagement{{/str}}</span>
+                                                    {{/is_clc}}
+                                                    {{#is_scr}}
+                                                        <span class="badge badge-secondary text-uppercase ml-1">{{#str}}centertypescr, local_centermanagement{{/str}}</span>
+                                                    {{/is_scr}}
+                                                </td>
+                                                <td>{{sponsor_name}}</td>
+                                                <td>
+                                                    <a class="btn btn-primary" href="{{{wwwroot}}}/school-details.php?schoolInfo={{id}}">{{#str}}viewdetails, local_centermanagement{{/str}}</a>
+                                                </td>
+                                            </tr>
+                                        {{/schools}}
+                                    {{/schoolsByDistrict}}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{{footer}}}
+
+    <script>
+        $(document).ready(function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const hasQuery = urlParams.has('query');
+            $('#reset-search').prop('disabled', !hasQuery);
+            $('#reset-search').click(function(event) {
+                event.preventDefault();
+                window.location.href = window.location.pathname;
+            });
+        });
+    </script>
+    <script src="{{{wwwroot}}}/theme/{{theme}}/assets/js/jquery.min.js"></script>
+    <script src="{{{wwwroot}}}/theme/{{theme}}/assets/js/jquery.js"></script>
+    <script src="{{{wwwroot}}}/theme/{{theme}}/assets/js/menu.js"></script>
+    <script src="{{{wwwroot}}}/theme/{{theme}}/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{{wwwroot}}}/theme/{{theme}}/assets/js/SmoothScroll.js"></script>
+    <script src="{{{wwwroot}}}/theme/{{theme}}/assets/js/bootstrap.min.js"></script>
+    <script src="{{{wwwroot}}}/theme/{{theme}}/assets/js/owl.carousel.min.js"></script>
+    <script src="{{{wwwroot}}}/theme/{{theme}}/assets/js/custom.js"></script>
+</body>
+</html>
+{{/ispublic}}

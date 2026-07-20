@@ -10,6 +10,80 @@ $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/school-details.php');
 $PAGE->set_title('CLP | School Details');
 $PAGE->set_heading('CLP | School Details');
+
+// ---------------------------------------------------------------------------
+// Backend logic for the "School / Center Details" page.
+//
+// Mirrors the Laravel WebsiteController::schoolDetails() data flow
+// (Source_code/public_html/app/Http/Controllers/WebsiteController.php).
+// In Laravel the page is fed by a SchoolInfo record (with a related School)
+// loaded via findOrFail($request->schoolInfo). In Moodle the centre data lives
+// in the denormalised local_centermanagement_centers table, so we load the
+// single centre by id and derive the same display values.
+//
+// Field mapping follows school-details.blade.php. Where a Laravel column has no
+// equivalent in the Moodle centre table (mail, history, accomplish, scr, ds,
+// csaw, hardware, school_des and the multiple plaque/photo files) the value is
+// left empty - the Laravel blade only renders those blocks when the value is
+// set / not "no image", so an empty value is the faithful Moodle equivalent.
+// ---------------------------------------------------------------------------
+$schoolInfoId = optional_param('schoolInfo', 0, PARAM_INT);
+
+$center = null;
+if ($schoolInfoId) {
+    try {
+        $center = \local_centermanagement\local\center_repository::get_center_by_id($schoolInfoId);
+    } catch (dml_exception $e) {
+        $center = null;
+    }
+}
+
+// Helper that reproduces the Laravel blade "{!! nl2br($value) !!}" output while
+// staying safe in Moodle (escape HTML, preserve line breaks).
+$clp_text = function ($value) {
+    return nl2br(htmlspecialchars((string) $value, ENT_QUOTES));
+};
+
+// Derive the display values the (already integrated) frontend expects.
+$institutionName = $center ? (string) ($center->center_name ?? '') : '';
+$centerTypeLabel = '';
+if ($center) {
+    $ct = strtolower((string) ($center->center_type ?? 'clc'));
+    $centerTypeLabel = ($ct === 'scr') ? 'Smart Classroom' : 'Computer Literacy Center';
+}
+$mailingAddress = $center ? (string) ($center->address ?? '') : '';
+$descriptionText = $center ? (string) ($center->description ?? '') : '';
+$contactInfo = '';
+if ($center) {
+    $parts = [];
+    if (isset($center->contact_person) && $center->contact_person !== '') {
+        $parts[] = $center->contact_person;
+    }
+    if (isset($center->contact_number) && $center->contact_number !== '') {
+        $parts[] = $center->contact_number;
+    }
+    if (isset($center->email) && $center->email !== '') {
+        $parts[] = $center->email;
+    }
+    $contactInfo = implode("\n", $parts);
+}
+$sponsorName = $center ? (string) ($center->sponsor_name ?? '') : '';
+
+// Single centre image (Laravel stores up to three plaque/photo files; the
+// Moodle centre table keeps one image column served via the pluginfile area).
+$centerImageUrl = '';
+if ($center && !empty($center->image)) {
+    $syscontext = \context_system::instance();
+    $centerImageUrl = (string) \moodle_url::make_pluginfile_url(
+        $syscontext->id,
+        'local_centermanagement',
+        'center_image',
+        $center->id,
+        '/',
+        $center->image
+    );
+}
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
@@ -50,24 +124,24 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                     <div class="card-body">
                         <!---->
                         <h4 class="card-title"><strong>Name of Institution:</strong></h4>
-                        <p class="card-text work_para2"></p>
+                        <p class="card-text work_para2"><?php echo $center ? $clp_text($institutionName) : 'Center not found.'; ?></p>
                         
                         <h4 class="card-title"><strong>Center Type:</strong></h4>
                         <p class="card-text work_para2">
-                            
+                            <?php echo $center ? htmlspecialchars($centerTypeLabel, ENT_QUOTES) : ''; ?>
                         </p>
                         <h4 class="card-title"><strong>Mailing Address:</strong></h4>
-                        <p class="card-text work_para2"></p>
+                        <p class="card-text work_para2"><?php echo $center ? $clp_text($mailingAddress) : ''; ?></p>
                         <h4 class="card-title"><strong>History of the Center:</strong></h4>
                         <p class="card-text work_para2"></p>
                         <h4 class="card-title"><strong>Description of the Center:</strong></h4>
                         <p class="card-text work_para2">
-                            
+                            <?php echo $center ? $clp_text($descriptionText) : ''; ?>
                         </p>
                         <h4 class="card-title"><strong>Contact Person with Phone & email:</strong></h4>
-                        <p class="card-text work_para2"></p>
+                        <p class="card-text work_para2"><?php echo $center ? nl2br(htmlspecialchars($contactInfo, ENT_QUOTES)) : ''; ?></p>
                         <h4 class="card-title"><strong>Sponsor name:</strong></h4>
-                        <p class="card-text work_para2"></p>
+                        <p class="card-text work_para2"><?php echo $center ? $clp_text($sponsorName) : ''; ?></p>
                         <h4 class="card-title"><strong>Accomplishment:</strong></h4>
                         <p class="card-text work_para2"></p>
                         <h4 class="card-title"><strong>Number Of Visit:</strong></h4>
@@ -82,9 +156,15 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         
                         <!-- Plaque Photo Section -->
                         <div class="row">
-                            
-                            
-                            
+                            <?php if ($centerImageUrl !== ''): ?>
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <img style="width: 100%; height: 300px; object-fit: cover;"
+                                             src="<?php echo htmlspecialchars($centerImageUrl, ENT_QUOTES); ?>"
+                                             alt="Plaque">
+                                    </div>
+                                </div>
+                            <?php endif; ?>
                         </div>
                         
                         <!--  Photo File Section -->

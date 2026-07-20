@@ -28,8 +28,6 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 <body>
 
 <?php
-// Render the SAME navbar used site-wide (theme/clp/templates/navbar.mustache)
-// so the menu (including DATABASE) and styling match the homepage exactly.
 $navContext = [
     'output' => $OUTPUT,
     'config' => [
@@ -40,70 +38,39 @@ $navContext = [
 echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
 ?>
 
-
 <?php
+global $DB;
+
 $green = "#47c9a2";
 $lightGreen = "#b4f1df";
 $red = "#ff9478";
 $sl = 1;
 
 $years = (int)date("Y") - 2005;
-$totalClcCount = 309;
-$totalScrCount = 209;
+
+$totalClcCount = get_config('local_centermanagement', 'total_clc_count');
+if ($totalClcCount === false || $totalClcCount === '') {
+    $totalClcCount = 309;
+}
+
+$totalScrCount = get_config('local_centermanagement', 'total_scr_count');
+if ($totalScrCount === false || $totalScrCount === '') {
+    $totalScrCount = 209;
+}
 
 $searchQuery = isset($_GET['query']) ? trim((string)$_GET['query']) : '';
 
-$laravelDb = @new mysqli('127.0.0.1', 'clpwebor_clpbdnew', 'Jn99KQzXX9d8ZkJ', 'clpwebor_clpnew');
-
+// Load the sponsored centres grouped by district. The data flow mirrors the
+// Laravel WebsiteController::schoolInfo() method: fetch all active centres,
+// group them by district and order them, then let the (already integrated)
+// frontend render the table. The heavy lifting lives in the centre
+// repository so it can be reused and tested independently of this page.
 $schoolsByDistrict = [];
-if (!($laravelDb instanceof mysqli) || $laravelDb->connect_error) {
-    // leave empty if DB unavailable
-} else {
-    $like = '%' . $laravelDb->real_escape_string($searchQuery) . '%';
-    $sql = "SELECT si.id AS si_id, si.clc AS si_clc, si.school_name AS si_school_name,
-                   si.start_date AS si_start_date, si.support AS si_support, si.sponsor_name AS si_sponsor,
-                   st.state_name AS district_name
-            FROM schoolinfos si
-            LEFT JOIN schools s ON s.id = si.schools_id
-            LEFT JOIN cities ct ON ct.id = s.cities_id
-            LEFT JOIN states st ON st.id = ct.state_id";
-    if ($searchQuery !== '') {
-        $sql .= " WHERE s.school_name LIKE ?";
-    }
-    $sql .= " ORDER BY st.state_name ASC, si.start_date ASC";
 
-    if ($searchQuery !== '') {
-        $stmt = $laravelDb->prepare($sql);
-        $stmt->bind_param('s', $like);
-        $stmt->execute();
-        $res = $stmt->get_result();
-    } else {
-        $res = $laravelDb->query($sql);
-    }
-
-    $rows = [];
-    if ($res) {
-        while ($row = $res->fetch_assoc()) {
-            $rows[] = $row;
-        }
-    }
-
-    $groups = [];
-    foreach ($rows as $row) {
-        $district = $row['district_name'] ?? '';
-        $groups[$district][] = $row;
-    }
-    uksort($groups, function ($a, $b) {
-        $pa = $a === '' ? 1 : 0;
-        $pb = $b === '' ? 1 : 0;
-        if ($pa !== $pb) {
-            return $pa <=> $pb;
-        }
-        return strcmp(ltrim((string)$a), ltrim((string)$b));
-    });
-
-    $schoolsByDistrict = $groups;
-    $laravelDb->close();
+try {
+    $schoolsByDistrict = \local_centermanagement\local\center_repository::get_sponsored_centers($searchQuery);
+} catch (dml_exception $e) {
+    debugging('Error loading centers: ' . $e->getMessage(), DEBUG_DEVELOPER);
 }
 ?>
 
@@ -117,7 +84,8 @@ if (!($laravelDb instanceof mysqli) || $laravelDb->connect_error) {
                     (CLCs)</a></strong> to develop a model for computer literacy of the underprivileged youths in rural
             Bangladesh.</p>
         <p class="work_para">Total number of <strong><a href="clc-teaching.php">Computer Literacy
-                    Centers (CLCs)</a></strong> established to date is
+                    Centers
+                    (CLCs)</a></strong> established to date is
             <strong><?php echo $totalClcCount; ?></strong>.</p>
         <p class="work_para">Total number of <strong><a href="/theme/clp/assets/website.smartClassRoom">Smart Classrooms
                     (SCRs)</a></strong> to date is <strong><?php echo $totalScrCount; ?></strong>.</p>
@@ -166,32 +134,36 @@ if (!($laravelDb instanceof mysqli) || $laravelDb->connect_error) {
                                     <tr>
                                         <td colspan="7" class="text-center bg-warning district"><?php echo htmlspecialchars($districtName, ENT_QUOTES); ?></td>
                                     </tr>
-                                    <?php foreach ($schools as $schoolInfo): ?>
+                                        <?php foreach ($schools as $center): ?>
                                         <tr style="background-color:
                                         <?php
-                                            $support = (int)$schoolInfo['si_support'];
-                                            if ($support == 1) {
+                                            // Mirrors the Laravel blade logic where support is
+                                            // compared against config('constants.CENTER_STATUS_SUPPORTED') (=1)
+                                            // and config('constants.CENTER_STATUS_REACTIVATED') (=2).
+                                            // In the Moodle port these are stored as text values.
+                                            $support = strtolower((string)($center->support ?? ''));
+                                            if (in_array($support, ['maintained', 'activated', 'supported'])) {
                                                 echo $green;
-                                            } elseif ($support == 2) {
+                                            } elseif ($support === 'reactivated') {
                                                 echo $lightGreen;
                                             } else {
                                                 echo '#FFF';
                                             }
                                         ?>">
                                             <td><?php echo $sl; ?></td>
-                                            <td><?php echo htmlspecialchars($schoolInfo['si_school_name'] ?? '', ENT_QUOTES); ?></td>
+                                            <td><?php echo htmlspecialchars($center->center_name ?? '', ENT_QUOTES); ?></td>
                                             <td><?php echo htmlspecialchars($districtName, ENT_QUOTES); ?></td>
-                                            <td><?php echo htmlspecialchars($schoolInfo['si_start_date'] ?? '', ENT_QUOTES); ?></td>
+                                            <td><?php echo !empty($center->start_date) ? date('Y F', $center->start_date) : ''; ?></td>
                                             <td>
-                                                <?php if (strtolower($schoolInfo['si_clc']) == "clc"): ?>
+                                                <?php if (strtolower($center->center_type ?? 'clc') == "clc"): ?>
                                                     <span class="badge badge-secondary text-uppercase ml-1">Computer Literacy Center</span>
                                                 <?php else: ?>
                                                     <span class="badge badge-secondary text-uppercase ml-1">Smart Classroom</span>
                                                 <?php endif; ?>
                                             </td>
-                                            <td><?php echo $schoolInfo['si_sponsor'] ?? ''; ?></td>
+                                            <td><?php echo htmlspecialchars($center->sponsor_name ?? '', ENT_QUOTES); ?></td>
                                             <td>
-                                                <a class="btn btn-primary" href="school-details.php?schoolInfo=<?php echo (int)$schoolInfo['si_id']; ?>">View</a>
+                                                <a class="btn btn-primary" href="school-details.php?schoolInfo=<?php echo (int)$center->id; ?>">View</a>
                                             </td>
                                         </tr>
                                         <?php $sl++; ?>

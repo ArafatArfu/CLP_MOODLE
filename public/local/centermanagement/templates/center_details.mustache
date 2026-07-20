@@ -1,0 +1,55 @@
+{{< local_centermanagement/header }}
+{{< boost/notification_wrapper }}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h3 class="card-title">{{#str}}viewcenter, local_centermanagement{{/str}}</h3>
+                    <div class="card-tools">
+                        <a href="{{backurl}}" class="btn btn-secondary">
+                            <i class="fa fa-arrow-left"></i> {{#str}}backtoallcenters, local_centermanagement{{/str}}
+                        </a>
+                        {{#canedit}}
+                        <a href="{{editurl}}" class="btn btn-primary">
+                            <i class="fa fa-edit"></i> {{#str}}edit, local_centermanagement{{/str}}
+                        </a>
+                        {{/canedit}}
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-bordered">
+                                <tr><th>{{#str}}centercode, local_centermanagement{{/str}}</th><td>{{center_code}}</td></tr>
+                                <tr><th>{{#str}}centername, local_centermanagement{{/str}}</th><td>{{center_name}}</td></tr>
+                                <tr><th>{{#str}}schoolname, local_centermanagement{{/str}}</th><td>{{school_name}}</td></tr>
+                                <tr><th>{{#str}}centertype, local_centermanagement{{/str}}</th><td>{{center_type}}</td></tr>
+                                <tr><th>{{#str}}division, local_centermanagement{{/str}}</th><td>{{division}}</td></tr>
+                                <tr><th>{{#str}}district, local_centermanagement{{/str}}</th><td>{{district}}</td></tr>
+                                <tr><th>{{#str}}upazila, local_centermanagement{{/str}}</th><td>{{upazila}}</td></tr>
+                                <tr><th>{{#str}}address, local_centermanagement{{/str}}</th><td>{{address}}</td></tr>
+                                <tr><th>{{#str}}contactperson, local_centermanagement{{/str}}</th><td>{{contact_person}}</td></tr>
+                                <tr><th>{{#str}}contactnumber, local_centermanagement{{/str}}</th><td>{{contact_number}}</td></tr>
+                                <tr><th>{{#str}}email, local_centermanagement{{/str}}</th><td>{{email}}</td></tr>
+                                <tr><th>{{#str}}establishmentdate, local_centermanagement{{/str}}</th><td>{{establishment_date}}</td></tr>
+                                <tr><th>{{#str}}startdate, local_centermanagement{{/str}}</th><td>{{start_date}}</td></tr>
+                                <tr><th>{{#str}}support, local_centermanagement{{/str}}</th><td>{{support}}</td></tr>
+                                <tr><th>{{#str}}sponsorname, local_centermanagement{{/str}}</th><td>{{sponsor_name}}</td></tr>
+                                <tr><th>{{#str}}devicescount, local_centermanagement{{/str}}</th><td>{{devices_count}}</td></tr>
+                                <tr><th>{{#str}}studentscount, local_centermanagement{{/str}}</th><td>{{students_count}}</td></tr>
+                                <tr><th>{{#str}}status, local_centermanagement{{/str}}</th><td>{{status}}</td></tr>
+                                <tr><th>{{#str}}description, local_centermanagement{{/str}}</th><td>{{{description}}}</td></tr>
+                                <tr><th>{{#str}}image, local_centermanagement{{/str}}</th><td>{{#image}}<img src="{{{image}}}" style="max-width:200px;">{{/image}}{{^image}}No image{{/image}}</td></tr>
+                                <tr><th>{{#str}}centermodified, local_centermanagement{{/str}}</th><td>{{timemodified}}</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{< boost/footer }}
