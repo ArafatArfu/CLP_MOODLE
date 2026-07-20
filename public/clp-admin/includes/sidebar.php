@@ -107,6 +107,12 @@
                         <span>CLC – Computer Literacy Center</span>
                     </a>
                 </li>
+                <li class="nav-item <?php echo in_array($current, ['centers.php', 'centers_form.php', 'centers_view.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="nav-link">
+                        <i class="fas fa-building"></i>
+                        <span>Sponsored Centers</span>
+                    </a>
+                </li>
             </ul>
         </nav>
         

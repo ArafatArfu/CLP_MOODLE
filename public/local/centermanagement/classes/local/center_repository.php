@@ -159,9 +159,13 @@ class center_repository {
      *    Laravel collection sortBy on the left-trimmed district name).
      *
      * @param string $search Optional free-text search term.
+     * @param string $district Optional district filter (matches the grouped
+     *        label on the public page; an empty string means "all centres").
+     * @param string $centerType Optional centre type filter ('clc' or 'scr').
+     *        An empty string means "both" (the public default).
      * @return array[] Associative array of district => list of centre records.
      */
-    public static function get_sponsored_centers(string $search = ''): array {
+    public static function get_sponsored_centers(string $search = '', string $district = '', string $centerType = ''): array {
         global $DB;
 
         $sql = "SELECT * FROM {local_centermanagement_centers} WHERE status = 1";
@@ -175,6 +179,16 @@ class center_repository {
             $params[] = $like;
             $params[] = $like;
             $params[] = $like;
+        }
+
+        if ($district !== '') {
+            $sql .= " AND district = ?";
+            $params[] = $district;
+        }
+
+        if ($centerType !== '') {
+            $sql .= " AND center_type = ?";
+            $params[] = $centerType;
         }
 
         $sql .= " ORDER BY district ASC, start_date ASC";
@@ -197,5 +211,30 @@ class center_repository {
         });
 
         return $groups;
+    }
+
+    /**
+     * Returns the distinct, non-empty district names used to group centres on
+     * the public "Your Sponsored Center(s)" page (school-info.php).
+     *
+     * Only districts that contain at least one active centre are returned,
+     * ordered alphabetically (empty district names excluded). This powers the
+     * "Center" filter dropdown and reuses the same active-only rule as
+     * get_sponsored_centers().
+     *
+     * @return array List of distinct district names.
+     */
+    public static function get_distinct_districts(): array {
+        global $DB;
+
+        $sql = "SELECT DISTINCT district
+                  FROM {local_centermanagement_centers}
+                 WHERE status = 1 AND district IS NOT NULL AND district <> ''
+                 ORDER BY district ASC";
+        $districts = $DB->get_fieldset_sql($sql);
+        // Exclude empty strings explicitly (defensive; the WHERE already filters).
+        return array_values(array_filter($districts, function ($d) {
+            return $d !== '' && $d !== null;
+        }));
     }
 }

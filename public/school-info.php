@@ -23,6 +23,16 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
         thead tr th { background-color: #f9cdb7; color: black; text-align: left; font-size: 1.3em; }
         tr:nth-child(even) { background-color: #EEE; }
         .district { font-size: 20px; font-weight: bold; }
+        .center-filters { margin: 0 0 14px 0; }
+        .center-filters .filter-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #333;
+        }
+        .center-filters .form-control { max-width: 100%; }
+        #centers-tbody.is-loading { opacity: 0.5; }
     </style>
 </head>
 <body>
@@ -43,8 +53,6 @@ global $DB;
 
 $green = "#47c9a2";
 $lightGreen = "#b4f1df";
-$red = "#ff9478";
-$sl = 1;
 
 $years = (int)date("Y") - 2005;
 
@@ -59,6 +67,15 @@ if ($totalScrCount === false || $totalScrCount === '') {
 }
 
 $searchQuery = isset($_GET['query']) ? trim((string)$_GET['query']) : '';
+$filterDistrict = isset($_GET['district']) ? trim((string)$_GET['district']) : '';
+$filterType = isset($_GET['center_type']) ? trim((string)$_GET['center_type']) : '';
+if ($filterType !== '' && !in_array($filterType, ['clc', 'scr'], true)) {
+    $filterType = '';
+}
+
+// Shared table-body renderer (reused by the AJAX filter endpoint so the markup
+// stays identical between a full render and a dynamic refresh).
+require_once($CFG->dirroot . '/local/centermanagement/public_view.php');
 
 // Load the sponsored centres grouped by district. The data flow mirrors the
 // Laravel WebsiteController::schoolInfo() method: fetch all active centres,
@@ -68,8 +85,14 @@ $searchQuery = isset($_GET['query']) ? trim((string)$_GET['query']) : '';
 $schoolsByDistrict = [];
 
 try {
-    $schoolsByDistrict = \local_centermanagement\local\center_repository::get_sponsored_centers($searchQuery);
+    $schoolsByDistrict = \local_centermanagement\local\center_repository::get_sponsored_centers(
+        $searchQuery,
+        $filterDistrict,
+        $filterType
+    );
+    $districts = \local_centermanagement\local\center_repository::get_distinct_districts();
 } catch (dml_exception $e) {
+    $districts = [];
     debugging('Error loading centers: ' . $e->getMessage(), DEBUG_DEVELOPER);
 }
 ?>
@@ -97,16 +120,37 @@ try {
         <div class="container">
             <div class="panel panel-default">
                 <div class="panel-header">
-                    <form style="margin-right: 20px;" action="school-info.php" method="GET">
+                    <!-- Dynamic filtering system (Center + Center Type). Triggers
+                         an AJAX refresh of the table body without a full reload. -->
+                    <div class="row center-filters">
+                        <div class="col-md-3">
+                            <label class="filter-label" for="filter-center">Center</label>
+                            <select id="filter-center" class="form-control" style="width: 100%;">
+                                <option value="">All Centers</option>
+                                <?php foreach ($districts as $d): ?>
+                                    <option value="<?php echo htmlspecialchars($d, ENT_QUOTES); ?>" <?php echo $filterDistrict === $d ? 'selected' : ''; ?>><?php echo htmlspecialchars($d, ENT_QUOTES); ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="filter-label" for="filter-type">Center Type</label>
+                            <select id="filter-type" class="form-control" style="width: 100%;">
+                                <option value="">Both (CLC + SCR)</option>
+                                <option value="clc" <?php echo $filterType === 'clc' ? 'selected' : ''; ?>>Only CLC</option>
+                                <option value="scr" <?php echo $filterType === 'scr' ? 'selected' : ''; ?>>Only SCR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <form id="center-search-form" style="margin-right: 20px;" action="school-info.php" method="GET">
                         <div class="row">
                             <div class="col" style="float: right">
-                                <button id="reset-search" class="btn btn-warning">Reset</button>
+                                <button id="reset-search" class="btn btn-warning" type="button">Reset</button>
                             </div>
                             <div class="col" style="float: right">
                                 <button class="btn btn-primary" type="submit">Search</button>
                             </div>
                             <div class="col-md-3" style="float: right">
-                                <input type="text" class="form-control" placeholder="Search by Center Name" name="query"
+                                <input type="text" id="center-search-input" class="form-control" placeholder="Search by Center Name" name="query"
                                        value="<?php echo htmlspecialchars($searchQuery, ENT_QUOTES); ?>" style="width: 100%">
                             </div>
                         </div>
@@ -126,51 +170,7 @@ try {
                                 <th colspan=2>School Link</th>
                             </tr>
                             </thead>
-                            <tbody>
-                            <?php if (empty($schoolsByDistrict)): ?>
-                                <tr><td colspan="7" class="text-center">No centers found.</td></tr>
-                            <?php else: ?>
-                                <?php foreach ($schoolsByDistrict as $districtName => $schools): ?>
-                                    <tr>
-                                        <td colspan="7" class="text-center bg-warning district"><?php echo htmlspecialchars($districtName, ENT_QUOTES); ?></td>
-                                    </tr>
-                                        <?php foreach ($schools as $center): ?>
-                                        <tr style="background-color:
-                                        <?php
-                                            // Mirrors the Laravel blade logic where support is
-                                            // compared against config('constants.CENTER_STATUS_SUPPORTED') (=1)
-                                            // and config('constants.CENTER_STATUS_REACTIVATED') (=2).
-                                            // In the Moodle port these are stored as text values.
-                                            $support = strtolower((string)($center->support ?? ''));
-                                            if (in_array($support, ['maintained', 'activated', 'supported'])) {
-                                                echo $green;
-                                            } elseif ($support === 'reactivated') {
-                                                echo $lightGreen;
-                                            } else {
-                                                echo '#FFF';
-                                            }
-                                        ?>">
-                                            <td><?php echo $sl; ?></td>
-                                            <td><?php echo htmlspecialchars($center->center_name ?? '', ENT_QUOTES); ?></td>
-                                            <td><?php echo htmlspecialchars($districtName, ENT_QUOTES); ?></td>
-                                            <td><?php echo !empty($center->start_date) ? date('Y F', $center->start_date) : ''; ?></td>
-                                            <td>
-                                                <?php if (strtolower($center->center_type ?? 'clc') == "clc"): ?>
-                                                    <span class="badge badge-secondary text-uppercase ml-1">Computer Literacy Center</span>
-                                                <?php else: ?>
-                                                    <span class="badge badge-secondary text-uppercase ml-1">Smart Classroom</span>
-                                                <?php endif; ?>
-                                            </td>
-                                            <td><?php echo htmlspecialchars($center->sponsor_name ?? '', ENT_QUOTES); ?></td>
-                                            <td>
-                                                <a class="btn btn-primary" href="school-details.php?schoolInfo=<?php echo (int)$center->id; ?>">View</a>
-                                            </td>
-                                        </tr>
-                                        <?php $sl++; ?>
-                                    <?php endforeach; ?>
-                                <?php endforeach; ?>
-                            <?php endif; ?>
-                            </tbody>
+                            <?php echo local_centermanagement_render_sponsored_tbody($schoolsByDistrict); ?>
                         </table>
                     </div>
                 </div>
@@ -275,18 +275,6 @@ try {
     </section>
 </footer>
 
-<script type="text/javascript">
-            $(document).ready(function() {
-                const urlParams = new URLSearchParams(window.location.search);
-                const hasQuery = urlParams.has('query');
-                $('#reset-search').prop('disabled', !hasQuery);
-                $('#reset-search').click(function(event) {
-                    event.preventDefault();
-                    window.location.href = window.location.pathname;
-                });
-            });
-        </script>
-
     <script src="/theme/clp/assets/js/jquery.min.js"></script>
     <script src="/theme/clp/assets/js/jquery.js"></script>
     <script src="/theme/clp/assets/js/menu.js"></script>
@@ -296,5 +284,61 @@ try {
     <script src="/theme/clp/assets/js/owl.carousel.min.js"></script>
     <script src="/theme/clp/assets/js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $tbody = $('#centers-tbody');
+            var $searchInput = $('#center-search-input');
+            var $centerFilter = $('#filter-center');
+            var $typeFilter = $('#filter-type');
+            var $resetBtn = $('#reset-search');
+
+            function updateResetState() {
+                var active = $searchInput.val().trim() !== '' ||
+                    $centerFilter.val() !== '' ||
+                    $typeFilter.val() !== '';
+                $resetBtn.prop('disabled', !active);
+            }
+
+            function applyCenterFilters() {
+                var params = {
+                    query: $searchInput.val(),
+                    district: $centerFilter.val(),
+                    center_type: $typeFilter.val()
+                };
+                $tbody.addClass('is-loading');
+                $.get('school-info-ajax.php', params, function (html) {
+                    var $newBody = $(html);
+                    if ($newBody.length && $newBody.is('tbody')) {
+                        $tbody.replaceWith($newBody);
+                        $tbody = $newBody;
+                    } else {
+                        $tbody.html(html);
+                    }
+                }, 'html').always(function () {
+                    $tbody.removeClass('is-loading');
+                    updateResetState();
+                });
+            }
+
+            $centerFilter.on('change', applyCenterFilters);
+            $typeFilter.on('change', applyCenterFilters);
+
+            // Keep the existing search submission but refresh dynamically
+            // (no full page reload) so the two filters stay in sync.
+            $('#center-search-form').on('submit', function (e) {
+                e.preventDefault();
+                applyCenterFilters();
+            });
+
+            $resetBtn.on('click', function () {
+                $searchInput.val('');
+                $centerFilter.val('');
+                $typeFilter.val('');
+                applyCenterFilters();
+            });
+
+            updateResetState();
+        });
+    </script>
 </body>
 </html>

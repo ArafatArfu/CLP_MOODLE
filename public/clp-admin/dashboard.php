@@ -45,6 +45,22 @@ if ($res = $db->query("SHOW TABLES LIKE 'mdl_clp_clc_participants'")) {
     }
 }
 
+// Sponsored centers (owned by the local_centermanagement Moodle plugin). These
+// are the records shown on the public "Your Sponsored Center(s)" page.
+$stats['centers'] = 0;
+$centers_recent = [];
+if ($res = $db->query("SHOW TABLES LIKE 'mdl_local_centermanagement_centers'")) {
+    if ($res->num_rows > 0) {
+        $r = $db->query("SELECT COUNT(*) as count FROM mdl_local_centermanagement_centers WHERE status = 1");
+        $stats['centers'] = (int)$r->fetch_assoc()['count'];
+
+        $r = $db->query("SELECT center_name, district, start_date FROM mdl_local_centermanagement_centers ORDER BY timemodified DESC, id DESC LIMIT 5");
+        while ($row = $r->fetch_assoc()) {
+            $centers_recent[] = $row;
+        }
+    }
+}
+
 // Get recent activities
 $recent_activities = [];
 $result = $db->query("
@@ -174,6 +190,18 @@ include __DIR__ . '/includes/header.php';
                     </div>
                 </div>
             </a>
+
+            <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon blue">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['centers']; ?></h3>
+                        <p>Sponsored Centers</p>
+                    </div>
+                </div>
+            </a>
         </div>
         
         <!-- Recent Activity -->
@@ -235,6 +263,40 @@ include __DIR__ . '/includes/header.php';
                                     <td><strong><?php echo clp_escape($row['name']); ?></strong></td>
                                     <td><?php echo clp_escape($row['school']); ?></td>
                                     <td><?php echo !empty($row['timecreated']) ? date('Y', (int)$row['timecreated']) : '—'; ?></td>
+                                </tr>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Recent Sponsored Centers -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title"><i class="fas fa-building"></i> Recent Sponsored Centers</h3>
+                <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> View All</a>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Center Name</th>
+                            <th>District</th>
+                            <th>Start Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php if (empty($centers_recent)): ?>
+                            <tr>
+                                <td colspan="3" style="text-align: center; color: #999;">No sponsored centers yet. <a href="<?php echo CLP_ADMIN_URL; ?>/centers_form.php">Add the first center</a>.</td>
+                            </tr>
+                        <?php else: ?>
+                            <?php foreach ($centers_recent as $row): ?>
+                                <tr>
+                                    <td><strong><?php echo clp_escape($row['center_name']); ?></strong></td>
+                                    <td><?php echo clp_escape($row['district']); ?></td>
+                                    <td><?php echo !empty($row['start_date']) ? date('Y', (int)$row['start_date']) : '—'; ?></td>
                                 </tr>
                             <?php endforeach; ?>
                         <?php endif; ?>
