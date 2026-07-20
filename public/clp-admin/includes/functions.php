@@ -136,9 +136,19 @@ function clp_stmt_fetch_assoc($stmt) {
     call_user_func_array([$stmt, 'bind_result'], $fields);
     
     if ($stmt->fetch()) {
-        return $row;
+        // Copy values out of the bound (by-reference) row before freeing.
+        $result = [];
+        foreach ($row as $key => $value) {
+            $result[$key] = $value;
+        }
+        // Free the result set so the connection is ready for the next query
+        // (prevents "Commands out of sync" errors on subsequent statements).
+        $stmt->free_result();
+        return $result;
     }
     
+    // No row: still free the result set to keep the connection clean.
+    $stmt->free_result();
     return null;
 }
 

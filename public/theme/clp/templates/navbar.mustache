@@ -39,29 +39,68 @@
 }}
 <!-- Navbar Start-->
 <style>
-/* CLP: show ABOUT US (and other) dropdowns on hover at desktop width.
-   !important is required because theme/clp/assets/js/menu.js sets an
-   inline display:none on .dropdown when it initializes; an inline
-   stylesheet !important rule beats that inline style so the hover shows. */
+/* ==========================================================================
+   CLP shared navbar styling (single source of truth for every public page).
+   These rules live inline in the shared navbar template so that any page
+   rendering theme_clp/navbar gets identical behaviour. Selectors are scoped
+   to .theme_menu / .defaultmainmenu-menu so no other Moodle component is
+   affected.
+   ========================================================================== */
+
+/* Slightly smaller navbar logo (~12% smaller: 350px -> 300px), keeps aspect
+   ratio, never distorts, and stays vertically centred in the navbar. */
+.theme_menu .main-logo {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+}
+.theme_menu .main-logo img {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 78px;
+    object-fit: contain;
+}
+
 @media (min-width: 992px) {
+    /* Show ABOUT US (and other) dropdowns on hover at desktop width.
+       !important is required because theme/clp/assets/js/menu.js sets an
+       inline display:none on .dropdown when it initializes; an inline
+       stylesheet !important rule beats that inline style so the hover shows. */
     .defaultmainmenu-menu > li:hover > .dropdown,
     .defaultmainmenu-menu ul.dropdown li:hover > .dropdown {
         display: block !important;
-        }
-        /* Keep all top-level menu items on one line */
-        .defaultmainmenu-menu {
-            display: flex;
-            flex-wrap: nowrap;
-            align-items: center;
-        }
-        .defaultmainmenu-menu > li > a {
-            font-size: 13px;
-            padding: 0 10px;
-            white-space: nowrap;
-        }
-        .defaultmainmenu-menu > li {
-            white-space: nowrap;
-        }
+    }
+
+    /* Keep ALL top-level menu items on one line, evenly spaced and
+       right-aligned toward the donate/logo area. One consistent gap system
+       is used instead of per-item margins so spacing stays balanced. */
+    .theme_menu .defaultmainmenu {
+        float: none;
+    }
+    .defaultmainmenu-menu {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .defaultmainmenu-menu > li {
+        white-space: nowrap;
+    }
+    /* Center each label vertically + horizontally and give one uniform gap.
+       Reduced padding + font-size frees the space that was pushing
+       "JOIN US" onto a second line. */
+    .defaultmainmenu-menu > li > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        padding: 18px 9px;
+        font-size: 13px;
+    }
+    /* Remove the legacy asymmetric first-child override so spacing is equal. */
+    .defaultmainmenu-menu > li:first-child a {
+        padding-left: 9px;
     }
 }
 </style>
@@ -97,8 +136,8 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="main-logo">
-                    <a href="{{{ config.homeurl }}}">
-                        <img alt="CLP" src="{{{ config.wwwroot }}}/theme/clp/assets/images/logo/clp-logo-2022-4.png" />
+                    <a href="{{{ config.wwwroot }}}/">
+                        <img alt="{{ sitename }}" src="{{{ config.wwwroot }}}/theme/clp/assets/images/logo/clp-logo-2022-4.png" />
                     </a>
                 </div>
             </div>
