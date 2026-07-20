@@ -1,5 +1,7 @@
 <?php
 require_once(__DIR__ . '/config.php');
+use local_centermanagement\local\center_repository;
+
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/school-info.php');
 $PAGE->set_title('CLP | Your Sponsored Center(s)');
@@ -16,23 +18,18 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
     <link rel="stylesheet" href="/theme/clp/assets/css/style.css">
     <link rel="stylesheet" href="/theme/clp/assets/css/responsive.css">
     <link rel="stylesheet" href="/theme/clp/assets/css/jp-style.css">
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- Reuse the CLC program page component styles so this page and
+         /local/clp/program.php share one identical filtering component. -->
+    <link rel="stylesheet" href="/local/clp/program.css">
     <style>
-        .tableFixHead { font-family: 'Noto Serif', serif; font-size: 1em; border-collapse: collapse; color: black; }
-        .tableFixHead thead th { position: sticky; top: 70px; }
-        thead tr th { background-color: #f9cdb7; color: black; text-align: left; font-size: 1.3em; }
-        tr:nth-child(even) { background-color: #EEE; }
-        .district { font-size: 20px; font-weight: bold; }
-        .center-filters { margin: 0 0 14px 0; }
-        .center-filters .filter-label {
-            display: block;
-            font-size: 13px;
-            font-weight: 600;
-            margin-bottom: 4px;
-            color: #333;
+        .sc-link {
+            color: #006b4f;
+            font-weight: 700;
+            text-decoration: none;
         }
-        .center-filters .form-control { max-width: 100%; }
-        #centers-tbody.is-loading { opacity: 0.5; }
+        .sc-link:hover { text-decoration: underline; }
+        /* Let the hero/component sit naturally under the theme navbar. */
+        body { background: #f5f6f8; }
     </style>
 </head>
 <body>
@@ -49,135 +46,188 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
 ?>
 
 <?php
-global $DB;
-
-$green = "#47c9a2";
-$lightGreen = "#b4f1df";
-
-$years = (int)date("Y") - 2005;
-
+// --- Data preparation (mirrors local/clp/program.php) ----------------------
 $totalClcCount = get_config('local_centermanagement', 'total_clc_count');
 if ($totalClcCount === false || $totalClcCount === '') {
     $totalClcCount = 309;
 }
-
 $totalScrCount = get_config('local_centermanagement', 'total_scr_count');
 if ($totalScrCount === false || $totalScrCount === '') {
     $totalScrCount = 209;
 }
 
-$searchQuery = isset($_GET['query']) ? trim((string)$_GET['query']) : '';
-$filterDistrict = isset($_GET['district']) ? trim((string)$_GET['district']) : '';
-$filterType = isset($_GET['center_type']) ? trim((string)$_GET['center_type']) : '';
-if ($filterType !== '' && !in_array($filterType, ['clc', 'scr'], true)) {
-    $filterType = '';
-}
+// Read the same filter/search/sort parameters the component exposes.
+$f = [
+    'q'           => trim((string)($_GET['q'] ?? '')),
+    'district'    => trim((string)($_GET['district'] ?? '')),
+    'division'    => trim((string)($_GET['division'] ?? '')),
+    'upazila'     => trim((string)($_GET['upazila'] ?? '')),
+    'center_type' => trim((string)($_GET['center_type'] ?? '')),
+    'support'     => trim((string)($_GET['support'] ?? '')),
+    'sort'        => trim((string)($_GET['sort'] ?? 'center_name')),
+    'dir'         => strtoupper(trim((string)($_GET['dir'] ?? 'ASC'))) === 'DESC' ? 'DESC' : 'ASC',
+];
+$page = max(1, (int)($_GET['page'] ?? 1));
 
-// Shared table-body renderer (reused by the AJAX filter endpoint so the markup
-// stays identical between a full render and a dynamic refresh).
 require_once($CFG->dirroot . '/local/centermanagement/public_view.php');
 
-// Load the sponsored centres grouped by district. The data flow mirrors the
-// Laravel WebsiteController::schoolInfo() method: fetch all active centres,
-// group them by district and order them, then let the (already integrated)
-// frontend render the table. The heavy lifting lives in the centre
-// repository so it can be reused and tested independently of this page.
-$schoolsByDistrict = [];
+$districts = center_repository::get_distinct_field('district');
+$divisions = center_repository::get_distinct_field('division');
+$upazilas  = center_repository::get_distinct_field('upazila');
 
-try {
-    $schoolsByDistrict = \local_centermanagement\local\center_repository::get_sponsored_centers(
-        $searchQuery,
-        $filterDistrict,
-        $filterType
-    );
-    $districts = \local_centermanagement\local\center_repository::get_distinct_districts();
-} catch (dml_exception $e) {
-    $districts = [];
-    debugging('Error loading centers: ' . $e->getMessage(), DEBUG_DEVELOPER);
+$types = ['clc' => 'CLC', 'scr' => 'SCR'];
+$supports = [
+    'maintained'   => 'Maintained',
+    'activated'    => 'Activated',
+    'reactivated'  => 'Reactivated',
+    'supported'    => 'Supported',
+];
+$sortoptions = [
+    'center_name' => 'Center Name',
+    'district'    => 'District',
+    'division'    => 'Division',
+    'start_date'  => 'Start Date',
+    'sponsor_name' => 'Sponsor',
+    'support'     => 'Support',
+];
+
+// Build the initial payload (same function the AJAX endpoint uses).
+$initial = local_centermanagement_build_centers_data($f, $page);
+
+// AJAX request: return JSON and stop (identical to program.php behaviour).
+if (isset($_GET['ajax'])) {
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($initial);
+    exit;
+}
+
+$totalCenters = $initial['total'];
+
+/**
+ * Render <option> elements for a select, marking the active value.
+ */
+function school_info_options(array $values, string $current, string $allLabel): string {
+    $html = '<option value="">' . htmlspecialchars($allLabel, ENT_QUOTES) . '</option>';
+    foreach ($values as $value) {
+        $selected = (string)$value === (string)$current ? ' selected' : '';
+        $html .= '<option value="' . htmlspecialchars($value, ENT_QUOTES) . '"' . $selected . '>'
+            . htmlspecialchars($value, ENT_QUOTES) . '</option>';
+    }
+    return $html;
+}
+
+function school_info_assoc_options(array $map, string $current, string $allLabel): string {
+    $html = '<option value="">' . htmlspecialchars($allLabel, ENT_QUOTES) . '</option>';
+    foreach ($map as $value => $label) {
+        $selected = (string)$value === (string)$current ? ' selected' : '';
+        $html .= '<option value="' . htmlspecialchars($value, ENT_QUOTES) . '"' . $selected . '>'
+            . htmlspecialchars($label, ENT_QUOTES) . '</option>';
+    }
+    return $html;
 }
 ?>
 
-<section class="content">
-    <div class="container">
-        <br>
-        <h3 style="text-align:center;">Your Sponsored Center(s)</h3>
-        <br>
-        <p class="work_para">Computer Literacy Program Volunteers for the Underprivileged (CLP) has spent <?php echo $years; ?> years
-            building and running <strong><a href="clc-teaching.php">Computer Literacy Centers
-                    (CLCs)</a></strong> to develop a model for computer literacy of the underprivileged youths in rural
-            Bangladesh.</p>
-        <p class="work_para">Total number of <strong><a href="clc-teaching.php">Computer Literacy
-                    Centers
-                    (CLCs)</a></strong> established to date is
-            <strong><?php echo $totalClcCount; ?></strong>.</p>
-        <p class="work_para">Total number of <strong><a href="/theme/clp/assets/website.smartClassRoom">Smart Classrooms
-                    (SCRs)</a></strong> to date is <strong><?php echo $totalScrCount; ?></strong>.</p>
-        <p class="work_para">The maintained centers are highlighted with <strong style="color: <?php echo $green; ?>">light green
-                color.</strong></p>
-        <p class="work_para">The activated and reactivated centers are highlighted with <strong
-                style="color: <?php echo $lightGreen; ?>">more
-                lighther green color.</strong></p>
-        <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-header">
-                    <!-- Dynamic filtering system (Center + Center Type). Triggers
-                         an AJAX refresh of the table body without a full reload. -->
-                    <div class="row center-filters">
-                        <div class="col-md-3">
-                            <label class="filter-label" for="filter-center">Center</label>
-                            <select id="filter-center" class="form-control" style="width: 100%;">
-                                <option value="">All Centers</option>
-                                <?php foreach ($districts as $d): ?>
-                                    <option value="<?php echo htmlspecialchars($d, ENT_QUOTES); ?>" <?php echo $filterDistrict === $d ? 'selected' : ''; ?>><?php echo htmlspecialchars($d, ENT_QUOTES); ?></option>
-                                <?php endforeach; ?>
-                            </select>
-                        </div>
-                        <div class="col-md-3">
-                            <label class="filter-label" for="filter-type">Center Type</label>
-                            <select id="filter-type" class="form-control" style="width: 100%;">
-                                <option value="">Both (CLC + SCR)</option>
-                                <option value="clc" <?php echo $filterType === 'clc' ? 'selected' : ''; ?>>Only CLC</option>
-                                <option value="scr" <?php echo $filterType === 'scr' ? 'selected' : ''; ?>>Only SCR</option>
-                            </select>
-                        </div>
-                    </div>
-                    <form id="center-search-form" style="margin-right: 20px;" action="school-info.php" method="GET">
-                        <div class="row">
-                            <div class="col" style="float: right">
-                                <button id="reset-search" class="btn btn-warning" type="button">Reset</button>
-                            </div>
-                            <div class="col" style="float: right">
-                                <button class="btn btn-primary" type="submit">Search</button>
-                            </div>
-                            <div class="col-md-3" style="float: right">
-                                <input type="text" id="center-search-input" class="form-control" placeholder="Search by Center Name" name="query"
-                                       value="<?php echo htmlspecialchars($searchQuery, ENT_QUOTES); ?>" style="width: 100%">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="panel-body">
-                    <div class="tableFixHead">
-                        <table class="table table-stripped">
-                            <thead>
-                            <tr>
-                                <th style="width: 1%;">Sl</th>
-                                <th style="width: 32%;">Center Name</th>
-                                <th style="width: 8%;">District</th>
-                                <th style="width: 9%;">Start Date</th>
-                                <th style="width: 18%;">Center Type</th>
-                                <th style="width: 28%;">Sponsor</th>
-                                <th colspan=2>School Link</th>
-                            </tr>
-                            </thead>
-                            <?php echo local_centermanagement_render_sponsored_tbody($schoolsByDistrict); ?>
-                        </table>
-                    </div>
-                </div>
+<div class="sc-program-page" data-ajaxurl="school-info-ajax.php" data-program="centers">
+    <header class="sc-program-header">
+        <span class="sc-program-eyebrow">Database</span>
+        <h1 class="sc-program-title">Your Sponsored Center(s)</h1>
+        <p class="sc-program-desc">CLP establishes and supports Computer Literacy Centers (CLCs) and Smart Classrooms (SCRs) across Bangladesh. The directory below lists every sponsored center&mdash;filter by location, type or support status to explore them.</p>
+        <div class="sc-program-meta">
+            <span class="sc-program-badge">
+                <span class="sc-program-dot" aria-hidden="true"></span>Centers
+            </span>
+            <span class="sc-program-count"><strong id="sc-program-total"><?php echo (int)$totalCenters; ?></strong> centers listed</span>
+        </div>
+
+        <div class="sc-program-stats">
+            <div class="sc-stat-box">
+                <span class="sc-stat-value"><?php echo (int)$totalClcCount; ?></span>
+                <span class="sc-stat-label">Computer Literacy Centers (CLCs)</span>
+            </div>
+            <div class="sc-stat-box">
+                <span class="sc-stat-value"><?php echo (int)$totalScrCount; ?></span>
+                <span class="sc-stat-label">Smart Classrooms (SCRs)</span>
             </div>
         </div>
-    </div>
-</section>
+    </header>
+
+    <section class="sc-program-panel">
+        <form class="sc-program-filters" id="sc-program-filters" method="get" autocomplete="off">
+            <div class="sc-filter-search">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"/></svg>
+                <input type="search" name="q" value="<?php echo htmlspecialchars($f['q'], ENT_QUOTES); ?>" placeholder="Search by center, school, sponsor, district…" aria-label="Search centers">
+            </div>
+
+            <div class="sc-filter-grid">
+                <div class="sc-filter-field">
+                    <label for="f-district">District</label>
+                    <select id="f-district" name="district">
+                        <?php echo school_info_options($districts, $f['district'], 'All districts'); ?>
+                    </select>
+                </div>
+                <div class="sc-filter-field">
+                    <label for="f-division">Division</label>
+                    <select id="f-division" name="division">
+                        <?php echo school_info_options($divisions, $f['division'], 'All divisions'); ?>
+                    </select>
+                </div>
+                <div class="sc-filter-field">
+                    <label for="f-upazila">Upazila</label>
+                    <select id="f-upazila" name="upazila">
+                        <?php echo school_info_options($upazilas, $f['upazila'], 'All upazilas'); ?>
+                    </select>
+                </div>
+                <div class="sc-filter-field">
+                    <label for="f-center_type">Center Type</label>
+                    <select id="f-center_type" name="center_type">
+                        <?php echo school_info_assoc_options($types, $f['center_type'], 'All types'); ?>
+                    </select>
+                </div>
+                <div class="sc-filter-field">
+                    <label for="f-support">Support</label>
+                    <select id="f-support" name="support">
+                        <?php echo school_info_assoc_options($supports, $f['support'], 'All support'); ?>
+                    </select>
+                </div>
+                <div class="sc-filter-field">
+                    <label for="f-sort">Sort by</label>
+                    <select id="f-sort" name="sort">
+                        <?php
+                        foreach ($sortoptions as $key => $label) {
+                            $sel = $key === $f['sort'] ? ' selected' : '';
+                            echo '<option value="' . htmlspecialchars($key, ENT_QUOTES) . '"' . $sel . '>' . htmlspecialchars($label, ENT_QUOTES) . '</option>';
+                        }
+                        ?>
+                    </select>
+                </div>
+                <div class="sc-filter-field">
+                    <label for="f-dir">Order</label>
+                    <select id="f-dir" name="dir">
+                        <option value="ASC" <?php echo $f['dir'] !== 'DESC' ? 'selected' : ''; ?>>Ascending</option>
+                        <option value="DESC" <?php echo $f['dir'] === 'DESC' ? 'selected' : ''; ?>>Descending</option>
+                    </select>
+                </div>
+                <div class="sc-filter-actions">
+                    <button type="submit" class="sc-btn sc-btn-primary">Search</button>
+                    <button type="button" class="sc-btn sc-btn-ghost" data-reset>Reset</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="sc-program-toolbar">
+            <h2 class="sc-panel-title">Sponsored Centers</h2>
+            <p class="sc-panel-sub">Center directory</p>
+        </div>
+
+        <div class="sc-program-tablewrap" id="sc-program-table" aria-live="polite" aria-busy="false">
+            <?php echo $initial['table']; ?>
+        </div>
+
+        <nav class="sc-pagination" id="sc-program-pagination" aria-label="Centers pagination">
+            <?php echo $initial['pagination']; ?>
+        </nav>
+    </section>
+</div>
 
 <div class="donate-popup" id="donate-popup">
     <div class="close-donate theme-btn"><span class="fa fa-close"></span></div>
@@ -275,70 +325,117 @@ try {
     </section>
 </footer>
 
-    <script src="/theme/clp/assets/js/jquery.min.js"></script>
-    <script src="/theme/clp/assets/js/jquery.js"></script>
-    <script src="/theme/clp/assets/js/menu.js"></script>
-    <script src="/theme/clp/assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="/theme/clp/assets/js/SmoothScroll.js"></script>
-    <script src="/theme/clp/assets/js/bootstrap.min.js"></script>
-    <script src="/theme/clp/assets/js/owl.carousel.min.js"></script>
-    <script src="/theme/clp/assets/js/custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            var $tbody = $('#centers-tbody');
-            var $searchInput = $('#center-search-input');
-            var $centerFilter = $('#filter-center');
-            var $typeFilter = $('#filter-type');
-            var $resetBtn = $('#reset-search');
+<script type="text/javascript">
+    (function () {
+        var wrap = document.querySelector('.sc-program-page');
+        if (!wrap) {
+            return;
+        }
+        var form = wrap.querySelector('#sc-program-filters');
+        var tableBox = wrap.querySelector('#sc-program-table');
+        var pageBox = wrap.querySelector('#sc-program-pagination');
+        var totalEl = wrap.querySelector('#sc-program-total');
+        var url = wrap.getAttribute('data-ajaxurl');
+        var loading = false;
+        var typingTimer;
 
-            function updateResetState() {
-                var active = $searchInput.val().trim() !== '' ||
-                    $centerFilter.val() !== '' ||
-                    $typeFilter.val() !== '';
-                $resetBtn.prop('disabled', !active);
+        function buildQuery(page) {
+            var params = [];
+            var fd = new FormData(form);
+            fd.forEach(function (value, key) {
+                if (value !== '') {
+                    params.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));
+                }
+            });
+            params.push('ajax=1');
+            params.push('page=' + page);
+            return params.join('&');
+        }
+
+        function load(page) {
+            if (loading) {
+                return;
             }
+            loading = true;
+            tableBox.classList.add('is-loading');
 
-            function applyCenterFilters() {
-                var params = {
-                    query: $searchInput.val(),
-                    district: $centerFilter.val(),
-                    center_type: $typeFilter.val()
-                };
-                $tbody.addClass('is-loading');
-                $.get('school-info-ajax.php', params, function (html) {
-                    var $newBody = $(html);
-                    if ($newBody.length && $newBody.is('tbody')) {
-                        $tbody.replaceWith($newBody);
-                        $tbody = $newBody;
-                    } else {
-                        $tbody.html(html);
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url + '?' + buildQuery(page), true);
+            xhr.responseType = 'json';
+            xhr.onload = function () {
+                if (xhr.status === 200 && xhr.response) {
+                    var d = xhr.response;
+                    tableBox.innerHTML = d.table;
+                    pageBox.innerHTML = d.pagination;
+                    if (totalEl) {
+                        totalEl.textContent = d.total;
                     }
-                }, 'html').always(function () {
-                    $tbody.removeClass('is-loading');
-                    updateResetState();
+                    bindPagination();
+                    var top = wrap.getBoundingClientRect().top + window.scrollY - 90;
+                    window.scrollTo({ top: top, behavior: 'smooth' });
+                }
+                loading = false;
+                tableBox.classList.remove('is-loading');
+            };
+            xhr.onerror = function () {
+                loading = false;
+                tableBox.classList.remove('is-loading');
+            };
+            xhr.send();
+        }
+
+        function bindPagination() {
+            pageBox.querySelectorAll('.sc-page-btn:not([disabled])').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var p = parseInt(btn.getAttribute('data-page'), 10);
+                    if (!isNaN(p)) {
+                        load(p);
+                    }
                 });
-            }
-
-            $centerFilter.on('change', applyCenterFilters);
-            $typeFilter.on('change', applyCenterFilters);
-
-            // Keep the existing search submission but refresh dynamically
-            // (no full page reload) so the two filters stay in sync.
-            $('#center-search-form').on('submit', function (e) {
-                e.preventDefault();
-                applyCenterFilters();
             });
+        }
 
-            $resetBtn.on('click', function () {
-                $searchInput.val('');
-                $centerFilter.val('');
-                $typeFilter.val('');
-                applyCenterFilters();
-            });
-
-            updateResetState();
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            load(1);
         });
-    </script>
+
+        form.querySelectorAll('select').forEach(function (sel) {
+            sel.addEventListener('change', function () {
+                load(1);
+            });
+        });
+
+        var search = form.querySelector('input[name="q"]');
+        if (search) {
+            search.addEventListener('input', function () {
+                clearTimeout(typingTimer);
+                typingTimer = setTimeout(function () {
+                    load(1);
+                }, 350);
+            });
+        }
+
+        var reset = form.querySelector('[data-reset]');
+        if (reset) {
+            reset.addEventListener('click', function () {
+                form.reset();
+                load(1);
+            });
+        }
+
+        bindPagination();
+    })();
+</script>
+
+<script src="/theme/clp/assets/js/jquery.min.js"></script>
+<script src="/theme/clp/assets/js/jquery.js"></script>
+<script src="/theme/clp/assets/js/menu.js"></script>
+<script src="/theme/clp/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="/theme/clp/assets/js/SmoothScroll.js"></script>
+<script src="/theme/clp/assets/js/bootstrap.min.js"></script>
+<script src="/theme/clp/assets/js/owl.carousel.min.js"></script>
+<script src="/theme/clp/assets/js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </body>
 </html>

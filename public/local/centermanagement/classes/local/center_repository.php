@@ -237,4 +237,106 @@ class center_repository {
             return $d !== '' && $d !== null;
         }));
     }
+
+    /**
+     * Returns the distinct, non-empty values for a centre column, used to
+     * populate the filter dropdowns on the public "Your Sponsored Center(s)"
+     * page (school-info.php) and the dashboard. Mirrors get_distinct_districts()
+     * but is generic across the supported text columns.
+     *
+     * @param string $field One of division, district, upazila, support, center_type.
+     * @return array List of distinct non-empty values, ordered ascending.
+     */
+    public static function get_distinct_field(string $field): array {
+        global $DB;
+
+        $allowed = ['division', 'district', 'upazila', 'support', 'center_type'];
+        if (!in_array($field, $allowed, true)) {
+            return [];
+        }
+
+        $sql = "SELECT DISTINCT $field
+                  FROM {local_centermanagement_centers}
+                 WHERE status = 1 AND $field IS NOT NULL AND $field <> ''
+                 ORDER BY $field ASC";
+        $values = $DB->get_fieldset_sql($sql);
+        return array_values(array_filter($values, function ($v) {
+            return $v !== '' && $v !== null;
+        }));
+    }
+
+    /**
+     * Search/filter/sort/paginate the active ("sponsored") centres for the
+     * public "Your Sponsored Center(s)" page (school-info.php). This is the
+     * centre-analogue of local_clp_build_program_data() used by the CLC
+     * program page, so both pages share the same filtering behaviour and the
+     * same rendered component.
+     *
+     * All inputs are parameterised (prepared statements) so the query is safe
+     * against SQL injection. Only active centres (status = 1) are returned,
+     * matching the public "sponsored" semantics.
+     *
+     * @param array $f Filter array: q, district, division, upazila, center_type, support, sort, dir.
+     * @param int $page Current 1-based page.
+     * @param int $perpage Records per page.
+     * @return array ['rows' => stdClass[], 'total' => int, 'page' => int, 'totalpages' => int]
+     */
+    public static function search_sponsored_centers(array $f, int $page = 1, int $perpage = 20): array {
+        global $DB;
+
+        $where = ['status = 1'];
+        $params = [];
+
+        if (!empty($f['q'])) {
+            $like = '%' . $DB->sql_like_escape($f['q']) . '%';
+            $where[] = '(' . $DB->sql_like('center_name', '?', false) .
+                ' OR ' . $DB->sql_like('school_name', '?', false) .
+                ' OR ' . $DB->sql_like('center_code', '?', false) .
+                ' OR ' . $DB->sql_like('sponsor_name', '?', false) .
+                ' OR ' . $DB->sql_like('district', '?', false) . ')';
+            $params[] = $like;
+            $params[] = $like;
+            $params[] = $like;
+            $params[] = $like;
+            $params[] = $like;
+        }
+
+        foreach (['district', 'division', 'upazila', 'center_type', 'support'] as $col) {
+            if (!empty($f[$col])) {
+                $where[] = "$col = ?";
+                $params[] = $f[$col];
+            }
+        }
+
+        $allowedSort = [
+            'center_name' => 'center_name',
+            'district'     => 'district',
+            'division'     => 'division',
+            'start_date'   => 'start_date',
+            'sponsor_name' => 'sponsor_name',
+            'support'      => 'support',
+        ];
+        $sortfield = $allowedSort[$f['sort'] ?? ''] ?? 'center_name';
+        $dir = strtoupper($f['dir'] ?? 'ASC') === 'DESC' ? 'DESC' : 'ASC';
+
+        $whereSql = implode(' AND ', $where);
+        $total = $DB->count_records_sql(
+            "SELECT COUNT(*) FROM {local_centermanagement_centers} WHERE $whereSql",
+            $params
+        );
+
+        $totalpages = max(1, (int)ceil($total / $perpage));
+        $page = max(1, min($page, $totalpages));
+        $limitfrom = ($page - 1) * $perpage;
+
+        $sql = "SELECT * FROM {local_centermanagement_centers} WHERE $whereSql ORDER BY $sortfield $dir, id DESC";
+        $rows = $DB->get_records_sql($sql, $params, $limitfrom, $perpage);
+
+        return [
+            'rows'       => $rows,
+            'total'      => $total,
+            'page'       => $page,
+            'totalpages' => $totalpages,
+        ];
+    }
 }

@@ -3,29 +3,28 @@
 // Center(s)" page (school-info.php).
 //
 // It reuses the exact same data flow and rendering as the page itself:
-//   - center_repository::get_sponsored_centers() (parameterised, SQL-safe)
-//   - local_centermanagement_render_sponsored_tbody() (shared markup)
+//   - center_repository::search_sponsored_centers() (parameterised, SQL-safe)
+//   - local_centermanagement_build_centers_data() (shared component markup)
 // so the filtered result is byte-for-byte identical to a server render, just
-// without a full page reload. Responds with the <tbody> HTML snippet.
+// returned as JSON (table + pagination + meta) for a seamless, no-reload
+// refresh. This mirrors the `ajax=1` behaviour of local/clp/program.php.
 
 require_once(__DIR__ . '/config.php');
 
 require_once(__DIR__ . '/local/centermanagement/public_view.php');
 
-$search = isset($_GET['query']) ? trim((string) $_GET['query']) : '';
-$district = isset($_GET['district']) ? trim((string) $_GET['district']) : '';
-$centerType = isset($_GET['center_type']) ? trim((string) $_GET['center_type']) : '';
+$f = [
+    'q'           => trim((string)($_GET['q'] ?? '')),
+    'district'    => trim((string)($_GET['district'] ?? '')),
+    'division'    => trim((string)($_GET['division'] ?? '')),
+    'upazila'     => trim((string)($_GET['upazila'] ?? '')),
+    'center_type' => trim((string)($_GET['center_type'] ?? '')),
+    'support'     => trim((string)($_GET['support'] ?? '')),
+    'sort'        => trim((string)($_GET['sort'] ?? 'center_name')),
+    'dir'         => strtoupper(trim((string)($_GET['dir'] ?? 'ASC'))) === 'DESC' ? 'DESC' : 'ASC',
+];
 
-// Normalise the centre-type filter to the two known values; anything else
-// (including an empty string) means "both" and is passed through as ''.
-if ($centerType !== '' && !in_array($centerType, ['clc', 'scr'], true)) {
-    $centerType = '';
-}
+$page = max(1, (int)($_GET['page'] ?? 1));
 
-try {
-    $groups = \local_centermanagement\local\center_repository::get_sponsored_centers($search, $district, $centerType);
-} catch (dml_exception $e) {
-    $groups = [];
-}
-
-echo local_centermanagement_render_sponsored_tbody($groups);
+header('Content-Type: application/json; charset=utf-8');
+echo json_encode(local_centermanagement_build_centers_data($f, $page));
