@@ -47,6 +47,21 @@
     .defaultmainmenu-menu > li:hover > .dropdown,
     .defaultmainmenu-menu ul.dropdown li:hover > .dropdown {
         display: block !important;
+        }
+        /* Keep all top-level menu items on one line */
+        .defaultmainmenu-menu {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .defaultmainmenu-menu > li > a {
+            font-size: 13px;
+            padding: 0 10px;
+            white-space: nowrap;
+        }
+        .defaultmainmenu-menu > li {
+            white-space: nowrap;
+        }
     }
 }
 </style>
@@ -123,6 +138,9 @@
                             </ul>
                         </li>
                         <li>
+                            <a href="{{ config.wwwroot }}/local/clp/program.php?program=clc">DATABASE</a>
+                        </li>
+                        <li>
                             <a href="#">Centers</a>
                             <ul class="dropdown">
                                 <li>
@@ -134,7 +152,6 @@
                                         <li><a style="text-transform: none;" href="{{ config.wwwroot }}/sponsor-computer.php">Sponsor a Computer</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="{{ config.wwwroot }}/local/clp/program.php?program=clc">DATABASE – Computer Literacy Center</a></li>
                                 <li><a href="{{ config.wwwroot }}/school-info.php">All CENTERS</a></li>
                                 <li><a href="{{ config.wwwroot }}/search-center.php">SEARCH CENTERS</a></li>
                             </ul>
