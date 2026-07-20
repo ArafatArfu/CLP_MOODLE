@@ -14,46 +14,78 @@ use local_centermanagement\local\center_repository;
 defined('MOODLE_INTERNAL') || define('MOODLE_INTERNAL', true);
 
 /**
- * Render the centres data table (sc-data-table) for a set of rows.
+ * Render the sponsored-centre data table for a set of rows, restoring the
+ * previous list design (peach sticky header, district group headers,
+ * support-coloured rows, type badges and green View buttons).
  *
  * @param array $rows Centre records (stdClass) from the repository.
  * @param int $startno Serial number for the first row on this page.
- * @return string HTML table (matches the program page table component).
+ * @return string HTML table (previous Bootstrap-based list design).
  */
 function local_centermanagement_render_centers_table(array $rows, int $startno = 1): string {
-    $head = '<th scope="col" class="sc-col-sl">Sl</th>'
-        . '<th scope="col">Center Name</th>'
-        . '<th scope="col">District</th>'
-        . '<th scope="col">Division</th>'
-        . '<th scope="col">Start Date</th>'
-        . '<th scope="col">Center Type</th>'
-        . '<th scope="col">Sponsor</th>'
-        . '<th scope="col">View</th>';
+    $green = "#47c9a2";
+    $lightGreen = "#b4f1df";
+
+    $head = '<th class="clp-col-sl">Sl</th>'
+        . '<th>Center Name</th>'
+        . '<th>District</th>'
+        . '<th>Start Date</th>'
+        . '<th>Center Type</th>'
+        . '<th>Sponsor</th>'
+        . '<th>School Link</th>';
 
     if (empty($rows)) {
-        $body = '<tr class="sc-empty-row"><td colspan="8">No centers match your search or filters.</td></tr>';
+        $body = '<tr><td colspan="7" class="clp-empty">No centers found.</td></tr>';
     } else {
-        $body = '';
-        $sl = $startno;
+        // Group the (already filtered/paginated) rows by district to mirror
+        // the previous list design with its per-district header rows.
+        $groups = [];
         foreach ($rows as $row) {
-            $ctype = strtolower($row->center_type ?? 'clc');
-            $typeLabel = $ctype === 'scr' ? 'Smart Classroom' : 'Computer Literacy Center';
-            $startDate = !empty($row->start_date) ? date('M Y', (int)$row->start_date) : '—';
-            $body .= '<tr>'
-                . '<td class="sc-col-sl">' . $sl . '</td>'
-                . '<td>' . htmlspecialchars($row->center_name ?? '', ENT_QUOTES) . '</td>'
-                . '<td>' . htmlspecialchars($row->district ?? '', ENT_QUOTES) . '</td>'
-                . '<td>' . htmlspecialchars($row->division ?? '', ENT_QUOTES) . '</td>'
-                . '<td>' . $startDate . '</td>'
-                . '<td>' . $typeLabel . '</td>'
-                . '<td>' . htmlspecialchars($row->sponsor_name ?? '', ENT_QUOTES) . '</td>'
-                . '<td><a class="sc-link" href="school-details.php?schoolInfo=' . (int)$row->id . '">View</a></td>'
-                . '</tr>';
-            $sl++;
+            $groups[$row->district ?? ''][] = $row;
+        }
+
+        $sl = $startno;
+        $body = '';
+        foreach ($groups as $districtName => $schools) {
+            $body .= '<tr class="clp-district-row">'
+                . '<td colspan="7">'
+                . htmlspecialchars($districtName, ENT_QUOTES)
+                . '</td></tr>';
+
+            foreach ($schools as $center) {
+                $support = strtolower((string) ($center->support ?? ''));
+                if (in_array($support, ['maintained', 'activated', 'supported'])) {
+                    $rowColor = $green;
+                } elseif ($support === 'reactivated') {
+                    $rowColor = $lightGreen;
+                } else {
+                    $rowColor = '#FFFFFF';
+                }
+
+                $isClc = strtolower($center->center_type ?? 'clc') === 'clc';
+                $typeLabel = $isClc ? 'Computer Literacy Center' : 'Smart Classroom';
+
+                $startDate = !empty($center->start_date) ? date('Y F', $center->start_date) : '';
+
+                $body .= '<tr style="background-color:' . $rowColor . '">'
+                    . '<td class="clp-col-sl">' . $sl . '</td>'
+                    . '<td>' . htmlspecialchars($center->center_name ?? '', ENT_QUOTES) . '</td>'
+                    . '<td>' . htmlspecialchars($districtName, ENT_QUOTES) . '</td>'
+                    . '<td>' . $startDate . '</td>'
+                    . '<td><span class="badge badge-secondary text-uppercase ml-1">' . $typeLabel . '</span></td>'
+                    . '<td>' . htmlspecialchars($center->sponsor_name ?? '', ENT_QUOTES) . '</td>'
+                    . '<td><a class="btn btn-primary" href="school-details.php?schoolInfo=' . (int) $center->id . '">View</a></td>'
+                    . '</tr>';
+
+                $sl++;
+            }
         }
     }
 
-    return '<table class="sc-data-table"><thead><tr>' . $head . '</tr></thead><tbody>' . $body . '</tbody></table>';
+    return '<div class="clp-centers-table"><table>'
+        . '<thead><tr>' . $head . '</tr></thead>'
+        . '<tbody>' . $body . '</tbody>'
+        . '</table></div>';
 }
 
 /**

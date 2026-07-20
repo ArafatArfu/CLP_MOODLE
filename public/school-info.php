@@ -22,12 +22,54 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
          /local/clp/program.php share one identical filtering component. -->
     <link rel="stylesheet" href="/local/clp/program.css">
     <style>
-        .sc-link {
-            color: #006b4f;
-            font-weight: 700;
-            text-decoration: none;
+        /* Restore the sponsored-centers list to its previous Bootstrap table
+           design: peach sticky header, per-district group rows, support-coloured
+           rows, type badges and green View buttons. Scoped under .clp-centers-table
+           so program.css (used by the filter/pagination) cannot break it. */
+        .clp-centers-table { width: 100%; }
+        .clp-centers-table table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            font-family: 'Noto Serif', serif;
+            font-size: 14px;
+            color: #000;
         }
-        .sc-link:hover { text-decoration: underline; }
+        .clp-centers-table th,
+        .clp-centers-table td {
+            padding: 9px 12px;
+            text-align: left;
+            border-bottom: 1px solid #e3e3e3;
+            vertical-align: middle;
+        }
+        .clp-centers-table thead th {
+            background-color: #f9cdb7;
+            color: #000;
+            font-size: 1.15em;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            white-space: nowrap;
+        }
+        .clp-centers-table tbody tr:nth-child(even) { background-color: #EEE; }
+        .clp-centers-table .clp-district-row td {
+            background-color: #ffc107 !important;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .clp-centers-table .clp-col-sl {
+            width: 44px;
+            text-align: center;
+            white-space: nowrap;
+        }
+        .clp-centers-table .clp-empty {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-style: italic;
+        }
+        .sc-program-tablewrap.is-loading { opacity: .55; }
         /* Let the hero/component sit naturally under the theme navbar. */
         body { background: #f5f6f8; }
     </style>
