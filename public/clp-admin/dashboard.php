@@ -1,0 +1,247 @@
+<?php
+// CLP Admin Panel - Dashboard
+
+require_once __DIR__ . '/includes/auth.php';
+
+$page_title = 'Dashboard';
+$admin = clp_get_admin();
+
+// Get dashboard statistics
+$db = clp_db_connect();
+
+// Count all content
+$stats = [];
+
+$result = $db->query("SELECT COUNT(*) as count FROM clp_about_history WHERE status = 'published'");
+$stats['history'] = $result->fetch_assoc()['count'];
+
+$result = $db->query("SELECT COUNT(*) as count FROM clp_about_impact WHERE status = 'published'");
+$stats['impact'] = $result->fetch_assoc()['count'];
+
+$result = $db->query("SELECT COUNT(*) as count FROM clp_about_mission WHERE status = 'published'");
+$stats['mission'] = $result->fetch_assoc()['count'];
+
+$result = $db->query("SELECT COUNT(*) as count FROM clp_partners WHERE status = 'published'");
+$stats['partners'] = $result->fetch_assoc()['count'];
+
+$result = $db->query("SELECT COUNT(*) as count FROM clp_team_members WHERE status = 'published'");
+$stats['team'] = $result->fetch_assoc()['count'];
+
+$result = $db->query("SELECT COUNT(*) as count FROM clp_faqs WHERE status = 'published'");
+$stats['faq'] = $result->fetch_assoc()['count'];
+
+// CLC participants (owned by the local_clp Moodle plugin, uses the mdl_ prefix).
+$stats['clc'] = 0;
+$clc_recent = [];
+if ($res = $db->query("SHOW TABLES LIKE 'mdl_clp_clc_participants'")) {
+    if ($res->num_rows > 0) {
+        $r = $db->query("SELECT COUNT(*) as count FROM mdl_clp_clc_participants WHERE program = 'clc'");
+        $stats['clc'] = (int)$r->fetch_assoc()['count'];
+
+        $r = $db->query("SELECT name, school, timecreated FROM mdl_clp_clc_participants WHERE program = 'clc' ORDER BY timecreated DESC, id DESC LIMIT 5");
+        while ($row = $r->fetch_assoc()) {
+            $clc_recent[] = $row;
+        }
+    }
+}
+
+// Get recent activities
+$recent_activities = [];
+$result = $db->query("
+    (SELECT 'history' as type, title, updated_at, 'History' as label FROM clp_about_history ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'impact' as type, title, updated_at, 'Impact' as label FROM clp_about_impact ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'mission' as type, title, updated_at, 'Mission' as label FROM clp_about_mission ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'partners' as type, name as title, updated_at, 'Partner' as label FROM clp_partners ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'team' as type, full_name as title, updated_at, 'Team Member' as label FROM clp_team_members ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'faq' as type, question as title, updated_at, 'FAQ' as label FROM clp_faqs ORDER BY updated_at DESC LIMIT 3)
+    ORDER BY updated_at DESC
+    LIMIT 10
+");
+
+while ($row = $result->fetch_assoc()) {
+    $recent_activities[] = $row;
+}
+
+$db->close();
+
+include __DIR__ . '/includes/header.php';
+?>
+
+<div class="content-area">
+        <!-- Flash Messages -->
+        <?php $success = clp_get_message('clp_success'); ?>
+        <?php $error = clp_get_message('clp_error'); ?>
+        <?php if ($success): ?>
+            <div class="alert alert-success">
+                <i class="fas fa-check-circle"></i>
+                <?php echo clp_escape($success); ?>
+            </div>
+        <?php endif; ?>
+        <?php if ($error): ?>
+            <div class="alert alert-danger">
+                <i class="fas fa-exclamation-circle"></i>
+                <?php echo clp_escape($error); ?>
+            </div>
+        <?php endif; ?>
+        
+        <!-- Stats Grid -->
+        <div class="stats-grid">
+            <a href="<?php echo CLP_ADMIN_URL; ?>/history.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon blue">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['history']; ?></h3>
+                        <p>History Content</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="<?php echo CLP_ADMIN_URL; ?>/impact.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon green">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['impact']; ?></h3>
+                        <p>Impact Statistics</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="<?php echo CLP_ADMIN_URL; ?>/mission.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon orange">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['mission']; ?></h3>
+                        <p>Mission Content</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="<?php echo CLP_ADMIN_URL; ?>/partners.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon purple">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['partners']; ?></h3>
+                        <p>Partners</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="<?php echo CLP_ADMIN_URL; ?>/team.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon blue">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['team']; ?></h3>
+                        <p>Team Members</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="<?php echo CLP_ADMIN_URL; ?>/faq.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon green">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['faq']; ?></h3>
+                        <p>FAQs</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="<?php echo CLP_ADMIN_URL; ?>/clc.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon orange">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['clc']; ?></h3>
+                        <p>CLC Participants</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Recent Activity -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title"><i class="fas fa-clock"></i> Recent Activity</h3>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Title</th>
+                            <th>Updated At</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php if (empty($recent_activities)): ?>
+                            <tr>
+                                <td colspan="3" style="text-align: center; color: #999;">No activity yet. Start adding content!</td>
+                            </tr>
+                        <?php else: ?>
+                            <?php foreach ($recent_activities as $activity): ?>
+                                <tr>
+                                    <td><span class="badge badge-success"><?php echo clp_escape($activity['label']); ?></span></td>
+                                    <td><?php echo clp_escape($activity['title']); ?></td>
+                                    <td><?php echo clp_format_date($activity['updated_at']); ?></td>
+                                </tr>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Recent CLC Enrolments -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title"><i class="fas fa-laptop-code"></i> Recent CLC Enrolments</h3>
+                <a href="<?php echo CLP_ADMIN_URL; ?>/clc.php" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> View All</a>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>School</th>
+                            <th>Enrolment Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php if (empty($clc_recent)): ?>
+                            <tr>
+                                <td colspan="3" style="text-align: center; color: #999;">No CLC participants yet. <a href="<?php echo CLP_ADMIN_URL; ?>/clc_form.php">Add the first participant</a>.</td>
+                            </tr>
+                        <?php else: ?>
+                            <?php foreach ($clc_recent as $row): ?>
+                                <tr>
+                                    <td><strong><?php echo clp_escape($row['name']); ?></strong></td>
+                                    <td><?php echo clp_escape($row['school']); ?></td>
+                                    <td><?php echo !empty($row['timecreated']) ? date('Y', (int)$row['timecreated']) : '—'; ?></td>
+                                </tr>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <?php include __DIR__ . '/includes/footer.php'; ?>

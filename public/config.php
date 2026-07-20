@@ -12,6 +12,7 @@ $CFG->dbhost    = '127.0.0.1';
 $CFG->dbname    = 'moodle_db';
 $CFG->dbuser    = 'root';
 $CFG->dbpass    = 'Admin@12345';
+$CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
     'dbpersist' => 0,
     'dbport' => '3306',

@@ -8,14 +8,27 @@ require_once(__DIR__ . '/config.php');
 
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/faq.php');
-$PAGE->set_title('CLP | FAQ');
-$PAGE->set_heading('CLP | FAQ');
+
+$faq_items = [];
+$page_setting = null;
+try {
+    $faq_items = $DB->get_records_sql("SELECT * FROM clp_faqs WHERE status = 'published' ORDER BY display_order ASC, created_at DESC");
+    $page_setting = $DB->get_record_sql("SELECT * FROM clp_page_settings WHERE page_key = 'faq' LIMIT 1");
+} catch (Exception $e) {
+    // Table may not exist yet, use fallback
+}
+
+$page_title = $page_setting->page_title ?? 'CLP | FAQ';
+$breadcrumb_title = $page_setting->breadcrumb_title ?? 'FAQ';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>CLP | FAQ</title>
+    <title><?php echo htmlspecialchars($page_title); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -93,6 +106,14 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                                 </li>
                                 <li>
                                     <a href="faq.php">FAQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="local/clp/program.php?program=clc">DATABASE</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="local/clp/program.php?program=clc">CLC – Computer Literacy Center</a>
                                 </li>
                             </ul>
                         </li>
@@ -317,7 +338,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                             <a href="javascript:void(0)">About Us</a>
                         </li>
                         <li>
-                            FAQ
+                            <?php echo htmlspecialchars($breadcrumb_title); ?>
                         </li>
                     </ul>
                 </div>
@@ -326,66 +347,96 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
     </section>
     <!-- End of inner-banner -->
 
-    <section class="call-out faq-wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-xs-12">
-                    <div class="statement-inner">
-                        <h4>What is a CLC?</h4>
+    <?php if (!empty($faq_items)): ?>
+        <?php foreach ($faq_items as $item): ?>
+            <section class="call-out faq-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12">
+                            <div class="statement-inner">
+                                <h4><?php echo htmlspecialchars($item->question); ?></h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of faq-wrap -->
+            </section>
+            <!-- End of faq-wrap -->
 
-    <section class="faq-answer-wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-xs-12">
-                    <div class="inner">
-                        <p class="work_para">Answer: <a href="clc-teaching.php">CLC</a> stands for our
-                            Computer Literacy Center initiative. The CLC initiative establishes turnkey computer labs in
-                            educational institutes and actively participates in promoting knowledge and usage of
-                            computers and internet among underprivileged youth in Bangladesh.</p>
+            <section class="faq-answer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12">
+                            <div class="inner">
+                                <p class="work_para"><?php echo nl2br(htmlspecialchars($item->answer)); ?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of faq-answer-wrap -->
+        <?php endforeach; ?>
+    <?php else: ?>
+        <section class="call-out faq-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="statement-inner">
+                            <h4>What is a CLC?</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End of faq-answer-wrap -->
+        </section>
+        <!-- End of faq-wrap -->
 
-    <section class="call-out faq-wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-xs-12">
-                    <div class="statement-inner">
-                        <h4>What is a SCR?</h4>
+        <section class="faq-answer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="inner">
+                            <p class="work_para">Answer: <a href="clc-teaching.php">CLC</a> stands for our
+                                Computer Literacy Center initiative. The CLC initiative establishes turnkey computer labs in
+                                educational institutes and actively participates in promoting knowledge and usage of
+                                computers and internet among underprivileged youth in Bangladesh.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End of faq-wrap -->
+        </section>
+        <!-- End of faq-answer-wrap -->
 
-    <section class="faq-answer-wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-xs-12">
-                    <div class="inner">
-                        <p class="work_para">Answer: <a href="smart-classroom.php">SCR</a> stands for
-                            our Smart Class Room initiative where classrooms in Bangladesh are equipped with computers,
-                            a large screen TV/monitor, and remote conferencing devices. Teachers are able to access and
-                            share content digitally and are enabled to teach remotely. The Smart Class Room project
-                            intends to bring the educational opportunities provided by advances in personal computers,
-                            Internet, educational CDs, and ICT-based interactive learning materials to secondary school
-                            students in rural Bangladesh.</p>
+        <section class="call-out faq-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="statement-inner">
+                            <h4>What is a SCR?</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End of faq-answer-wrap -->
+        </section>
+        <!-- End of faq-wrap -->
+
+        <section class="faq-answer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="inner">
+                            <p class="work_para">Answer: <a href="smart-classroom.php">SCR</a> stands for
+                                our Smart Class Room initiative where classrooms in Bangladesh are equipped with computers,
+                                a large screen TV/monitor, and remote conferencing devices. Teachers are able to access and
+                                share content digitally and are enabled to teach remotely. The Smart Class Room project
+                                intends to bring the educational opportunities provided by advances in personal computers,
+                                Internet, educational CDs, and ICT-based interactive learning materials to secondary school
+                                students in rural Bangladesh.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of faq-answer-wrap -->
+    <?php endif; ?>
     <!--End Main Content Area-->
 </section>
 <!-- End of content-wrapper -->

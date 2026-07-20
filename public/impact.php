@@ -8,14 +8,32 @@ require_once(__DIR__ . '/config.php');
 
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/impact.php');
-$PAGE->set_title('CLP | Impact');
-$PAGE->set_heading('CLP | Impact');
+
+$impact_items = [];
+$impact_sections = [];
+$impact_bullets = [];
+$page_setting = null;
+
+try {
+    $impact_items = $DB->get_records_sql("SELECT * FROM clp_about_impact WHERE status = 'published' ORDER BY display_order ASC, created_at DESC");
+    $impact_sections = $DB->get_records_sql("SELECT * FROM clp_impact_sections WHERE status = 'published' ORDER BY display_order ASC, created_at DESC");
+    $impact_bullets = $DB->get_records_sql("SELECT * FROM clp_impact_bullets WHERE section_key = 'growth_expansion' AND status = 'published' ORDER BY display_order ASC, created_at DESC");
+    $page_setting = $DB->get_record_sql("SELECT * FROM clp_page_settings WHERE page_key = 'impact' LIMIT 1");
+} catch (Exception $e) {
+    error_log('Impact DB error: ' . $e->getMessage());
+}
+
+$page_title = $page_setting->page_title ?? 'CLP | Impact';
+$breadcrumb_title = $page_setting->breadcrumb_title ?? 'Impact';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>CLP | Impact</title>
+    <title><?php echo htmlspecialchars($page_title); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -93,6 +111,14 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                                 </li>
                                 <li>
                                     <a href="faq.php">FAQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="local/clp/program.php?program=clc">DATABASE</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="local/clp/program.php?program=clc">CLC – Computer Literacy Center</a>
                                 </li>
                             </ul>
                         </li>
@@ -317,7 +343,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                             <a href="javascript:void(0)">About Us</a>
                         </li>
                         <li>
-                            Impact
+                            <?php echo htmlspecialchars($breadcrumb_title); ?>
                         </li>
                     </ul>
                 </div>
@@ -331,40 +357,54 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
             <div class="row">
                 <div class="col-sm-7 col-xs-12">
                     <div class="row">
-                        <div class="col-sm-6 col-xs-12 impact-count-item">
-                            <div class="inner">
-                                <h5></h5>
-                                <h4> <span>Computer Literacy Centers</span></h4>
-                                <h6>established in Bangladesh.</h6>
-                                <p>Updated </p>
+                        <?php if (!empty($impact_items)): ?>
+                            <?php foreach ($impact_items as $item): ?>
+                                <div class="col-sm-6 col-xs-12 impact-count-item">
+                                    <div class="inner">
+                                        <h5><?php echo htmlspecialchars($item->stat_value ?? ''); ?></h5>
+                                        <h4> <span><?php echo htmlspecialchars($item->title ?? ''); ?></span></h4>
+                                        <h6><?php echo htmlspecialchars($item->stat_label ?? ''); ?></h6>
+                                    <p>Updated <?php echo date('M d, Y', strtotime($item->updated_at ?? '')); ?></p>
+                                </div>
+                                <a href="#" class="learn-more">Learn More</a>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php else: ?>
+                            <div class="col-sm-6 col-xs-12 impact-count-item">
+                                <div class="inner">
+                                    <h5></h5>
+                                    <h4> <span>Computer Literacy Centers</span></h4>
+                                    <h6>established in Bangladesh.</h6>
+                                    <p>Updated </p>
+                                </div>
+                                <a href="https://clpweb.org/clc-teaching" class="learn-more">Learn More</a>
                             </div>
-                            <a href="https://clpweb.org/clc-teaching" class="learn-more">Learn More</a>
-                        </div>
-                        <div class="col-sm-6 col-xs-12 impact-count-item">
-                            <div class="inner">
-                                <h5></h5>
-                                <h4> <span>Smart Class Rooms</span></h4>
-                                <h6>established in Bangladesh.</h6>
-                                <p>Updated </p>
+                            <div class="col-sm-6 col-xs-12 impact-count-item">
+                                <div class="inner">
+                                    <h5></h5>
+                                    <h4> <span>Smart Class Rooms</span></h4>
+                                    <h6>established in Bangladesh.</h6>
+                                    <p>Updated </p>
+                                </div>
+                                <a href="https://clpweb.org/smart-class-room" class="learn-more">Learn More</a>
                             </div>
-                            <a href="https://clpweb.org/smart-class-room" class="learn-more">Learn More</a>
-                        </div>
-                        <div class="col-sm-6 col-xs-12 impact-count-item">
-                            <div class="inner">
-                                <h5></h5>
-                                <h4>97 <span>Associate Centers</span></h4>
-                                <h6>established in Bangladesh.</h6>
-                                <p>Updated </p>
+                            <div class="col-sm-6 col-xs-12 impact-count-item">
+                                <div class="inner">
+                                    <h5></h5>
+                                    <h4> <span>Associate Centers</span></h4>
+                                    <h6>established in Bangladesh.</h6>
+                                    <p>Updated </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12 impact-count-item red">
-                            <div class="inner">
-                                <h5>Our centers have a presence in</h5>
-                                <h4> <span>Districts</span></h4>
-                                <h6>across the country!</h6>
-                                <p>Updated </p>
+                            <div class="col-sm-6 col-xs-12 impact-count-item red">
+                                <div class="inner">
+                                    <h5>Our centers have a presence in</h5>
+                                    <h4> <span>Districts</span></h4>
+                                    <h6>across the country!</h6>
+                                    <p>Updated </p>
+                                </div>
                             </div>
-                        </div>
+                        <?php endif; ?>
                     </div>
 
                     <p class="work_para">This work is made possible by donors like you who have chosen to sponsor a <a
@@ -404,27 +444,43 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
         <div class="welcome-area ptb--100">
             <div class="container">
                 <div class="welcome-content">
-                    <div class="about-video">
-                        <a target="_blank" href="https://youtu.be/sVbyg0O5JPs" class="gallery_video">
-                            <img src="/theme/clp/assets/images/play.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="welcome-inner">
-                        <div class="blog-info">
-                            <h2>Growth & Expansion</h2>
-                            <ul class="work_para">
-                                <li>Increase Interest & Enthusiasm</li>
-                                <li>Increase Success rate at secondary exam</li>
-                                <li>More students enrolled in computer course</li>
-                                <li>Enrollment increase in school with a CLC</li>
-                                <li>Increase efficiency at school</li>
-                                <li>Leverage computers to teach other subjects</li>
-                                <li>Career opportunities for CLP graduates</li>
-                                <li>Students from different institutions trained at CLCs</li>
-                            </ul>
-                            <a href="donation-online.php" class="thm-btn">DONATE NOW</a>
+                    <?php
+                        $growth = null;
+                        foreach ($impact_sections as $section) {
+                            if ($section->section_key === 'growth_expansion') {
+                                $growth = $section;
+                                break;
+                            }
+                        }
+                        if ($growth):
+                    ?>
+                        <div class="welcome-inner">
+                            <div class="blog-info">
+                                <h2><?php echo htmlspecialchars($growth->title ?? 'Growth & Expansion'); ?></h2>
+                                <ul class="work_para">
+                                    <?php foreach ($impact_bullets as $bullet): ?>
+                                        <li><?php echo htmlspecialchars($bullet->bullet_text); ?></li>
+                                    <?php endforeach; ?>
+                                </ul>
+                                <a href="donation-online.php" class="thm-btn">DONATE NOW</a>
+                            </div>
                         </div>
-                    </div>
+                    <?php else: ?>
+                        <div class="welcome-inner">
+                            <div class="blog-info">
+                                <h2>Growth & Expansion</h2>
+                                <ul class="work_para">
+                                    <li>Increase Interest & Enthusiasm</li>
+                                    <li>Increase Success rate at secondary exam</li>
+                                    <li>More students enrolled in computer course</li>
+                                    <li>Increase efficiency at school</li>
+                                    <li>Career opportunities for CLP graduates</li>
+                                    <li>Students from different institutions trained at CLCs</li>
+                                </ul>
+                                <a href="donation-online.php" class="thm-btn">DONATE NOW</a>
+                            </div>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -433,96 +489,75 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 
     <section class="impact-count-wrap">
         <div class="container">
-            <div class="section-title center extr-mrg">
-                <h2>Instructors <span class="thm-color">Trained</span></h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-xs-12">
-                    <span class="qt work_para">“Esho Computer Shikhi”</span>
-                    <span class="qt text-right work_para">“Let Us Learn Computers”</span>
-
-                    <div class="impact-count-blk">
-                        <h4></h4>
-                        <p class="work_para">teachers have been trained to teach in CLCs and SCRs.</p>
-                    </div>
+            <?php
+                $instructors = null;
+                $program = null;
+                $students = null;
+                foreach ($impact_sections as $section) {
+                    switch ($section->section_key) {
+                        case 'instructors_trained': $instructors = $section; break;
+                        case 'program': $program = $section; break;
+                        case 'students_graduated': $students = $section; break;
+                    }
+                }
+            ?>
+            
+            <?php if ($instructors): ?>
+                <div class="section-title center extr-mrg">
+                    <h2><?php echo htmlspecialchars($instructors->title); ?></h2>
                 </div>
-                <div class="col-sm-6 col-xs-12">
-                    <p style="font-size: 15px;" class="work_para">An introductory curriculum was developed in
-                        consultation with computer scientists, based on which a student’s manual, “Esho Computer Shikhi”
-                        (Let Us Learn Computers), has been published. Two teachers from each CLC receive two weeks of
-                        intensive training from professionals. We also provided with a “teacher’s manual.”</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-xs-12">
-                    <h4 class="qt">The Program</h4>
-                    <p class="work_para">Class Room Operation four subject based curriculum on English and General
-                        Science for grade VI-VIII & Geography and Geometry for grade IX-X was developed in consultation
-                        with subject based specialist. Four teachers from each SCR receive four days of intensive
-                        training from professionals.</p>
-                </div>
-                <div class="col-sm-6 col-xs-12">
-                    <p><img src="/theme/clp/assets/images/impact/SCR.png" alt="img" class="img-responsive mrg-top"></p>
-                    <p class="work_para">ToT for Smart Class Room Operation </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-7 col-xs-12 clc-stands">
-                    <div class="row">
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="stand-inner-col">
-                                <h1>617</h1>
-                                <h5>computer teachers have been trained.</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="stand-inner-col brd-none">
-                                <h1>25%</h1>
-                                <h5>of computer teachers trained are women.</h5>
-                            </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <span class="qt work_para">“Esho Computer Shikhi”</span>
+                        <span class="qt text-right work_para">“Let Us Learn Computers”</span>
+                        <div class="impact-count-blk">
+                            <h4><?php echo htmlspecialchars($instructors->stat_value ?? ''); ?></h4>
+                            <p class="work_para"><?php echo htmlspecialchars($instructors->stat_label ?? ''); ?></p>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-sm-5 col-xs-12">
-                    <p class="impact-thm-btn"><a href="donation-online.php" class="thm-btn">DONATE NOW</a></p>
-                </div>
-            </div>
-
-            <div class="section-title center extr-mrg">
-                <h2>Students <span class="thm-color">Graduated</span></h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-xs-12">
-                    <p><img src="/theme/clp/assets/images/impact/w2.png" alt="img" class="img-responsive"></p>
-                    <p class="img-caption work_para">Students at computer class in a <a href="clc-teaching.php">CLC</a>.</p>
-                </div>
-                <div class="col-sm-6 col-xs-12">
-                    <p class="for-each work_para">For each batch of students, CLCs send a list of students who
-                        successfully completed the 40 hours course. Based on this list, we issues certificates
-                        of appreciations to the CLCs for the students. A batch usually consists of eight to ten
-                        students.</p>
-
-                    <div class="impact-count-blk left-mrg">
-                        <h4></h4>
-                        <p class="work_para">students have successfully completed the 40 hours course.</p>
+                    <div class="col-sm-6 col-xs-12">
+                        <p style="font-size: 15px;" class="work_para"><?php echo nl2br(htmlspecialchars($instructors->content)); ?></p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-xs-12">
-                    <h4 class="qt cumulative">Cumulative Students Graduated as of May 2014: Girls and Boys</h4>
-                    <p class="impact_count_img_holder"><img src="/theme/clp/assets/images/impact/Chart.png" alt="img"
-                                                            class="img-responsive"></p>
+            <?php endif; ?>
+            
+            <?php if ($program): ?>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <h4 class="qt"><?php echo htmlspecialchars($program->title ?? 'The Program'); ?></h4>
+                        <p class="work_para"><?php echo nl2br(htmlspecialchars($program->content)); ?></p>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <?php if (!empty($program->image_url)): ?>
+                            <p><img src="<?php echo htmlspecialchars($program->image_url); ?>" alt="img" class="img-responsive mrg-top"></p>
+                            <p class="work_para">ToT for Smart Class Room Operation </p>
+                        <?php endif; ?>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-xs-12">
-                    <img src="/theme/clp/assets/images/impact/w1.png" alt="img" class="img-responsive mrg-top">
-                    <p class="work_para">The SCR teachers get trained on how to effectively teach four of the main
-                        subjects of class six to ten which are English Grammar, Mathematics, Science, and Geography.
-                        They also get training on the pedagogical sides of teaching-learning along with the most
-                        effective ways of using the technologies available into the classroom.</p>
+            <?php endif; ?>
+            
+            <?php if ($students): ?>
+                <div class="section-title center extr-mrg">
+                    <h2>Students <span class="thm-color">Graduated</span></h2>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <?php if (!empty($students->image_url)): ?>
+                            <p><img src="<?php echo htmlspecialchars($students->image_url); ?>" alt="img" class="img-responsive"></p>
+                            <p class="img-caption work_para">Students at computer class in a <a href="clc-teaching.php">CLC</a>.</p>
+                        <?php endif; ?>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <p class="for-each work_para"><?php echo nl2br(htmlspecialchars($students->content)); ?></p>
+                        <?php if (!empty($students->stat_value)): ?>
+                            <div class="impact-count-blk left-mrg">
+                                <h4><?php echo htmlspecialchars($students->stat_value); ?></h4>
+                                <p class="work_para"><?php echo htmlspecialchars($students->stat_label ?? ''); ?></p>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            <?php endif; ?>
         </div>
     </section>
     <!-- End of impact-count-wrap -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/clp/db" VERSION="2026071900" COMMENT="XMLDB file for local_clp"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+  <TABLES>
+    <TABLE NAME="clp_clc_participants" COMMENT="CLC programme participants">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="program" TYPE="char" LENGTH="30" NOTNULL="true" SEQUENCE="false" DEFAULT="clc" COMMENT="Program key (always clc in this release)"/>
+        <FIELD NAME="name" TYPE="char" LENGTH="200" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="father_name" TYPE="char" LENGTH="200" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="mother_name" TYPE="char" LENGTH="200" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="district" TYPE="char" LENGTH="100" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="division" TYPE="char" LENGTH="100" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="upazila" TYPE="char" LENGTH="100" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="mobile" TYPE="char" LENGTH="30" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="email" TYPE="char" LENGTH="254" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="gender" TYPE="char" LENGTH="20" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="school" TYPE="char" LENGTH="200" NOTNULL="false" DEFAULT="" SEQUENCE="false"/>
+        <FIELD NAME="month" TYPE="int" LENGTH="2" NOTNULL="false" DEFAULT="0" SEQUENCE="false" COMMENT="Enrolment month (1-12)"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="programidx" UNIQUE="false" FIELDS="program"/>
+      </INDEXES>
+    </TABLE>
+  </TABLES>
+</XMLDB>

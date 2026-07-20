@@ -96,6 +96,14 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                                 </li>
                             </ul>
                         </li>
+                        <li>
+                            <a href="local/clp/program.php?program=clc">DATABASE</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="local/clp/program.php?program=clc">CLC – Computer Literacy Center</a>
+                                </li>
+                            </ul>
+                        </li>
                         <!--OUR WORK-->
                         <li>
                             <a href="#">OUR WORK</a>

@@ -8,14 +8,34 @@ require_once(__DIR__ . '/config.php');
 
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/mission.php');
-$PAGE->set_title('Mission');
-$PAGE->set_heading('Mission');
+
+$mission_content = null;
+$page_setting = null;
+$mission_sections = [];
+$mission_bullets = [];
+$presentations = [];
+
+try {
+    $mission_content = $DB->get_record_sql("SELECT * FROM clp_about_mission WHERE status = 'published' ORDER BY display_order ASC, created_at DESC LIMIT 1");
+    $page_setting = $DB->get_record_sql("SELECT * FROM clp_page_settings WHERE page_key = 'mission' LIMIT 1");
+    $mission_sections = $DB->get_records_sql("SELECT * FROM clp_mission_sections WHERE status = 'published' ORDER BY display_order ASC, created_at DESC");
+    $mission_bullets = $DB->get_records_sql("SELECT * FROM clp_mission_bullets WHERE section_key = 'what_we_do' AND status = 'published' ORDER BY display_order ASC, created_at DESC");
+    $presentations = $DB->get_records_sql("SELECT * FROM clp_presentations WHERE status = 'published' ORDER BY display_order ASC, created_at DESC");
+} catch (Exception $e) {
+    error_log('Mission DB error: ' . $e->getMessage());
+}
+
+$page_title = $page_setting->page_title ?? 'Mission';
+$breadcrumb_title = $page_setting->breadcrumb_title ?? 'Mission';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>Mission</title>
+    <title><?php echo htmlspecialchars($page_title); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -93,6 +113,14 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                                 </li>
                                 <li>
                                     <a href="faq.php">FAQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="local/clp/program.php?program=clc">DATABASE</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="local/clp/program.php?program=clc">CLC – Computer Literacy Center</a>
                                 </li>
                             </ul>
                         </li>
@@ -318,7 +346,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                             <a href="javascript:void(0)">About Us</a>
                         </li>
                         <li>
-                            Mission
+                            <?php echo htmlspecialchars($breadcrumb_title); ?>
                         </li>
                     </ul>
                 </div>
@@ -332,8 +360,22 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
             <div class="row">
                 <div class="col-sm-12 col-xs-12">
                     <div class="statement-inner">
-                        <h4>Empowering underprivileged youths through  computer literacy training and technology-aided education. </h4>
-                        <span class="statement-innert"><b>CLP MISSION STATEMENT</b></span>
+                        <?php
+                            $hero = null;
+                            foreach ($mission_sections as $section) {
+                                if ($section->section_key === 'mission_hero') {
+                                    $hero = $section;
+                                    break;
+                                }
+                            }
+                            if ($hero):
+                        ?>
+                            <h4><?php echo htmlspecialchars($hero->content ?? ''); ?></h4>
+                            <span class="statement-innert"><b><?php echo htmlspecialchars($hero->title ?? 'CLP MISSION STATEMENT'); ?></b></span>
+                        <?php else: ?>
+                            <h4>Empowering underprivileged youths through  computer literacy training and technology-aided education. </h4>
+                            <span class="statement-innert"><b>CLP MISSION STATEMENT</b></span>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -345,14 +387,46 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
         <div class="welcome-area ptb--100">
             <div class="container">
                 <div class="welcome-content">
-                    <iframe width="560" height="420" src="https://www.youtube.com/embed/Y3LUfsUeGCg?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="welcome-inner">
-                        <div class="blog-info">
-                            <h2>Computer Literacy Program: An Introduction</h2>
-                            <p class="we-belong">Computer Literacy Program Volunteers for the Underprivileged (CLP) has spent  years building and running <a href="clc-teaching.php">Computer Literacy Centers (CLCs)</a>  to develop a model for computer literacy of the underprivileged youths in rural Bangladesh. Listen to our dedicated team  explain the CLP mission and why we do it.</p>
-                            <a href="donation-online.php" class="thm-btn">DONATE NOW</a>
+                    <?php
+                        $intro = null;
+                        foreach ($mission_sections as $section) {
+                            if ($section->section_key === 'introduction') {
+                                $intro = $section;
+                                break;
+                            }
+                        }
+                        if ($intro):
+                    ?>
+                        <div class="about-video">
+                            <?php if (!empty($intro->video_url)): ?>
+                                <a target="_blank" href="<?php echo htmlspecialchars($intro->video_url); ?>" class="gallery_video">
+                                    <img src="/theme/clp/assets/images/play.svg" alt="">
+                                </a>
+                            <?php endif; ?>
                         </div>
-                    </div>
+                        <div class="welcome-inner">
+                            <div class="blog-info">
+                                <h2><?php echo htmlspecialchars($intro->title ?? 'Computer Literacy Program: An Introduction'); ?></h2>
+                                <p class="we-belong"><?php echo nl2br(htmlspecialchars($intro->content ?? '')); ?></p>
+                                <?php if (!empty($intro->button_text) && !empty($intro->button_url)): ?>
+                                    <a href="<?php echo htmlspecialchars($intro->button_url); ?>" class="thm-btn"><?php echo htmlspecialchars($intro->button_text); ?></a>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    <?php else: ?>
+                        <div class="about-video">
+                            <a target="_blank" href="https://youtu.be/sVbyg0O5JPs" class="gallery_video">
+                                <img src="/theme/clp/assets/images/play.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="welcome-inner">
+                            <div class="blog-info">
+                                <h2>Computer Literacy Program: An Introduction</h2>
+                                <p class="we-belong">Computer Literacy Program Volunteers for the Underprivileged (CLP) has spent  years building and running <a href="clc-teaching.php">Computer Literacy Centers (CLCs)</a>  to develop a model for computer literacy of the underprivileged youths in rural Bangladesh. Listen to our dedicated team  explain the CLP mission and why we do it.</p>
+                                <a href="donation-online.php" class="thm-btn">DONATE NOW</a>
+                            </div>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -361,65 +435,92 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 
     <section class="mission-wrap sec-padd">
         <div class="container">
-            <div class="section-title center extr-mrg">
-                <h2>Who We <span class="thm-color">Focus On</span></h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-xs-12">
-                    <p class="work_para">Our primary focus is on youths because they are the future. They learn fast, take risk, and can transform societies.</p>
+            <?php
+                $who_we_focus = null;
+                $what_we_do = null;
+                $where_we_operate = null;
+                $why_we_do_it = null;
+                $presentation = null;
+                foreach ($mission_sections as $section) {
+                    switch ($section->section_key) {
+                        case 'who_we_focus': $who_we_focus = $section; break;
+                        case 'what_we_do': $what_we_do = $section; break;
+                        case 'where_we_operate': $where_we_operate = $section; break;
+                        case 'why_we_do_it': $why_we_do_it = $section; break;
+                        case 'presentation': $presentation = $section; break;
+                    }
+                }
+            ?>
+            
+            <?php if ($who_we_focus): ?>
+                <div class="section-title center extr-mrg">
+                    <h2><?php echo str_replace('Focus On', '<span class="thm-color">Focus On</span>', $who_we_focus->title); ?></h2>
                 </div>
-            </div>
-
-            <div class="section-title center extr-mrg">
-                <h2>What <span class="thm-color"> We Do</span></h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-7 col-xs-12">
-                    <ul class="work_para">
-                        <li>Establish Computer Literacy Centers (CLCs) to provide access to and promote usage of computers in education free of charge to students</li>
-                        <li>Establish Smart Class Rooms (SCRs) for multi-media instruction of educational contents</li>
-                        <li>Train teachers who in turn can teach students </li>
-                        <li>Develop and adapt educational contents that complement and enhance the curricula the students follow</li>
-                        <li>Provide access to Internet and wood wide web where available </li>
-                        <li>Provide help and support for maintaining and upgrading the computers and related resources </li>
-                        <li>Develop dynamic school websites to provide online access to stakeholders and to allow parents to connect with the school through mobile phones.</li>
-                    </ul>
-                    <p class="work_para">In order to achieve the above, we raise funds and seek support from individuals and institutions.</p>
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <p class="work_para"><?php echo nl2br(htmlspecialchars($who_we_focus->content)); ?></p>
+                    </div>
                 </div>
-                <div class="col-sm-5 col-xs-12">
-                    <p><img src="/theme/clp/assets/images/mission/mission_1.webp" alt="img" class="img-responsive" /></p>
+            <?php endif; ?>
+            
+            <?php if ($what_we_do): ?>
+                <div class="section-title center extr-mrg">
+                    <h2><?php echo str_replace('We Do', '<span class="thm-color">We Do</span>', $what_we_do->title); ?></h2>
                 </div>
-            </div>
-
-            <div class="section-title center extr-mrg">
-                <h2>Where We <span class="thm-color">Operate</span></h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-xs-12">
-                    <p class="work_para">Our primary area of operation is high schools. However, the model is applicable to any educational institution in an underprivileged community. </p>
+                <div class="row">
+                    <div class="col-sm-7 col-xs-12">
+                        <ul class="work_para">
+                            <?php foreach ($mission_bullets as $bullet): ?>
+                                <li><?php echo htmlspecialchars($bullet->bullet_text); ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                        <p class="work_para">In order to achieve the above, we raise funds and seek support from individuals and institutions.</p>
+                    </div>
+                    <div class="col-sm-5 col-xs-12">
+                        <?php if (!empty($what_we_do->image_url)): ?>
+                            <p><img src="<?php echo htmlspecialchars($what_we_do->image_url); ?>" alt="img" class="img-responsive" /></p>
+                        <?php endif; ?>
+                    </div>
                 </div>
-            </div>
-
-            <div class="section-title center extr-mrg">
-                <h2>Why We <span class="thm-color">Do It</span></h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-7 col-xs-12">
-                    <p class="work_para">Computer is the key educational tool of the information age. Computers and Information Technology are revolutionizing how we learn, work, communicate, socialize, and organize. Computer is today's book, paper, pen, and lob tool.</p>
-                    <p class="work_para">Internet is the information and knowledge source of the day. Multimedia and interactive instruction facilitates learning much better than traditional lecture-based instruction. The new technology can play the role of 'great equalizer' making information and knowledge base accessible to any remote corner of the world that is digitally connected.</p>
-                    <p class="work_para">On the other hand, lack of access to these resources can push individuals and societies backwards. Our aim is to help alleviate the "digital divide' that exists between youths in developing and developed nations, and between well-to-do and underprivileged students of the same society by making computers and other resources of information technology accessible. Given the access, youths can excel, and transform their lives and societies.</p>
+            <?php endif; ?>
+            
+            <?php if ($where_we_operate): ?>
+                <div class="section-title center extr-mrg">
+                    <h2><?php echo str_replace('Operate', '<span class="thm-color">Operate</span>', $where_we_operate->title); ?></h2>
                 </div>
-                <div class="col-sm-5 col-xs-12">
-                    <p><img src="/theme/clp/assets/images/mission/mission_2.webp" alt="img" class="img-responsive" /></p>
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <p class="work_para"><?php echo nl2br(htmlspecialchars($where_we_operate->content)); ?></p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="section-title center extr-mrg">
-                <h2>CLP <span class="thm-color">Presentation</span></h2>
-            </div>
-            <p><a href="/theme/clp/assets/fileupload/event-presentation/CLP%202015-Event-Presentation.pdf"><strong>CLP EVENT-PRESENTATION-2015, CLICK TO DOWNLOAD</strong></a></p>
-            <p><a href="/theme/clp/assets/fileupload/event-presentation/CLP%202016-Event-Presentation.pdf"><strong>CLP EVENT-PRESENTATION-2016, CLICK TO DOWNLOAD</strong></a></p>
-            <p><a href="/theme/clp/assets/fileupload/event-presentation/CLP%202017-Event-Presentation.pdf"><strong>CLP EVENT-PRESENTATION-2017, CLICK TO DOWNLOAD</strong></a></p>
+            <?php endif; ?>
+            
+            <?php if ($why_we_do_it): ?>
+                <div class="section-title center extr-mrg">
+                    <h2><?php echo str_replace('Do It', '<span class="thm-color">Do It</span>', $why_we_do_it->title); ?></h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-7 col-xs-12">
+                        <p class="work_para"><?php echo nl2br(htmlspecialchars($why_we_do_it->content)); ?></p>
+                    </div>
+                    <div class="col-sm-5 col-xs-12">
+                        <?php if (!empty($why_we_do_it->image_url)): ?>
+                            <p><img src="<?php echo htmlspecialchars($why_we_do_it->image_url); ?>" alt="img" class="img-responsive" /></p>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            <?php endif; ?>
+            
+            <?php if ($presentation): ?>
+                <div class="section-title center extr-mrg">
+                    <h2><?php echo htmlspecialchars($presentation->title); ?></h2>
+                </div>
+                <?php if (!empty($presentations)): ?>
+                    <?php foreach ($presentations as $file): ?>
+                        <p><a href="<?php echo htmlspecialchars($file->file_url); ?>"><strong><?php echo htmlspecialchars($file->title); ?>, CLICK TO DOWNLOAD</strong></a></p>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+            <?php endif; ?>
         </div>
     </section>
     <!-- End of mission-wrap -->

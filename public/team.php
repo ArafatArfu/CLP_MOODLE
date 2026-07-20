@@ -8,14 +8,27 @@ require_once(__DIR__ . '/config.php');
 
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/team.php');
-$PAGE->set_title('Our Team');
-$PAGE->set_heading('Our Team');
+
+$team_items = [];
+$page_setting = null;
+try {
+    $team_items = $DB->get_records_sql("SELECT * FROM clp_team_members WHERE status = 'published' ORDER BY display_order ASC, created_at DESC");
+    $page_setting = $DB->get_record_sql("SELECT * FROM clp_page_settings WHERE page_key = 'team' LIMIT 1");
+} catch (Exception $e) {
+    // Table may not exist yet, use fallback
+}
+
+$page_title = $page_setting->page_title ?? 'Our Team';
+$breadcrumb_title = $page_setting->breadcrumb_title ?? 'Our Team';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>Our Team</title>
+    <title><?php echo htmlspecialchars($page_title); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -93,6 +106,14 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                                 </li>
                                 <li>
                                     <a href="faq.php">FAQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="local/clp/program.php?program=clc">DATABASE</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="local/clp/program.php?program=clc">CLC – Computer Literacy Center</a>
                                 </li>
                             </ul>
                         </li>
@@ -317,7 +338,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                             <a href="javascript:void(0)">About Us</a>
                         </li>
                         <li>
-                            Our Team
+                            <?php echo htmlspecialchars($breadcrumb_title); ?>
                         </li>
                     </ul>
                 </div>
@@ -330,41 +351,59 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
         <div class="container">
             <!--<h2 class="subtitle text-center">Officers</h2>-->
             <div class="row">
-                <div class="team-item">
-                    <p><img src="/theme/clp/assets/images/our-team/team-members1.png" alt="img" class="img-responsive" /></p>
-                    <h4>Dr. Mohammad Farooque</h4>
-                    <h5>President</h5>
-                    <p>(732) 829-0341</p>
-                    <p>vabnj@hotmail.com</p>
-                </div>
-                <div class="team-item">
-                    <p><img src="/theme/clp/assets/images/our-team/team-members2.png" alt="img" class="img-responsive" /></p>
-                    <h4>Dr. Farrukh N Mohsen</h4>
-                    <h5>Vice President</h5>
-                    <p>(609) 787-8727</p>
-                    <p>farrukhmohsen@gmail.com</p>
-                </div>
-                <div class="team-item">
-                    <p><img src="/theme/clp/assets/images/our-team/team-members3.png" alt="img" class="img-responsive" /></p>
-                    <h4>Ms. Lubna Kabir</h4>
-                    <h5>Vice President</h5>
-                    <p>(908) 218-9531</p>
-                    <p>lubnakabir@hotmail.com</p>
-                </div>
-                <div class="team-item">
-                    <p><img src="/theme/clp/assets/images/our-team/team-members4.png" alt="img" class="img-responsive" /></p>
-                    <h4>Dr. Sayeed Hasan</h4>
-                    <h5>General Secretary</h5>
-                    <p>(732) 910-9096</p>
-                    <p>sayeed443@gmail.com</p>
-                </div>
-                <div class="team-item">
-                    <p><img src="/theme/clp/assets/images/our-team/team-members5.png" alt="img" class="img-responsive" /></p>
-                    <h4>Mr. Amzad Khan</h4>
-                    <h5>Treasurer</h5>
-                    <p>(908) 380-1243</p>
-                    <p>ahkhan48@hotmail.com</p>
-                </div>
+                <?php if (!empty($team_items)): ?>
+                    <?php foreach ($team_items as $item): ?>
+                        <div class="team-item">
+                            <?php if (!empty($item->profile_image)): ?>
+                                <p><img src="<?php echo htmlspecialchars($item->profile_image); ?>" alt="<?php echo htmlspecialchars($item->full_name); ?>" class="img-responsive" /></p>
+                            <?php endif; ?>
+                            <h4><?php echo htmlspecialchars($item->full_name); ?></h4>
+                            <h5><?php echo htmlspecialchars($item->designation); ?></h5>
+                            <?php if (!empty($item->phone)): ?>
+                                <p><?php echo htmlspecialchars($item->phone); ?></p>
+                            <?php endif; ?>
+                            <?php if (!empty($item->email)): ?>
+                                <p><?php echo htmlspecialchars($item->email); ?></p>
+                            <?php endif; ?>
+                        </div>
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <div class="team-item">
+                        <p><img src="/theme/clp/assets/images/our-team/team-members1.png" alt="img" class="img-responsive" /></p>
+                        <h4>Dr. Mohammad Farooque</h4>
+                        <h5>President</h5>
+                        <p>(732) 829-0341</p>
+                        <p>vabnj@hotmail.com</p>
+                    </div>
+                    <div class="team-item">
+                        <p><img src="/theme/clp/assets/images/our-team/team-members2.png" alt="img" class="img-responsive" /></p>
+                        <h4>Dr. Farrukh N Mohsen</h4>
+                        <h5>Vice President</h5>
+                        <p>(609) 787-8727</p>
+                        <p>farrukhmohsen@gmail.com</p>
+                    </div>
+                    <div class="team-item">
+                        <p><img src="/theme/clp/assets/images/our-team/team-members3.png" alt="img" class="img-responsive" /></p>
+                        <h4>Ms. Lubna Kabir</h4>
+                        <h5>Vice President</h5>
+                        <p>(908) 218-9531</p>
+                        <p>lubnakabir@hotmail.com</p>
+                    </div>
+                    <div class="team-item">
+                        <p><img src="/theme/clp/assets/images/our-team/team-members4.png" alt="img" class="img-responsive" /></p>
+                        <h4>Dr. Sayeed Hasan</h4>
+                        <h5>General Secretary</h5>
+                        <p>(732) 910-9096</p>
+                        <p>sayeed443@gmail.com</p>
+                    </div>
+                    <div class="team-item">
+                        <p><img src="/theme/clp/assets/images/our-team/team-members5.png" alt="img" class="img-responsive" /></p>
+                        <h4>Mr. Amzad Khan</h4>
+                        <h5>Treasurer</h5>
+                        <p>(908) 380-1243</p>
+                        <p>ahkhan48@hotmail.com</p>
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
     </section>

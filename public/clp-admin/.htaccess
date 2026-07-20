@@ -1,0 +1,12 @@
+# Disable directory listing for admin panel
+Options -Indexes
+
+# Protect sensitive PHP files in includes directory
+<FilesMatch "^(includes|\.htaccess|.*\.sql)$">
+    Require all denied
+</FilesMatch>
+
+# Allow access to assets
+<FilesMatch "^(assets|.*\.(css|js|png|jpg|jpeg|gif|ico|svg))$">
+    Require all granted
+</FilesMatch>

@@ -8,14 +8,27 @@ require_once(__DIR__ . '/config.php');
 
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/history.php');
-$PAGE->set_title('History');
-$PAGE->set_heading('History');
+
+$history_content = null;
+$page_setting = null;
+try {
+    $history_content = $DB->get_record_sql("SELECT * FROM clp_about_history WHERE status = 'published' ORDER BY display_order ASC, created_at DESC LIMIT 1");
+    $page_setting = $DB->get_record_sql("SELECT * FROM clp_page_settings WHERE page_key = 'history' LIMIT 1");
+} catch (Exception $e) {
+    error_log('History DB error: ' . $e->getMessage());
+}
+
+$page_title = $page_setting->page_title ?? 'History';
+$breadcrumb_title = $page_setting->breadcrumb_title ?? 'History';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>History</title>
+    <title><?php echo htmlspecialchars($page_title); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -93,6 +106,14 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                                 </li>
                                 <li>
                                     <a href="faq.php">FAQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="local/clp/program.php?program=clc">DATABASE</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="local/clp/program.php?program=clc">CLC – Computer Literacy Center</a>
                                 </li>
                             </ul>
                         </li>
@@ -317,7 +338,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                             <a href="javascript:void(0)">About Us</a>
                         </li>
                         <li>
-                            History
+                            <?php echo htmlspecialchars($breadcrumb_title); ?>
                         </li>
                     </ul>
                 </div>
@@ -330,24 +351,29 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-xs-12">
-                    <p class="work_para">The Computer Literacy Program for Underprivileged (CLP) was originally
-                        conceived in 2004 by several Bangladeshis Americans living in New Jersey with the mission of
-                        empowering underprivileged youths through computer literacy training and technology-aided
-                        improved teaching. CLP was first introduced to donors and recipients as the New Jersey Chapter
-                        of the Volunteers Association for Bangladesh (VAB), a New York charity focused on providing
-                        improved education to underprivileged secondary school students in Bangladesh. In 2012, CLP grew
-                        into an independent US501@ (3) organization.</p>
-                    <p class="work_para">Since its beginning, CLP progressively spawned innovative programs to bridge
-                        the digital divide between the underprivileged and affluent students and advance their education
-                        excellence with the help of modern technology. These programs span from establishing <a
-                            href="clc-teaching.php">computer literacy centers (CLCs)</a>, certifying and
-                        training instructors, creating educational materials to be consumed digitally, and enabling
-                        remote learning opportunities. As of
-                        
-                        , CLP has established  CLCs
-                        ans  SCRs in 55 districts of Bangladesh. As of
-                        , CLCs have trained around 
-                        students, % of those being females.</p>
+                    <?php if ($history_content): ?>
+                        <p class="work_para"><?php echo htmlspecialchars($history_content->short_description); ?></p>
+                        <p class="work_para"><?php echo nl2br(htmlspecialchars($history_content->full_description)); ?></p>
+                    <?php else: ?>
+                        <p class="work_para">The Computer Literacy Program for Underprivileged (CLP) was originally
+                            conceived in 2004 by several Bangladeshis Americans living in New Jersey with the mission of
+                            empowering underprivileged youths through computer literacy training and technology-aided
+                            improved teaching. CLP was first introduced to donors and recipients as the New Jersey Chapter
+                            of the Volunteers Association for Bangladesh (VAB), a New York charity focused on providing
+                            improved education to underprivileged secondary school students in Bangladesh. In 2012, CLP grew
+                            into an independent US501@ (3) organization.</p>
+                        <p class="work_para">Since its beginning, CLP progressively spawned innovative programs to bridge
+                            the digital divide between the underprivileged and affluent students and advance their education
+                            excellence with the help of modern technology. These programs span from establishing <a
+                                href="clc-teaching.php">computer literacy centers (CLCs)</a>, certifying and
+                            training instructors, creating educational materials to be consumed digitally, and enabling
+                            remote learning opportunities. As of
+                            
+                            , CLP has established  CLCs
+                            ans  SCRs in 55 districts of Bangladesh. As of
+                            , CLCs have trained around 
+                            students, % of those being females.</p>
+                    <?php endif; ?>
                 </div>
 
                 <div class="col-sm-6 col-xs-12">

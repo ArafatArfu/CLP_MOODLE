@@ -8,14 +8,27 @@ require_once(__DIR__ . '/config.php');
 
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/partners.php');
-$PAGE->set_title('CLP | Our Partners');
-$PAGE->set_heading('CLP | Our Partners');
+
+$partner_items = [];
+$page_setting = null;
+try {
+    $partner_items = $DB->get_records_sql("SELECT * FROM clp_partners WHERE status = 'published' ORDER BY display_order ASC, created_at DESC");
+    $page_setting = $DB->get_record_sql("SELECT * FROM clp_page_settings WHERE page_key = 'partners' LIMIT 1");
+} catch (Exception $e) {
+    // Table may not exist yet, use fallback
+}
+
+$page_title = $page_setting->page_title ?? 'CLP | Our Partners';
+$breadcrumb_title = $page_setting->breadcrumb_title ?? 'Our Partners';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>CLP | Our Partners</title>
+    <title><?php echo htmlspecialchars($page_title); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -93,6 +106,14 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                                 </li>
                                 <li>
                                     <a href="faq.php">FAQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="local/clp/program.php?program=clc">DATABASE</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="local/clp/program.php?program=clc">CLC – Computer Literacy Center</a>
                                 </li>
                             </ul>
                         </li>
@@ -317,7 +338,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
                             <a href="javascript:void(0)">About Us</a>
                         </li>
                         <li>
-                            Our Partners
+                            <?php echo htmlspecialchars($breadcrumb_title); ?>
                         </li>
                     </ul>
                 </div>
@@ -328,161 +349,47 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
     <section class="our-partners-wrap sec-padd">
         <div class="container">
             <h2 style="text-align:center;"><span class="thm-color">Corporate</span> Partners</h2>
-            <div style="height:250px; width: 100%;">
-                    <a target="_blank" style="width: 100%; display: flex; justify-content: center;" href="https://www.petracephas.com/">
-                        <img src="/theme/clp/assets/images/partners/ad_1.jpg"
-                             class="img-responsive partner_main_img text-center" alt="partner-logo">
-                    </a>
-            </div>
-            <div class="partner-card-columns">
-                <div class="card partner-items">
-                    <div class="img-col-partner">
-                        <img src="/theme/clp/assets/images/partners/nabic.png" alt="img" class="img-responsive"/>
-                    </div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>Nabic, USA</h4>
-                            <p class="work_para"><a target="_blank" href="https://nabic.org/">North American Bangladesh
-                                    Islamic Community (NABIC)</a>
-                                is an initiative of Bangladeshi Muslims in North America dedicated to promoting Islamic
-                                awareness and facilitating
-                                socio-economic upliftment of the common people of Bangladeshi heritage in North America
-                                and those in Bangladesh.</p>
+            <?php if (!empty($partner_items)): ?>
+                <div class="partner-card-columns">
+                    <?php foreach ($partner_items as $item): ?>
+                        <div class="card partner-items">
+                            <div class="img-col-partner">
+                                <?php if (!empty($item->logo_url)): ?>
+                                    <img src="<?php echo htmlspecialchars($item->logo_url); ?>" alt="<?php echo htmlspecialchars($item->name); ?>" class="img-responsive"/>
+                                <?php endif; ?>
+                            </div>
+                            <div class="text-col">
+                                <div class="inner">
+                                    <h4><?php echo htmlspecialchars($item->name); ?></h4>
+                                    <p class="work_para"><?php echo nl2br(htmlspecialchars($item->short_description)); ?></p>
+                                    <?php if (!empty($item->website_url)): ?>
+                                        <p><a target="_blank" href="<?php echo htmlspecialchars($item->website_url); ?>"><?php echo htmlspecialchars($item->website_url); ?></a></p>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            <?php else: ?>
+                <div class="partner-card-columns">
+                    <div class="card partner-items">
+                        <div class="img-col-partner">
+                            <img src="/theme/clp/assets/images/partners/nabic.png" alt="img" class="img-responsive"/>
+                        </div>
+                        <div class="text-col">
+                            <div class="inner">
+                                <h4>Nabic, USA</h4>
+                                <p class="work_para"><a target="_blank" href="https://nabic.org/">North American Bangladesh
+                                        Islamic Community (NABIC)</a>
+                                    is an initiative of Bangladeshi Muslims in North America dedicated to promoting Islamic
+                                    awareness and facilitating
+                                    socio-economic upliftment of the common people of Bangladeshi heritage in North America
+                                    and those in Bangladesh.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- End of partner-items -->
-
-                <div class="card partner-items">
-                    <div class="img-col-partner">
-                        <img src="/theme/clp/assets/images/partners/bank_asia_logo.jpg" alt="img"
-                             class="img-responsive"/>
-                    </div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>Bank Asia Ltd, Bangladesh</h4>
-                            <p class="work_para"><a target="_blank" href="https://www.bankasia-bd.com/">Bank Asia
-                                    Limited</a>
-                                is a scheduled commercial bank in the private sector established under the Banking
-                                Company Act 1991 and incorporated in
-                                Bangladesh as a public limited company under the Companies Act 1994 to carry out banking
-                                business in Bangladesh.
-                                Bank Asia Ltd. sponsored thirteen Computer Literacy Center under their Corporate Social
-                                Responsibilities adjacent
-                                in the rural branch in Bangladesh.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card partner-items">
-                    <div class="img-col-partner"></div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>Imdad Sitara Khan Foundation, USA</h4>
-                            <p class="work_para">This foundation is based in CA, USA formed by Dr. Imdadul Haque Khan, a
-                                renowned scientist and philanthropist. Dr. Khan’s magnanimous support gave the fledgling
-                                Computer Literacy Program a boost without which perhaps, the program would not be where
-                                it is to-day. Dr. Khan provided support for twelve centers. In addition, he provided
-                                funds for teacher incentive pay to the CLCs he sponsored. But, CLP is not the only noble
-                                endeavor that Dr. Khan supported, but it was one of many.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of partner-items -->
-
-                <div class="card partner-items">
-                    <div class="img-col-partner"></div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>I-K Foundation, Dhaka</h4>
-                            <p class="work_para">I-K Foundation is a family foundation committed to poverty reduction
-                                and social progress through the support of programs that impart income-generating skills
-                                to the poor and underprivileged in Bangladesh.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of partner-items -->
-
-                <div class="card partner-items">
-                    <div class="img-col-partner"></div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>CSDC, Chittagong</h4>
-                            <p class="work_para">Chittagong Skills Development Center (CSDC) is the first industry-led,
-                                non-profit skills training center in Bangladesh; and a private-public partnership
-                                between industry, government and academia. CSDC aims to strategically develop
-                                Bangladesh’s workforce by meeting the present and future skill needs of the ICT and
-                                manufacturing sectors; and promote poverty reduction.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of partner-items -->
-
-                <div class="card partner-items">
-                    <div class="img-col-partner">
-                        <img src="/theme/clp/assets/images/partners/ucep.png" alt="img" class="img-responsive"/>
-                    </div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>Underprivileged Children’s Educational Programs</h4>
-                            <p class="work_para">UCEP is a leading national NGO working with the distressed urban
-                                working children, to improve the socio-economic status of the urban poor and support
-                                industrial growth by generating skilled manpower. UCEP has earned a global reputation
-                                for its unique model of human resource development through general education and
-                                vocational skills training for employment and income generation.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of partner-items -->
-
-                <div class="card partner-items">
-                    <div class="img-col-partner"></div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>Hossain Trust, Dhaka, Bangladesh</h4>
-                            <p class="work_para">Syed Saadat Hossain, Dr. Ahmed Hossain and Ahmedi Hossain Trust (herein
-                                called Hossain Trust) duly incorporated in Bangladesh under the Trust Act of the
-                                People’s Republic of Bangladesh having its registered office at 7/C New Baily Road,
-                                Dhaka – 1217.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of partner-items -->
-                <div class="card partner-items">
-                    <div class="img-col-partner"></div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>Islamabad Girl’s Orphanage</h4>
-                            <p class="work_para">This organization was established as one of the first girls’ orphanages
-                                in Chittagong by several philanthropist 25 years ago. The orphanage hosts 96 girls from
-                                the age 4-16, providing accommodations, health care, education and overall welfare.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of partner-items -->
-
-                <div class="card partner-items">
-                    <div class="img-col-partner">
-                        <img src="/theme/clp/assets/images/partners/Fera_Foundation_Logo.png" alt="img"
-                             class="img-responsive"/>
-                    </div>
-                    <div class="text-col">
-                        <div class="inner">
-                            <h4>Fera Foundation</h4>
-                            <p class="work_para">CLP has developed a professional collaboration relationship with <a
-                                    target="_blank" href="https://www.ferafoundation.org/">Fera Foundation</a> in 2021.
-                                Fera Foundation Inc. is a women-led, not-for-profit organization serving as a reliable
-                                bridge between the Bangladeshi diasporic community and Bangladeshi civil society through
-                                convenient remote charitable services. Fera Foundation has an effective program in
-                                recruiting volunteer teachers.
-                                With a synergy between CLP-provided hardware & logistic support and volunteer
-                                recruitment by Fera Foundation,
-                                it is anticipated that Distance Teaching will be launched at many CLP sponsored Smart
-                                Classroom (SCR).</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php endif; ?>
         </div>
     </section>
     <!-- Scroll Top  -->

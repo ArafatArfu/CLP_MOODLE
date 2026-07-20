@@ -1,0 +1,60 @@
+<div class="sc-dash">
+    <button class="sc-dash-toggle" id="sc-dash-toggle" type="button" aria-label="Toggle sidebar" aria-expanded="true">
+        <span class="sc-dash-toggle-bar"></span>
+        <span class="sc-dash-toggle-bar"></span>
+        <span class="sc-dash-toggle-bar"></span>
+    </button>
+
+    <aside class="sc-dash-sidebar" role="navigation" aria-label="CLC management">
+        <div class="sc-dash-brand">
+            <span class="sc-dash-logo">{{sitename}}</span>
+            <span class="sc-dash-tag">CLC Management</span>
+        </div>
+
+        <nav class="sc-dash-nav">
+            <span class="sc-dash-nav-label">Programs</span>
+            <ul>
+                {{#programs}}
+                    <li>
+                        <a href="{{url}}" class="sc-dash-link {{#active}}is-active{{/active}}">
+                            <span class="sc-dash-ic sc-dash-ic-{{key}}" aria-hidden="true"></span>
+                            <span class="sc-dash-link-text">{{name}}</span>
+                        </a>
+                    </li>
+                {{/programs}}
+            </ul>
+        </nav>
+
+        <div class="sc-dash-sidefoot">
+            <a class="sc-dash-footlink" href="{{liveurl}}" target="_blank" rel="noopener">
+                View live page <span aria-hidden="true">&nearr;</span>
+            </a>
+            <a class="sc-dash-footlink" href="{{siteurl}}">Back to site</a>
+        </div>
+    </aside>
+
+    <main class="sc-dash-main">
+        {{{content}}}
+    </main>
+
+    <script>
+    (function () {
+        var dash = document.querySelector('.sc-dash');
+        var btn = document.getElementById('sc-dash-toggle');
+        if (!dash || !btn) { return; }
+        var KEY = 'scDashSidebarCollapsed';
+        function apply(collapsed) {
+            dash.classList.toggle('is-collapsed', collapsed);
+            btn.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+        }
+        try {
+            if (localStorage.getItem(KEY) === '1') { apply(true); }
+        } catch (e) {}
+        btn.addEventListener('click', function () {
+            var collapsed = !dash.classList.contains('is-collapsed');
+            apply(collapsed);
+            try { localStorage.setItem(KEY, collapsed ? '1' : '0'); } catch (e) {}
+        });
+    })();
+    </script>
+</div>

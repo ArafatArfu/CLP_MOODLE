@@ -1,0 +1,17 @@
+# CLP Admin Panel - URL Routing
+# Route /clp-admin/login to /clp-admin/login.php
+# Redirect /login to /clp-admin/login
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    # Route /clp-admin/login to clp-admin/login.php
+    RewriteRule ^clp-admin/login$ clp-admin/login.php [L]
+    
+    # Redirect /login to /clp-admin/login
+    RewriteRule ^login$ clp-admin/login [R=302,L]
+</IfModule>
+
+# Disable automatic trailing-slash redirects for directories
+DirectorySlash Off
