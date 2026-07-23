@@ -30,15 +30,15 @@ $stats['team'] = $result->fetch_assoc()['count'];
 $result = $db->query("SELECT COUNT(*) as count FROM clp_faqs WHERE status = 'published'");
 $stats['faq'] = $result->fetch_assoc()['count'];
 
-// CLC participants (owned by the local_clp Moodle plugin, uses the mdl_ prefix).
+// CLC participants (owned by the local_clp Moodle plugin, uses no prefix).
 $stats['clc'] = 0;
 $clc_recent = [];
-if ($res = $db->query("SHOW TABLES LIKE 'mdl_clp_clc_participants'")) {
+if ($res = $db->query("SHOW TABLES LIKE 'clp_clc_participants'")) {
     if ($res->num_rows > 0) {
-        $r = $db->query("SELECT COUNT(*) as count FROM mdl_clp_clc_participants WHERE program = 'clc'");
+        $r = $db->query("SELECT COUNT(*) as count FROM clp_clc_participants WHERE program = 'clc'");
         $stats['clc'] = (int)$r->fetch_assoc()['count'];
 
-        $r = $db->query("SELECT name, school, timecreated FROM mdl_clp_clc_participants WHERE program = 'clc' ORDER BY timecreated DESC, id DESC LIMIT 5");
+        $r = $db->query("SELECT name, school, timecreated FROM clp_clc_participants WHERE program = 'clc' ORDER BY timecreated DESC, id DESC LIMIT 5");
         while ($row = $r->fetch_assoc()) {
             $clc_recent[] = $row;
         }

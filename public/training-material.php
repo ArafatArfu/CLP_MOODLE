@@ -5,6 +5,13 @@
 // Rendered as a self-contained page that matches the original theme exactly.
 
 require_once(__DIR__ . '/config.php');
+require_once(__DIR__ . '/ourwork-helper.php');
+$ourwork_slug = 'training-material';
+$ourwork_page = ourwork_get_page($ourwork_slug);
+$ourwork_sections = $ourwork_page ? ourwork_get_sections($ourwork_page['id']) : [];
+$ourwork_seo_title = $ourwork_page['seo_title'] ?? '';
+$ourwork_seo_desc = $ourwork_page['seo_description'] ?? '';
+
 
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/training-material.php');
@@ -15,7 +22,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>DEVELOP TRAINING MATERIALS AND CONTENTS</title>
+    <title><?php echo htmlspecialchars($ourwork_seo_title ?: "CLP | Our Work"); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -41,188 +48,7 @@ $navContext = [
 echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
 ?>
 
-<section class="content">
-    <!--Start Main Content Area-->
-    <section class="inner-banner">
-        <div class="container">
-            <div class="box">
-                <h1>DEVELOP TRAINING MATERIALS AND CONTENTS</h1>
-                <div class="breadcumb-wrapper">
-                    <ul class="list-inline link-list">
-                        <li>
-                            <a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">Our WORK</a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">More Programs</a>
-                        </li>
-                        <li>
-                            DEVELOP TRAINING MATERIALS AND CONTENTS
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of inner-banner -->
-
-    <section class="history-wrap sec-padd">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-xs-12">
-                    <p class='work_para'>CLP engages with experts to design curriculum for digital literacy training in
-                        CLCs and the subjects taught in SCRs. The ‘Esho Computer Shikhi’ book which is used as a
-                        guideline for the students who receive digital literacy training in the CLCs, was developed and
-                        edited by consulting with some of the well-known experts of the country. CLP has also produced a
-                        multimedia content CD for nine high school textbooks with guidance from technology and
-                        educational experts to implement multi-media-based teaching-learning. Yearly 60,000 students
-                        across Bangladesh are getting the benefit of using CLP’s SCR contents in classrooms. Besides
-                        developing contents regarding CLC and SCR, CLP always tries to bring on the modern pedagogies
-                        and methodologies of teaching-learning while designing any kinds of teachers’ training for its
-                        supported centers’ teachers </p>
-                    <div class="card-columns literacy-columns">
-                        <div class="card partner-items literacy mrg">
-                        </div>
-                        <!-- End of partner-items -->
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-xs-12">
-                    <p><img src="/theme/clp/assets/images/clc/EshoComputerShikhiBook.jpg" alt="img"
-                            class="img-responsive"/></p>
-                </div>
-                <div class="col-sm-12 col-xs-12">
-                    <p><img src="/theme/clp/assets/images/curriculum-development/book.png" alt="img"
-                            class="img-responsive"/></p>
-                    <p class="work_para"><a
-                            href="https://drive.google.com/file/d/1pzfx4H0GopQfPFgUNGgPSQF5Eae1npSG/view">Click Here to
-                            get PDF copy</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Scroll Top  -->
-<button class="scroll-top tran3s"><span class="fa fa-angle-up"></span></button>
-
-<div class="preloader"></div>
-<script>
-    (function() {
-        var timeout = setTimeout(function() {
-            var preloader = document.querySelector('.preloader');
-            if (preloader) {
-                preloader.style.transition = 'opacity 0.5s ease';
-                preloader.style.opacity = '0';
-                setTimeout(function() {
-                    preloader.style.display = 'none';
-                }, 500);
-            }
-        }, 3000);
-        window.addEventListener('load', function() {
-            clearTimeout(timeout);
-            var preloader = document.querySelector('.preloader');
-            if (preloader) {
-                preloader.style.transition = 'opacity 0.5s ease';
-                preloader.style.opacity = '0';
-                setTimeout(function() {
-                    preloader.style.display = 'none';
-                }, 500);
-            }
-        });
-    })();
-</script>
-
-<!-- End of preloader  -->
-
-<div class="donate-popup" id="search-popup">
-    <div class="close-donate theme-btn">
-        <span class="fa fa-close"></span>
-    </div>
-    <div class="popup-inner">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 donate-form-area">
-                    <form class="subscribe-form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search"
-                                   onfocus="this.placeholder=''"
-                                   onblur="this.placeholder='Search'">
-                            <a href="#" class="search-icon"><i aria-hidden="true" class="fa fa-search"></i></a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    <!--End Main Content Area-->
-</section>
-<!-- End of content-wrapper -->
-
-<!--Start Footer Area-->
-
-<div class="donate-popup" id="donate-popup">
-    <div class="close-donate theme-btn">
-        <span class="fa fa-close"></span>
-    </div>
-
-    <div class="popup-inner">
-        <div class="container">
-            <div class="donate-form-area">
-                <div class="section-title center">
-                    <h2>Donate</h2>
-                </div>
-                <!-- <h4>How much would you like to donate:</h4> -->
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p style="margin:30px 0;"><strong style="color: #00140F; font-size: 24px; line-height: 32px; font-weight: bold;">Donate to CLP</strong></p>
-
-                        <div class="row">
-                            <div class="col-md-auto">
-                            </div>
-
-                            <div class="col-sm-6 col-xs-12">
-                                <div style="text-align: center; border: solid 1px #ccc; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; padding: 5px 5px 15px 5px; margin-bottom: 15px; color:black">
-                                    <h5>All-Purpose</h5><br>
-                                    <p>
-                                        <a href="sponsor-form.php">
-                                            <img border="0" alt="" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" class="donate-img">
-                                        </a>
-                                    </p>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-auto">
-                            </div>
-
-                            <div class="col-sm-6 col-xs-12">
-                                <div style="text-align: center; border: solid 1px #ccc; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; padding: 5px 5px 15px 5px; margin-bottom: 15px; color:black">
-                                    <h5>Sherpur Project</h5><br>
-                                    <p>
-                                        <a href="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.paypal.com%2Fdonate%3Fhosted_button_id%3DV6D3X44Q434VC&data=04%7C01%7C%7C55db0d88c5c0408b0deb08d8bbd957c2%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637465889434712419%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=dBM7VYebTlhl%2BD9nki7ERXG9u3ajtdfduu0cNPJHauw%3D&reserved=0">
-                                            <img border="0" alt="" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" class="donate-img">
-                                        </a>
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div style="margin: 0 auto; padding-top:10px;">
-                            <p style="font-size: 20px; margin-bottom: 10px; margin-top: 5px; text-align: center;">Or</p>
-                            <div style="text-align: center; max-width: 196px; margin: 0 auto; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; padding: 10px; line-height: 22px; color:black; font-weight:bold;">Mail Check payable to CLP, 6 Tharp Lane, Marlboro, NJ07746.</div>
-                        </div>
-                        <div style="margin: 0 auto; width: 100%; text-align: center; color:black;">
-                            <strong>Tax ID # 46-0646134</strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+<?php echo ourwork_render_sections($ourwork_sections); ?>
 <footer class="clp-footer">
     <section class="container-fluid">
         <div class="row">

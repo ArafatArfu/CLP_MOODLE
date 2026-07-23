@@ -2,16 +2,14 @@
 // CLP Admin Panel - CLC Computer Literacy Center Records Management (List).
 //
 // Lists participant records stored in the CLC database table
-// (mdl_clp_clc_participants) which is shared with the public CLC page at
+// (clp_clc_participants) which is shared with the public CLC page at
 // /local/clp/program.php?program=clc. Provides search, filtering, sorting,
 // pagination and delete. Add / Edit / View are handled by clc_form.php and
 // clc_view.php.
 
 require_once __DIR__ . '/includes/auth.php';
 
-// The CLC participants table is owned by the Moodle local_clp plugin and uses
-// the Moodle table prefix, so it must be referenced with the mdl_ prefix here.
-define('CLP_CLC_TABLE', 'mdl_clp_clc_participants');
+define('CLP_CLC_TABLE', 'clp_clc_participants');
 
 $page_title = 'CLC – Computer Literacy Center';
 

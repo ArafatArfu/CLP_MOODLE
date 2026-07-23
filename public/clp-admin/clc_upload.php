@@ -8,7 +8,7 @@
 //   - Validate rows, import valid ones, and show a summary
 //     (imported / invalid / duplicate) plus the uploaded records.
 //
-// Records are written to the shared CLC table (mdl_clp_clc_participants), so
+// Records are written to the shared CLC table (clp_clc_participants), so
 // imports appear immediately on the public CLC page and in the CLC list.
 
 require_once __DIR__ . '/includes/auth.php';

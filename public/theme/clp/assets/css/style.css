@@ -1544,6 +1544,10 @@ tr:nth-child(even) {
     float: right;
 }
 
+.defaultmainmenu-menu > li {
+    position: relative;
+}
+
 .defaultmainmenu-menu>li>a {
     position: relative;
     padding: 20px 15px;

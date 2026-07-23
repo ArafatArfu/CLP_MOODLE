@@ -97,21 +97,39 @@
             </ul>
         </nav>
         
-        <div class="sidebar-section">Database</div>
+        <div class="sidebar-section">Our Work</div>
         
         <nav class="sidebar-nav">
             <ul class="nav-list">
-                <li class="nav-item <?php echo in_array($current, ['clc.php', 'clc_form.php', 'clc_view.php', 'clc_upload.php']) ? 'active' : ''; ?>">
-                    <a href="<?php echo CLP_ADMIN_URL; ?>/clc.php" class="nav-link">
-                        <i class="fas fa-laptop-code"></i>
-                        <span>CLC – Computer Literacy Center</span>
+                <li class="nav-item <?php echo in_array($current, ['ourwork.php', 'ourwork_form.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/ourwork.php" class="nav-link">
+                        <i class="fas fa-newspaper"></i>
+                        <span>Our Work Pages</span>
                     </a>
                 </li>
-                <li class="nav-item <?php echo in_array($current, ['centers.php', 'centers_form.php', 'centers_view.php']) ? 'active' : ''; ?>">
-                    <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="nav-link">
-                        <i class="fas fa-building"></i>
-                        <span>Sponsored Centers</span>
+                <li class="nav-item has-dropdown <?php echo in_array($current, ['clc.php', 'clc_form.php', 'clc_view.php', 'clc_upload.php']) ? 'active' : ''; ?>">
+                    <a href="javascript:void(0)" class="nav-link dropdown-toggle">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Computer Literacy Center (CLC)</span>
+                        <i class="fas fa-chevron-down dropdown-arrow"></i>
                     </a>
+                    <ul class="dropdown-menu">
+                        <li class="<?php echo $current == 'clc.php' ? 'active' : ''; ?>">
+                            <a href="<?php echo CLP_ADMIN_URL; ?>/clc.php" class="dropdown-link">
+                                <i class="fas fa-list"></i> All Participants
+                            </a>
+                        </li>
+                        <li class="<?php echo $current == 'clc_form.php' ? 'active' : ''; ?>">
+                            <a href="<?php echo CLP_ADMIN_URL; ?>/clc_form.php" class="dropdown-link">
+                                <i class="fas fa-plus-circle"></i> Add Participant
+                            </a>
+                        </li>
+                        <li class="<?php echo $current == 'clc_upload.php' ? 'active' : ''; ?>">
+                            <a href="<?php echo CLP_ADMIN_URL; ?>/clc_upload.php" class="dropdown-link">
+                                <i class="fas fa-file-excel"></i> Upload Excel
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
@@ -124,6 +142,12 @@
                     <a href="<?php echo CLP_ADMIN_URL; ?>/page_settings.php" class="nav-link">
                         <i class="fas fa-cog"></i>
                         <span>Page Settings</span>
+                    </a>
+                </li>
+                <li class="nav-item <?php echo in_array($current, ['footer.php', 'footer_form.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/footer.php" class="nav-link">
+                        <i class="fas fa-shoe-prints"></i>
+                        <span>Footer Management</span>
                     </a>
                 </li>
                 <li class="nav-item <?php echo $current == 'presentations.php' ? 'active' : ''; ?>">
