@@ -26,6 +26,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/clp/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/theme/clp/assets/css/style.css">
     <link rel="stylesheet" href="/theme/clp/assets/css/responsive.css">
     <link rel="stylesheet" href="/theme/clp/assets/css/jp-style.css">
@@ -68,3 +69,4 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
 </html>
 <?php
 // nothing else
+
