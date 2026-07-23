@@ -93,21 +93,25 @@ function ourwork_render_section(array $section): string {
             $imageAlign = htmlspecialchars($content['image_align'] ?? 'left', ENT_QUOTES);
             $alignClass = $imageAlign === 'right' ? 'col-md-pull-6' : '';
             $noPadd = !empty($content['no_padd']);
-            $sectionClass = $noPadd ? 'history-wrap' : 'history-wrap sec-padd';
-            $colClass = !empty($content['col_class']) ? htmlspecialchars($content['col_class'], ENT_QUOTES) : ($image ? 'col-md-6' : 'col-md-12');
+            $sectionClass = !empty($content['section_class']) ? htmlspecialchars($content['section_class'], ENT_QUOTES) : ($noPadd ? 'history-wrap' : 'history-wrap sec-padd');
+            $imageColClass = !empty($content['image_col_class']) ? htmlspecialchars($content['image_col_class'], ENT_QUOTES) : ($image ? 'col-md-6' : '');
+            $textColClass = !empty($content['text_col_class']) ? htmlspecialchars($content['text_col_class'], ENT_QUOTES) : ($image ? 'col-md-6' : 'col-md-12');
+            $textWrapper = !empty($content['text_wrapper']) ? htmlspecialchars($content['text_wrapper'], ENT_QUOTES) : '';
             ob_start();
             ?>
             <section class="<?php echo $sectionClass; ?>">
                 <div class="container">
                     <div class="row">
                         <?php if ($image): ?>
-                            <div class="col-md-6 <?php echo $alignClass; ?>">
+                            <div class="<?php echo $imageColClass; ?> <?php echo $alignClass; ?>">
                                 <img src="<?php echo $image; ?>" alt="<?php echo $heading; ?>" class="img-responsive">
                             </div>
                         <?php endif; ?>
-                        <div class="<?php echo $colClass; ?>">
+                        <div class="<?php echo $textColClass; ?>">
+                            <?php if ($textWrapper): ?><div class="<?php echo $textWrapper; ?>"><?php endif; ?>
                             <?php if ($heading): ?><h3><?php echo $heading; ?></h3><?php endif; ?>
                             <p class="work_para"><?php echo $body; ?></p>
+                            <?php if ($textWrapper): ?></div><?php endif; ?>
                         </div>
                     </div>
                 </div>
@@ -121,9 +125,10 @@ function ourwork_render_section(array $section): string {
             $carouselImages = is_array($content['carousel_images'] ?? null) ? $content['carousel_images'] : [];
             $carouselBorder = htmlspecialchars($content['carousel_border'] ?? '10px solid #e0e0e345', ENT_QUOTES);
             $carouselId = htmlspecialchars($content['carousel_id'] ?? 'carousel', ENT_QUOTES);
+            $sectionClass = !empty($content['section_class']) ? htmlspecialchars($content['section_class'], ENT_QUOTES) : 'history-wrap sec-padd';
             ob_start();
             ?>
-            <section class="history-wrap sec-padd">
+            <section class="<?php echo $sectionClass; ?>">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-xs-12">
@@ -351,6 +356,8 @@ function ourwork_render_section(array $section): string {
         case 'stats':
             $layout = htmlspecialchars($content['layout'] ?? 'grid', ENT_QUOTES);
             $items = is_array($content['items'] ?? null) ? $content['items'] : [];
+            $body = $content['body'] ?? '';
+            $sectionClass = !empty($content['section_class']) ? htmlspecialchars($content['section_class'], ENT_QUOTES) : 'our-partners-wrap sec-padd';
             $replacePlaceholders = function ($text) {
                 return preg_replace_callback('/\{\{(\w+)\}\}/', function ($m) {
                     return ourwork_general($m[1], $m[0]);
@@ -358,25 +365,35 @@ function ourwork_render_section(array $section): string {
             };
             ob_start();
             ?>
-            <section class="our-partners-wrap">
-                <div class="container <?php echo $layout === 'literacy' ? 'literacy-container' : ''; ?>">
-                    <?php if ($layout === 'literacy'): ?>
-                        <div class="card-columns">
-                            <?php foreach ($items as $item): ?>
-                                <?php if (empty($item['list'])): ?>
-                                    <div class="card partner-items literacy">
-                                        <div class="img-col">
-                                            <h4><?php echo $replacePlaceholders(htmlspecialchars($item['number'] ?? '', ENT_QUOTES)); ?></h4>
-                                            <p><?php echo $replacePlaceholders(htmlspecialchars($item['label'] ?? '', ENT_QUOTES)); ?></p>
-                                        </div>
-                                    </div>
-                                <?php endif; ?>
+            <section class="<?php echo $sectionClass; ?>">
+                <div class="container <?php echo $layout === 'literacy' || $layout === 'scr' ? 'literacy-container' : ''; ?>">
+                    <?php if ($layout === 'scr'): ?>
+                        <div class="row scrs-data-row">
+                            <?php foreach ($items as $idx => $item): ?>
+                                <?php
+                                $perClass = '';
+                                if ($idx === 0) $perClass = 'per30';
+                                elseif ($idx === 1) $perClass = 'per60';
+                                elseif ($idx === 2) $perClass = 'per100';
+                                ?>
+                                <div class="col-sm-4 col-xs-12 item <?php echo $perClass; ?>">
+                                    <h4><?php echo $replacePlaceholders(htmlspecialchars($item['number'] ?? '', ENT_QUOTES)); ?></h4>
+                                    <p><?php echo $replacePlaceholders(htmlspecialchars($item['label'] ?? '', ENT_QUOTES)); ?></p>
+                                </div>
                             <?php endforeach; ?>
                         </div>
+                        <div class="impact-count-blk teachers">
+                            <h4><?php echo $replacePlaceholders(htmlspecialchars($content['total_number'] ?? '', ENT_QUOTES)); ?></h4>
+                            <p><?php echo $replacePlaceholders(htmlspecialchars($content['total_label'] ?? '', ENT_QUOTES)); ?></p>
+                        </div>
+                    <?php elseif ($layout === 'literacy'): ?>
                         <div class="card-columns literacy-columns">
-                            <?php foreach ($items as $item): ?>
+                            <?php foreach ($items as $idx => $item): ?>
                                 <?php if (!empty($item['list'])): ?>
                                     <div class="card partner-items literacy mrg">
+                                        <?php if ($idx === 0 && $body): ?>
+                                            <p class="work_para"><?php echo $body; ?></p>
+                                        <?php endif; ?>
                                         <div class="img-col">
                                             <h4><?php echo $replacePlaceholders(htmlspecialchars($item['number'] ?? '', ENT_QUOTES)); ?></h4>
                                             <p><?php echo $replacePlaceholders(htmlspecialchars($item['label'] ?? '', ENT_QUOTES)); ?></p>
@@ -414,20 +431,23 @@ function ourwork_render_section(array $section): string {
 
         case 'benefits':
             $heading = htmlspecialchars($content['heading'] ?? '', ENT_QUOTES);
+            $headingHtml = !empty($content['heading_html']) ? $content['heading_html'] : '';
+            $displayHeading = $headingHtml ?: $heading;
             $benefits = is_array($content['benefits'] ?? null) ? $content['benefits'] : [];
             $btnText = htmlspecialchars($content['button_text'] ?? '', ENT_QUOTES);
             $btnLink = htmlspecialchars($content['button_link'] ?? '#', ENT_QUOTES);
             $image = htmlspecialchars($content['image'] ?? '', ENT_QUOTES);
             $imageCaption = htmlspecialchars($content['image_caption'] ?? '', ENT_QUOTES);
             $note = $content['note'] ?? '';
+            $sectionClass = !empty($content['section_class']) ? htmlspecialchars($content['section_class'], ENT_QUOTES) : 'sponsorship-wrap sec-padd';
             ob_start();
             ?>
-            <section class="sponsorship-wrap">
+            <section class="<?php echo $sectionClass; ?>">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 col-xs-12">
                             <div class="section-title center">
-                                <h2><?php echo $heading; ?></h2>
+                                <h2><?php echo $displayHeading; ?></h2>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12">
