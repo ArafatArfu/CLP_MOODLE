@@ -502,6 +502,93 @@ function ourwork_render_section(array $section): string {
             <?php
             return ob_get_clean();
 
+        case 'scr_intro':
+            $introText = $content['intro_text'] ?? '';
+            $carouselImages = is_array($content['carousel_images'] ?? null) ? $content['carousel_images'] : [];
+            $carouselBorder = htmlspecialchars($content['carousel_border'] ?? '10px solid #e0e0e345', ENT_QUOTES);
+            $carouselId = htmlspecialchars($content['carousel_id'] ?? 'carousel', ENT_QUOTES);
+            $table1Image = htmlspecialchars($content['table1_image'] ?? '', ENT_QUOTES);
+            $table1Text = $content['table1_text'] ?? '';
+            $statsItems = is_array($content['stats_items'] ?? null) ? $content['stats_items'] : [];
+            $totalNumber = htmlspecialchars($content['total_number'] ?? '', ENT_QUOTES);
+            $totalLabel = htmlspecialchars($content['total_label'] ?? '', ENT_QUOTES);
+            $replacePlaceholders = function ($text) {
+                return preg_replace_callback('/\{\{(\w+)\}\}/', function ($m) {
+                    return ourwork_general($m[1], $m[0]);
+                }, $text);
+            };
+            ob_start();
+            ?>
+            <section class="SCRs-cont-wrap sec-padd">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12">
+                            <p class="work_para"><?php echo $introText; ?></p>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div style="border: <?php echo $carouselBorder; ?>;" id="<?php echo $carouselId; ?>" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <?php foreach ($carouselImages as $i => $img): ?>
+                                        <li data-target="#<?php echo $carouselId; ?>" data-slide-to="<?php echo $i; ?>" <?php echo $i === 0 ? 'class="active"' : ''; ?>></li>
+                                    <?php endforeach; ?>
+                                </ol>
+                                <div class="carousel-inner carousel-zoom">
+                                    <?php foreach ($carouselImages as $i => $img): ?>
+                                        <div class="<?php echo $i === 0 ? 'active ' : ''; ?>item slider-inner-img">
+                                            <img class="img-responsive" src="<?php echo htmlspecialchars($img['src'] ?? '', ENT_QUOTES); ?>" alt="<?php echo htmlspecialchars($img['alt'] ?? '', ENT_QUOTES); ?>">
+                                        </div>
+                                    <?php endforeach; ?>
+                                </div>
+                                <a class="left carousel-control" href="#<?php echo $carouselId; ?>" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#<?php echo $carouselId; ?>" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12">
+                            <p><img src="<?php echo $table1Image; ?>" alt="img" class="img-responsive"/></p>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <p class="work_para"><?php echo $table1Text; ?></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-7 col-xs-12">
+                            <div class="row scrs-data-row">
+                                <?php foreach ($statsItems as $idx => $item): ?>
+                                    <?php
+                                    $perClass = '';
+                                    if ($idx === 0) $perClass = 'per30';
+                                    elseif ($idx === 1) $perClass = 'per60';
+                                    elseif ($idx === 2) $perClass = 'per100';
+                                    ?>
+                                    <div class="col-sm-4 col-xs-12 item <?php echo $perClass; ?>">
+                                        <h4><?php echo $replacePlaceholders(htmlspecialchars($item['number'] ?? '', ENT_QUOTES)); ?></h4>
+                                        <p><?php echo $replacePlaceholders(htmlspecialchars($item['label'] ?? '', ENT_QUOTES)); ?></p>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 col-xs-12">
+                            <div class="impact-count-blk teachers">
+                                <h4><?php echo $replacePlaceholders($totalNumber); ?></h4>
+                                <p><?php echo $replacePlaceholders($totalLabel); ?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <?php
+            return ob_get_clean();
+
         case 'custom':
             return $content['html'] ?? '';
 

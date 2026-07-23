@@ -176,6 +176,18 @@ function ourwork_form_render_fields($content, $section_type) {
             ourwork_form_text($content, 'button_link', 'Button Link');
             break;
 
+        case 'scr_intro':
+            ourwork_form_textarea($content, 'intro_text', 'Intro Text', 4);
+            ourwork_form_images($content, 'carousel_images', 'Carousel Images');
+            ourwork_form_text($content, 'carousel_border', 'Carousel Border Style', '10px solid #e0e0e345');
+            ourwork_form_text($content, 'carousel_id', 'Carousel ID', 'carousel');
+            ourwork_form_text($content, 'table1_image', 'Table 1 Image URL');
+            ourwork_form_textarea($content, 'table1_text', 'Table 1 Text', 4);
+            ourwork_form_text($content, 'total_number', 'Total Number (dynamic)', '');
+            ourwork_form_text($content, 'total_label', 'Total Label', '');
+            ourwork_form_items($content, 'stats_items', 'Stats Items (number + label)');
+            break;
+
         case 'custom':
             ourwork_form_textarea($content, 'html', 'Custom HTML', 10);
             break;
