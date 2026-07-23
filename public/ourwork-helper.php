@@ -104,7 +104,7 @@ function ourwork_render_section(array $section): string {
                     <div class="row">
                         <?php if ($image && $imageAlign === 'left'): ?>
                             <div class="<?php echo $imageColClass; ?>">
-                                <img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive">
+                                <p><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
                             </div>
                         <?php endif; ?>
                         <div class="<?php echo $textColClass; ?>">
@@ -115,7 +115,7 @@ function ourwork_render_section(array $section): string {
                         </div>
                         <?php if ($image && $imageAlign === 'right'): ?>
                             <div class="<?php echo $imageColClass; ?>">
-                                <img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive">
+                                <p><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
                             </div>
                         <?php endif; ?>
                     </div>
