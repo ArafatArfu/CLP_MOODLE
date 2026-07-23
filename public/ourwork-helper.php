@@ -91,20 +91,20 @@ function ourwork_render_section(array $section): string {
             $body = $content['body'] ?? '';
             $image = htmlspecialchars($content['image'] ?? '', ENT_QUOTES);
             $imageAlign = htmlspecialchars($content['image_align'] ?? 'left', ENT_QUOTES);
-            $alignClass = $imageAlign === 'right' ? 'col-md-pull-6' : '';
             $noPadd = !empty($content['no_padd']);
             $sectionClass = !empty($content['section_class']) ? htmlspecialchars($content['section_class'], ENT_QUOTES) : ($noPadd ? 'history-wrap' : 'history-wrap sec-padd');
             $imageColClass = !empty($content['image_col_class']) ? htmlspecialchars($content['image_col_class'], ENT_QUOTES) : ($image ? 'col-md-6' : '');
             $textColClass = !empty($content['text_col_class']) ? htmlspecialchars($content['text_col_class'], ENT_QUOTES) : ($image ? 'col-md-6' : 'col-md-12');
             $textWrapper = !empty($content['text_wrapper']) ? htmlspecialchars($content['text_wrapper'], ENT_QUOTES) : '';
+            $altText = $heading ?: 'img';
             ob_start();
             ?>
             <section class="<?php echo $sectionClass; ?>">
                 <div class="container">
                     <div class="row">
-                        <?php if ($image): ?>
-                            <div class="<?php echo $imageColClass; ?> <?php echo $alignClass; ?>">
-                                <img src="<?php echo $image; ?>" alt="<?php echo $heading; ?>" class="img-responsive">
+                        <?php if ($image && $imageAlign === 'left'): ?>
+                            <div class="<?php echo $imageColClass; ?>">
+                                <img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive">
                             </div>
                         <?php endif; ?>
                         <div class="<?php echo $textColClass; ?>">
@@ -113,6 +113,11 @@ function ourwork_render_section(array $section): string {
                             <p class="work_para"><?php echo $body; ?></p>
                             <?php if ($textWrapper): ?></div><?php endif; ?>
                         </div>
+                        <?php if ($image && $imageAlign === 'right'): ?>
+                            <div class="<?php echo $imageColClass; ?>">
+                                <img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive">
+                            </div>
+                        <?php endif; ?>
                     </div>
                 </div>
             </section>
