@@ -103,13 +103,16 @@ function ourwork_form_render_fields($content, $section_type) {
         case 'text':
             ourwork_form_text($content, 'section_class', 'Section CSS Class (optional)', 'history-wrap sec-padd');
             ourwork_form_text($content, 'heading', 'Heading');
+            ourwork_form_text($content, 'heading_class', 'Heading CSS Class (optional, e.g. subtitle)', '');
             ourwork_form_textarea($content, 'body', 'Body / HTML Content', 6);
             ourwork_form_text($content, 'image', 'Image URL');
+            ourwork_form_text($content, 'image_paragraph_class', 'Image Paragraph Class (optional, e.g. connect-img)', '');
             ourwork_form_select($content, 'image_align', 'Image Align', ['left' => 'Left', 'right' => 'Right'], 'left');
             ourwork_form_text($content, 'image_col_class', 'Image Column CSS Class (optional)', 'col-md-6');
             ourwork_form_text($content, 'text_col_class', 'Text Column CSS Class (optional)', 'col-md-6');
             ourwork_form_text($content, 'text_wrapper', 'Text Wrapper Class (optional)', '');
             ourwork_form_text($content, 'image_wrapper_class', 'Image Wrapper Class (optional, e.g. card-columns literacy-columns)', '');
+            ourwork_form_text($content, 'row_class', 'Row CSS Class (optional, e.g. extr-mrg-top)', '');
             ourwork_form_text($content, 'col_class', 'Text Column CSS Class (legacy)', 'col-md-12');
             ourwork_form_checkbox($content, 'no_padd', 'Remove Section Padding (history-wrap only, no sec-padd)');
             break;
@@ -193,12 +196,16 @@ function ourwork_form_render_fields($content, $section_type) {
         case 'video_section':
             ourwork_form_text($content, 'section_class', 'Section CSS Class', 'introduction-wrap news fact-counter-2 sec-padd');
             ourwork_form_text($content, 'background_image', 'Background Image URL');
-            ourwork_form_text($content, 'video_wrapper_class', 'Video Wrapper Class (e.g., rvt1_video)');
+            ourwork_form_text($content, 'video_wrapper_type', 'Video Wrapper Type', 'default');
+            ourwork_form_text($content, 'video_wrapper_class', 'Video Wrapper Class (e.g., rvt1_video, csaw-video)', '');
+            ourwork_form_text($content, 'about_video_bg', 'About Video Background Image URL', '');
             ourwork_form_text($content, 'youtube_url', 'YouTube URL');
             ourwork_form_text($content, 'play_image', 'Play Button Image URL', '/theme/clp/assets/images/play.svg');
             ourwork_form_text($content, 'play_image_alt', 'Play Image Alt Text', 'play');
             ourwork_form_text($content, 'heading', 'Heading');
             ourwork_form_textarea($content, 'body', 'Body Text', 5);
+            ourwork_form_textarea($content, 'description', 'Description Text (optional, renders without work_para)', 3);
+            ourwork_form_text($content, 'next_note', 'Next Note Text (optional, renders as h5.next-note)', '');
             break;
 
         case 'table':

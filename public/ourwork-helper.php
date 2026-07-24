@@ -97,29 +97,32 @@ function ourwork_render_section(array $section): string {
             $textColClass = !empty($content['text_col_class']) ? htmlspecialchars($content['text_col_class'], ENT_QUOTES) : ($image ? 'col-md-6' : 'col-md-12');
             $textWrapper = !empty($content['text_wrapper']) ? htmlspecialchars($content['text_wrapper'], ENT_QUOTES) : '';
             $imageWrapperClass = !empty($content['image_wrapper_class']) ? htmlspecialchars($content['image_wrapper_class'], ENT_QUOTES) : '';
+            $imageParagraphClass = !empty($content['image_paragraph_class']) ? htmlspecialchars($content['image_paragraph_class'], ENT_QUOTES) : '';
+            $headingClass = !empty($content['heading_class']) ? htmlspecialchars($content['heading_class'], ENT_QUOTES) : '';
+            $rowClass = !empty($content['row_class']) ? htmlspecialchars($content['row_class'], ENT_QUOTES) : '';
             $altText = $heading ?: 'img';
             ob_start();
             ?>
             <section class="<?php echo $sectionClass; ?>">
                 <div class="container">
-                    <div class="row">
+                    <div class="row <?php echo $rowClass; ?>">
                         <?php if ($image && $imageAlign === 'left'): ?>
                             <div class="<?php echo $imageColClass; ?>">
                                 <?php if ($imageWrapperClass): ?><div class="<?php echo $imageWrapperClass; ?>"><?php endif; ?>
-                                <p><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
+                                <p class="<?php echo $imageParagraphClass; ?>"><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
                                 <?php if ($imageWrapperClass): ?></div><?php endif; ?>
                             </div>
                         <?php endif; ?>
                         <div class="<?php echo $textColClass; ?>">
                             <?php if ($textWrapper): ?><div class="<?php echo $textWrapper; ?>"><?php endif; ?>
-                            <?php if ($heading): ?><h3><?php echo $heading; ?></h3><?php endif; ?>
+                            <?php if ($heading): ?><h3 class="<?php echo $headingClass; ?>"><?php echo $heading; ?></h3><?php endif; ?>
                             <p class="work_para"><?php echo $body; ?></p>
                             <?php if ($textWrapper): ?></div><?php endif; ?>
                         </div>
                         <?php if ($image && $imageAlign === 'right'): ?>
                             <div class="<?php echo $imageColClass; ?>">
                                 <?php if ($imageWrapperClass): ?><div class="<?php echo $imageWrapperClass; ?>"><?php endif; ?>
-                                <p><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
+                                <p class="<?php echo $imageParagraphClass; ?>"><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
                                 <?php if ($imageWrapperClass): ?></div><?php endif; ?>
                             </div>
                         <?php endif; ?>
@@ -603,11 +606,15 @@ function ourwork_render_section(array $section): string {
             $sectionClass = htmlspecialchars($content['section_class'] ?? 'introduction-wrap news fact-counter-2 sec-padd', ENT_QUOTES);
             $bgImage = htmlspecialchars($content['background_image'] ?? '', ENT_QUOTES);
             $videoWrapperClass = htmlspecialchars($content['video_wrapper_class'] ?? '', ENT_QUOTES);
+            $videoWrapperType = htmlspecialchars($content['video_wrapper_type'] ?? 'default', ENT_QUOTES);
             $youtubeUrl = htmlspecialchars($content['youtube_url'] ?? '#', ENT_QUOTES);
             $playImage = htmlspecialchars($content['play_image'] ?? '/theme/clp/assets/images/play.svg', ENT_QUOTES);
             $playImageAlt = htmlspecialchars($content['play_image_alt'] ?? 'play', ENT_QUOTES);
+            $aboutVideoBg = htmlspecialchars($content['about_video_bg'] ?? '', ENT_QUOTES);
             $heading = htmlspecialchars($content['heading'] ?? '', ENT_QUOTES);
             $body = $content['body'] ?? '';
+            $description = $content['description'] ?? '';
+            $nextNote = htmlspecialchars($content['next_note'] ?? '', ENT_QUOTES);
             $style = $bgImage ? " style=\"background-image: url('{$bgImage}');\"" : '';
             ob_start();
             ?>
@@ -615,17 +622,31 @@ function ourwork_render_section(array $section): string {
                 <div class="welcome-area ptb--100">
                     <div class="container">
                         <div class="welcome-content">
-                            <?php if ($videoWrapperClass): ?>
-                            <div class="<?php echo $videoWrapperClass; ?>">
-                                <a target="_blank" href="<?php echo $youtubeUrl; ?>" class="gallery_video">
-                                    <img src="<?php echo $playImage; ?>" alt="<?php echo $playImageAlt; ?>">
-                                </a>
-                            </div>
+                            <?php if ($videoWrapperType === 'about'): ?>
+                                <div class="about-video"<?php echo $aboutVideoBg ? " style=\"background: url('{$aboutVideoBg}')\"" : ''; ?>>
+                                    <a target="_blank" href="<?php echo $youtubeUrl; ?>" class="gallery_video">
+                                        <img src="<?php echo $playImage; ?>" alt="<?php echo $playImageAlt; ?>">
+                                    </a>
+                                </div>
+                            <?php elseif ($videoWrapperType === 'csaw'): ?>
+                                <div class="<?php echo $videoWrapperClass ?: 'csaw-video'; ?>">
+                                    <a target="_blank" href="<?php echo $youtubeUrl; ?>" class="gallery_video">
+                                        <img src="<?php echo $playImage; ?>" alt="<?php echo $playImageAlt; ?>">
+                                    </a>
+                                </div>
+                            <?php elseif ($videoWrapperClass): ?>
+                                <div class="<?php echo $videoWrapperClass; ?>">
+                                    <a target="_blank" href="<?php echo $youtubeUrl; ?>" class="gallery_video">
+                                        <img src="<?php echo $playImage; ?>" alt="<?php echo $playImageAlt; ?>">
+                                    </a>
+                                </div>
                             <?php endif; ?>
                             <div class="welcome-inner">
                                 <div class="blog-info">
                                     <?php if ($heading): ?><h2><?php echo $heading; ?></h2><?php endif; ?>
-                                    <?php if ($body): ?><p class="description work_para"><?php echo $body; ?></p><?php endif; ?>
+                                    <?php if ($description): ?><p class="description"><?php echo $description; ?></p><?php endif; ?>
+                                    <?php if ($body && !$description): ?><p class="description work_para"><?php echo $body; ?></p><?php endif; ?>
+                                    <?php if ($nextNote): ?><h5 class="next-note"><?php echo $nextNote; ?></h5><?php endif; ?>
                                 </div>
                             </div>
                         </div>
