@@ -96,6 +96,7 @@ function ourwork_render_section(array $section): string {
             $imageColClass = !empty($content['image_col_class']) ? htmlspecialchars($content['image_col_class'], ENT_QUOTES) : ($image ? 'col-md-6' : '');
             $textColClass = !empty($content['text_col_class']) ? htmlspecialchars($content['text_col_class'], ENT_QUOTES) : ($image ? 'col-md-6' : 'col-md-12');
             $textWrapper = !empty($content['text_wrapper']) ? htmlspecialchars($content['text_wrapper'], ENT_QUOTES) : '';
+            $imageWrapperClass = !empty($content['image_wrapper_class']) ? htmlspecialchars($content['image_wrapper_class'], ENT_QUOTES) : '';
             $altText = $heading ?: 'img';
             ob_start();
             ?>
@@ -103,9 +104,11 @@ function ourwork_render_section(array $section): string {
                 <div class="container">
                     <div class="row">
                         <?php if ($image && $imageAlign === 'left'): ?>
+                            <?php if ($imageWrapperClass): ?><div class="<?php echo $imageWrapperClass; ?>"><?php endif; ?>
                             <div class="<?php echo $imageColClass; ?>">
                                 <p><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
                             </div>
+                            <?php if ($imageWrapperClass): ?></div><?php endif; ?>
                         <?php endif; ?>
                         <div class="<?php echo $textColClass; ?>">
                             <?php if ($textWrapper): ?><div class="<?php echo $textWrapper; ?>"><?php endif; ?>
@@ -114,9 +117,11 @@ function ourwork_render_section(array $section): string {
                             <?php if ($textWrapper): ?></div><?php endif; ?>
                         </div>
                         <?php if ($image && $imageAlign === 'right'): ?>
+                            <?php if ($imageWrapperClass): ?><div class="<?php echo $imageWrapperClass; ?>"><?php endif; ?>
                             <div class="<?php echo $imageColClass; ?>">
                                 <p><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
                             </div>
+                            <?php if ($imageWrapperClass): ?></div><?php endif; ?>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -587,6 +592,95 @@ function ourwork_render_section(array $section): string {
                                 <h4><?php echo $replacePlaceholders($totalNumber); ?></h4>
                                 <p><?php echo $replacePlaceholders($totalLabel); ?></p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <?php
+            return ob_get_clean();
+
+        case 'video_section':
+            $sectionClass = htmlspecialchars($content['section_class'] ?? 'introduction-wrap news fact-counter-2 sec-padd', ENT_QUOTES);
+            $bgImage = htmlspecialchars($content['background_image'] ?? '', ENT_QUOTES);
+            $videoWrapperClass = htmlspecialchars($content['video_wrapper_class'] ?? '', ENT_QUOTES);
+            $youtubeUrl = htmlspecialchars($content['youtube_url'] ?? '#', ENT_QUOTES);
+            $playImage = htmlspecialchars($content['play_image'] ?? '/theme/clp/assets/images/play.svg', ENT_QUOTES);
+            $heading = htmlspecialchars($content['heading'] ?? '', ENT_QUOTES);
+            $body = $content['body'] ?? '';
+            $style = $bgImage ? " style=\"background-image: url('{$bgImage}');\"" : '';
+            ob_start();
+            ?>
+            <section class="<?php echo $sectionClass; ?>"<?php echo $style; ?>>
+                <div class="welcome-area ptb--100">
+                    <div class="container">
+                        <div class="welcome-content">
+                            <?php if ($videoWrapperClass): ?>
+                            <div class="<?php echo $videoWrapperClass; ?>">
+                                <a target="_blank" href="<?php echo $youtubeUrl; ?>" class="gallery_video">
+                                    <img src="<?php echo $playImage; ?>" alt="play">
+                                </a>
+                            </div>
+                            <?php endif; ?>
+                            <div class="welcome-inner">
+                                <div class="blog-info">
+                                    <?php if ($heading): ?><h2><?php echo $heading; ?></h2><?php endif; ?>
+                                    <?php if ($body): ?><p class="description work_para"><?php echo $body; ?></p><?php endif; ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <?php
+            return ob_get_clean();
+
+        case 'table':
+            $caption = htmlspecialchars($content['caption'] ?? '', ENT_QUOTES);
+            $headers = is_array($content['headers'] ?? null) ? $content['headers'] : [];
+            $rows = is_array($content['rows'] ?? null) ? $content['rows'] : [];
+            $buttonText = htmlspecialchars($content['button_text'] ?? '', ENT_QUOTES);
+            $buttonLink = htmlspecialchars($content['button_link'] ?? '#', ENT_QUOTES);
+            ob_start();
+            ?>
+            <section class="history-wrap sec-padd">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <?php if (!empty($content['top_text'])): ?>
+                                <p class="work_para"><?php echo $content['top_text']; ?></p>
+                            <?php endif; ?>
+                            <?php if (!empty($content['bottom_text'])): ?>
+                                <p class="work_para"><?php echo $content['bottom_text']; ?></p>
+                            <?php endif; ?>
+                            <?php if (!empty($headers) || !empty($rows)): ?>
+                            <table class="tblpage work_para">
+                                <?php if ($caption): ?><caption style="text-align:center; font-size: 18px; font-weight:bold;" class="work_para"><?php echo $caption; ?></caption><?php endif; ?>
+                                <?php if (!empty($headers)): ?>
+                                <tr>
+                                    <?php foreach ($headers as $header): ?>
+                                        <th><?php echo htmlspecialchars($header, ENT_QUOTES); ?></th>
+                                    <?php endforeach; ?>
+                                </tr>
+                                <?php endif; ?>
+                                <?php foreach ($rows as $row): ?>
+                                <tr>
+                                    <?php
+                                    $cells = is_array($row['items'] ?? null) ? $row['items'] : (is_array($row) ? $row : []);
+                                    foreach ($cells as $cell):
+                                    ?>
+                                        <td><?php echo htmlspecialchars($cell, ENT_QUOTES); ?></td>
+                                    <?php endforeach; ?>
+                                </tr>
+                                <?php endforeach; ?>
+                            </table>
+                            <?php endif; ?>
+                            <?php if ($buttonText): ?>
+                            <br>
+                            <div style="margin: 0 auto; text-align: center;">
+                                <a style="margin: 0 auto;" href="<?php echo $buttonLink; ?>" target="_blank" class="read-more"><?php echo $buttonText; ?></a>
+                            </div>
+                            <br>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>

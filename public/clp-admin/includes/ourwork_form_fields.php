@@ -101,6 +101,7 @@ function ourwork_form_render_fields($content, $section_type) {
             break;
 
         case 'text':
+            ourwork_form_text($content, 'section_class', 'Section CSS Class (optional)', 'history-wrap sec-padd');
             ourwork_form_text($content, 'heading', 'Heading');
             ourwork_form_textarea($content, 'body', 'Body / HTML Content', 6);
             ourwork_form_text($content, 'image', 'Image URL');
@@ -108,6 +109,7 @@ function ourwork_form_render_fields($content, $section_type) {
             ourwork_form_text($content, 'image_col_class', 'Image Column CSS Class (optional)', 'col-md-6');
             ourwork_form_text($content, 'text_col_class', 'Text Column CSS Class (optional)', 'col-md-6');
             ourwork_form_text($content, 'text_wrapper', 'Text Wrapper Class (optional)', '');
+            ourwork_form_text($content, 'image_wrapper_class', 'Image Wrapper Class (optional, e.g. card-columns literacy-columns)', '');
             ourwork_form_text($content, 'col_class', 'Text Column CSS Class (legacy)', 'col-md-12');
             ourwork_form_checkbox($content, 'no_padd', 'Remove Section Padding (history-wrap only, no sec-padd)');
             break;
@@ -186,6 +188,26 @@ function ourwork_form_render_fields($content, $section_type) {
             ourwork_form_text($content, 'total_number', 'Total Number (dynamic)', '');
             ourwork_form_text($content, 'total_label', 'Total Label', '');
             ourwork_form_items($content, 'stats_items', 'Stats Items (number + label)');
+            break;
+
+        case 'video_section':
+            ourwork_form_text($content, 'section_class', 'Section CSS Class', 'introduction-wrap news fact-counter-2 sec-padd');
+            ourwork_form_text($content, 'background_image', 'Background Image URL');
+            ourwork_form_text($content, 'video_wrapper_class', 'Video Wrapper Class (e.g., rvt1_video)');
+            ourwork_form_text($content, 'youtube_url', 'YouTube URL');
+            ourwork_form_text($content, 'play_image', 'Play Button Image URL', '/theme/clp/assets/images/play.svg');
+            ourwork_form_text($content, 'heading', 'Heading');
+            ourwork_form_textarea($content, 'body', 'Body Text', 5);
+            break;
+
+        case 'table':
+            ourwork_form_text($content, 'caption', 'Table Caption');
+            ourwork_form_textarea($content, 'top_text', 'Top Text (optional)', 3);
+            ourwork_form_textarea($content, 'bottom_text', 'Bottom Text (optional)', 3);
+            ourwork_form_text($content, 'button_text', 'Button Text');
+            ourwork_form_text($content, 'button_link', 'Button Link');
+            ourwork_form_items($content, 'headers', 'Table Headers');
+            ourwork_form_cards($content, 'rows');
             break;
 
         case 'custom':

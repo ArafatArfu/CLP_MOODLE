@@ -327,6 +327,8 @@ include __DIR__ . '/includes/header.php';
                                     <option value="gallery" <?php echo ($editing_section['section_type'] ?? '') === 'gallery' ? 'selected' : ''; ?>>Gallery</option>
                                     <option value="stats" <?php echo ($editing_section['section_type'] ?? '') === 'stats' ? 'selected' : ''; ?>>Stats / Counter</option>
                                     <option value="benefits" <?php echo ($editing_section['section_type'] ?? '') === 'benefits' ? 'selected' : ''; ?>>Benefits + CTA</option>
+                                    <option value="video_section" <?php echo ($editing_section['section_type'] ?? '') === 'video_section' ? 'selected' : ''; ?>>Video Section</option>
+                                    <option value="table" <?php echo ($editing_section['section_type'] ?? '') === 'table' ? 'selected' : ''; ?>>Table</option>
                                     <option value="cta" <?php echo ($editing_section['section_type'] ?? '') === 'cta' ? 'selected' : ''; ?>>Call to Action</option>
                                     <option value="custom" <?php echo ($editing_section['section_type'] ?? '') === 'custom' ? 'selected' : ''; ?>>Custom HTML</option>
                                 </select>
