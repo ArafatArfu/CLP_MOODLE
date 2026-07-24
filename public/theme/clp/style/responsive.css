@@ -1577,3 +1577,16 @@
         font-size: 30px;
     }
 }
+/* molla video responsive */
+.molla-video {
+    height: 500px;
+}
+
+.about-video .story-video .cover-video, .rvt1_video, .rvt2_video, .molla-video {
+    min-height: 300px;
+}
+
+.molla-video {
+    min-height: 200px;
+}
+

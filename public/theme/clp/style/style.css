@@ -15205,3 +15205,86 @@ footer .widget {
     -webkit-animation: scaling 2000ms linear 1s infinite;
     animation: scaling 2000ms linear 1s infinite;
 }
+
+
+/* molla video */
+.molla-video {
+    -ms-flex-preferred-size: calc(100% * (4/12));
+    flex-basis: calc(100% * (4/12));
+    background: url(../assets/images/molla.png) no-repeat center center /cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.introduction-wrap .molla-video {
+    -ms-flex-preferred-size: calc(100% * (7/12));
+    flex-basis: calc(100% * (7/12));
+    background: url(../assets/images/molla.png) no-repeat center center /cover;
+}
+
+.molla-video:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: rgba(0, 20, 15, 0.68);
+}
+
+.molla-video a {
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+}
+
+.molla-video a img {
+    height: 60px;
+}
+
+.molla-video a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    -webkit-animation: scaling 2000ms linear 0s infinite;
+    animation: scaling 2000ms linear 0s infinite;
+}
+
+.molla-video a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-animation: scaling 2000ms linear 1s infinite;
+    animation: scaling 2000ms linear 1s infinite;
+}
+
+@keyframes scaling {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
