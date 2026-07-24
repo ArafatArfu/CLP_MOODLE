@@ -1,0 +1,189 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// CLP page generated from the original CLP theme (Source_code/theme/sherpur-project.html).
+// Rendered as a self-contained page that matches the original theme exactly.
+
+require_once(__DIR__ . '/config.php');
+require_once(__DIR__ . '/ourwork-helper.php');
+$ourwork_slug = 'sherpur-project';
+$ourwork_page = ourwork_get_page($ourwork_slug);
+$ourwork_sections = $ourwork_page ? ourwork_get_sections($ourwork_page['id']) : [];
+$ourwork_seo_title = $ourwork_page['seo_title'] ?? '';
+$ourwork_seo_desc = $ourwork_page['seo_description'] ?? '';
+
+
+$PAGE->set_context(context_system::instance());
+$PAGE->set_url('/sherpur-project.php');
+$PAGE->set_title('Sherpur & Dhunat Project');
+$PAGE->set_heading('Sherpur & Dhunat Project');
+echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
+?>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <title><?php echo htmlspecialchars($ourwork_seo_title ?: "CLP | Our Work"); ?></title>
+    <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/clp/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/theme/clp/style/style.css">
+    <link rel="stylesheet" href="/theme/clp/assets/css/style.css">
+    <link rel="stylesheet" href="/theme/clp/assets/css/responsive.css">
+    <link rel="stylesheet" href="/theme/clp/assets/css/jp-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<?php
+$navContext = [
+    'output' => $OUTPUT,
+    'sitename' => format_string($SITE->shortname, true, ['context' => context_system::instance(), 'escape' => false]),
+    'config' => [
+        'wwwroot' => '',
+        'homeurl' => '/',
+    ],
+];
+echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
+?>
+
+<?php echo ourwork_render_sections($ourwork_sections); ?>
+<footer class="clp-footer">
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12" style="background-color: #f7f1e3; height: 520px;">
+                <h3 class="footer-title">Resources</h3>
+                <ul class="footer-list-menu">
+                    <li>
+                        <a href="evaluation-report.php">INDEPENDENT
+                            EVALUATION REPORT</a>
+                    </li>
+                    <li>
+                        <a href="formative-reports.php">FORMATIVE REPORT</a>
+                    </li>
+                    <li>
+                        <a href="annual-report.php">ANNUAL REPORT</a>
+                    </li>
+                    <li>
+                        <a href="magazines.php">MAGAZINES</a>
+                    </li>
+                    <li>
+                        <a href="brochure.php">BROCHURE</a>
+                    </li>
+                </ul>
+                <h3 class="footer-title">Contact Info</h3>
+                <a style="color:black;" href="tel:+7329728362">(732) 972-8362</a> <br/>
+                <a style="color:black;" href="mailto:clp@clpweb.org">clp@clpweb.org</a>
+
+                <h3 class="footer-title">Mailing Address</h3>
+                <p class="address">Computer Literacy Program (CLP)<br>6 Tharp Lane <br/> Marlboro, NJ 07746, USA</p>
+            </div>
+
+            <div class="col-sm-4 col-xs-12" style="height: 520px;">
+                <h3 class="footer-title">CLP Mission</h3>
+                <p style="line-height: 20px;">Empowering underprivileged youths through computer literacy training and
+                    technology-aided education.</p>
+                <h3 class="footer-title">Follow Us</h3>
+                <div class="row">
+                    <div class="footer-social">
+                        <a target="_blank" href="https://facebook.com/CLPUSAA" class="fa fa-facebook social-fb"></a>
+                        <a target="_blank" href="https://www.instagram.com/clp_usa/"
+                           class="fa fa-instagram social-instagram"></a>
+                        <a target="_blank" href="https://twitter.com/clp_usa" class="fa fa-twitter social-twitter"></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC3CIzUUXeDXspImUjubA19A"
+                           class="fa fa-youtube social-youtube"></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/computer-literacy-program-volunteers-for-underprivileged/" class="fa fa-linkedin social-linkedin"></a>
+                    </div>
+                </div>
+
+                <h3 class="footer-title">Legal Info</h3>
+                <ul class="footer-list-menu">
+                    <li>
+                        IRS ID: <strong>46-0646134</strong>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-xs-12" style="background-color: #f7f1e3; height: 520px;">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-list-menu">
+                    <li>
+                        <a href="donation-online.php">DONATE ONLINE</a>
+                    </li>
+                    <li>
+                        <a href="donation-mail.php">DONATE BY MAIL</a>
+                    </li>
+                    <li>
+                        <a href="donation-amazon.php">DONATE BY AMAZON-SMILE</a>
+                    </li>
+                    <li>
+                        <a href="sponsor-clc.php">SPONSOR A CLC</a>
+                    </li>
+                    <li>
+                        <a href="sponsor-scr.php">SPONSOR A SCR</a>
+                    </li>
+                    <li>
+                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকাই)-CLC</a>
+                    </li>
+                    <li>
+                        <a href="sponsor-computer.php">SPONSOR A COMPUTER</a>
+                    </li>
+                    <li>
+                        <a href="volunteer.php">BE A VOLUNTEER</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.php">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" style="background-color: #232121;">
+                <p class="text-center" style="color: #FFF; padding: 5px;">Copyright &copy; CLP, 2026</p>
+            </div>
+        </div>
+    </section>
+</footer>
+
+
+
+    <!-- CLP theme scripts (same as original theme) -->
+    <script src="/theme/clp/assets/js/jquery.min.js"></script>
+    <script src="/theme/clp/assets/js/jquery.js"></script>
+    <script src="/theme/clp/assets/js/menu.js"></script>
+    <script src="/theme/clp/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/theme/clp/assets/js/SmoothScroll.js"></script>
+    <script src="/theme/clp/assets/js/bootstrap.min.js"></script>
+    <script src="/theme/clp/assets/js/owl.carousel.min.js"></script>
+    <script src="/theme/clp/assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<!-- Scroll Top  -->
+<button class="scroll-top tran3s"><span class="fa fa-angle-up"></span></button>
+
+<div class="preloader"></div>
+<!-- End of preloader  -->
+
+<div class="donate-popup" id="search-popup">
+    <div class="close-donate theme-btn">
+        <span class="fa fa-close"></span>
+    </div>
+    <div class="popup-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 donate-form-area">
+                    <form class="subscribe-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search"
+                                   onfocus="this.placeholder=''"
+                                   onblur="this.placeholder='Search'">
+                            <a href="#" class="search-icon"><i aria-hidden="true" class="fa fa-search"></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<?php
+// nothing else
