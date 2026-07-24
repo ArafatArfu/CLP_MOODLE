@@ -605,6 +605,7 @@ function ourwork_render_section(array $section): string {
             $videoWrapperClass = htmlspecialchars($content['video_wrapper_class'] ?? '', ENT_QUOTES);
             $youtubeUrl = htmlspecialchars($content['youtube_url'] ?? '#', ENT_QUOTES);
             $playImage = htmlspecialchars($content['play_image'] ?? '/theme/clp/assets/images/play.svg', ENT_QUOTES);
+            $playImageAlt = htmlspecialchars($content['play_image_alt'] ?? 'play', ENT_QUOTES);
             $heading = htmlspecialchars($content['heading'] ?? '', ENT_QUOTES);
             $body = $content['body'] ?? '';
             $style = $bgImage ? " style=\"background-image: url('{$bgImage}');\"" : '';
@@ -617,7 +618,7 @@ function ourwork_render_section(array $section): string {
                             <?php if ($videoWrapperClass): ?>
                             <div class="<?php echo $videoWrapperClass; ?>">
                                 <a target="_blank" href="<?php echo $youtubeUrl; ?>" class="gallery_video">
-                                    <img src="<?php echo $playImage; ?>" alt="play">
+                                    <img src="<?php echo $playImage; ?>" alt="<?php echo $playImageAlt; ?>">
                                 </a>
                             </div>
                             <?php endif; ?>

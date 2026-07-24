@@ -196,6 +196,7 @@ function ourwork_form_render_fields($content, $section_type) {
             ourwork_form_text($content, 'video_wrapper_class', 'Video Wrapper Class (e.g., rvt1_video)');
             ourwork_form_text($content, 'youtube_url', 'YouTube URL');
             ourwork_form_text($content, 'play_image', 'Play Button Image URL', '/theme/clp/assets/images/play.svg');
+            ourwork_form_text($content, 'play_image_alt', 'Play Image Alt Text', 'play');
             ourwork_form_text($content, 'heading', 'Heading');
             ourwork_form_textarea($content, 'body', 'Body Text', 5);
             break;
