@@ -104,11 +104,11 @@ function ourwork_render_section(array $section): string {
                 <div class="container">
                     <div class="row">
                         <?php if ($image && $imageAlign === 'left'): ?>
-                            <?php if ($imageWrapperClass): ?><div class="<?php echo $imageWrapperClass; ?>"><?php endif; ?>
                             <div class="<?php echo $imageColClass; ?>">
+                                <?php if ($imageWrapperClass): ?><div class="<?php echo $imageWrapperClass; ?>"><?php endif; ?>
                                 <p><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
+                                <?php if ($imageWrapperClass): ?></div><?php endif; ?>
                             </div>
-                            <?php if ($imageWrapperClass): ?></div><?php endif; ?>
                         <?php endif; ?>
                         <div class="<?php echo $textColClass; ?>">
                             <?php if ($textWrapper): ?><div class="<?php echo $textWrapper; ?>"><?php endif; ?>
@@ -117,11 +117,11 @@ function ourwork_render_section(array $section): string {
                             <?php if ($textWrapper): ?></div><?php endif; ?>
                         </div>
                         <?php if ($image && $imageAlign === 'right'): ?>
-                            <?php if ($imageWrapperClass): ?><div class="<?php echo $imageWrapperClass; ?>"><?php endif; ?>
                             <div class="<?php echo $imageColClass; ?>">
+                                <?php if ($imageWrapperClass): ?><div class="<?php echo $imageWrapperClass; ?>"><?php endif; ?>
                                 <p><img src="<?php echo $image; ?>" alt="<?php echo $altText; ?>" class="img-responsive"></p>
+                                <?php if ($imageWrapperClass): ?></div><?php endif; ?>
                             </div>
-                            <?php if ($imageWrapperClass): ?></div><?php endif; ?>
                         <?php endif; ?>
                     </div>
                 </div>

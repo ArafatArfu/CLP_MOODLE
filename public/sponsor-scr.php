@@ -412,3 +412,4 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
 </html>
 <?php
 // nothing else
+
