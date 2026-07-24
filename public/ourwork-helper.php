@@ -604,10 +604,14 @@ function ourwork_render_section(array $section): string {
 
         case 'video_section':
             $sectionClass = htmlspecialchars($content['section_class'] ?? 'introduction-wrap news fact-counter-2 sec-padd', ENT_QUOTES);
+            $videoStyle = htmlspecialchars($content['video_style'] ?? '', ENT_QUOTES);
             $bgImage = htmlspecialchars($content['background_image'] ?? '', ENT_QUOTES);
             $videoWrapperClass = htmlspecialchars($content['video_wrapper_class'] ?? '', ENT_QUOTES);
             $videoWrapperType = htmlspecialchars($content['video_wrapper_type'] ?? 'default', ENT_QUOTES);
             $youtubeUrl = htmlspecialchars($content['youtube_url'] ?? '#', ENT_QUOTES);
+            $iframeUrl = htmlspecialchars($content['iframe_url'] ?? '', ENT_QUOTES);
+            $iframeWidth = htmlspecialchars($content['iframe_width'] ?? '650', ENT_QUOTES);
+            $iframeHeight = htmlspecialchars($content['iframe_height'] ?? '500', ENT_QUOTES);
             $playImage = htmlspecialchars($content['play_image'] ?? '/theme/clp/assets/images/play.svg', ENT_QUOTES);
             $playImageAlt = htmlspecialchars($content['play_image_alt'] ?? 'play', ENT_QUOTES);
             $aboutVideoBg = htmlspecialchars($content['about_video_bg'] ?? '', ENT_QUOTES);
@@ -616,13 +620,18 @@ function ourwork_render_section(array $section): string {
             $description = $content['description'] ?? '';
             $nextNote = htmlspecialchars($content['next_note'] ?? '', ENT_QUOTES);
             $style = $bgImage ? " style=\"background-image: url('{$bgImage}');\"" : '';
+            $sectionClasses = $sectionClass . ($videoStyle ? ' ' . $videoStyle : '');
             ob_start();
             ?>
-            <section class="<?php echo $sectionClass; ?>"<?php echo $style; ?>>
+            <section class="<?php echo $sectionClasses; ?>"<?php echo $style; ?>>
                 <div class="welcome-area ptb--100">
                     <div class="container">
                         <div class="welcome-content">
-                            <?php if ($videoWrapperType === 'about'): ?>
+                            <?php if ($iframeUrl): ?>
+                                <div class="iframe-container">
+                                    <iframe width="<?php echo $iframeWidth; ?>" height="<?php echo $iframeHeight; ?>" src="<?php echo $iframeUrl; ?>?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            <?php elseif ($videoWrapperType === 'about'): ?>
                                 <div class="about-video"<?php echo $aboutVideoBg ? " style=\"background: url('{$aboutVideoBg}')\"" : ''; ?>>
                                     <a target="_blank" href="<?php echo $youtubeUrl; ?>" class="gallery_video">
                                         <img src="<?php echo $playImage; ?>" alt="<?php echo $playImageAlt; ?>">

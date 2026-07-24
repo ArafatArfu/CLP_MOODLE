@@ -14584,3 +14584,206 @@ footer .widget {
 
 
 /*===============================*/
+
+/* CSAW COVER VIDEO */
+.csaw-video {
+    -ms-flex-preferred-size: calc(100% * (4/12));
+    flex-basis: calc(100% * (4/12));
+    background: url(/theme/clp/assets/images/csaw_cover.png) no-repeat center center /cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.introduction-wrap .csaw-video {
+    -ms-flex-preferred-size: calc(100% * (7/12));
+    flex-basis: calc(100% * (7/12));
+    background: url(/theme/clp/assets/images/csaw_cover.png) no-repeat center center /cover;
+}
+
+.csaw-video:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: rgba(0, 20, 15, 0.68);
+}
+
+.csaw-video a {
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+}
+
+.csaw-video a img {
+    height: 60px;
+}
+
+.csaw-video a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    -webkit-animation: scaling 2000ms linear 0s infinite;
+    animation: scaling 2000ms linear 0s infinite;
+}
+
+.csaw-video a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-animation: scaling 2000ms linear 1s infinite;
+    animation: scaling 2000ms linear 1s infinite;
+}
+
+/* RVT COVER VIDEO */
+.rvt1_video {
+    -ms-flex-preferred-size: calc(100% * (4/12));
+    flex-basis: calc(100% * (4/12));
+    background: url(/theme/clp/assets/images/rvt_cover.webp) no-repeat center center /cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.introduction-wrap .rvt1_video {
+    -ms-flex-preferred-size: calc(100% * (7/12));
+    flex-basis: calc(100% * (7/12));
+    background: url(/theme/clp/assets/images/rvt_cover.webp) no-repeat center center /cover;
+}
+
+.rvt1_video:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: rgba(0, 20, 15, 0.68);
+}
+
+.rvt1_video a {
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+}
+
+.rvt1_video a img {
+    height: 60px;
+}
+
+.rvt1_video a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    -webkit-animation: scaling 2000ms linear 0s infinite;
+    animation: scaling 2000ms linear 0s infinite;
+}
+
+.rvt1_video a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-animation: scaling 2000ms linear 1s infinite;
+    animation: scaling 2000ms linear 1s infinite;
+}
+
+.rvt2_video {
+    -ms-flex-preferred-size: calc(100% * (4/12));
+    flex-basis: calc(100% * (4/12));
+    background: url(/theme/clp/assets/images/clp_fera2.webp) no-repeat center center /cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.introduction-wrap .rvt2_video {
+    -ms-flex-preferred-size: calc(100% * (7/12));
+    flex-basis: calc(100% * (7/12));
+    background: url(/theme/clp/assets/images/clp_fera2.webp) no-repeat center center /cover;
+}
+
+.rvt2_video:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: rgba(0, 20, 15, 0.68);
+}
+
+.rvt2_video a {
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+}
+
+.rvt2_video a img {
+    height: 60px;
+}
+
+.rvt2_video a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    -webkit-animation: scaling 2000ms linear 0s infinite;
+    animation: scaling 2000ms linear 0s infinite;
+}
+
+.rvt2_video a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-animation: scaling 2000ms linear 1s infinite;
+    animation: scaling 2000ms linear 1s infinite;
+}

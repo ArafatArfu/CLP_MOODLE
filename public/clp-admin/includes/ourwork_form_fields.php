@@ -195,11 +195,15 @@ function ourwork_form_render_fields($content, $section_type) {
 
         case 'video_section':
             ourwork_form_text($content, 'section_class', 'Section CSS Class', 'introduction-wrap news fact-counter-2 sec-padd');
+            ourwork_form_text($content, 'video_style', 'Video Style (success or stories, adds class to section)', '');
             ourwork_form_text($content, 'background_image', 'Background Image URL');
             ourwork_form_text($content, 'video_wrapper_type', 'Video Wrapper Type', 'default');
             ourwork_form_text($content, 'video_wrapper_class', 'Video Wrapper Class (e.g., rvt1_video, csaw-video)', '');
             ourwork_form_text($content, 'about_video_bg', 'About Video Background Image URL', '');
             ourwork_form_text($content, 'youtube_url', 'YouTube URL');
+            ourwork_form_text($content, 'iframe_url', 'Iframe URL (YouTube embed, overrides play button)', '');
+            ourwork_form_text($content, 'iframe_width', 'Iframe Width', '650');
+            ourwork_form_text($content, 'iframe_height', 'Iframe Height', '500');
             ourwork_form_text($content, 'play_image', 'Play Button Image URL', '/theme/clp/assets/images/play.svg');
             ourwork_form_text($content, 'play_image_alt', 'Play Image Alt Text', 'play');
             ourwork_form_text($content, 'heading', 'Heading');
