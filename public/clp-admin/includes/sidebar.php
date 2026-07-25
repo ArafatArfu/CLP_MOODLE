@@ -163,8 +163,20 @@
             <ul class="nav-list">
                 <li class="nav-item <?php echo in_array($current, ['evaluation-reports.php', 'evaluation-reports_form.php']) ? 'active' : ''; ?>">
                     <a href="<?php echo CLP_ADMIN_URL; ?>/evaluation-reports.php" class="nav-link">
-                        <i class="fas fa-file-alt"></i>
+                        <i class="fas fa-file-signature"></i>
                         <span>Evaluation Reports</span>
+                    </a>
+                </li>
+                <li class="nav-item <?php echo in_array($current, ['eos-reports.php', 'eos-reports_form.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/eos-reports.php" class="nav-link">
+                        <i class="fas fa-file-alt"></i>
+                        <span>EOS Evaluation Reports</span>
+                    </a>
+                </li>
+                <li class="nav-item <?php echo in_array($current, ['magazines_admin.php', 'magazines_form.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/magazines_admin.php" class="nav-link">
+                        <i class="fas fa-book"></i>
+                        <span>Magazines</span>
                     </a>
                 </li>
             </ul>

@@ -42,6 +42,9 @@ $stats['team'] = $result->fetch_assoc()['count'];
     $result = $db->query("SELECT COUNT(*) as count FROM clp_evaluation_reports WHERE status = 'published'");
     $stats['evaluation'] = $result->fetch_assoc()['count'];
 
+    $result = $db->query("SELECT COUNT(*) as count FROM clp_magazines WHERE status = 'published'");
+    $stats['magazines'] = $result->fetch_assoc()['count'];
+
 // CLC participants (owned by the local_clp Moodle plugin, uses no prefix).
 $stats['clc'] = 0;
 $clc_recent = [];
@@ -267,6 +270,18 @@ include __DIR__ . '/includes/header.php';
                     <div class="stat-info">
                         <h3><?php echo $stats['evaluation'] ?? 0; ?></h3>
                         <p>Evaluation Reports</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="<?php echo CLP_ADMIN_URL; ?>/magazines_admin.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon orange">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['magazines'] ?? 0; ?></h3>
+                        <p>Magazines</p>
                     </div>
                 </div>
             </a>

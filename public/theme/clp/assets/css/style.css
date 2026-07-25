@@ -14869,3 +14869,126 @@ footer .widget {
     }
 }
 
+/* Magazine Cards */
+.cards-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 4rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.card-magazine {
+  --bg-filter-opacity: 0.2;
+  --color: #3c3163;
+  --transition-time: 0.5s;
+  background-image: linear-gradient(transparent 60%, rgba(0,0,0,0.7)), var(--bg-img);
+  height: 18em;
+  width: 13em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: .5em;
+  padding: 1em;
+  margin: 1.1em;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #fff;
+  text-decoration: none;
+}
+
+.card-magazine .tags {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.card-magazine .tags .tag {
+  font-size: 1.6rem;
+  background: #ffffff;
+  border-radius: 0.3rem;
+  padding: 0.4em 1.2em;
+  line-height: 1.5em;
+  transition: all, var(--transition-time);
+  font-family: 'Roboto Slab';
+  color: #0e0909;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.card-magazine:hover .tags .tag {
+  background: var(--color);
+  color: white;
+}
+
+.card-magazine:hover {
+  color: var(--color);
+}
+
+.card-magazine:hover:before, .card-magazine:hover:after {
+  transform: scale(1);
+}
+
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .cards-wrapper {
+    padding: 4rem 2rem;
+  }
+  .card-magazine {
+    max-width: calc(100vw - 4rem);
+  }
+}
+
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+
+.ribbon {
+  font: bold 1.7rem sans-serif;
+  color: #333;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  position: relative;
+  padding: 7px 0;
+  top: 15px;
+  left: -30px;
+  width: 120px;
+  background-color: #ffffff1a;
+  color: #fff;
+  font-family: 'roboto slab';
+}
+
