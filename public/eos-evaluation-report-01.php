@@ -1,21 +1,28 @@
 <?php
 // This file is part of Moodle - http://moodle.org/
 //
-// CLP page generated from the original CLP theme (Source_code/theme/eos-evaluation-report-01.html).
-// Rendered as a self-contained page that matches the original theme exactly.
+// CLP EOS Evaluation Report page - dynamically loaded from CMS database.
 
 require_once(__DIR__ . '/config.php');
+require_once(__DIR__ . '/ourwork-helper.php');
+
+global $DB;
 
 $PAGE->set_context(context_system::instance());
-$PAGE->set_url('/eos-evaluation-report-01.php');
-$PAGE->set_title('CLP | Independent Evaluation Report');
-$PAGE->set_heading('CLP | Independent Evaluation Report');
+
+// Get the published EOS report (only one expected)
+$eos_report = $DB->get_record('clp_eos_reports', ['status' => 'published'], '*', IGNORE_MULTIPLE);
+
+$page_title = 'CLP | Independent Evaluation Report';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>CLP | Independent Evaluation Report</title>
+    <title><?php echo htmlspecialchars($page_title, ENT_QUOTES); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,9 +34,6 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 <body>
 
 <?php
-// Render the SAME navbar used site-wide (theme/clp/templates/navbar.mustache)
-// so the menu order, spacing and styling match the homepage and every other
-// public page exactly. Replaces the previous hard-coded navbar copy.
 $navContext = [
     'output' => $OUTPUT,
     'sitename' => format_string($SITE->shortname, true, ['context' => context_system::instance(), 'escape' => false]),
@@ -44,90 +48,95 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
 <section class="content">
     <!--Start Main Content Area-->
     <section class="inner-banner">
-    <div class="container">
-        <div class="box">
-            <h1>Essential Office skills Course evaluation Report </h1>
-            <div class="breadcumb-wrapper">
-                <ul class="list-inline link-list">
-                    <li>
-                        <a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">News</a>
-                    </li>
-                    <li>
-                        Essential Office skills Course evaluation Report
-                    </li>
-                </ul>
+        <div class="container">
+            <div class="box">
+                <h1>Essential Office skills Course evaluation Report </h1>
+                <div class="breadcumb-wrapper">
+                    <ul class="list-inline link-list">
+                        <li>
+                            <a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">News</a>
+                        </li>
+                        <li>
+                            Essential Office skills Course evaluation Report
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of inner-banner -->
-<section class="formative-reports-wrap sec-padd">
-    <div class="container">
-        <div class="row">
+    </section>
+    <!-- End of inner-banner -->
 
-            <div class="col-sm-12 col-xs-12 amazonSmile-left">
-                <h4>Executive Summary</h4>
+    <?php if ($eos_report): ?>
+    <section class="formative-reports-wrap sec-padd">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 amazonSmile-left">
+                    <h4>Executive Summary</h4>
+                    <p class="work_para"><br>
+                        <?php echo nl2br(htmlspecialchars($eos_report->description, ENT_QUOTES)); ?>
+                    </p>
 
-                <p class="work_para"><br>
-                    The Essential Office Skills (EOS) Course Evaluation Report provides a detailed review of a
-                    three-month training program developed by CLP and PI to enhance job seekers' professional skills.
-                    Covering key topics such as job interview techniques, professional excellence, office etiquette,
-                    business communication, ICT skills, and English proficiency, the program followed a blended learning
-                    approach with 60 hours of expert-led instruction and hands-on activities. The evaluation revealed
-                    high participant satisfaction, with 100% agreeing on its relevance for job seekers and 91% reporting
-                    valuable new learning, particularly in English training and interview preparation, as well as online
-                    sessions and instructor professionalism. Areas for improvement included better Bangla translations
-                    in English lessons, stronger ICT training, improved internet connectivity, and enhanced classroom
-                    facilities. Assessments showed strong written test performance, but ICT and presentation skills
-                    needed improvement, with 72% of participants scoring above average. Recommendations include updating
-                    course content to align with job market trends, making English training more interactive, improving
-                    learning infrastructure, and integrating hybrid learning models for hands-on experience. Overall,
-                    the EOS program has proven highly effective in preparing job seekers for the workplace, bridging
-                    skill gaps, and fostering professional growth, making it a valuable initiative for career
-                    development.
-                </p>
-
-                <p style="text-align: center;">
-                    <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#eosModal"><strong>View the
-                            Report</strong></a>
-                </p>
+                    <p style="text-align: center;">
+                        <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#eosModal" href="javascript:void(0)"><strong>View the
+                                Report</strong></a>
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of formative-reports-wrap -->
+    </section>
+    <!-- End of formative-reports-wrap -->
 
-<!-- Modal -->
-<div style="padding: 90px;" class="modal fade" id="eosModal" role="dialog">
-    <div class="modal-dialog modal-lg">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button style="font-size:30px;" type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Essential Office skills Course evaluation Report</h4>
+    <!-- Modal -->
+    <div style="padding: 90px;" class="modal fade" id="eosModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button style="font-size:30px;" type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><?php echo htmlspecialchars($eos_report->title, ENT_QUOTES); ?></h4>
+                </div>
+                <div class="modal-body">
+                    <?php if (!empty($eos_report->pdf_path)): ?>
+                    <object data="<?php echo htmlspecialchars($eos_report->pdf_path, ENT_QUOTES); ?>" type="application/pdf"
+                        frameborder="0" width="100%" height="600px">
+                        <p class="work_para">If you are unable to view the pdf on mobile browser then please click the
+                            button below to download the pdf file </p>
+                        <p style="text-align: center;"><a class="btn btn-primary btn-lg"
+                                href="<?php echo htmlspecialchars($eos_report->pdf_path, ENT_QUOTES); ?>"><strong>Download
+                                    the Report</strong></a></p>
+                    </object>
+                    <?php else: ?>
+                    <p class="work_para">No PDF report is currently available. Please use the download button above or contact us for the report.</p>
+                    <?php endif; ?>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
             </div>
-            <div class="modal-body">
-                <object data="/theme/clp/assets/fileupload/news/eos-report-01.pdf" type="application/pdf"
-                    frameborder="0" width="100%" height="600px">
-                    <p class="work_para">If you are unable to view the pdf on mobile browser then please click the
-                        button below to download the pdf file </p>
-                    <p style="text-align: center;"><a class="btn btn-primary btn-lg"
-                            href="/theme/clp/assets/fileupload/news/eos-report-01.pdf"><strong>Download
-                                the Report</strong></a></p>
-                </object>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+        </div>
+    </div>
+    <!-- End of clp-footer -->
+    <?php else: ?>
+    <section class="formative-reports-wrap sec-padd">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 amazonSmile-left">
+                    <h4>Executive Summary</h4>
+                    <p class="work_para">No EOS Evaluation Report is currently available. Please check back later.</p>
+                </div>
             </div>
         </div>
+    </section>
+    <?php endif; ?>
+    <!-- End of formative-reports-wrap -->
 
-    </div>
-</div>
-<!-- End of clp-footer -->
-<!-- Scroll Top  -->
+    <?php echo ourwork_footer(); ?>
+    
+    <!-- Scroll Top  -->
 <button class="scroll-top tran3s"><span class="fa fa-angle-up"></span></button>
 
 <div class="preloader"></div>
@@ -157,8 +166,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
     })();
 </script>
 
-<!-- End of preloader  -->
-
 <div class="donate-popup" id="search-popup">
     <div class="close-donate theme-btn">
         <span class="fa fa-close"></span>
@@ -180,7 +187,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
         </div>
     </div>
 </div>
-    <!--End Main Content Area-->
 </section>
 <!-- End of content-wrapper -->
 
@@ -197,7 +203,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="section-title center">
                     <h2>Donate</h2>
                 </div>
-                <!-- <h4>How much would you like to donate:</h4> -->
                 <div class="row">
                     <div class="col-sm-12">
                         <p style="margin:30px 0;"><strong style="color: #00140F; font-size: 24px; line-height: 32px; font-weight: bold;">Donate to CLP</strong></p>
@@ -321,7 +326,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         <a href="sponsor-scr.php">SPONSOR A SCR</a>
                     </li>
                     <li>
-                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকাই)-CLC</a>
+                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকAI)-CLC</a>
                     </li>
                     <li>
                         <a href="sponsor-computer.php">SPONSOR A COMPUTER</a>

@@ -1,21 +1,29 @@
 <?php
 // This file is part of Moodle - http://moodle.org/
 //
-// CLP page generated from the original CLP theme (Source_code/theme/latest-news.html).
-// Rendered as a self-contained page that matches the original theme exactly.
+// CLP Latest News (Blog) page - dynamically loaded from CMS database.
 
 require_once(__DIR__ . '/config.php');
 
+global $DB;
+
 $PAGE->set_context(context_system::instance());
-$PAGE->set_url('/latest-news.php');
-$PAGE->set_title('Latest News');
-$PAGE->set_heading('Latest News');
+
+// Get all published blog posts ordered by display_order DESC, id DESC
+$newses = $DB->get_records_sql(
+    "SELECT * FROM {clp_blog_posts} WHERE status = 'published' ORDER BY display_order DESC, id DESC"
+);
+
+$page_title = 'Latest News';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>Latest News</title>
+    <title><?php echo htmlspecialchars($page_title, ENT_QUOTES); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,9 +35,6 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 <body>
 
 <?php
-// Render the SAME navbar used site-wide (theme/clp/templates/navbar.mustache)
-// so the menu order, spacing and styling match the homepage and every other
-// public page exactly. Replaces the previous hard-coded navbar copy.
 $navContext = [
     'output' => $OUTPUT,
     'sitename' => format_string($SITE->shortname, true, ['context' => context_system::instance(), 'escape' => false]),
@@ -67,7 +72,29 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
 
     <section class="latest-news-wrap sec-padd">
         <div class="container">
-            
+            <?php $newses_array = array_values($newses); $total = count($newses_array); foreach ($newses_array as $idx => $news): ?>
+                <div class="row news-row">
+                    <div class="col-sm-6 col-xs-12 news-left-cont">
+                        <?php if (!empty($news->youtube_url)): ?>
+                            <section class="video-section">
+                                <div class="youtube-video">
+                                    <iframe class="embed-responsive-item" src="<?php echo htmlspecialchars($news->youtube_url, ENT_QUOTES); ?>" allowfullscreen></iframe>
+                                </div>
+                            </section>
+                        <?php else: ?>
+                            <img src="<?php echo htmlspecialchars($news->image ?? '/theme/clp/assets/images/blog-img1.png', ENT_QUOTES); ?>" alt="news-cover" class="img-responsive"/>
+                        <?php endif; ?>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 news-right-cont">
+                        <h6 class="date"><?php echo htmlspecialchars($news->date ?? '', ENT_QUOTES); ?></h6>
+                        <h4 class="titles"><a href="news-single.php?slug=<?php echo urlencode($news->slug); ?>"><?php echo htmlspecialchars($news->title, ENT_QUOTES); ?></a></h4>
+                        <p class="text"><?php echo $news->summary ?? ''; ?></p>
+                    </div>
+                </div>
+                <?php if ($idx < $total - 1): ?>
+                <hr>
+                <?php endif; ?>
+            <?php endforeach; ?>
         </div>
     </section>
     <!-- End of latest-news-wrap -->
@@ -88,7 +115,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="section-title center">
                     <h2>Donate</h2>
                 </div>
-                <!-- <h4>How much would you like to donate:</h4> -->
                 <div class="row">
                     <div class="col-sm-12">
                         <p style="margin:30px 0;"><strong style="color: #00140F; font-size: 24px; line-height: 32px; font-weight: bold;">Donate to CLP</strong></p>
@@ -212,7 +238,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         <a href="sponsor-scr.php">SPONSOR A SCR</a>
                     </li>
                     <li>
-                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকাই)-CLC</a>
+                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকAI)-CLC</a>
                     </li>
                     <li>
                         <a href="sponsor-computer.php">SPONSOR A COMPUTER</a>

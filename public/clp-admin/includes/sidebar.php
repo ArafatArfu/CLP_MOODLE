@@ -92,6 +92,16 @@
                                 <i class="fas fa-question-circle"></i> FAQ
                             </a>
                         </li>
+                        <li class="<?php echo in_array($current, ['news_coverage.php', 'news_coverage_form.php', 'news_coverage_video_form.php']) ? 'active' : ''; ?>">
+                            <a href="<?php echo CLP_ADMIN_URL; ?>/news_coverage.php" class="dropdown-link">
+                                <i class="fas fa-newspaper"></i> News Coverage
+                            </a>
+                        </li>
+                        <li class="<?php echo in_array($current, ['blog.php', 'blog_form.php']) ? 'active' : ''; ?>">
+                            <a href="<?php echo CLP_ADMIN_URL; ?>/blog.php" class="dropdown-link">
+                                <i class="fas fa-newspaper"></i> Blog Posts
+                            </a>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -130,6 +140,32 @@
                             </a>
                         </li>
                     </ul>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="sidebar-section">Reports</div>
+        
+        <nav class="sidebar-nav">
+            <ul class="nav-list">
+                <li class="nav-item <?php echo in_array($current, ['eos-reports.php', 'eos-reports_form.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/eos-reports.php" class="nav-link">
+                        <i class="fas fa-file-alt"></i>
+                        <span>EOS Evaluation Reports</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="sidebar-section">Reports</div>
+        
+        <nav class="sidebar-nav">
+            <ul class="nav-list">
+                <li class="nav-item <?php echo in_array($current, ['evaluation-reports.php', 'evaluation-reports_form.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/evaluation-reports.php" class="nav-link">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Evaluation Reports</span>
+                    </a>
                 </li>
             </ul>
         </nav>

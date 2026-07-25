@@ -27,8 +27,20 @@ $stats['partners'] = $result->fetch_assoc()['count'];
 $result = $db->query("SELECT COUNT(*) as count FROM clp_team_members WHERE status = 'published'");
 $stats['team'] = $result->fetch_assoc()['count'];
 
-$result = $db->query("SELECT COUNT(*) as count FROM clp_faqs WHERE status = 'published'");
-$stats['faq'] = $result->fetch_assoc()['count'];
+    $result = $db->query("SELECT COUNT(*) as count FROM clp_faqs WHERE status = 'published'");
+    $stats['faq'] = $result->fetch_assoc()['count'];
+
+    $result = $db->query("SELECT COUNT(*) as count FROM clp_news_coverage WHERE status = 'published'");
+    $stats['news'] = $result->fetch_assoc()['count'];
+
+    $result = $db->query("SELECT COUNT(*) as count FROM clp_blog_posts WHERE status = 'published'");
+    $stats['blog'] = $result->fetch_assoc()['count'];
+
+    $result = $db->query("SELECT COUNT(*) as count FROM clp_eos_reports WHERE status = 'published'");
+    $stats['eos'] = $result->fetch_assoc()['count'];
+
+    $result = $db->query("SELECT COUNT(*) as count FROM clp_evaluation_reports WHERE status = 'published'");
+    $stats['evaluation'] = $result->fetch_assoc()['count'];
 
 // CLC participants (owned by the local_clp Moodle plugin, uses no prefix).
 $stats['clc'] = 0;
@@ -75,6 +87,14 @@ $result = $db->query("
     (SELECT 'team' as type, full_name as title, updated_at, 'Team Member' as label FROM clp_team_members ORDER BY updated_at DESC LIMIT 3)
     UNION ALL
     (SELECT 'faq' as type, question as title, updated_at, 'FAQ' as label FROM clp_faqs ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'news' as type, title, updated_at, 'News Coverage' as label FROM clp_news_coverage ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'blog' as type, title, updated_at, 'Blog' as label FROM clp_blog_posts ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'eos' as type, title, updated_at, 'EOS Report' as label FROM clp_eos_reports ORDER BY updated_at DESC LIMIT 3)
+    UNION ALL
+    (SELECT 'evaluation' as type, title, updated_at, 'Evaluation Report' as label FROM clp_evaluation_reports ORDER BY updated_at DESC LIMIT 3)
     ORDER BY updated_at DESC
     LIMIT 10
 ");
@@ -199,6 +219,54 @@ include __DIR__ . '/includes/header.php';
                     <div class="stat-info">
                         <h3><?php echo $stats['centers']; ?></h3>
                         <p>Sponsored Centers</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="<?php echo CLP_ADMIN_URL; ?>/news_coverage.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon orange">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['news']; ?></h3>
+                        <p>News Coverage</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="<?php echo CLP_ADMIN_URL; ?>/blog.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon green">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['blog']; ?></h3>
+                        <p>Blog Posts</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="<?php echo CLP_ADMIN_URL; ?>/eos-reports.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon purple">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['eos']; ?></h3>
+                        <p>EOS Reports</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="<?php echo CLP_ADMIN_URL; ?>/evaluation-reports.php" class="stat-card-link">
+                <div class="stat-card">
+                    <div class="stat-icon teal">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3><?php echo $stats['evaluation'] ?? 0; ?></h3>
+                        <p>Evaluation Reports</p>
                     </div>
                 </div>
             </a>

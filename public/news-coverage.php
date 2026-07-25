@@ -1,21 +1,39 @@
 <?php
 // This file is part of Moodle - http://moodle.org/
 //
-// CLP page generated from the original CLP theme (Source_code/theme/news-coverage.html).
-// Rendered as a self-contained page that matches the original theme exactly.
+// CLP News Coverage page - dynamically loaded from CMS database.
 
 require_once(__DIR__ . '/config.php');
+require_once(__DIR__ . '/ourwork-helper.php');
+
+global $DB;
 
 $PAGE->set_context(context_system::instance());
-$PAGE->set_url('/news-coverage.php');
-$PAGE->set_title('CLP | News Coverage');
-$PAGE->set_heading('CLP | News Coverage');
+
+// Get video section
+$video = $DB->get_record('clp_news_coverage_video', ['status' => 'published'], '*', IGNORE_MULTIPLE);
+
+// Get all published news coverage items grouped by category
+$categories = ['print_media', 'article', 'research_paper'];
+$news_by_category = [];
+foreach ($categories as $cat) {
+    $records = $DB->get_records_sql(
+        "SELECT * FROM {clp_news_coverage} WHERE category = :cat AND status = 'published' ORDER BY display_order ASC, id ASC",
+        ['cat' => $cat]
+    );
+    $news_by_category[$cat] = array_map(function($r) { return (array)$r; }, $records);
+}
+
+$page_title = 'CLP | News Coverage';
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>CLP | News Coverage</title>
+    <title><?php echo htmlspecialchars($page_title, ENT_QUOTES); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,9 +45,6 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 <body>
 
 <?php
-// Render the SAME navbar used site-wide (theme/clp/templates/navbar.mustache)
-// so the menu order, spacing and styling match the homepage and every other
-// public page exactly. Replaces the previous hard-coded navbar copy.
 $navContext = [
     'output' => $OUTPUT,
     'sitename' => format_string($SITE->shortname, true, ['context' => context_system::instance(), 'escape' => false]),
@@ -64,150 +79,55 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
         </div>
     </section>
     <!--End of inner-banner -->
+
+    <?php if (!empty($news_by_category['print_media'])): ?>
     <section class="amazonSmile-wrap sec-padd">
         <div class="container">
             <div class="row row-eq-height">
                 <h2 style="text-align: center; padding-bottom: 1em;">Print Media</h2>
+                <?php foreach ($news_by_category['print_media'] as $item): ?>
                 <div class="col-sm-12 col-md-4">
                     <div class="thumbnail newsCard">
                         <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/ny_prothomalo.png" alt="...">
+                             src="<?php echo htmlspecialchars($item['image_path'], ENT_QUOTES); ?>" alt="<?php echo htmlspecialchars($item['title'], ENT_QUOTES); ?>">
                         <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> 11 Oct 2020 <i
-                                    class="fa fa-newspaper-o"></i> PROTHOM ALO, NY CITY</p>
-                            <p><h4>CLP ANNUAL EVENT NEWS</h4></p>
+                            <p class="newsDate">
+                                <?php if (!empty($item['date_info'])): ?><i class="fa fa-calendar"></i> <?php echo htmlspecialchars($item['date_info'], ENT_QUOTES); ?><?php endif; ?>
+                                <?php if (!empty($item['date_info']) && !empty($item['source'])): ?> <?php endif; ?>
+                                <?php if (!empty($item['source'])): ?><i class="fa fa-newspaper-o"></i> <?php echo htmlspecialchars($item['source'], ENT_QUOTES); ?><?php endif; ?>
+                            </p>
+                            <p><h4><?php echo htmlspecialchars($item['title'], ENT_QUOTES); ?></h4></p>
+                            <?php if (!empty($item['pdf_link'])): ?>
                             <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/Prothom-Alo-Published-Link.pdf"
+                                    href="<?php echo htmlspecialchars($item['pdf_link'], ENT_QUOTES); ?>"
                                     class="btn btn-primary newsBtn" role="button">Read More</a></p>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/prothom_alo_2.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> 24 Dec 2019 <i
-                                    class="fa fa-newspaper-o"></i> PROTHOM ALO</p>
-                            <p><h4>‘I’M IMPRESSED COMING HERE</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/Prothom-Alo-artical-24.12.2019-B.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/thikana.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> 19 Feb 2010 <i
-                                    class="fa fa-newspaper-o"></i> Thikana</p>
-                            <p><h4>5 YEARS’ DEVELOPMENT PROGRESS OF COMUTER LITERACY PROGRAM, ZAFAR BILLAH</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a href="/theme/clp/assets//fileupload/news/Article-Thikana.pdf"
-                                                                            class="btn btn-primary newsBtn"
-                                                                            role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/forum.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Sep 2009 <i
-                                    class="fa fa-newspaper-o"></i> FORUM MAGAZINE, THE DAILY STAR (VOL 3, ISSUE 9) </p>
-                            <p><h4>GOING DIGITAL, SWAPAN KUMAR GAYEN</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/CLP-The-Daily-Star-Forum_Sep_2009.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/digitallearning.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Oct 2008 <i
-                                    class="fa fa-newspaper-o"></i> DIGITAL LEARNING (VOL 4, ISSUE 10)</p>
-                            <p><h4>TRANSFORMING RURAL BANGLADESH, ANIR & AJOY</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/Article-on-CLP_Published-by-CSDMS_India_Oct08.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/janakantha.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Sep 2008 <i
-                                    class="fa fa-newspaper-o"></i> DAILY JANAKANTHA</p>
-                            <p><h4>COMPUTER LITERACY, SWAPAN KUMAR GAYEN</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/An-Article-on-CLP_Daily-Janakantha.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/unsesco.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Oct 2007 <i
-                                    class="fa fa-newspaper-o"></i> UNESCO</p>
-                            <p><h4>EXTENDING COMPUTER TRAINING TO ALL IN BANGLADESH</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/Article-on-CLP-Published-by-UNESCO_Bangkok.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/dailystar2.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> 09 Sept 2007 <i
-                                    class="fa fa-newspaper-o"></i> THE DAILY STAR</p>
-                            <p><h4>COMPUTER LITERACY PROGRAM: AN INNOVATIVE APPROACH FOR SPREADING IT TO RURAL
-                                BANGLADESH, SWAPAN & FARRUKH</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/S-8-Daily-Star-Article.pdf" class="btn btn-primary newsBtn"
-                                    role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>
+    <?php endif; ?>
 
-    <section class="introduction-wrap news fact-counter-2 sec-padd"
-             style="background-image: url(/theme/clp/assets/images/fact-counter-bg.jpg);">
+    <?php if ($video): ?>
+    <section class="<?php echo htmlspecialchars($video->section_class, ENT_QUOTES); ?>"
+             style="<?php echo !empty($video->background_image) ? 'background-image: url(' . htmlspecialchars($video->background_image, ENT_QUOTES) . ');' : ''; ?>">
         <div class="welcome-area ptb--100">
             <div class="container">
                 <div class="welcome-content">
                     <div class="newsCover-video">
-                        <a href="https://youtu.be/SanxUItfZrg" class="gallery-video">
-                            <img src="/theme/clp/assets/images/play.svg" alt="">
+                        <a href="<?php echo htmlspecialchars($video->youtube_url, ENT_QUOTES); ?>" class="gallery-video">
+                            <img src="<?php echo htmlspecialchars($video->play_image, ENT_QUOTES); ?>" alt="">
                         </a>
                     </div>
                     <div class="welcome-inner">
                         <div class="blog-info">
-                            <h2>Smart Classroom Establishment, ATN News</h2>
-                            <p class="description work_para">CLP USA, in collaboration with the Govt, established the
-                                first Smart Classroom in Bangladesh at Alhaj Jamal Uddin Adarsha High School, Dhamrai,
-                                Dhaka in 2011.</p>
+                            <h2><?php echo htmlspecialchars($video->heading, ENT_QUOTES); ?></h2>
+                            <?php if (!empty($video->description)): ?>
+                            <p class="description work_para"><?php echo s($video->description); ?></p>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
@@ -215,180 +135,75 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
         </div>
     </section>
     <!-- End of introduction-wrap -->
+    <?php endif; ?>
 
+    <?php if (!empty($news_by_category['article'])): ?>
     <section class="amazonSmile-wrap sec-padd">
         <div class="container">
             <div class="row row-eq-height">
                 <h2 style="text-align: center; padding-bottom: 1em;">Articles</h2>
+                <?php foreach ($news_by_category['article'] as $item): ?>
                 <div class="col-sm-12 col-md-4">
                     <div class="thumbnail newsCard">
                         <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/subha.png" alt="...">
+                             src="<?php echo htmlspecialchars($item['image_path'], ENT_QUOTES); ?>" alt="<?php echo htmlspecialchars($item['title'], ENT_QUOTES); ?>">
                         <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> 2015</p>
-                            <p><h4>Success Story of Subha Mandal</h4></p>
+                            <p class="newsDate">
+                                <?php if (!empty($item['date_info'])): ?><i class="fa fa-calendar"></i> <?php echo htmlspecialchars($item['date_info'], ENT_QUOTES); ?><?php endif; ?>
+                                <?php if (!empty($item['date_info']) && !empty($item['source'])): ?> <?php endif; ?>
+                                <?php if (!empty($item['source'])): ?><i class="fa fa-user-circle"></i> <?php echo htmlspecialchars($item['source'], ENT_QUOTES); ?><?php endif; ?>
+                            </p>
+                            <p><h4><?php echo htmlspecialchars($item['title'], ENT_QUOTES); ?></h4></p>
+                            <?php if (!empty($item['pdf_link'])): ?>
                             <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/SUCCESS-STORY-OF-SUBHA-MANDAL.pdf"
+                                    href="<?php echo htmlspecialchars($item['pdf_link'], ENT_QUOTES); ?>"
                                     class="btn btn-primary newsBtn" role="button">Read More</a></p>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/FROM-GURUGHIRA-TO-SMART-CLASSROOMS.png"
-                             alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Oct 2010 <i
-                                    class="fa fa-user-circle"></i> Swapan Kumar Gayen</p>
-                            <p><h4>From Gurughira to Smart Classrooms: Technology Shapes Education</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/FROM-GURUGHIRA-TO-SMART-CLASSROOMS.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/GLIMPSES-OF-E-EDUCATION-AT-UDDIPAN.png"
-                             alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> June 2010 <i
-                                    class="fa fa-user-circle"></i> Asas-Uz-Zaman</p>
-                            <p><h4>Glimpses of e-Education at Uddipan Badar-Shamsu Bidya Niketon</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/Article-Thikana.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/ICT-&-SCR-IN-VICTORIA-HIGH-SCHOOL.png"
-                             alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-user-circle"></i> Ayan Chowdhury </p>
-                            <p><h4>ICT & SCR in Victoria High School (Bangla)</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/ICT-&-SCR-IN-VICTORIA-HIGH-SCHOOL.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/COMPUTER-LITERACY-PROGRAM-TRANSFORMING-RURAL.png"
-                             alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Sep 2008 <i
-                                    class="fa fa-user-circle"></i> ANIR & AJOY</p>
-                            <p><h4>Computer Literacy Program: Transforming Rural Bangladesh One School at a
-                                Time</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/COMPUTER-LITERACY-PROGRAM-TRANSFORMING-RURAL.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/WOULD-YOU-BELIEVE.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Mar 2008 <i
-                                    class="fa fa-user-circle"></i> Dalilur Rahman</p>
-                            <p><h4>Would You Believe? A Computer Literacy Center at Shailan Surma High School?</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/WOULD-YOU-BELIEVE.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/A-VISIT-TO.png" alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Jan 2008 <i
-                                    class="fa fa-user-circle"></i> Musaddeq Hussain</p>
-                            <p><h4>A visit to ‘Surovi’- a CLC</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/A-VISIT-TO.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/COMPUTER-LEARNING-CENTERS.png"
-                             alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Jun 2006 <i
-                                    class="fa fa-user-circle"></i> Anir Chowdhury</p>
-                            <p><h4>Computer Learning Centers: Today and Tomorrow</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/COMPUTER-LEARNING-CENTERS.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="thumbnail newsCard">
-                        <img style=" width: 100%; height: 200px; object-fit: cover;"
-                             src="/theme/clp/assets/images/news-coverage/COMPUTER-LITERACY-PROGRAM-FIRST.png"
-                             alt="...">
-                        <div class="caption">
-                            <p class="newsDate"><i class="fa fa-calendar"></i> Jul 2010 <i
-                                    class="fa fa-user-circle"></i> Zafar & Farrukh</p>
-                            <p><h4>Computer Literacy Program: First Five Years of Progress</h4></p>
-                            <p style="text-align: center; margin: 10px;"><a
-                                    href="/theme/clp/assets/fileupload/news/COMPUTER-LITERACY-PROGRAM-FIRST.pdf"
-                                    class="btn btn-primary newsBtn" role="button">Read More</a></p>
-                        </div>
-                    </div>
-                </div>
-
+                <?php endforeach; ?>
             </div>
         </div>
     </section>
+    <?php endif; ?>
 
+    <?php if (!empty($news_by_category['research_paper'])): ?>
     <section class="amazonSmile-wrap sec-padd">
         <div class="container">
             <div class="row row-eq-height">
                 <h2 style="text-align: center; padding-bottom: 1em;">Research Paper</h2>
                 <div style="display: flex;align-content: center;justify-content: space-around;">
+                    <?php foreach ($news_by_category['research_paper'] as $item): ?>
                     <div class="col-sm-12 col-md-6 col-xs-12">
                         <div class="thumbnail newsCard">
                             <img style=" width: 100%; height: 200px; object-fit: cover;"
-                                 src="/theme/clp/assets/images/news-coverage/research_cover.png" alt="...">
+                                 src="<?php echo htmlspecialchars($item['image_path'], ENT_QUOTES); ?>" alt="<?php echo htmlspecialchars($item['title'], ENT_QUOTES); ?>">
                             <div class="caption">
-                                <p class="newsDate"><i class="fa fa-calendar"></i> 2015 <i
-                                        class="fa fa-user-circle"></i> Ashirul Amin, Dnet</p>
-                                <p><h4>Bridging Digital Divide For Rural Youth: An Experience from Computer Literacy
-                                    Programme in Bangladesh</h4></p>
+                                <p class="newsDate">
+                                    <?php if (!empty($item['date_info'])): ?><i class="fa fa-calendar"></i> <?php echo htmlspecialchars($item['date_info'], ENT_QUOTES); ?><?php endif; ?>
+                                    <?php if (!empty($item['date_info']) && !empty($item['source'])): ?> <?php endif; ?>
+                                    <?php if (!empty($item['source'])): ?><i class="fa fa-user-circle"></i> <?php echo htmlspecialchars($item['source'], ENT_QUOTES); ?><?php endif; ?>
+                                </p>
+                                <p><h4><?php echo htmlspecialchars($item['title'], ENT_QUOTES); ?></h4></p>
+                                <?php if (!empty($item['pdf_link'])): ?>
                                 <p style="text-align: center; margin: 10px;"><a
-                                        href="/theme/clp/assets/fileupload/news/CLP-Research-Final-Copy.pdf"
+                                        href="<?php echo htmlspecialchars($item['pdf_link'], ENT_QUOTES); ?>"
                                         class="btn btn-primary newsBtn" role="button">Read More</a></p>
+                                <?php endif; ?>
                             </div>
                         </div>
                     </div>
-
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
     </section>
+    <?php endif; ?>
+
+    <?php echo ourwork_footer(); ?>
+    
+    <!-- End of content-wrapper -->
     <!-- Scroll Top  -->
 <button class="scroll-top tran3s"><span class="fa fa-angle-up"></span></button>
 
@@ -419,8 +234,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
     })();
 </script>
 
-<!-- End of preloader  -->
-
 <div class="donate-popup" id="search-popup">
     <div class="close-donate theme-btn">
         <span class="fa fa-close"></span>
@@ -442,7 +255,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
         </div>
     </div>
 </div>
-    <!--End Main Content Area-->
 </section>
 <!-- End of content-wrapper -->
 
@@ -459,7 +271,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="section-title center">
                     <h2>Donate</h2>
                 </div>
-                <!-- <h4>How much would you like to donate:</h4> -->
                 <div class="row">
                     <div class="col-sm-12">
                         <p style="margin:30px 0;"><strong style="color: #00140F; font-size: 24px; line-height: 32px; font-weight: bold;">Donate to CLP</strong></p>
@@ -583,7 +394,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         <a href="sponsor-scr.php">SPONSOR A SCR</a>
                     </li>
                     <li>
-                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকাই)-CLC</a>
+                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকAI)-CLC</a>
                     </li>
                     <li>
                         <a href="sponsor-computer.php">SPONSOR A COMPUTER</a>

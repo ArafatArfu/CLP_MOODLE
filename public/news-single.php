@@ -1,21 +1,121 @@
 <?php
 // This file is part of Moodle - http://moodle.org/
 //
-// CLP page generated from the original CLP theme (Source_code/theme/news-single.html).
-// Rendered as a self-contained page that matches the original theme exactly.
+// CLP News Single page - dynamically loaded from CMS database.
 
 require_once(__DIR__ . '/config.php');
 
+global $DB;
+
 $PAGE->set_context(context_system::instance());
-$PAGE->set_url('/news-single.php');
-$PAGE->set_title('CLP | Computer Literacy Program');
-$PAGE->set_heading('CLP | Computer Literacy Program');
+
+$slug = optional_param('slug', '', PARAM_TEXT);
+$news = null;
+$latestNews = [];
+
+if ($slug) {
+    $news = $DB->get_record('clp_blog_posts', ['slug' => $slug, 'status' => 'published']);
+    if ($news) {
+        $latestNews = $DB->get_records_sql(
+            "SELECT * FROM {clp_blog_posts} WHERE status = 'published' AND id != ? ORDER BY id DESC LIMIT 2",
+            [$news->id]
+        );
+    }
+}
+
+if (!$news) {
+    $PAGE->set_title('CLP | Computer Literacy Program');
+    $PAGE->set_heading('CLP | Computer Literacy Program');
+    echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
+    ?>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <title>CLP | Computer Literacy Program</title>
+        <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/theme/clp/assets/css/style.css">
+        <link rel="stylesheet" href="/theme/clp/assets/css/responsive.css">
+        <link rel="stylesheet" href="/theme/clp/assets/css/jp-style.css">
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    </head>
+    <body>
+    <?php
+    $navContext = [
+        'output' => $OUTPUT,
+        'sitename' => format_string($SITE->shortname, true, ['context' => context_system::instance(), 'escape' => false]),
+        'config' => [
+            'wwwroot' => '',
+            'homeurl' => '/',
+        ],
+    ];
+    echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
+    ?>
+    <section class="content">
+        <section class="inner-banner">
+            <div class="container">
+                <div class="box">
+                    <h1></h1>
+                    <div class="breadcumb-wrapper">
+                        <ul class="list-inline link-list">
+                            <li>
+                                <a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">News</a>
+                            </li>
+                            <li>
+                                <a href="latest-news.php">CLP News</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="latest-news-wrap sec-padd">
+            <div class="container">
+                <div class="row news-row">
+                    <div class="col-sm-12 col-xs-12 news-left-cont">
+                        <h2 class="text-center blog-title">Blog post not found.</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="latest-news-thumb sec-padd">
+            <div class="container">
+                <div class="row">
+                    <h4 class="news-title">Latest News</h4>
+                </div>
+            </div>
+        </section>
+    </section>
+    <?php require_once __DIR__ . '/ourwork-helper.php'; echo ourwork_footer(); ?>
+    <script src="/theme/clp/assets/js/jquery.min.js"></script>
+    <script src="/theme/clp/assets/js/jquery.js"></script>
+    <script src="/theme/clp/assets/js/menu.js"></script>
+    <script src="/theme/clp/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/theme/clp/assets/js/SmoothScroll.js"></script>
+    <script src="/theme/clp/assets/js/bootstrap.min.js"></script>
+    <script src="/theme/clp/assets/js/owl.carousel.min.js"></script>
+    <script src="/theme/clp/assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    </body>
+    </html>
+    <?php
+    exit;
+}
+
+$page_title = 'CLP | ' . $news->title;
+$PAGE->set_title($page_title);
+$PAGE->set_heading($page_title);
+
 echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 ?>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>CLP | Computer Literacy Program</title>
+    <title><?php echo htmlspecialchars($page_title, ENT_QUOTES); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,9 +127,6 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
 <body>
 
 <?php
-// Render the SAME navbar used site-wide (theme/clp/templates/navbar.mustache)
-// so the menu order, spacing and styling match the homepage and every other
-// public page exactly. Replaces the previous hard-coded navbar copy.
 $navContext = [
     'output' => $OUTPUT,
     'sitename' => format_string($SITE->shortname, true, ['context' => context_system::instance(), 'escape' => false]),
@@ -46,7 +143,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
     <section class="inner-banner">
         <div class="container">
             <div class="box">
-                <h1></h1>
+                <h1><?php echo htmlspecialchars(substr($news->title, 0, 50), ENT_QUOTES); ?></h1>
                 <div class="breadcumb-wrapper">
                     <ul class="list-inline link-list">
                         <li>
@@ -69,11 +166,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
         <div class="container">
             <div class="row news-row">
                 <div class="col-sm-12 col-xs-12 news-left-cont">
-                    <h6 class="blog-date"></h6>
-                    <h2 class="text-center blog-title"></h2>
-                    
+                    <h6 class="blog-date"><?php echo htmlspecialchars($news->date ?? '', ENT_QUOTES); ?></h6>
+                    <h2 class="text-center blog-title"><?php echo htmlspecialchars($news->title ?? '', ENT_QUOTES); ?></h2>
+                    <?php if (!empty($news->image)): ?>
+                    <img src="<?php echo htmlspecialchars($news->image, ENT_QUOTES); ?>" style="margin-bottom: 10px;">
+                    <?php endif; ?>
                     <div class="blog-details-cont">
-                        
+                        <?php echo $news->description ?? ''; ?>
                     </div>
                 </div>
             </div>
@@ -84,7 +183,27 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
         <div class="container">
             <div class="row">
                 <h4 class="news-title">Latest News</h4>
-                
+                <?php foreach ($latestNews as $ln): ?>
+                    <?php
+                    $monthName = !empty($ln->date) ? date('F', strtotime($ln->date)) : '';
+                    $day = !empty($ln->date) ? date('j', strtotime($ln->date)) : '';
+                    ?>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="news-inner-blk">
+                            <div class="date-time">
+                                <h6><?php echo htmlspecialchars($day ?? '', ENT_QUOTES); ?></h6>
+                                <span><?php echo htmlspecialchars($monthName ?? '', ENT_QUOTES); ?></span>
+                            </div>
+                            <div class="news-text">
+                                <h5>
+                                    <a href="news-single.php?slug=<?php echo urlencode($ln->slug); ?>"><?php echo htmlspecialchars($ln->title ?? '', ENT_QUOTES); ?></a>
+                                </h5>
+                                <p class="work_para_news">F<?php echo $ln->summary ?? ''; ?>
+                                    [<a href="news-single.php?slug=<?php echo urlencode($ln->slug); ?>">Read More...</a>]</p>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>
@@ -105,7 +224,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="section-title center">
                     <h2>Donate</h2>
                 </div>
-                <!-- <h4>How much would you like to donate:</h4> -->
                 <div class="row">
                     <div class="col-sm-12">
                         <p style="margin:30px 0;"><strong style="color: #00140F; font-size: 24px; line-height: 32px; font-weight: bold;">Donate to CLP</strong></p>
@@ -229,7 +347,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         <a href="sponsor-scr.php">SPONSOR A SCR</a>
                     </li>
                     <li>
-                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকাই)-CLC</a>
+                        <a href="sponsor-tokai.php">SPONSOR A TOKAI(টোকAI)-CLC</a>
                     </li>
                     <li>
                         <a href="sponsor-computer.php">SPONSOR A COMPUTER</a>
