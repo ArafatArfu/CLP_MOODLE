@@ -124,6 +124,46 @@ include __DIR__ . '/includes/header.php';
             </div>
         </div>
     </div>
+
+    <div class="clc-media-section">
+        <h3 class="clc-detail-section-title"><i class="fas fa-images"></i> Media</h3>
+        <?php
+        $id = (int)$_GET['id'];
+        $mediaTypes = [
+            'banner_images' => 'Banner Images',
+            'plaque_gallery' => 'Plaque Images',
+            'school_photo_gallery' => 'School Photos',
+        ];
+        foreach ($mediaTypes as $tableSuffix => $label) {
+            $table = CLP_DB_PREFIX . 'local_centermanagement_' . $tableSuffix;
+            $items = [];
+            if ($res = $db->query("SELECT filename, alt_text, is_featured, sortorder FROM {$table} WHERE center_id = " . (int)$id . " ORDER BY sortorder ASC, id ASC")) {
+                while ($row = $res->fetch_assoc()) {
+                    $items[] = $row;
+                }
+            }
+            if (!empty($items)): ?>
+                <div class="clc-media-block">
+                    <h4><?php echo $label; ?></h4>
+                    <div class="clc-media-grid-view">
+                        <?php foreach ($items as $item): ?>
+                            <div class="clc-media-card">
+                                <img src="<?php echo clp_uploaded_file_url(str_replace('_gallery', '', str_replace('school_photo_', 'school_photos/', $tableSuffix)), $item['filename']); ?>"
+                                     alt="<?php echo clp_escape($item['alt_text']); ?>"
+                                     style="width:120px; height:80px; object-fit:cover; border-radius:6px;">
+                                <div class="clc-media-card-meta">
+                                    <span><?php echo clp_escape($item['filename']); ?></span>
+                                    <?php if ($item['alt_text']): ?><small>Alt: <?php echo clp_escape($item['alt_text']); ?></small><?php endif; ?>
+                                    <?php if ($item['is_featured']): ?><span class="badge badge-success">Featured</span><?php endif; ?>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            <?php endif;
+        }
+        ?>
+    </div>
 </div>
 
 <style>
@@ -136,6 +176,13 @@ include __DIR__ . '/includes/header.php';
 .clc-detail-item { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; background: #f8f9fb; border: 1px solid #eef0f4; border-radius: 10px; }
 .clc-detail-label { font-size: 11px; text-transform: uppercase; letter-spacing: .5px; font-weight: 700; color: #006b4f; }
 .clc-detail-value { font-size: 15px; color: #3e4e4a; word-break: break-word; }
+.clc-media-section { margin-top: 28px; padding-top: 22px; border-top: 2px solid #eef0f4; }
+.clc-media-section h3 { font-size: 18px; color: #006b4f; margin: 0 0 18px; display: flex; align-items: center; gap: 8px; }
+.clc-media-block { margin-bottom: 22px; padding: 18px; background: #f8f9fb; border: 1px solid #eef0f4; border-radius: 10px; }
+.clc-media-block h4 { font-size: 15px; color: #3e4e4a; margin: 0 0 12px; }
+.clc-media-grid-view { display: flex; flex-wrap: wrap; gap: 14px; }
+.clc-media-card { background: #fff; border: 1px solid #eef0f4; border-radius: 8px; padding: 10px; width: 160px; }
+.clc-media-card-meta { display: flex; flex-direction: column; gap: 4px; margin-top: 8px; font-size: 12px; color: #4a5560; }
 </style>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>

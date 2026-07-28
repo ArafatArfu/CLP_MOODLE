@@ -400,6 +400,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     }
                 }
 
+                $submitAction = clp_sanitize($_POST['submit_action'] ?? 'save');
+                if ($submitAction === 'save_continue' && !empty($centerId)) {
+                    clp_redirect(CLP_ADMIN_URL . '/centers_form.php?id=' . (int)$centerId);
+                }
                 clp_redirect(CLP_ADMIN_URL . '/centers.php');
             }
         } else {
@@ -426,6 +430,26 @@ if ($isEdit && !empty($record['id'])) {
     if ($res = $db->query("SELECT name, country, address, email, phone FROM {$sponsorTable} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
         while ($row = $res->fetch_assoc()) {
             $existingSponsors[] = $row;
+        }
+    }
+    $db->close();
+}
+
+// Load existing media for form display.
+$existingMedia = [
+    'banner_images' => [],
+    'plaque_images' => [],
+    'school_photos' => [],
+];
+if ($isEdit && !empty($record['id'])) {
+    $db = clp_db_connect();
+    $prefix = CLP_DB_PREFIX;
+    foreach ($existingMedia as $filearea => $items) {
+        $table = $prefix . 'local_centermanagement_' . $filearea;
+        if ($res = $db->query("SELECT id, filename, alt_text, is_featured, sortorder FROM {$table} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
+            while ($row = $res->fetch_assoc()) {
+                $existingMedia[$filearea][] = $row;
+            }
         }
     }
     $db->close();
@@ -594,27 +618,27 @@ include __DIR__ . '/includes/header.php';
                 <div class="clc-form-row">
                     <div class="form-group">
                         <label class="form-label">Mailing Address</label>
-                        <textarea name="mailing_address" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['mailing_address']); ?></textarea>
+                        <textarea name="mailing_address" class="form-control tinymce" rows="3" maxlength="4000"><?php echo clp_escape($record['mailing_address']); ?></textarea>
                     </div>
                     <div class="form-group">
                         <label class="form-label">History of the Center</label>
-                        <textarea name="history_of_center" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['history_of_center']); ?></textarea>
+                        <textarea name="history_of_center" class="form-control tinymce" rows="3" maxlength="4000"><?php echo clp_escape($record['history_of_center']); ?></textarea>
                     </div>
                 </div>
                 <div class="clc-form-row">
                     <div class="form-group">
                         <label class="form-label">Description of the Center</label>
-                        <textarea name="description_of_center" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['description_of_center']); ?></textarea>
+                        <textarea name="description_of_center" class="form-control tinymce" rows="3" maxlength="4000"><?php echo clp_escape($record['description_of_center']); ?></textarea>
                     </div>
                     <div class="form-group">
                         <label class="form-label">Contact Person with Phone / Email</label>
-                        <textarea name="contact_person_details" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['contact_person_details']); ?></textarea>
+                        <textarea name="contact_person_details" class="form-control tinymce" rows="3" maxlength="4000"><?php echo clp_escape($record['contact_person_details']); ?></textarea>
                     </div>
                 </div>
                 <div class="clc-form-row">
                     <div class="form-group">
                         <label class="form-label">Accomplishment</label>
-                        <textarea name="accomplishment" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['accomplishment']); ?></textarea>
+                        <textarea name="accomplishment" class="form-control tinymce" rows="3" maxlength="4000"><?php echo clp_escape($record['accomplishment']); ?></textarea>
                     </div>
                     <div class="form-group">
                         <label class="form-label">Current Status</label>
@@ -739,24 +763,72 @@ include __DIR__ . '/includes/header.php';
                 </div>
             </div>
 
-            <!-- Media Uploads -->
+            <!-- Enhanced Media Uploads -->
             <div class="clc-form-section">
-                <h4 class="clc-form-section-title"><i class="fas fa-images"></i> Media</h4>
-                <div class="clc-form-row">
-                    <div class="form-group">
-                        <label class="form-label">Banner Images</label>
-                        <input type="file" name="banner_images[]" class="form-control" multiple accept="image/*">
-                        <small class="clc-help">Upload multiple images. They will appear as a slider on the details page.</small>
+                <h4 class="clc-form-section-title"><i class="fas fa-images"></i> Enhanced Media</h4>
+
+                <?php
+                $mediaConfig = [
+                    'banner_images' => 'School Banner Images (Slider)',
+                    'plaque_images' => 'Plaque Images (Gallery)',
+                    'school_photos' => 'School Photos (Gallery)',
+                ];
+                foreach ($mediaConfig as $filearea => $label):
+                    $hasFeatured = $filearea === 'banner_images';
+                ?>
+                <h5 class="clc-form-subtitle"><?php echo $label; ?></h5>
+                <div class="clc-media-manager"
+                     data-filearea="<?php echo $filearea; ?>"
+                     data-center-id="<?php echo (int)($record['id'] ?: 0); ?>"
+                     data-has-featured="<?php echo $hasFeatured ? '1' : '0'; ?>">
+                    <div class="clc-media-grid" id="<?php echo $filearea; ?>-grid">
+                        <?php foreach ($existingMedia[$filearea] as $media): ?>
+                            <div class="clc-media-item"
+                                 data-id="<?php echo (int)$media['id']; ?>"
+                                 data-filename="<?php echo clp_escape($media['filename']); ?>"
+                                 data-sortorder="<?php echo (int)$media['sortorder']; ?>"
+                                 data-is-featured="<?php echo (int)$media['is_featured']; ?>">
+                                <div class="clc-media-preview">
+                                    <img src="<?php echo clp_uploaded_file_url($filearea, $media['filename']); ?>" alt="">
+                                    <?php if ($hasFeatured): ?>
+                                        <div class="clc-media-featured-badge <?php echo $media['is_featured'] ? 'is-active' : ''; ?>">Featured</div>
+                                    <?php endif; ?>
+                                </div>
+                                <div class="clc-media-meta">
+                                    <input type="text" class="form-control form-control-sm clc-media-alt"
+                                           placeholder="Alt text"
+                                           value="<?php echo clp_escape($media['alt_text']); ?>"
+                                           data-filename="<?php echo clp_escape($media['filename']); ?>">
+                                    <?php if ($hasFeatured): ?>
+                                        <label class="clc-media-featured-label">
+                                            <input type="radio" name="<?php echo $filearea; ?>_featured"
+                                                   value="<?php echo clp_escape($media['filename']); ?>"
+                                                   <?php echo $media['is_featured'] ? 'checked' : ''; ?>>
+                                            Featured
+                                        </label>
+                                    <?php endif; ?>
+                                </div>
+                                <div class="clc-media-actions">
+                                    <button type="button" class="btn btn-sm btn-secondary clc-media-move-up" title="Move up"><i class="fas fa-arrow-up"></i></button>
+                                    <button type="button" class="btn btn-sm btn-secondary clc-media-move-down" title="Move down"><i class="fas fa-arrow-down"></i></button>
+                                    <button type="button" class="btn btn-sm btn-danger clc-media-remove" title="Remove"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label">Plaque Images</label>
-                        <input type="file" name="plaque_images[]" class="form-control" multiple accept="image/*">
+                    <div class="clc-media-upload-area" id="<?php echo $filearea; ?>-upload">
+                        <input type="file" name="<?php echo $filearea; ?>[]" class="clc-media-input" multiple accept="image/*" style="display:none;">
+                        <div class="clc-media-dropzone">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <span>Click or drag images here</span>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label">School Photos</label>
-                        <input type="file" name="school_photos[]" class="form-control" multiple accept="image/*">
+                    <div class="clc-media-bulk">
+                        <label class="form-label">Or bulk upload (replaces all <?php echo strtolower(str_replace('_', ' ', $filearea)); ?>)</label>
+                        <input type="file" name="<?php echo $filearea; ?>[]" class="form-control" multiple accept="image/*">
                     </div>
                 </div>
+            <?php endforeach; ?>
             </div>
 
             <!-- Sponsors -->
@@ -805,17 +877,17 @@ include __DIR__ . '/includes/header.php';
                 <div class="clc-form-row">
                     <div class="form-group">
                         <label class="form-label">CLC Graduate Students</label>
-                        <textarea name="clc_graduate_students" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['clc_graduate_students']); ?></textarea>
+                        <textarea name="clc_graduate_students" class="form-control tinymce" rows="3" maxlength="4000"><?php echo clp_escape($record['clc_graduate_students']); ?></textarea>
                     </div>
                     <div class="form-group">
                         <label class="form-label">SCR Benefited Students</label>
-                        <textarea name="scr_benefited_students" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['scr_benefited_students']); ?></textarea>
+                        <textarea name="scr_benefited_students" class="form-control tinymce" rows="3" maxlength="4000"><?php echo clp_escape($record['scr_benefited_students']); ?></textarea>
                     </div>
                 </div>
                 <div class="clc-form-row">
                     <div class="form-group">
                         <label class="form-label">Hardware Status</label>
-                        <textarea name="hardware_status" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['hardware_status']); ?></textarea>
+                        <textarea name="hardware_status" class="form-control tinymce" rows="3" maxlength="4000"><?php echo clp_escape($record['hardware_status']); ?></textarea>
                     </div>
                     <div class="form-group">
                         <label class="form-label">Last Visit Date</label>
@@ -825,7 +897,9 @@ include __DIR__ . '/includes/header.php';
                 </div>
             </div>
 
-            <button type="submit" class="btn btn-success"><i class="fas fa-save"></i> Save Center</button>
+            <input type="hidden" name="submit_action" id="submit-action" value="save">
+            <button type="submit" name="submit_action" value="save_continue" class="btn btn-secondary"><i class="fas fa-save"></i> Save and Continue Editing</button>
+            <button type="submit" name="submit_action" value="save" class="btn btn-success"><i class="fas fa-save"></i> <?php echo $isEdit ? 'Update' : 'Save'; ?></button>
             <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="btn btn-primary">Cancel</a>
         </form>
     </div>
@@ -994,6 +1068,273 @@ include __DIR__ . '/includes/header.php';
             updateJson();
         });
     }
+})();
+
+// Rich Text Editor - TinyMCE.
+if (typeof tinymce === 'undefined') {
+    var script = document.createElement('script');
+    script.src = 'https://cdn.js.cloudflare.com/ajax/libs/tinymce/6.8.2/tinymce.min.js';
+    script.onload = initTinyMCE;
+    document.head.appendChild(script);
+} else {
+    initTinyMCE();
+}
+
+function initTinyMCE() {
+    if (typeof tinymce === 'undefined') return;
+    tinymce.init({
+        selector: 'textarea.tinymce',
+        menubar: false,
+        branding: false,
+        promotion: false,
+        height: 280,
+        plugins: [
+            'advlist', 'autolink', 'lists', 'link', 'image', 'charmap', 'preview',
+            'anchor', 'searchreplace', 'visualblocks', 'code', 'fullscreen',
+            'insertdatetime', 'media', 'table', 'help', 'wordcount'
+        ],
+        toolbar: 'undo redo | blocks | ' +
+            'bold italic underline strikethrough | forecolor backcolor | ' +
+            'alignleft aligncenter alignright alignjustify | ' +
+            'bullist numlist | link table image | removeformat',
+        toolbar_mode: 'wrap',
+        block_formats: 'Paragraph=p; Heading 1=h1; Heading 2=h2; Heading 3=h3; Heading 4=h4; Heading 5=h5; Heading 6=h6',
+        font_family_formats: 'Inter=Inter,Arial,sans-serif; Noto Serif=Noto Serif,Georgia,serif; Roboto=Roboto,Arial,sans-serif',
+        font_size_formats: '12px 14px 16px 18px 24px 32px',
+        images_upload_handler: function (blobInfo, progress) {
+            return new Promise(function (resolve, reject) {
+                var formData = new FormData();
+                formData.append('file', blobInfo.blob(), blobInfo.filename());
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '<?php echo CLP_ADMIN_URL; ?>/upload.php?center_id=' + encodeURIComponent(document.querySelector('.clc-media-manager')?.dataset.centerId || 0) + '&filearea=editor_uploads');
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        try {
+                            var json = JSON.parse(xhr.responseText);
+                            if (json.success) {
+                                resolve(json.url);
+                            } else {
+                                reject(json.message || 'Upload failed');
+                            }
+                        } catch (e) {
+                            reject('Invalid server response');
+                        }
+                    } else {
+                        reject('Upload failed with status ' + xhr.status);
+                    }
+                };
+                xhr.onerror = function () { reject('Upload failed'); };
+                xhr.send(formData);
+            });
+        },
+        content_style: 'body { font-family: Inter, Arial, sans-serif; font-size: 14px; }',
+        setup: function (editor) {
+            editor.on('change', function () {
+                editor.save();
+            });
+        }
+    });
+}
+</script>
+
+<script>
+// Enhanced Media Manager.
+(function () {
+    var CSRF_TOKEN = '<?php echo clp_csrf_token(); ?>';
+    var ADMIN_URL = '<?php echo CLP_ADMIN_URL; ?>';
+
+    function initMediaManager(container) {
+        var filearea = container.dataset.filearea;
+        var centerId = parseInt(container.dataset.centerId, 10) || 0;
+        var hasFeatured = container.dataset.hasFeatured === '1';
+        var grid = container.querySelector('.clc-media-grid');
+        var uploadArea = container.querySelector('.clc-media-upload-area');
+        var dropzone = container.querySelector('.clc-media-dropzone');
+        var fileInput = container.querySelector('.clc-media-input');
+
+        if (!grid || !fileInput) return;
+
+        function refresh() {
+            // Nothing for now, can fetch fresh state if needed.
+        }
+
+        function createMediaItem(data) {
+            var item = document.createElement('div');
+            item.className = 'clc-media-item';
+            item.dataset.id = data.id || '';
+            item.dataset.filename = data.filename || '';
+            item.dataset.sortorder = data.sortorder || 0;
+            item.dataset.isFeatured = data.is_featured ? '1' : '0';
+
+            var featuredBadge = hasFeatured ? '<div class="clc-media-featured-badge ' + (data.is_featured ? 'is-active' : '') + '">Featured</div>' : '';
+            var featuredRadio = hasFeatured ? '<label class="clc-media-featured-label"><input type="radio" name="' + filearea + '_featured" value="' + (data.filename || '') + '" ' + (data.is_featured ? 'checked' : '') + '> Featured</label>' : '';
+
+            item.innerHTML = '<div class="clc-media-preview"><img src="' + (data.url || '') + '" alt="">' + featuredBadge + '</div>' +
+                '<div class="clc-media-meta">' +
+                '<input type="text" class="form-control form-control-sm clc-media-alt" placeholder="Alt text" value="' + (data.alt_text || '') + '" data-filename="' + (data.filename || '') + '">' +
+                featuredRadio +
+                '</div>' +
+                '<div class="clc-media-actions">' +
+                '<button type="button" class="btn btn-sm btn-secondary clc-media-move-up" title="Move up"><i class="fas fa-arrow-up"></i></button> ' +
+                '<button type="button" class="btn btn-sm btn-secondary clc-media-move-down" title="Move down"><i class="fas fa-arrow-down"></i></button> ' +
+                '<button type="button" class="btn btn-sm btn-danger clc-media-remove" title="Remove"><i class="fas fa-trash"></i></button>' +
+                '</div>';
+
+            bindItemEvents(item, centerId, filearea);
+            return item;
+        }
+
+        function bindItemEvents(item, centerId, filearea) {
+            var filename = item.dataset.filename;
+
+            item.querySelector('.clc-media-remove').addEventListener('click', function () {
+                if (!confirm('Remove this image?')) return;
+                var formData = new FormData();
+                formData.append('center_id', centerId);
+                formData.append('filearea', filearea);
+                formData.append('filename', filename);
+                formData.append('csrf_token', CSRF_TOKEN);
+                fetch(ADMIN_URL + '/delete_upload.php', { method: 'POST', body: formData })
+                    .then(function (r) { return r.json(); })
+                    .then(function (json) {
+                        if (json.success) item.remove();
+                    });
+            });
+
+            item.querySelector('.clc-media-move-up').addEventListener('click', function () {
+                var prev = item.previousElementSibling;
+                if (prev && prev.classList.contains('clc-media-item')) {
+                    grid.insertBefore(item, prev);
+                    reindex();
+                }
+            });
+
+            item.querySelector('.clc-media-move-down').addEventListener('click', function () {
+                var next = item.nextElementSibling;
+                if (next && next.classList.contains('clc-media-item')) {
+                    grid.insertBefore(next, item);
+                    reindex();
+                }
+            });
+
+            var altInput = item.querySelector('.clc-media-alt');
+            if (altInput) {
+                altInput.addEventListener('blur', function () {
+                    saveMeta('update_alt', filename, { alt_text: altInput.value });
+                });
+            }
+
+            var featuredInput = item.querySelector('input[type="radio"]');
+            if (featuredInput) {
+                featuredInput.addEventListener('change', function () {
+                    if (featuredInput.checked) {
+                        saveMeta('toggle_featured', filename, { is_featured: 1 });
+                        grid.querySelectorAll('.clc-media-featured-badge').forEach(function (b) { b.classList.remove('is-active'); });
+                        item.querySelector('.clc-media-featured-badge')?.classList.add('is-active');
+                    }
+                });
+            }
+        }
+
+        function reindex() {
+            var items = grid.querySelectorAll('.clc-media-item');
+            items.forEach(function (item, idx) {
+                item.dataset.sortorder = idx;
+                saveMeta('update_order', item.dataset.filename, { sortorder: idx });
+            });
+        }
+
+        function saveMeta(action, filename, data) {
+            if (!filename) return;
+            var formData = new FormData();
+            formData.append('center_id', centerId);
+            formData.append('filearea', filearea);
+            formData.append('filename', filename);
+            formData.append('action', action);
+            formData.append('csrf_token', CSRF_TOKEN);
+            for (var key in data) {
+                if (data.hasOwnProperty(key)) {
+                    formData.append(key, data[key]);
+                }
+            }
+            fetch(ADMIN_URL + '/save_media_meta.php', { method: 'POST', body: formData })
+                .then(function (r) { return r.json(); })
+                .then(function (json) {
+                    // Silent save.
+                });
+        }
+
+        function uploadFiles(files) {
+            if (!centerId || files.length === 0) return;
+            Array.prototype.forEach.call(files, function (file) {
+                var formData = new FormData();
+                formData.append('file', file);
+                formData.append('center_id', centerId);
+                formData.append('filearea', filearea);
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', ADMIN_URL + '/upload.php');
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        try {
+                            var json = JSON.parse(xhr.responseText);
+                            if (json.success) {
+                                var item = createMediaItem({
+                                    id: json.id || '',
+                                    filename: json.filename,
+                                    url: json.url,
+                                    alt_text: json.alt_text || '',
+                                    is_featured: json.is_featured ? 1 : 0,
+                                    sortorder: json.sortorder || 0,
+                                });
+                                grid.appendChild(item);
+                            } else {
+                                alert(json.message || 'Upload failed');
+                            }
+                        } catch (e) {
+                            alert('Upload failed');
+                        }
+                    }
+                };
+                xhr.send(formData);
+            });
+        }
+
+        if (dropzone && fileInput) {
+            dropzone.addEventListener('click', function () {
+                if (!centerId) {
+                    alert('Save the center first, then upload images.');
+                    return;
+                }
+                fileInput.click();
+            });
+
+            fileInput.addEventListener('change', function () {
+                uploadFiles(fileInput.files);
+                fileInput.value = '';
+            });
+
+            uploadArea = container.querySelector('.clc-media-upload-area');
+            if (uploadArea) {
+                uploadArea.addEventListener('dragover', function (e) {
+                    e.preventDefault();
+                    dropzone.style.borderColor = '#006b4f';
+                });
+                uploadArea.addEventListener('dragleave', function () {
+                    dropzone.style.borderColor = '#eef0f4';
+                });
+                uploadArea.addEventListener('drop', function (e) {
+                    e.preventDefault();
+                    dropzone.style.borderColor = '#eef0f4';
+                    var files = e.dataTransfer.files;
+                    uploadFiles(files);
+                });
+            }
+        }
+    }
+
+    document.querySelectorAll('.clc-media-manager').forEach(function (container) {
+        initMediaManager(container);
+    });
 })();
 </script>
 

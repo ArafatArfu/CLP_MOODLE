@@ -70,7 +70,7 @@ if ($lastVisit) {
 $bannerImages = [];
 if ($center) {
     foreach (center_repository::get_banner_images($center->id) as $banner) {
-        $bannerImages[] = $banner->filename;
+        $bannerImages[] = ['filename' => $banner->filename, 'alt_text' => $banner->alt_text ?? ''];
     }
 }
 
@@ -84,14 +84,14 @@ if ($center) {
 $plaqueImages = [];
 if ($center) {
     foreach (center_repository::get_plaque_images($center->id) as $plaque) {
-        $plaqueImages[] = $plaque->filename;
+        $plaqueImages[] = ['filename' => $plaque->filename, 'alt_text' => $plaque->alt_text ?? ''];
     }
 }
 
 $schoolPhotos = [];
 if ($center) {
     foreach (center_repository::get_school_photos($center->id) as $photo) {
-        $schoolPhotos[] = $photo->filename;
+        $schoolPhotos[] = ['filename' => $photo->filename, 'alt_text' => $photo->alt_text ?? ''];
     }
 }
 
@@ -118,9 +118,12 @@ function render_slider(array $images, int $itemid, string $filearea): string {
     $slides = '';
     $dots = '';
     foreach ($images as $idx => $img) {
-        $url = htmlspecialchars(center_pluginfile_url($img, $filearea, $itemid), ENT_QUOTES);
+        $filename = is_array($img) ? ($img['filename'] ?? '') : $img;
+        $altText = is_array($img) ? ($img['alt_text'] ?? '') : '';
+        $url = htmlspecialchars(center_pluginfile_url($filename, $filearea, $itemid), ENT_QUOTES);
+        $alt = $altText !== '' ? htmlspecialchars($altText, ENT_QUOTES) : 'Banner ' . ($idx + 1);
         $active = $idx === 0 ? ' is-active' : '';
-        $slide = '<div class="sd-slide' . $active . '"><img src="' . $url . '" alt="Banner ' . ($idx + 1) . '" loading="' . ($idx === 0 ? 'eager' : 'lazy') . '"></div>';
+        $slide = '<div class="sd-slide' . $active . '"><img src="' . $url . '" alt="' . $alt . '" loading="' . ($idx === 0 ? 'eager' : 'lazy') . '"></div>';
         $dots .= '<button class="sd-dot' . $active . '" aria-label="Slide ' . ($idx + 1) . '" data-index="' . $idx . '"></button>';
         $slides .= $slide;
     }
@@ -138,9 +141,12 @@ function render_gallery(array $images, int $itemid, string $filearea, string $id
     }
     $html = '<div class="sd-gallery" id="' . $idprefix . '">';
     foreach ($images as $idx => $img) {
-        $url = htmlspecialchars(center_pluginfile_url($img, $filearea, $itemid), ENT_QUOTES);
-        $html .= '<a href="' . $url . '" class="sd-gallery-item" data-lightbox="' . $idprefix . '" data-title="Image ' . ($idx + 1) . '">'
-            . '<img src="' . $url . '" alt="Image ' . ($idx + 1) . '" loading="lazy">'
+        $filename = is_array($img) ? ($img['filename'] ?? '') : $img;
+        $altText = is_array($img) ? ($img['alt_text'] ?? '') : '';
+        $url = htmlspecialchars(center_pluginfile_url($filename, $filearea, $itemid), ENT_QUOTES);
+        $alt = $altText !== '' ? htmlspecialchars($altText, ENT_QUOTES) : 'Image ' . ($idx + 1);
+        $html .= '<a href="' . $url . '" class="sd-gallery-item" data-lightbox="' . $idprefix . '" data-title="' . $alt . '">'
+            . '<img src="' . $url . '" alt="' . $alt . '" loading="lazy">'
             . '</a>';
     }
     $html .= '</div>';
