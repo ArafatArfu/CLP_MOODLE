@@ -9,7 +9,7 @@ class center_repository {
 
     public static function get_center_by_id($id) {
         global $DB;
-        return $DB->get_record('local_centermanagement_centers', ['id' => $id], '*', MUST_EXIST);
+        return $DB->get_record('local_centermanagement_centers', ['id' => (int)$id], '*', MUST_EXIST);
     }
 
     public static function get_centers(array $filters = [], int $limit = 20, int $offset = 0, string $sort = 'timecreated DESC') {
@@ -19,54 +19,78 @@ class center_repository {
         $countsql = "SELECT COUNT(*) FROM {local_centermanagement_centers} WHERE 1=1";
         $params = [];
 
-        if (isset($filters['search'])) {
+        if (!empty($filters['search'])) {
             $search = '%' . $DB->sql_like_escape($filters['search']) . '%';
             $sql .= " AND (" . $DB->sql_like('center_name', '?', false) .
                     " OR " . $DB->sql_like('school_name', '?', false) .
-                    " OR " . $DB->sql_like('center_code', '?', false) . ")";
+                    " OR " . $DB->sql_like('center_code', '?', false) .
+                    " OR " . $DB->sql_like('sponsor_name', '?', false) .
+                    " OR " . $DB->sql_like('district', '?', false) . ")";
             $countsql .= " AND (" . $DB->sql_like('center_name', '?', false) .
                          " OR " . $DB->sql_like('school_name', '?', false) .
-                         " OR " . $DB->sql_like('center_code', '?', false) . ")";
+                         " OR " . $DB->sql_like('center_code', '?', false) .
+                         " OR " . $DB->sql_like('sponsor_name', '?', false) .
+                         " OR " . $DB->sql_like('district', '?', false) . ")";
+            $params[] = $search;
+            $params[] = $search;
             $params[] = $search;
             $params[] = $search;
             $params[] = $search;
         }
 
-        if (isset($filters['center_type'])) {
+        if (!empty($filters['center_type'])) {
             $sql .= " AND center_type = ?";
             $countsql .= " AND center_type = ?";
             $params[] = $filters['center_type'];
         }
 
-        if (isset($filters['status'])) {
+        if (array_key_exists('status', $filters) && $filters['status'] !== '') {
             $sql .= " AND status = ?";
             $countsql .= " AND status = ?";
             $params[] = (int)$filters['status'];
         }
 
-        if (isset($filters['division_id'])) {
+        if (!empty($filters['division'])) {
             $sql .= " AND division = ?";
             $countsql .= " AND division = ?";
-            $params[] = $filters['division_id'];
+            $params[] = $filters['division'];
         }
 
-        if (isset($filters['district_id'])) {
+        if (!empty($filters['district'])) {
             $sql .= " AND district = ?";
             $countsql .= " AND district = ?";
-            $params[] = $filters['district_id'];
+            $params[] = $filters['district'];
         }
 
-        if (isset($filters['upazila_id'])) {
+        if (!empty($filters['upazila'])) {
             $sql .= " AND upazila = ?";
             $countsql .= " AND upazila = ?";
-            $params[] = $filters['upazila_id'];
+            $params[] = $filters['upazila'];
+        }
+
+        if (!empty($filters['sponsor'])) {
+            $sql .= " AND " . $DB->sql_like('sponsor_name', '?', false);
+            $countsql .= " AND " . $DB->sql_like('sponsor_name', '?', false);
+            $params[] = '%' . $DB->sql_like_escape($filters['sponsor']) . '%';
         }
 
         $allowed_sort_fields = [
-            'name ASC' => 'center_name ASC',
-            'name DESC' => 'center_name DESC',
+            'center_name ASC' => 'center_name ASC',
+            'center_name DESC' => 'center_name DESC',
+            'division ASC' => 'division ASC',
+            'division DESC' => 'division DESC',
+            'district ASC' => 'district ASC',
+            'district DESC' => 'district DESC',
+            'upazila ASC' => 'upazila ASC',
+            'upazila DESC' => 'upazila DESC',
             'start_date ASC' => 'start_date ASC',
             'start_date DESC' => 'start_date DESC',
+            'center_type ASC' => 'center_type ASC',
+            'center_type DESC' => 'center_type DESC',
+            'sponsor_name ASC' => 'sponsor_name ASC',
+            'sponsor_name DESC' => 'sponsor_name DESC',
+            'status ASC' => 'status ASC',
+            'status DESC' => 'status DESC',
             'timecreated ASC' => 'timecreated ASC',
             'timecreated DESC' => 'timecreated DESC',
         ];
@@ -105,7 +129,12 @@ class center_repository {
 
     public static function delete_center($id) {
         global $DB;
-        return $DB->delete_records('local_centermanagement_centers', ['id' => $id]);
+        $DB->delete_records('local_centermanagement_centers', ['id' => (int)$id]);
+        $DB->delete_records('local_centermanagement_sponsors', ['center_id' => (int)$id]);
+        $DB->delete_records('local_centermanagement_banner_images', ['center_id' => (int)$id]);
+        $DB->delete_records('local_centermanagement_plaque_gallery', ['center_id' => (int)$id]);
+        $DB->delete_records('local_centermanagement_school_photo_gallery', ['center_id' => (int)$id]);
+        return true;
     }
 
     public static function is_center_code_unique($code, $excludeid = 0) {
@@ -118,135 +147,6 @@ class center_repository {
         return $DB->record_exists('local_centermanagement_centers', ['center_code' => $code]);
     }
 
-    public static function get_centers_grouped_by_district() {
-        global $DB;
-        $centers = self::get_active_centers();
-        $groups = [];
-        foreach ($centers as $center) {
-            $districtname = $center->district ?? '';
-            $groups[$districtname][] = $center;
-        }
-        uksort($groups, function ($a, $b) {
-            $pa = $a === '' ? 1 : 0;
-            $pb = $b === '' ? 1 : 0;
-            if ($pa !== $pb) {
-                return $pa <=> $pb;
-            }
-            return strcmp(ltrim((string)$a), ltrim((string)$b));
-        });
-        return $groups;
-    }
-
-    /**
-     * Returns centres grouped by district for the public
-     * "Your Sponsored Center(s)" page (school-info.php).
-     *
-     * This mirrors the Laravel WebsiteController::schoolInfo() data flow,
-     * adapted to the denormalised local_centermanagement_centers table
-     * (the Moodle port has no separate districts/schools/upazilas tables,
-     * so the district name is stored directly on the centre row).
-     *
-     * Behaviour aligned with the Laravel source:
-     *  - Only active (status = 1) centres are shown. The Laravel source
-     *    omits an explicit status filter, but the public website is only
-     *    meant to display sponsored/active centres, so the existing Moodle
-     *    active-only behaviour is preserved.
-     *  - Search matches centre name, school name or centre code (the
-     *    Laravel source searches the related school name; the superset
-     *    keeps the existing "Search by Center Name" behaviour).
-     *  - Centres are grouped by district and ordered by district then
-     *    start_date, with empty district names sorted last (mirrors the
-     *    Laravel collection sortBy on the left-trimmed district name).
-     *
-     * @param string $search Optional free-text search term.
-     * @param string $district Optional district filter (matches the grouped
-     *        label on the public page; an empty string means "all centres").
-     * @param string $centerType Optional centre type filter ('clc' or 'scr').
-     *        An empty string means "both" (the public default).
-     * @return array[] Associative array of district => list of centre records.
-     */
-    public static function get_sponsored_centers(string $search = '', string $district = '', string $centerType = ''): array {
-        global $DB;
-
-        $sql = "SELECT * FROM {local_centermanagement_centers} WHERE status = 1";
-        $params = [];
-
-        if ($search !== '') {
-            $like = '%' . $DB->sql_like_escape($search) . '%';
-            $sql .= " AND (" . $DB->sql_like('center_name', '?', false) .
-                    " OR " . $DB->sql_like('school_name', '?', false) .
-                    " OR " . $DB->sql_like('center_code', '?', false) . ")";
-            $params[] = $like;
-            $params[] = $like;
-            $params[] = $like;
-        }
-
-        if ($district !== '') {
-            $sql .= " AND district = ?";
-            $params[] = $district;
-        }
-
-        if ($centerType !== '') {
-            $sql .= " AND center_type = ?";
-            $params[] = $centerType;
-        }
-
-        $sql .= " ORDER BY district ASC, start_date ASC";
-
-        $centers = $DB->get_records_sql($sql, $params);
-
-        $groups = [];
-        foreach ($centers as $center) {
-            $district = $center->district ?? '';
-            $groups[$district][] = $center;
-        }
-
-        uksort($groups, function ($a, $b) {
-            $pa = $a === '' ? 1 : 0;
-            $pb = $b === '' ? 1 : 0;
-            if ($pa !== $pb) {
-                return $pa <=> $pb;
-            }
-            return strcmp(ltrim((string)$a), ltrim((string)$b));
-        });
-
-        return $groups;
-    }
-
-    /**
-     * Returns the distinct, non-empty district names used to group centres on
-     * the public "Your Sponsored Center(s)" page (school-info.php).
-     *
-     * Only districts that contain at least one active centre are returned,
-     * ordered alphabetically (empty district names excluded). This powers the
-     * "Center" filter dropdown and reuses the same active-only rule as
-     * get_sponsored_centers().
-     *
-     * @return array List of distinct district names.
-     */
-    public static function get_distinct_districts(): array {
-        global $DB;
-
-        $sql = "SELECT DISTINCT district
-                  FROM {local_centermanagement_centers}
-                 WHERE status = 1 AND district IS NOT NULL AND district <> ''
-                 ORDER BY district ASC";
-        $districts = $DB->get_fieldset_sql($sql);
-        // Exclude empty strings explicitly (defensive; the WHERE already filters).
-        return array_values(array_filter($districts, function ($d) {
-            return $d !== '' && $d !== null;
-        }));
-    }
-
-    /**
-     * Returns the distinct, non-empty values for a centre column, used to
-     * populate the filter dropdowns on the public "Your Sponsored Center(s)"
-     * page (school-info.php) and the dashboard. Mirrors get_distinct_districts()
-     * but is generic across the supported text columns.
-     *
-     * @param string $field One of division, district, upazila, support, center_type.
-     * @return array List of distinct non-empty values, ordered ascending.
-     */
     public static function get_distinct_field(string $field): array {
         global $DB;
 
@@ -257,7 +157,7 @@ class center_repository {
 
         $sql = "SELECT DISTINCT $field
                   FROM {local_centermanagement_centers}
-                 WHERE status = 1 AND $field IS NOT NULL AND $field <> ''
+                 WHERE $field IS NOT NULL AND $field <> ''
                  ORDER BY $field ASC";
         $values = $DB->get_fieldset_sql($sql);
         return array_values(array_filter($values, function ($v) {
@@ -265,22 +165,93 @@ class center_repository {
         }));
     }
 
-    /**
-     * Search/filter/sort/paginate the active ("sponsored") centres for the
-     * public "Your Sponsored Center(s)" page (school-info.php). This is the
-     * centre-analogue of local_clp_build_program_data() used by the CLC
-     * program page, so both pages share the same filtering behaviour and the
-     * same rendered component.
-     *
-     * All inputs are parameterised (prepared statements) so the query is safe
-     * against SQL injection. Only active centres (status = 1) are returned,
-     * matching the public "sponsored" semantics.
-     *
-     * @param array $f Filter array: q, district, division, upazila, center_type, support, sort, dir.
-     * @param int $page Current 1-based page.
-     * @param int $perpage Records per page.
-     * @return array ['rows' => stdClass[], 'total' => int, 'page' => int, 'totalpages' => int]
-     */
+    public static function get_sponsors(int $centerid): array {
+        global $DB;
+        return $DB->get_records('local_centermanagement_sponsors', ['center_id' => $centerid], 'sortorder ASC, id ASC');
+    }
+
+    public static function create_sponsor(array $data): int {
+        global $DB;
+        $data['timecreated'] = time();
+        $data['timemodified'] = time();
+        return $DB->insert_record('local_centermanagement_sponsors', (object)$data);
+    }
+
+    public static function update_sponsor($id, array $data): bool {
+        global $DB;
+        $data['id'] = $id;
+        $data['timemodified'] = time();
+        return $DB->update_record('local_centermanagement_sponsors', (object)$data);
+    }
+
+    public static function delete_sponsor($id, $centerid): bool {
+        global $DB;
+        return $DB->delete_records_select('local_centermanagement_sponsors', 'id = ? AND center_id = ?', [(int)$id, (int)$centerid]);
+    }
+
+    public static function get_banner_images(int $centerid): array {
+        global $DB;
+        return $DB->get_records('local_centermanagement_banner_images', ['center_id' => $centerid], 'sortorder ASC, id ASC');
+    }
+
+    public static function set_banner_images(int $centerid, array $filenames): void {
+        global $DB;
+        $DB->delete_records('local_centermanagement_banner_images', ['center_id' => $centerid]);
+        $time = time();
+        foreach ($filenames as $sort => $filename) {
+            $record = (object)[
+                'center_id' => $centerid,
+                'filename' => $filename,
+                'sortorder' => (int)$sort,
+                'timecreated' => $time,
+                'timemodified' => $time,
+            ];
+            $DB->insert_record('local_centermanagement_banner_images', $record);
+        }
+    }
+
+    public static function get_plaque_images(int $centerid): array {
+        global $DB;
+        return $DB->get_records('local_centermanagement_plaque_gallery', ['center_id' => $centerid], 'sortorder ASC, id ASC');
+    }
+
+    public static function set_plaque_images(int $centerid, array $filenames): void {
+        global $DB;
+        $DB->delete_records('local_centermanagement_plaque_gallery', ['center_id' => $centerid]);
+        $time = time();
+        foreach ($filenames as $sort => $filename) {
+            $record = (object)[
+                'center_id' => $centerid,
+                'filename' => $filename,
+                'sortorder' => (int)$sort,
+                'timecreated' => $time,
+                'timemodified' => $time,
+            ];
+            $DB->insert_record('local_centermanagement_plaque_gallery', $record);
+        }
+    }
+
+    public static function get_school_photos(int $centerid): array {
+        global $DB;
+        return $DB->get_records('local_centermanagement_school_photo_gallery', ['center_id' => $centerid], 'sortorder ASC, id ASC');
+    }
+
+    public static function set_school_photos(int $centerid, array $filenames): void {
+        global $DB;
+        $DB->delete_records('local_centermanagement_school_photo_gallery', ['center_id' => $centerid]);
+        $time = time();
+        foreach ($filenames as $sort => $filename) {
+            $record = (object)[
+                'center_id' => $centerid,
+                'filename' => $filename,
+                'sortorder' => (int)$sort,
+                'timecreated' => $time,
+                'timemodified' => $time,
+            ];
+            $DB->insert_record('local_centermanagement_school_photo_gallery', $record);
+        }
+    }
+
     public static function search_sponsored_centers(array $f, int $page = 1, int $perpage = 20): array {
         global $DB;
 
@@ -308,13 +279,26 @@ class center_repository {
             }
         }
 
+        if (!empty($f['sponsor'])) {
+            $where[] = "sponsor_name = ?";
+            $params[] = $f['sponsor'];
+        }
+
+        if (isset($f['status']) && $f['status'] !== '') {
+            $where[] = "status = ?";
+            $params[] = (int)$f['status'];
+        }
+
         $allowedSort = [
             'center_name' => 'center_name',
             'district'     => 'district',
             'division'     => 'division',
+            'upazila'     => 'upazila',
             'start_date'   => 'start_date',
             'sponsor_name' => 'sponsor_name',
             'support'      => 'support',
+            'center_type'  => 'center_type',
+            'status'       => 'status',
         ];
         $sortfield = $allowedSort[$f['sort'] ?? ''] ?? 'center_name';
         $dir = strtoupper($f['dir'] ?? 'ASC') === 'DESC' ? 'DESC' : 'ASC';
@@ -338,5 +322,17 @@ class center_repository {
             'page'       => $page,
             'totalpages' => $totalpages,
         ];
+    }
+
+    public static function get_distinct_sponsors(): array {
+        global $DB;
+        $sql = "SELECT DISTINCT sponsor_name
+                  FROM {local_centermanagement_centers}
+                 WHERE sponsor_name IS NOT NULL AND sponsor_name <> '' AND status = 1
+                 ORDER BY sponsor_name ASC";
+        $names = $DB->get_fieldset_sql($sql);
+        return array_values(array_filter($names, function ($v) {
+            return $v !== '' && $v !== null;
+        }));
     }
 }

@@ -28,18 +28,27 @@ if (!empty($center->timemodified)) {
     $timemodified = userdate($center->timemodified, get_string('strftimedate', 'langconfig'));
 }
 
-$imageurl = '';
-if (!empty($center->image)) {
-    $context = \context_system::instance();
-    $imageurl = \moodle_url::make_pluginfile_url(
-        $context->id,
-        'local_centermanagement',
-        'center_image',
-        $center->id,
-        '/',
-        $center->image
-    );
+$context = \context_system::instance();
+
+$bannerimages = [];
+foreach (\local_centermanagement\local\center_repository::get_banner_images($center->id) as $idx => $b) {
+    $bannerimages[] = [
+        'url' => (string) \moodle_url::make_pluginfile_url($context->id, 'local_centermanagement', 'banner_images', $center->id, '/', $b->filename),
+        'first' => $idx === 0,
+    ];
 }
+
+$plaqueimages = [];
+foreach (\local_centermanagement\local\center_repository::get_plaque_images($center->id) as $p) {
+    $plaqueimages[] = (string) \moodle_url::make_pluginfile_url($context->id, 'local_centermanagement', 'plaque_images', $center->id, '/', $p->filename);
+}
+
+$schoolphotos = [];
+foreach (\local_centermanagement\local\center_repository::get_school_photos($center->id) as $p) {
+    $schoolphotos[] = (string) \moodle_url::make_pluginfile_url($context->id, 'local_centermanagement', 'school_photos', $center->id, '/', $p->filename);
+}
+
+$sponsors = \local_centermanagement\local\center_repository::get_sponsors($center->id);
 
 $context_data = [
     'center_code' => $center->center_code ?? '',
@@ -61,11 +70,15 @@ $context_data = [
     'students_count' => $center->students_count ?? 0,
     'status' => !empty($center->status) ? get_string('statusactive', 'local_centermanagement') : get_string('statusinactive', 'local_centermanagement'),
     'description' => format_text($center->description ?? '', FORMAT_HTML),
-    'image' => $imageurl,
+    'image' => '',
     'timemodified' => $timemodified,
     'backurl' => new moodle_url('/local/centermanagement/index.php'),
     'editurl' => new moodle_url('/local/centermanagement/edit.php', ['id' => $center->id]),
     'canedit' => $canedit,
+    'bannerimages' => $bannerimages,
+    'plaqueimages' => $plaqueimages,
+    'schoolphotos' => $schoolphotos,
+    'sponsors' => array_values($sponsors),
 ];
 
 echo $OUTPUT->header();

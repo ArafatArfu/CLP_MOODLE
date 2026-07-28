@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2026042000;
+$plugin->version   = 2026072808;
 $plugin->requires  = 2026041000;
 $plugin->component = 'theme_clp';
 $plugin->dependencies = ['theme_classic' => 2022041000];

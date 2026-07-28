@@ -6,21 +6,82 @@
         <div class="col-12">
             <div class="card mb-4">
                 <div class="card-header">
-                    <h3 class="card-title">{{#str}}allcenters, local_centermanagement{{/str}}</h3>
-                    <div class="card-tools">
-                        <a href="{{addurl}}" class="btn btn-primary">
-                            <i class="fa fa-plus"></i> {{#str}}addcenter, local_centermanagement{{/str}}
-                        </a>
-                    </div>
+                    <h3 class="card-title">{{#str}}schoolinformationmanagement, local_centermanagement{{/str}}</h3>
                 </div>
                 <div class="card-body">
-                    {{> local_centermanagement/center_filters }}
-                    {{#centers}}
-                        {{> local_centermanagement/center_table }}
-                    {{/centers}}
-                    {{^centers}}
-                        {{> local_centermanagement/empty_state }}
-                    {{/centers}}
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="{{addurl}}" class="btn btn-primary btn-block mb-2">{{#str}}addnewcenter, local_centermanagement{{/str}}</a>
+                        </div>
+                    </div>
+                    <form method="get" action="{{searchurl}}" class="form-inline mb-3">
+                        <div class="form-group mr-2">
+                            <input type="text" name="search" value="{{search}}" class="form-control" placeholder="{{#str}}searchbyname, local_centermanagement{{/str}}">
+                        </div>
+                        <div class="form-group mr-2">
+                            <select name="center_type" class="form-control">
+                                <option value="">{{#str}}filterbytype, local_centermanagement{{/str}}</option>
+                                <option value="clc" {{#filter_clc}}selected{{/filter_clc}}>{{#str}}clc, local_centermanagement{{/str}}</option>
+                                <option value="scr" {{#filter_scr}}selected{{/filter_scr}}>{{#str}}scr, local_centermanagement{{/str}}</option>
+                                <option value="clc_scr" {{#filter_clc_scr}}selected{{/filter_clc_scr}}>{{#str}}centertypeclcscr, local_centermanagement{{/str}}</option>
+                                <option value="other" {{#filter_other}}selected{{/filter_other}}>{{#str}}centertypeother, local_centermanagement{{/str}}</option>
+                            </select>
+                        </div>
+                        <div class="form-group mr-2">
+                            <select name="status" class="form-control">
+                                <option value="">{{#str}}filterbystatus, local_centermanagement{{/str}}</option>
+                                <option value="1" {{#filter_active}}selected{{/filter_active}}>{{#str}}statusactive, local_centermanagement{{/str}}</option>
+                                <option value="0" {{#filter_inactive}}selected{{/filter_inactive}}>{{#str}}statusinactive, local_centermanagement{{/str}}</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">{{#str}}search{{/str}}</button>
+                        <a href="{{reseturl}}" class="btn btn-secondary">{{#str}}reset{{/str}}</a>
+                    </form>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>{{#str}}sl, local_centermanagement{{/str}}</th>
+                                <th>{{#str}}centername, local_centermanagement{{/str}}</th>
+                                <th>{{#str}}division, local_centermanagement{{/str}}</th>
+                                <th>{{#str}}district, local_centermanagement{{/str}}</th>
+                                <th>{{#str}}upazila, local_centermanagement{{/str}}</th>
+                                <th>{{#str}}startdate, local_centermanagement{{/str}}</th>
+                                <th>{{#str}}centertype, local_centermanagement{{/str}}</th>
+                                <th>{{#str}}sponsor, local_centermanagement{{/str}}</th>
+                                <th>{{#str}}actions, local_centermanagement{{/str}}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#centers}}
+                                <tr>
+                                    <td>{{sl}}</td>
+                                    <td>{{center_name}}</td>
+                                    <td>{{division}}</td>
+                                    <td>{{district}}</td>
+                                    <td>{{upazila}}</td>
+                                    <td>{{start_date}}</td>
+                                    <td>{{center_type}}</td>
+                                    <td>{{sponsor_name}}</td>
+                                    <td>
+                                        <a href="{{viewurl}}" class="btn btn-sm btn-primary mr-1">{{#str}}view{{/str}}</a>
+                                        <a href="{{editurl}}" class="btn btn-sm btn-secondary mr-1">{{#str}}edit{{/str}}</a>
+                                        <a href="{{deleteurl}}" class="btn btn-sm btn-danger">{{#str}}delete{{/str}}</a>
+                                    </td>
+                                </tr>
+                            {{/centers}}
+                            {{^centers}}
+                                <tr><td colspan="9" class="text-center">{{#str}}nocentersfound, local_centermanagement{{/str}}</td></tr>
+                            {{/centers}}
+                        </tbody>
+                    </table>
+                    {{#pagination}}
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item {{^prev}}disabled{{/prev}}"><a class="page-link" href="{{prevurl}}">{{#str}}previous{{/str}}</a></li>
+                                <li class="page-item {{^next}}disabled{{/next}}"><a class="page-link" href="{{nexturl}}">{{#str}}next{{/str}}</a></li>
+                            </ul>
+                        </nav>
+                    {{/pagination}}
                 </div>
             </div>
         </div>

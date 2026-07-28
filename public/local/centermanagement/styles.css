@@ -1,18 +1,464 @@
-.local_centermanagement .card {
-    margin-bottom: 1rem;
+/* =========================================================
+   School Details Page — Modern Card-Based Layout
+   ========================================================= */
+
+/* ---------- Page ---------- */
+.sd-page {
+    background: #f4f6f8;
+    padding: 32px 0 64px;
 }
-.local_centermanagement .card-title {
+.sd-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* ---------- Hero Card ---------- */
+.sd-hero-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,40,30,0.06), 0 6px 24px rgba(0,40,30,0.06);
+    border: 1px solid #e7e9ee;
+    margin-bottom: 24px;
+}
+.sd-hero-banner {
+    position: relative;
+    width: 100%;
+    background: #000;
+}
+.sd-slider {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 21 / 9;
+    min-height: 240px;
+}
+.sd-slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.sd-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+.sd-slide.is-active {
+    opacity: 1;
+    z-index: 1;
+}
+.sd-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.sd-slide.is-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sd-slide.is-empty img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .5;
+}
+.sd-prev, .sd-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 0;
+    background: rgba(0,0,0,.45);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+.sd-prev { left: 14px; }
+.sd-next { right: 14px; }
+.sd-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 14px;
+    z-index: 2;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.sd-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0;
+    background: rgba(255,255,255,.55);
+    cursor: pointer;
+    padding: 0;
+}
+.sd-dot.is-active {
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.sd-hero-content {
+    padding: 24px 28px 28px;
+}
+.sd-school-title {
+    font-family: 'Inter', 'Noto Serif', sans-serif;
+    font-size: clamp(22px, 3vw, 32px);
+    font-weight: 700;
+    color: #1d2125;
+    margin: 0 0 12px;
+    line-height: 1.25;
+}
+.sd-school-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+.sd-badge {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 999px;
+    font-size: 12px;
     font-weight: 600;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
 }
-.local_centermanagement .btn {
-    margin-right: 0.25rem;
+.sd-badge-type {
+    background: #e8f0fe;
+    color: #1a56db;
 }
-.local_centermanagement table th {
-    background-color: #f9cdb7;
-    color: black;
+.sd-badge-status {
+    background: #e6f4f1;
+    color: #006b4f;
+}
+.sd-badge-status.sd-badge-secondary {
+    background: #f4f4f5;
+    color: #52525b;
+}
+.sd-meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #555;
+}
+.sd-meta-item .material-icons {
+    font-size: 18px;
+}
+.sd-location {
+    font-size: 14px;
+    color: #555;
+}
+
+/* ---------- Grid ---------- */
+.sd-grid {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 24px;
+    align-items: start;
+}
+
+/* ---------- Cards ---------- */
+.sd-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0,40,30,0.06), 0 6px 24px rgba(0,40,30,0.06);
+    border: 1px solid #e7e9ee;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.sd-card:last-child {
+    margin-bottom: 0;
+}
+.sd-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 24px;
+    border-bottom: 1px solid #eef0f2;
+    background: #fafbfc;
+}
+.sd-card-header .material-icons {
+    color: #006b4f;
+    font-size: 20px;
+}
+.sd-card-header h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d2125;
+    margin: 0;
+}
+.sd-card-body {
+    padding: 20px 24px;
+}
+
+/* ---------- Rich Text ---------- */
+.sd-rich-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #3e4e4a;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+.sd-rich-text table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+.sd-rich-text th,
+.sd-rich-text td {
+    border: 1px solid #e7e9ee;
+    padding: 8px 10px;
     text-align: left;
-    font-size: 1.1em;
 }
-.local_centermanagement table tr:nth-child(even) {
-    background-color: #EEE;
+
+/* ---------- Sponsor Cards ---------- */
+.sd-sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+}
+.sd-sponsor-card {
+    background: #f8faf9;
+    border: 1px solid #e7e9ee;
+    border-radius: 12px;
+    padding: 18px;
+    height: 100%;
+}
+.sd-sponsor-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d2125;
+    margin: 0 0 10px;
+}
+.sd-sponsor-field {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 6px;
+    word-break: break-word;
+}
+.sd-sponsor-field .material-icons {
+    font-size: 18px;
+    color: #006b4f;
+    margin-top: 1px;
+    flex-shrink: 0;
+}
+.sd-sponsor-field a {
+    color: #1a56db;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+/* ---------- Contact Blocks ---------- */
+.sd-contact-block {
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #eef0f2;
+}
+.sd-contact-block:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.sd-contact-block h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #006b4f;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.sd-contact-block p {
+    margin: 0 0 4px;
+    font-size: 14px;
+    color: #444;
+    word-break: break-word;
+}
+.sd-contact-block a {
+    color: #1a56db;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+/* ---------- Programs Table ---------- */
+.sd-programs-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.sd-programs-table th {
+    background: #f4f6f8;
+    color: #444;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid #e7e9ee;
+}
+.sd-programs-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #f0f1f3;
+    color: #333;
+}
+
+/* ---------- Grade Badge ---------- */
+.sd-grade-badge {
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sd-grade-a {
+    background: #d1fae5;
+    color: #065f46;
+}
+.sd-grade-b {
+    background: #dbeafe;
+    color: #1e40af;
+}
+.sd-grade-c {
+    background: #fef3c7;
+    color: #92400e;
+}
+.sd-grade-d {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* ---------- Gallery ---------- */
+.sd-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+}
+.sd-gallery-item {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid #e7e9ee;
+    display: block;
+}
+.sd-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .3s ease;
+}
+.sd-gallery-item:hover img {
+    transform: scale(1.04);
+}
+
+/* ---------- Lightbox ---------- */
+.sd-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,.92);
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+.sd-lightbox-img {
+    max-width: 90vw;
+    max-height: 85vh;
+    border-radius: 8px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.6);
+}
+.sd-lightbox-close {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+    line-height: 1;
+    background: transparent;
+    border: 0;
+}
+.sd-lightbox-caption {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+}
+
+/* ---------- Sidebar ---------- */
+.sd-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 991px) {
+    .sd-grid {
+        grid-template-columns: 1fr;
+    }
+    .sd-sidebar {
+        order: -1;
+    }
+    .sd-slider {
+        aspect-ratio: 16 / 9;
+        min-height: 200px;
+    }
+}
+@media (max-width: 767px) {
+    .sd-page {
+        padding: 20px 0 40px;
+    }
+    .sd-container {
+        padding: 0 14px;
+    }
+    .sd-hero-content {
+        padding: 18px 16px 22px;
+    }
+    .sd-card-header {
+        padding: 14px 16px;
+    }
+    .sd-card-body {
+        padding: 16px;
+    }
+    .sd-slider {
+        aspect-ratio: 16 / 9;
+        min-height: 180px;
+    }
+    .sd-sponsors-grid {
+        grid-template-columns: 1fr;
+    }
+    .sd-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+}
+@media (max-width: 480px) {
+    .sd-school-title {
+        font-size: 20px;
+    }
+    .sd-badge {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
 }

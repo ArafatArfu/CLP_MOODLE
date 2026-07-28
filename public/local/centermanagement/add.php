@@ -24,7 +24,19 @@ $form = new center_form(null, [
 ]);
 
 if ($data = $form->get_data()) {
-    \local_centermanagement\local\center_manager::create_center($data, 'center_image');
+    $centerid = \local_centermanagement\local\center_manager::create_center($data, ['banner_images', 'plaque_images', 'school_photos']);
+    if (!empty($data->sponsors)) {
+        foreach ($data->sponsors as $sponsor) {
+            \local_centermanagement\local\center_repository::create_sponsor([
+                'center_id' => $centerid,
+                'name' => $sponsor['name'],
+                'country' => $sponsor['country'] ?? '',
+                'address' => $sponsor['address'] ?? '',
+                'email' => $sponsor['email'] ?? '',
+                'phone' => $sponsor['phone'] ?? '',
+            ]);
+        }
+    }
     redirect(
         new moodle_url('/local/centermanagement/index.php'),
         get_string('centersadded', 'local_centermanagement'),
@@ -54,5 +66,6 @@ $content .= html_writer::end_div('container-fluid');
 
 global $OUTPUT;
 echo $OUTPUT->header();
+echo $OUTPUT->render_from_template('local_centermanagement/center_list', ['centers' => false, 'addurl' => new moodle_url('/local/centermanagement/add.php')]);
 echo $content;
 echo $OUTPUT->footer();

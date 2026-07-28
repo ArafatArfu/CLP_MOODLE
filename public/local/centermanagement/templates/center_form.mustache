@@ -6,19 +6,19 @@
         <div class="col-12">
             <div class="card mb-4">
                 <div class="card-header">
-                    <h3 class="card-title">{{#str}}addcenter, local_centermanagement{{/str}}</h3>
+                    <h3 class="card-title">{{^centerid}}{{#str}}addcenter, local_centermanagement{{/str}}{{/centerid}}{{#centerid}}{{#str}}editcenter, local_centermanagement{{/str}}{{/centerid}}</h3>
                 </div>
                 <div class="card-body">
-                    <form method="post" action="{{formaction}}" enctype="multipart/form-data">
+                    <form method="post" action="{{formaction}}" enctype="multipart/form-data" id="center-form">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="id_center_code">{{#str}}centercode, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
-                                    <input type="text" name="center_code" id="id_center_code" value="{{center_code}}" class="form-control" required>
+                                    <label for="id_center_name">{{#str}}nameofinstitution, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
+                                    <input type="text" name="center_name" id="id_center_name" value="{{center_name}}" class="form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="id_center_name">{{#str}}centername, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
-                                    <input type="text" name="center_name" id="id_center_name" value="{{center_name}}" class="form-control" required>
+                                    <label for="id_center_code">{{#str}}centercode, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
+                                    <input type="text" name="center_code" id="id_center_code" value="{{center_code}}" class="form-control" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="id_school_name">{{#str}}schoolname, local_centermanagement{{/str}}</label>
@@ -29,6 +29,8 @@
                                     <select name="center_type" id="id_center_type" class="form-control" required>
                                         <option value="clc" {{#center_type_clc}}selected{{/center_type_clc}}>{{#str}}centertypeclc, local_centermanagement{{/str}}</option>
                                         <option value="scr" {{#center_type_scr}}selected{{/center_type_scr}}>{{#str}}centertypescr, local_centermanagement{{/str}}</option>
+                                        <option value="clc_scr" {{#center_type_clc_scr}}selected{{/center_type_clc_scr}}>{{#str}}centertypeclcscr, local_centermanagement{{/str}}</option>
+                                        <option value="other" {{#center_type_other}}selected{{/center_type_other}}>{{#str}}centertypeother, local_centermanagement{{/str}}</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -44,62 +46,38 @@
                                     <input type="text" name="upazila" id="id_upazila" value="{{upazila}}" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="id_address">{{#str}}address, local_centermanagement{{/str}}</label>
-                                    <textarea name="address" id="id_address" class="form-control">{{address}}</textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label for="id_contact_person">{{#str}}contactperson, local_centermanagement{{/str}}</label>
-                                    <input type="text" name="contact_person" id="id_contact_person" value="{{contact_person}}" class="form-control">
+                                    <label for="id_start_date">{{#str}}startdate, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
+                                    <input type="date" name="start_date" id="id_start_date" value="{{start_date}}" class="form-control" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="id_contact_number">{{#str}}contactnumber, local_centermanagement{{/str}}</label>
-                                    <input type="text" name="contact_number" id="id_contact_number" value="{{contact_number}}" class="form-control">
+                                    <label for="id_current_status">{{#str}}currentstatus, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
+                                    <select name="current_status" id="id_current_status" class="form-control" required>
+                                        <option value="supported" {{#current_status_supported}}selected{{/current_status_supported}}>{{#str}}supported, local_centermanagement{{/str}}</option>
+                                        <option value="non_supported" {{#current_status_non_supported}}selected{{/current_status_non_supported}}>{{#str}}nonsupported{{/str}}</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="id_email">{{#str}}email, local_centermanagement{{/str}}</label>
-                                    <input type="email" name="email" id="id_email" value="{{email}}" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="id_establishment_date">{{#str}}establishmentdate, local_centermanagement{{/str}}</label>
-                                    <input type="date" name="establishment_date" id="id_establishment_date" value="{{establishment_date}}" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="id_start_date">{{#str}}startdate, local_centermanagement{{/str}}</label>
-                                    <input type="date" name="start_date" id="id_start_date" value="{{start_date}}" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="id_support">{{#str}}support, local_centermanagement{{/str}}</label>
-                                    <select name="support" id="id_support" class="form-control">
+                                    <label for="id_school_grading">{{#str}}schoolgrading, local_centermanagement{{/str}}</label>
+                                    <select name="school_grading" id="id_school_grading" class="form-control">
                                         <option value="">{{#str}}all, local_centermanagement{{/str}}</option>
-                                        <option value="maintained" {{#support_maintained}}selected{{/support_maintained}}>{{#str}}maintained, local_centermanagement{{/str}}</option>
-                                        <option value="activated" {{#support_activated}}selected{{/support_activated}}>{{#str}}activated, local_centermanagement{{/str}}</option>
-                                        <option value="reactivated" {{#support_reactivated}}selected{{/support_reactivated}}>{{#str}}reactivated, local_centermanagement{{/str}}</option>
+                                        <option value="a" {{#school_grading_a}}selected{{/school_grading_a}}>{{#str}}gradea, local_centermanagement{{/str}}</option>
+                                        <option value="b" {{#school_grading_b}}selected{{/school_grading_b}}>{{#str}}gradeb{{/str}}</option>
+                                        <option value="c" {{#school_grading_c}}selected{{/school_grading_c}}>{{#str}}gradec{{/str}}</option>
+                                        <option value="d" {{#school_grading_d}}selected{{/school_grading_d}}>{{#str}}graded{{/str}}</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="id_sponsor_name">{{#str}}sponsorname, local_centermanagement{{/str}}</label>
-                                    <textarea name="sponsor_name" id="id_sponsor_name" class="form-control">{{sponsor_name}}</textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label for="id_devices_count">{{#str}}devicescount, local_centermanagement{{/str}}</label>
-                                    <input type="number" name="devices_count" id="id_devices_count" value="{{devices_count}}" class="form-control" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="id_students_count">{{#str}}studentscount, local_centermanagement{{/str}}</label>
-                                    <input type="number" name="students_count" id="id_students_count" value="{{students_count}}" class="form-control" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="id_status">{{#str}}status, local_centermanagement{{/str}}</label>
-                                    <select name="status" id="id_status" class="form-control">
-                                        <option value="1" {{#status_1}}selected{{/status_1}}>{{#str}}statusactive, local_centermanagement{{/str}}</option>
-                                        <option value="0" {{#status_0}}selected{{/status_0}}>{{#str}}statusinactive, local_centermanagement{{/str}}</option>
+                                    <label for="id_global_classroom">{{#str}}globalclassroom, local_centermanagement{{/str}}</label>
+                                    <select name="global_classroom" id="id_global_classroom" class="form-control">
+                                        <option value="yes" {{#global_classroom_yes}}selected{{/global_classroom_yes}}>{{#str}}yes{{/str}}</option>
+                                        <option value="no" {{#global_classroom_no}}selected{{/global_classroom_no}}>{{#str}}no{{/str}}</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="id_image">{{#str}}image, local_centermanagement{{/str}}</label>
-                                    <input type="file" name="image" id="id_image" class="form-control-file" accept="image/*">
+                                    <label for="id_banner_images">{{#str}}schoolbannerimages, local_centermanagement{{/str}}</label>
+                                    <input type="file" name="banner_images" id="id_banner_images" class="form-control-file" accept="image/*" multiple>
                                 </div>
                                 <div class="form-group">
                                     <label for="id_description">{{#str}}description, local_centermanagement{{/str}}</label>
@@ -107,12 +85,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group mt-3">
-                            <input type="hidden" name="sesskey" value="{{sesskey}}">
-                            <input type="hidden" name="id" value="{{id}}">
-                            <button type="submit" class="btn btn-primary">{{#str}}save, local_centermanagement{{/str}}</button>
-                            <a href="{{cancelurl}}" class="btn btn-secondary">{{#str}}cancel{{/str}}</a>
+
+                        <div class="form-group">
+                            <label>{{#str}}sponsors, local_centermanagement{{/str}}</label>
+                            <div id="sponsors-container"></div>
+                            <button type="button" class="btn btn-sm btn-secondary" id="add-sponsor-btn">{{#str}}addsponsor, local_centermanagement{{/str}}</button>
                         </div>
+
+                        <input type="hidden" name="sponsors_json" id="sponsors_json" value="[]">
+
+                        <input type="hidden" name="sesskey" value="{{sesskey}}">
+                        <input type="hidden" name="id" value="{{id}}">
+                        <button type="submit" class="btn btn-primary">{{#str}}update, local_centermanagement{{/str}}</button>
+                        <a href="{{cancelurl}}" class="btn btn-secondary">{{#str}}cancel{{/str}}</a>
                     </form>
                 </div>
             </div>
@@ -121,3 +106,60 @@
 </div>
 
 {{< boost/footer }}
+
+<script>
+(function() {
+    var container = document.getElementById('sponsors-container');
+    var addBtn = document.getElementById('add-sponsor-btn');
+    if (!container || !addBtn) return;
+
+    function sponsorRow(index, data) {
+        var div = document.createElement('div');
+        div.className = 'sponsor-row row mb-2';
+        div.innerHTML = '<div class="col-md-3"><input type="text" name="sponsor_name[]" class="form-control" placeholder="Sponsor Name" value="' + (data.name || '') + '"></div>' +
+            '<div class="col-md-2"><input type="text" name="sponsor_country[]" class="form-control" placeholder="Country" value="' + (data.country || '') + '"></div>' +
+            '<div class="col-md-3"><input type="text" name="sponsor_address[]" class="form-control" placeholder="Address" value="' + (data.address || '') + '"></div>' +
+            '<div class="col-md-2"><input type="email" name="sponsor_email[]" class="form-control" placeholder="Email" value="' + (data.email || '') + '"></div>' +
+            '<div class="col-md-2"><input type="text" name="sponsor_phone[]" class="form-control" placeholder="Phone" value="' + (data.phone || '') + '"></div>' +
+            '<div class="col-md-1"><button type="button" class="btn btn-sm btn-danger remove-sponsor">X</button></div>';
+        return div;
+    }
+
+    var sponsors = [];
+    addBtn.addEventListener('click', function() {
+        container.appendChild(sponsorRow(sponsors.length, {}));
+        sponsors.push({});
+    });
+
+    container.addEventListener('click', function(e) {
+        if (e.target && e.target.classList.contains('remove-sponsor')) {
+            var row = e.target.closest('.sponsor-row');
+            if (row) row.remove();
+        }
+    });
+
+    var form = document.getElementById('center-form');
+    if (form) {
+        form.addEventListener('submit', function() {
+            var sponsorsJson = document.getElementById('sponsors_json');
+            var rows = container.querySelectorAll('.sponsor-row');
+            var data = [];
+            rows.forEach(function(row) {
+                var name = row.querySelector('input[name="sponsor_name[]"]');
+                var country = row.querySelector('input[name="sponsor_country[]"]');
+                var address = row.querySelector('input[name="sponsor_address[]"]');
+                var email = row.querySelector('input[name="sponsor_email[]"]');
+                var phone = row.querySelector('input[name="sponsor_phone[]"]');
+                data.push({
+                    name: name ? name.value : '',
+                    country: country ? country.value : '',
+                    address: address ? address.value : '',
+                    email: email ? email.value : '',
+                    phone: phone ? phone.value : ''
+                });
+            });
+            sponsorsJson.value = JSON.stringify(data);
+        });
+    }
+})();
+</script>

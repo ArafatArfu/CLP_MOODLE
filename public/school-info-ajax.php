@@ -15,16 +15,22 @@ require_once(__DIR__ . '/local/centermanagement/public_view.php');
 
 $f = [
     'q'           => trim((string)($_GET['q'] ?? '')),
-    'district'    => trim((string)($_GET['district'] ?? '')),
     'division'    => trim((string)($_GET['division'] ?? '')),
+    'district'    => trim((string)($_GET['district'] ?? '')),
     'upazila'     => trim((string)($_GET['upazila'] ?? '')),
     'center_type' => trim((string)($_GET['center_type'] ?? '')),
-    'support'     => trim((string)($_GET['support'] ?? '')),
+    'sponsor'     => trim((string)($_GET['sponsor'] ?? '')),
+    'status'      => trim((string)($_GET['status'] ?? '')),
     'sort'        => trim((string)($_GET['sort'] ?? 'center_name')),
     'dir'         => strtoupper(trim((string)($_GET['dir'] ?? 'ASC'))) === 'DESC' ? 'DESC' : 'ASC',
 ];
 
 $page = max(1, (int)($_GET['page'] ?? 1));
+$perpage = (int)($_GET['perpage'] ?? 20);
+$allowed_perpage = [10, 20, 50, 100];
+if (!in_array($perpage, $allowed_perpage, true)) {
+    $perpage = 20;
+}
 
 header('Content-Type: application/json; charset=utf-8');
-echo json_encode(local_centermanagement_build_centers_data($f, $page));
+echo json_encode(local_centermanagement_build_centers_data($f, $page, $perpage));

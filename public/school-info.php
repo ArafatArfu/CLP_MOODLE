@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once(__DIR__ . '/config.php');
 use local_centermanagement\local\center_repository;
 
@@ -43,8 +43,8 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
             vertical-align: middle;
         }
         .clp-centers-table thead th {
-            background-color: #006b4f;
-            color: #fff;
+            background-color: #f9cdb7;
+            color: #000;
             font-size: 1.15em;
             position: sticky;
             top: 0;
@@ -53,8 +53,7 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
         }
         .clp-centers-table tbody tr:nth-child(even) { background-color: #EEE; }
         .clp-centers-table .clp-district-row td {
-            background-color: #1f3a5f !important;
-            color: #fff;
+            background-color: #ffc107 !important;
             font-size: 18px;
             font-weight: bold;
             text-align: center;
@@ -63,6 +62,12 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
             width: 44px;
             text-align: center;
             white-space: nowrap;
+        }
+        .clp-centers-table .clp-empty {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-style: italic;
         }
         .clp-centers-table .clp-type {
             display: inline-block;
@@ -77,14 +82,10 @@ echo "<!DOCTYPE html>\n<html lang=\"en\">\n";
         }
         .clp-centers-table .clp-type-clc { background-color: #0d9488; }
         .clp-centers-table .clp-type-scr { background-color: #2563eb; }
+        .clp-centers-table .clp-type-clcscr { background-color: #b45309; }
+        .clp-centers-table .clp-type-other { background-color: #52525b; }
         .clp-centers-table .clp-view-cell { text-align: center; }
         .clp-centers-table .clp-view-cell .btn { white-space: nowrap; }
-        .clp-centers-table .clp-empty {
-            text-align: center;
-            padding: 30px;
-            color: #666;
-            font-style: italic;
-        }
         .sc-program-tablewrap.is-loading { opacity: .55; }
         /* Let the hero/component sit naturally under the theme navbar. */
         body { background: #f5f6f8; }
@@ -117,15 +118,21 @@ if ($totalScrCount === false || $totalScrCount === '') {
 // Read the same filter/search/sort parameters the component exposes.
 $f = [
     'q'           => trim((string)($_GET['q'] ?? '')),
-    'district'    => trim((string)($_GET['district'] ?? '')),
     'division'    => trim((string)($_GET['division'] ?? '')),
+    'district'    => trim((string)($_GET['district'] ?? '')),
     'upazila'     => trim((string)($_GET['upazila'] ?? '')),
     'center_type' => trim((string)($_GET['center_type'] ?? '')),
-    'support'     => trim((string)($_GET['support'] ?? '')),
+    'sponsor'     => trim((string)($_GET['sponsor'] ?? '')),
+    'status'      => trim((string)($_GET['status'] ?? '')),
     'sort'        => trim((string)($_GET['sort'] ?? 'center_name')),
     'dir'         => strtoupper(trim((string)($_GET['dir'] ?? 'ASC'))) === 'DESC' ? 'DESC' : 'ASC',
 ];
 $page = max(1, (int)($_GET['page'] ?? 1));
+$perpage = (int)optional_param('perpage', 20, PARAM_INT);
+$allowed_perpage = [10, 20, 50, 100];
+if (!in_array($perpage, $allowed_perpage, true)) {
+    $perpage = 20;
+}
 
 require_once($CFG->dirroot . '/local/centermanagement/public_view.php');
 
@@ -133,24 +140,37 @@ $districts = center_repository::get_distinct_field('district');
 $divisions = center_repository::get_distinct_field('division');
 $upazilas  = center_repository::get_distinct_field('upazila');
 
-$types = ['clc' => 'CLC', 'scr' => 'SCR'];
-$supports = [
-    'maintained'   => 'Maintained',
-    'activated'    => 'Activated',
-    'reactivated'  => 'Reactivated',
-    'supported'    => 'Supported',
+$types = [
+    'clc' => get_string('centertypeclc', 'local_centermanagement'),
+    'scr' => get_string('centertypescr', 'local_centermanagement'),
+    'clc_scr' => get_string('centertypeclcscr', 'local_centermanagement'),
+    'other' => get_string('centertypeother', 'local_centermanagement'),
+];
+$sponsors = center_repository::get_distinct_sponsors();
+$statuses = [
+    '1' => get_string('supported', 'local_centermanagement'),
+    '0' => get_string('nonsupported', 'local_centermanagement'),
 ];
 $sortoptions = [
-    'center_name' => 'Center Name',
-    'district'    => 'District',
-    'division'    => 'Division',
-    'start_date'  => 'Start Date',
-    'sponsor_name' => 'Sponsor',
-    'support'     => 'Support',
+    'center_name'  => get_string('sortnameasc', 'local_centermanagement'),
+    'center_name DESC' => get_string('sortnamedesc', 'local_centermanagement'),
+    'start_date ASC' => get_string('sortdateasc', 'local_centermanagement'),
+    'start_date DESC' => get_string('sortdatedesc', 'local_centermanagement'),
 ];
 
-// Build the initial payload (same function the AJAX endpoint uses).
-$initial = local_centermanagement_build_centers_data($f, $page);
+$allowed_sort = [
+    'center_name'  => 'center_name',
+    'division'     => 'division',
+    'district'     => 'district',
+    'upazila'     => 'upazila',
+    'start_date'   => 'start_date',
+    'center_type'  => 'center_type',
+    'sponsor_name' => 'sponsor_name',
+    'status'       => 'status',
+];
+$f['sort'] = $allowed_sort[$f['sort']] ?? 'center_name';
+
+$initial = local_centermanagement_build_centers_data($f, $page, $perpage);
 
 // AJAX request: return JSON and stop (identical to program.php behaviour).
 if (isset($_GET['ajax'])) {
@@ -218,41 +238,51 @@ function school_info_assoc_options(array $map, string $current, string $allLabel
 
             <div class="sc-filter-grid">
                 <div class="sc-filter-field">
-                    <label for="f-district">District</label>
-                    <select id="f-district" name="district">
-                        <?php echo school_info_options($districts, $f['district'], 'All districts'); ?>
-                    </select>
+                    <label for="f-search"><?php echo get_string('search', 'local_centermanagement'); ?></label>
+                    <input type="search" id="f-search" name="q" value="<?php echo htmlspecialchars($f['q'], ENT_QUOTES); ?>" placeholder="<?php echo get_string('searchbyname', 'local_centermanagement'); ?>" aria-label="Search centers">
                 </div>
                 <div class="sc-filter-field">
-                    <label for="f-division">Division</label>
+                    <label for="f-division"><?php echo get_string('division', 'local_centermanagement'); ?></label>
                     <select id="f-division" name="division">
-                        <?php echo school_info_options($divisions, $f['division'], 'All divisions'); ?>
+                        <?php echo school_info_options($divisions, $f['division'], get_string('filterbydivision', 'local_centermanagement')); ?>
                     </select>
                 </div>
                 <div class="sc-filter-field">
-                    <label for="f-upazila">Upazila</label>
+                    <label for="f-district"><?php echo get_string('district', 'local_centermanagement'); ?></label>
+                    <select id="f-district" name="district">
+                        <?php echo school_info_options($districts, $f['district'], get_string('filterbydistrict', 'local_centermanagement')); ?>
+                    </select>
+                </div>
+                <div class="sc-filter-field">
+                    <label for="f-upazila"><?php echo get_string('upazila', 'local_centermanagement'); ?></label>
                     <select id="f-upazila" name="upazila">
-                        <?php echo school_info_options($upazilas, $f['upazila'], 'All upazilas'); ?>
+                        <?php echo school_info_options($upazilas, $f['upazila'], get_string('filterbyupazila', 'local_centermanagement')); ?>
                     </select>
                 </div>
                 <div class="sc-filter-field">
-                    <label for="f-center_type">Center Type</label>
+                    <label for="f-center_type"><?php echo get_string('centertype', 'local_centermanagement'); ?></label>
                     <select id="f-center_type" name="center_type">
-                        <?php echo school_info_assoc_options($types, $f['center_type'], 'All types'); ?>
+                        <?php echo school_info_assoc_options($types, $f['center_type'], get_string('filterbytype', 'local_centermanagement')); ?>
                     </select>
                 </div>
                 <div class="sc-filter-field">
-                    <label for="f-support">Support</label>
-                    <select id="f-support" name="support">
-                        <?php echo school_info_assoc_options($supports, $f['support'], 'All support'); ?>
+                    <label for="f-sponsor"><?php echo get_string('sponsor', 'local_centermanagement'); ?></label>
+                    <select id="f-sponsor" name="sponsor">
+                        <?php echo school_info_options($sponsors, $f['sponsor'], get_string('filterbysponsor', 'local_centermanagement')); ?>
                     </select>
                 </div>
                 <div class="sc-filter-field">
-                    <label for="f-sort">Sort by</label>
+                    <label for="f-status"><?php echo get_string('status', 'local_centermanagement'); ?></label>
+                    <select id="f-status" name="status">
+                        <?php echo school_info_assoc_options($statuses, $f['status'], get_string('filterbystatus', 'local_centermanagement')); ?>
+                    </select>
+                </div>
+                <div class="sc-filter-field">
+                    <label for="f-sort"><?php echo get_string('sortby', 'local_centermanagement'); ?></label>
                     <select id="f-sort" name="sort">
                         <?php
                         foreach ($sortoptions as $key => $label) {
-                            $sel = $key === $f['sort'] ? ' selected' : '';
+                            $sel = (string)$key === (string)$f['sort'] ? ' selected' : '';
                             echo '<option value="' . htmlspecialchars($key, ENT_QUOTES) . '"' . $sel . '>' . htmlspecialchars($label, ENT_QUOTES) . '</option>';
                         }
                         ?>
@@ -265,15 +295,26 @@ function school_info_assoc_options(array $map, string $current, string $allLabel
                         <option value="DESC" <?php echo $f['dir'] === 'DESC' ? 'selected' : ''; ?>>Descending</option>
                     </select>
                 </div>
+                <div class="sc-filter-field">
+                    <label for="f-perpage"><?php echo get_string('results', 'local_centermanagement'); ?></label>
+                    <select id="f-perpage" name="perpage">
+                        <?php
+                        foreach ($allowed_perpage as $pp) {
+                            $sel = $pp === $perpage ? ' selected' : '';
+                            echo '<option value="' . (int)$pp . '"' . $sel . '>' . (int)$pp . '</option>';
+                        }
+                        ?>
+                    </select>
+                </div>
                 <div class="sc-filter-actions">
-                    <button type="submit" class="sc-btn sc-btn-primary">Search</button>
-                    <button type="button" class="sc-btn sc-btn-ghost" data-reset>Reset</button>
+                    <button type="submit" class="sc-btn sc-btn-primary"><?php echo get_string('search', 'local_centermanagement'); ?></button>
+                    <button type="button" class="sc-btn sc-btn-ghost" data-reset><?php echo get_string('reset', 'local_centermanagement'); ?></button>
                 </div>
             </div>
         </form>
 
         <div class="sc-program-toolbar">
-            <h2 class="sc-panel-title">Sponsored Centers</h2>
+            <h2 class="sc-panel-title"><?php echo get_string('schoolinformationmanagement', 'local_centermanagement'); ?></h2>
             <p class="sc-panel-sub">Center directory</p>
         </div>
 
@@ -393,7 +434,7 @@ function school_info_assoc_options(array $map, string $current, string $allLabel
         var tableBox = wrap.querySelector('#sc-program-table');
         var pageBox = wrap.querySelector('#sc-program-pagination');
         var totalEl = wrap.querySelector('#sc-program-total');
-        var url = wrap.getAttribute('data-ajaxurl');
+        var url = window.location.href.split('?')[0];
         var loading = false;
         var typingTimer;
 

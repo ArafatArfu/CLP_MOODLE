@@ -28,15 +28,31 @@ $form = new center_form(null, [
 
 $defaults = (array) $center;
 if (!empty($center->start_date)) {
-    $defaults['start_date'] = date('Y-m-d', $center->start_date);
+    $defaults['start_date'] = userdate($center->start_date, get_string('strftimedate', 'langconfig'));
 }
 if (!empty($center->establishment_date)) {
-    $defaults['establishment_date'] = date('Y-m-d', $center->establishment_date);
+    $defaults['establishment_date'] = userdate($center->establishment_date, get_string('strftimedate', 'langconfig'));
+}
+if (!empty($center->last_visit_date)) {
+    $defaults['last_visit_date'] = $center->last_visit_date;
 }
 $form->set_data($defaults);
 
 if ($data = $form->get_data()) {
-    \local_centermanagement\local\center_manager::update_center($id, $data, 'center_image');
+    \local_centermanagement\local\center_manager::update_center($id, $data, ['banner_images', 'plaque_images', 'school_photos']);
+    if (!empty($data->sponsors)) {
+        \local_centermanagement\local\center_repository::delete_sponsor(0, $id);
+        foreach ($data->sponsors as $sponsor) {
+            \local_centermanagement\local\center_repository::create_sponsor([
+                'center_id' => $id,
+                'name' => $sponsor['name'],
+                'country' => $sponsor['country'] ?? '',
+                'address' => $sponsor['address'] ?? '',
+                'email' => $sponsor['email'] ?? '',
+                'phone' => $sponsor['phone'] ?? '',
+            ]);
+        }
+    }
     redirect(
         new moodle_url('/local/centermanagement/index.php'),
         get_string('centersupdated', 'local_centermanagement'),
@@ -66,5 +82,6 @@ $content .= html_writer::end_div('container-fluid');
 
 global $OUTPUT;
 echo $OUTPUT->header();
+echo $OUTPUT->render_from_template('local_centermanagement/center_list', ['centers' => false, 'addurl' => new moodle_url('/local/centermanagement/add.php')]);
 echo $content;
 echo $OUTPUT->footer();
