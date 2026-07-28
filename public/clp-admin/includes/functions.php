@@ -12,6 +12,7 @@ define('CLP_DB_PREFIX', 'clp_');
 define('CLP_ADMIN_URL', 'http://moodle-clp.local/clp-admin');
 define('CLP_SITE_NAME', 'CLP Admin Panel');
 define('CLP_SITE_TITLE', 'Computer Literacy Program');
+define('CLP_ADMIN_UPLOAD_DIR', __DIR__ . '/../../clp-admin/uploads/centermanagement');
 
 // Session Configuration
 define('CLP_SESSION_NAME', 'clp_admin_session');
@@ -176,4 +177,77 @@ function clp_get_message($type) {
         return $msg;
     }
     return null;
+}
+
+// Upload a file to the CLP admin uploads directory and return the stored filename.
+function clp_upload_file(array $file, string $filearea, int $centerId): ?string {
+    if (empty($file['tmp_name']) || $file['error'] !== UPLOAD_ERR_OK) {
+        return null;
+    }
+
+    $allowedTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
+    if (!in_array($file['type'], $allowedTypes, true)) {
+        return null;
+    }
+
+    $maxBytes = 5 * 1024 * 1024; // 5MB.
+    if ($file['size'] > $maxBytes) {
+        return null;
+    }
+
+    $ext = pathinfo($file['name'], PATHINFO_EXTENSION);
+    $filename = $centerId . '_' . time() . '_' . bin2hex(random_bytes(4)) . '.' . $ext;
+    $destination = CLP_ADMIN_UPLOAD_DIR . '/' . $filearea . '/' . $filename;
+
+    if (!move_uploaded_file($file['tmp_name'], $destination)) {
+        return null;
+    }
+
+    return $filename;
+}
+
+// Delete a file from the CLP admin uploads directory.
+function clp_delete_file(string $filearea, string $filename): void {
+    $path = CLP_ADMIN_UPLOAD_DIR . '/' . $filearea . '/' . $filename;
+    if (file_exists($path)) {
+        @unlink($path);
+    }
+}
+
+// Get all uploaded filenames for a center and filearea.
+function clp_get_uploaded_files(int $centerId, string $filearea): array {
+    global $db;
+    $prefix = CLP_DB_PREFIX;
+    $table = $prefix . 'local_centermanagement_' . $filearea;
+    $files = [];
+
+    if ($res = $db->query("SELECT filename FROM {$table} WHERE center_id = " . (int)$centerId . " ORDER BY sortorder ASC, id ASC")) {
+        while ($row = $res->fetch_assoc()) {
+            $files[] = $row['filename'];
+        }
+    }
+
+    return $files;
+}
+
+// Save uploaded filenames for a center and filearea.
+function clp_save_uploaded_files(int $centerId, string $filearea, array $filenames): void {
+    global $db;
+    $prefix = CLP_DB_PREFIX;
+    $table = $prefix . 'local_centermanagement_' . $filearea;
+
+    $db->query("DELETE FROM {$table} WHERE center_id = " . (int)$centerId);
+
+    foreach ($filenames as $sortorder => $filename) {
+        $stmt = $db->prepare("INSERT INTO {$table} (center_id, filename, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?)");
+        $now = time();
+        $stmt->bind_param("isiii", $centerId, $filename, $sortorder, $now, $now);
+        $stmt->execute();
+        $stmt->close();
+    }
+}
+
+// Build the public URL for an uploaded file.
+function clp_uploaded_file_url(string $filearea, string $filename): string {
+    return CLP_ADMIN_URL . '/uploads/centermanagement/' . $filearea . '/' . rawurlencode($filename);
 }

@@ -148,29 +148,24 @@
         
         <nav class="sidebar-nav">
             <ul class="nav-list">
-                <li class="nav-item has-dropdown <?php echo in_array($current, ['index.php', 'add.php', 'edit.php', 'view.php', 'delete.php']) ? 'active' : ''; ?>">
-                    <a href="javascript:void(0)" class="nav-link dropdown-toggle">
+                <li class="nav-item <?php echo in_array($current, ['centers.php', 'centers_form.php', 'centers_view.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="nav-link">
                         <i class="fas fa-building"></i>
-                        <span>Center Management</span>
-                        <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        <span>School Information</span>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li class="<?php echo $current == 'index.php' ? 'active' : ''; ?>">
-                            <a href="/local/centermanagement/index.php" class="dropdown-link">
-                                <i class="fas fa-list"></i> Center List
-                            </a>
-                        </li>
-                        <li class="<?php echo $current == 'add.php' ? 'active' : ''; ?>">
-                            <a href="/local/centermanagement/add.php" class="dropdown-link">
-                                <i class="fas fa-plus-circle"></i> Add New Center
-                            </a>
-                        </li>
-                        <li class="<?php echo $current == 'index.php' ? 'active' : ''; ?>">
-                            <a href="/local/centermanagement/index.php" class="dropdown-link">
-                                <i class="fas fa-edit"></i> School Information Management
-                            </a>
-                        </li>
-                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="sidebar-section">School Details</div>
+        
+        <nav class="sidebar-nav">
+            <ul class="nav-list">
+                <li class="nav-item <?php echo in_array($current, ['centers.php', 'centers_form.php', 'centers_view.php']) ? 'active' : ''; ?>">
+                    <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="nav-link">
+                        <i class="fas fa-list"></i>
+                        <span>All School Details</span>
+                    </a>
                 </li>
             </ul>
         </nav>

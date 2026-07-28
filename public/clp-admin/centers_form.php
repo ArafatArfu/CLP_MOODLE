@@ -37,6 +37,31 @@ $record = [
     'students_count' => 0,
     'status' => 1,
     'description' => '',
+    'mailing_address' => '',
+    'history_of_center' => '',
+    'description_of_center' => '',
+    'contact_person_details' => '',
+    'accomplishment' => '',
+    'current_status' => 'supported',
+    'hm_teacher_name' => '',
+    'hm_phone_number' => '',
+    'hm_email' => '',
+    'clc_teacher_name' => '',
+    'clc_teacher_email' => '',
+    'clc_teacher_phone' => '',
+    'scr_teacher_name' => '',
+    'scr_teacher_email' => '',
+    'scr_teacher_phone' => '',
+    'global_classroom' => 'no',
+    'program_clp_pi_english_club' => 'no',
+    'program_egl_english' => 'no',
+    'program_egl_math' => 'no',
+    'program_csaw' => 'no',
+    'school_grading' => '',
+    'clc_graduate_students' => '',
+    'scr_benefited_students' => '',
+    'hardware_status' => '',
+    'last_visit_date' => '',
 ];
 
 $isEdit = false;
@@ -51,6 +76,7 @@ if (isset($_GET['id'])) {
         $record = $row;
         $record['establishment_date'] = !empty($row['establishment_date']) ? date('Y-m-d', (int)$row['establishment_date']) : '';
         $record['start_date'] = !empty($row['start_date']) ? date('Y-m-d', (int)$row['start_date']) : '';
+        $record['last_visit_date'] = !empty($row['last_visit_date']) ? date('Y-m-d H:i', (int)$row['last_visit_date']) : '';
         $isEdit = true;
     } else {
         $stmt->close();
@@ -86,10 +112,44 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $record['students_count'] = (int)($_POST['students_count'] ?? 0);
         $record['status'] = (int)($_POST['status'] ?? 1);
         $record['description'] = clp_sanitize($_POST['description'] ?? '');
+        $record['mailing_address'] = clp_sanitize($_POST['mailing_address'] ?? '');
+        $record['history_of_center'] = clp_sanitize($_POST['history_of_center'] ?? '');
+        $record['description_of_center'] = clp_sanitize($_POST['description_of_center'] ?? '');
+        $record['contact_person_details'] = clp_sanitize($_POST['contact_person_details'] ?? '');
+        $record['accomplishment'] = clp_sanitize($_POST['accomplishment'] ?? '');
+        $record['current_status'] = clp_sanitize($_POST['current_status'] ?? 'supported');
+        $record['hm_teacher_name'] = clp_sanitize($_POST['hm_teacher_name'] ?? '');
+        $record['hm_phone_number'] = clp_sanitize($_POST['hm_phone_number'] ?? '');
+        $record['hm_email'] = clp_sanitize($_POST['hm_email'] ?? '');
+        $record['clc_teacher_name'] = clp_sanitize($_POST['clc_teacher_name'] ?? '');
+        $record['clc_teacher_email'] = clp_sanitize($_POST['clc_teacher_email'] ?? '');
+        $record['clc_teacher_phone'] = clp_sanitize($_POST['clc_teacher_phone'] ?? '');
+        $record['scr_teacher_name'] = clp_sanitize($_POST['scr_teacher_name'] ?? '');
+        $record['scr_teacher_email'] = clp_sanitize($_POST['scr_teacher_email'] ?? '');
+        $record['scr_teacher_phone'] = clp_sanitize($_POST['scr_teacher_phone'] ?? '');
+        $record['global_classroom'] = clp_sanitize($_POST['global_classroom'] ?? 'no');
+        $record['program_clp_pi_english_club'] = clp_sanitize($_POST['program_clp_pi_english_club'] ?? 'no');
+        $record['program_egl_english'] = clp_sanitize($_POST['program_egl_english'] ?? 'no');
+        $record['program_egl_math'] = clp_sanitize($_POST['program_egl_math'] ?? 'no');
+        $record['program_csaw'] = clp_sanitize($_POST['program_csaw'] ?? 'no');
+        $record['school_grading'] = clp_sanitize($_POST['school_grading'] ?? '');
+        $record['clc_graduate_students'] = clp_sanitize($_POST['clc_graduate_students'] ?? '');
+        $record['scr_benefited_students'] = clp_sanitize($_POST['scr_benefited_students'] ?? '');
+        $record['hardware_status'] = clp_sanitize($_POST['hardware_status'] ?? '');
 
-        // Raw date values (controlled format); sanitising would alter them.
-        $estDate = trim($_POST['establishment_date'] ?? '');
-        $startDate = trim($_POST['start_date'] ?? '');
+        $lastVisit = trim($_POST['last_visit_date'] ?? '');
+        if ($lastVisit !== '') {
+            $dt = DateTime::createFromFormat('Y-m-d H:i', $lastVisit);
+            $record['last_visit_date'] = $dt ? (int)$dt->getTimestamp() : 0;
+        } else {
+            $record['last_visit_date'] = 0;
+        }
+
+        $sponsorsJson = $_POST['sponsors_json'] ?? '[]';
+        $sponsors = json_decode($sponsorsJson, true);
+        if (!is_array($sponsors)) {
+            $sponsors = [];
+        }
 
         // --- Server-side validation. ---
         if ($record['center_code'] === '') {
@@ -131,6 +191,55 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($record['students_count'] < 0) {
             $record['students_count'] = 0;
         }
+        if (!in_array($record['center_type'], ['clc', 'scr', 'clc_scr', 'other'], true)) {
+            $errors['center_type'] = 'Please select a valid center type.';
+        }
+        if ($record['current_status'] === '') {
+            $errors['current_status'] = 'Please select current status.';
+        }
+        if (!in_array($record['global_classroom'], ['yes', 'no'], true)) {
+            $record['global_classroom'] = 'no';
+        }
+        if (!in_array($record['school_grading'], ['', 'a', 'b', 'c', 'd'], true)) {
+            $record['school_grading'] = '';
+        }
+
+        $emailFields = ['hm_email', 'clc_teacher_email', 'scr_teacher_email'];
+        foreach ($emailFields as $field) {
+            if ($record[$field] !== '' && !filter_var($record[$field], FILTER_VALIDATE_EMAIL)) {
+                $errors[$field] = 'Please enter a valid email address.';
+            }
+        }
+
+        $phoneFields = ['hm_phone_number', 'clc_teacher_phone', 'scr_teacher_phone'];
+        foreach ($phoneFields as $field) {
+            if ($record[$field] !== '') {
+                $phoneClean = preg_replace('/[\s\-\(\)]/', '', $record[$field]);
+                if (!preg_match('/^\+?[0-9]{10,15}$/', $phoneClean)) {
+                    $errors[$field] = 'Please enter a valid phone number (10–15 digits).';
+                }
+            }
+        }
+
+        if (!empty($sponsors)) {
+            foreach ($sponsors as $idx => $sponsor) {
+                if (empty($sponsor['name'])) {
+                    $errors['sponsors_json'] = 'Sponsor #' . ($idx + 1) . ' name is required.';
+                    break;
+                }
+                if (!empty($sponsor['email']) && !filter_var($sponsor['email'], FILTER_VALIDATE_EMAIL)) {
+                    $errors['sponsors_json'] = 'Sponsor #' . ($idx + 1) . ' email is invalid.';
+                    break;
+                }
+                if (!empty($sponsor['phone'])) {
+                    $phoneClean = preg_replace('/[\s\-\(\)]/', '', $sponsor['phone']);
+                    if (!preg_match('/^\+?[0-9]{10,15}$/', $phoneClean)) {
+                        $errors['sponsors_json'] = 'Sponsor #' . ($idx + 1) . ' phone is invalid.';
+                        break;
+                    }
+                }
+            }
+        }
 
         $estTs = 0;
         if ($estDate !== '') {
@@ -156,23 +265,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         center_code=?, center_name=?, school_name=?, center_type=?, division=?, district=?,
                         upazila=?, address=?, contact_person=?, contact_number=?, email=?, establishment_date=?,
                         start_date=?, support=?, sponsor_name=?, devices_count=?, students_count=?, status=?,
-                        description=?, timemodified=?
+                        description=?, mailing_address=?, history_of_center=?, description_of_center=?,
+                        contact_person_details=?, accomplishment=?, current_status=?, hm_teacher_name=?,
+                        hm_phone_number=?, hm_email=?, clc_teacher_name=?, clc_teacher_email=?, clc_teacher_phone=?,
+                        scr_teacher_name=?, scr_teacher_email=?, scr_teacher_phone=?, global_classroom=?,
+                        program_clp_pi_english_club=?, program_egl_english=?, program_egl_math=?, program_csaw=?,
+                        school_grading=?, clc_graduate_students=?, scr_benefited_students=?, hardware_status=?,
+                        last_visit_date=?, timemodified=?, usermodified=?
                      WHERE id=?"
                 );
                 $stmt->bind_param(
-                    "sssssssssssiiisssiiii",
+                    "sssssssssssiissiiisssssssssssssssssssssssssiiii",
                     $record['center_code'], $record['center_name'], $record['school_name'], $record['center_type'],
                     $record['division'], $record['district'], $record['upazila'], $record['address'],
                     $record['contact_person'], $record['contact_number'], $record['email'], $estTs,
                     $startTs, $record['support'], $record['sponsor_name'], $record['devices_count'],
-                    $record['students_count'], $record['status'], $record['description'], $now, $record['id']
+                    $record['students_count'], $record['status'], $record['description'],
+                    $record['mailing_address'], $record['history_of_center'], $record['description_of_center'],
+                    $record['contact_person_details'], $record['accomplishment'], $record['current_status'],
+                    $record['hm_teacher_name'], $record['hm_phone_number'], $record['hm_email'],
+                    $record['clc_teacher_name'], $record['clc_teacher_email'], $record['clc_teacher_phone'],
+                    $record['scr_teacher_name'], $record['scr_teacher_email'], $record['scr_teacher_phone'],
+                    $record['global_classroom'], $record['program_clp_pi_english_club'], $record['program_egl_english'],
+                    $record['program_egl_math'], $record['program_csaw'], $record['school_grading'],
+                    $record['clc_graduate_students'], $record['scr_benefited_students'], $record['hardware_status'],
+                    $record['last_visit_date'], $now, 1, $record['id']
                 );
                 $ok = $stmt->execute();
                 $stmt->close();
                 if ($ok) {
+                    $centerId = $record['id'];
                     clp_set_success('Center record updated successfully.');
-                    $db->close();
-                    clp_redirect(CLP_ADMIN_URL . '/centers.php');
                 } else {
                     clp_set_error('Failed to update center record.');
                 }
@@ -181,27 +304,103 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     "INSERT INTO " . CLP_CENTERS_TABLE . "
                         (center_code, center_name, school_name, center_type, division, district, upazila, address,
                          contact_person, contact_number, email, establishment_date, start_date, support, sponsor_name,
-                         devices_count, students_count, status, description, timecreated, timemodified, usermodified)
-                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+                         devices_count, students_count, status, description, mailing_address, history_of_center,
+                         description_of_center, contact_person_details, accomplishment, current_status,
+                         hm_teacher_name, hm_phone_number, hm_email, clc_teacher_name, clc_teacher_email,
+                         clc_teacher_phone, scr_teacher_name, scr_teacher_email, scr_teacher_phone,
+                         global_classroom, program_clp_pi_english_club, program_egl_english, program_egl_math,
+                         program_csaw, school_grading, clc_graduate_students, scr_benefited_students,
+                         hardware_status, last_visit_date, timecreated, timemodified, usermodified)
+                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
                 );
                 $usermodified = 1;
                 $stmt->bind_param(
-                    "sssssssssssiiisssiii",
+                    "sssssssssssiissiiisssssssssssssssssssssssssiiii",
                     $record['center_code'], $record['center_name'], $record['school_name'], $record['center_type'],
                     $record['division'], $record['district'], $record['upazila'], $record['address'],
                     $record['contact_person'], $record['contact_number'], $record['email'], $estTs,
                     $startTs, $record['support'], $record['sponsor_name'], $record['devices_count'],
-                    $record['students_count'], $record['status'], $record['description'], $now, $now, $usermodified
+                    $record['students_count'], $record['status'], $record['description'],
+                    $record['mailing_address'], $record['history_of_center'], $record['description_of_center'],
+                    $record['contact_person_details'], $record['accomplishment'], $record['current_status'],
+                    $record['hm_teacher_name'], $record['hm_phone_number'], $record['hm_email'],
+                    $record['clc_teacher_name'], $record['clc_teacher_email'], $record['clc_teacher_phone'],
+                    $record['scr_teacher_name'], $record['scr_teacher_email'], $record['scr_teacher_phone'],
+                    $record['global_classroom'], $record['program_clp_pi_english_club'], $record['program_egl_english'],
+                    $record['program_egl_math'], $record['program_csaw'], $record['school_grading'],
+                    $record['clc_graduate_students'], $record['scr_benefited_students'], $record['hardware_status'],
+                    $record['last_visit_date'], $now, $now, $usermodified
                 );
                 $ok = $stmt->execute();
                 $stmt->close();
                 if ($ok) {
+                    $centerId = $db->insert_id;
                     clp_set_success('Center record created successfully.');
-                    $db->close();
-                    clp_redirect(CLP_ADMIN_URL . '/centers.php');
                 } else {
                     clp_set_error('Failed to create center record.');
                 }
+            }
+
+            if ($ok && $centerId > 0) {
+                $db->close();
+
+                if (!empty($sponsors)) {
+                    $prefix = CLP_DB_PREFIX;
+                    $sponsorTable = $prefix . 'local_centermanagement_sponsors';
+                    $db = clp_db_connect();
+                    $db->query("DELETE FROM {$sponsorTable} WHERE center_id = " . (int)$centerId);
+                    foreach ($sponsors as $sortorder => $sponsor) {
+                        $stmt = $db->prepare("INSERT INTO {$sponsorTable} (center_id, name, country, address, email, phone, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                        $sort = (int)$sortorder;
+                        $stmt->bind_param("issssssii", $centerId, $sponsor['name'], $sponsor['country'], $sponsor['address'], $sponsor['email'], $sponsor['phone'], $sort, $now, $now);
+                        $stmt->execute();
+                        $stmt->close();
+                    }
+                    $db->close();
+                }
+
+                $fileareas = ['banner_images', 'plaque_images', 'school_photos'];
+                foreach ($fileareas as $filearea) {
+                    if (!empty($_FILES[$filearea]['name'][0]) || !empty($_FILES[$filearea]['name'])) {
+                        $db = clp_db_connect();
+                        $prefix = CLP_DB_PREFIX;
+                        $table = $prefix . 'local_centermanagement_' . $filearea;
+                        $db->query("DELETE FROM {$table} WHERE center_id = " . (int)$centerId);
+                        $sortorder = 0;
+
+                        if (!empty($_FILES[$filearea]['name'][0]) && is_array($_FILES[$filearea]['name'])) {
+                            foreach ($_FILES[$filearea]['tmp_name'] as $idx => $tmpName) {
+                                if ($tmpName && $_FILES[$filearea]['error'][$idx] === UPLOAD_ERR_OK) {
+                                    $filename = clp_upload_file([
+                                        'name' => $_FILES[$filearea]['name'][$idx],
+                                        'type' => $_FILES[$filearea]['type'][$idx],
+                                        'tmp_name' => $tmpName,
+                                        'error' => $_FILES[$filearea]['error'][$idx],
+                                        'size' => $_FILES[$filearea]['size'][$idx],
+                                    ], $filearea, $centerId);
+                                    if ($filename) {
+                                        $stmt = $db->prepare("INSERT INTO {$table} (center_id, filename, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?)");
+                                        $stmt->bind_param("isiii", $centerId, $filename, $sortorder, $now, $now);
+                                        $stmt->execute();
+                                        $stmt->close();
+                                        $sortorder++;
+                                    }
+                                }
+                            }
+                        } elseif (!empty($_FILES[$filearea]['name']) && $_FILES[$filearea]['error'] === UPLOAD_ERR_OK) {
+                            $filename = clp_upload_file($_FILES[$filearea], $filearea, $centerId);
+                            if ($filename) {
+                                $stmt = $db->prepare("INSERT INTO {$table} (center_id, filename, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?)");
+                                $stmt->bind_param("isiii", $centerId, $filename, $sortorder, $now, $now);
+                                $stmt->execute();
+                                $stmt->close();
+                            }
+                        }
+                        $db->close();
+                    }
+                }
+
+                clp_redirect(CLP_ADMIN_URL . '/centers.php');
             }
         } else {
             clp_set_error('Please correct the highlighted fields.');
@@ -218,6 +417,19 @@ if ($res = $db->query("SELECT DISTINCT district FROM " . CLP_CENTERS_TABLE . " W
 }
 
 $db->close();
+
+$existingSponsors = [];
+if ($isEdit && !empty($record['id'])) {
+    $db = clp_db_connect();
+    $prefix = CLP_DB_PREFIX;
+    $sponsorTable = $prefix . 'local_centermanagement_sponsors';
+    if ($res = $db->query("SELECT name, country, address, email, phone FROM {$sponsorTable} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
+        while ($row = $res->fetch_assoc()) {
+            $existingSponsors[] = $row;
+        }
+    }
+    $db->close();
+}
 
 include __DIR__ . '/includes/header.php';
 ?>
@@ -263,6 +475,8 @@ include __DIR__ . '/includes/header.php';
                         <select name="center_type" class="form-control <?php echo isset($errors['center_type']) ? 'is-invalid' : ''; ?>">
                             <option value="clc" <?php echo $record['center_type'] === 'clc' ? 'selected' : ''; ?>>Computer Literacy Center (CLC)</option>
                             <option value="scr" <?php echo $record['center_type'] === 'scr' ? 'selected' : ''; ?>>Smart Classroom (SCR)</option>
+                            <option value="clc_scr" <?php echo $record['center_type'] === 'clc_scr' ? 'selected' : ''; ?>>CLC + SCR</option>
+                            <option value="other" <?php echo $record['center_type'] === 'other' ? 'selected' : ''; ?>>Other</option>
                         </select>
                         <?php if (isset($errors['center_type'])): ?><div class="clc-error"><?php echo clp_escape($errors['center_type']); ?></div><?php endif; ?>
                     </div>
@@ -374,6 +588,243 @@ include __DIR__ . '/includes/header.php';
                 </div>
             </div>
 
+            <!-- Extended Details -->
+            <div class="clc-form-section">
+                <h4 class="clc-form-section-title"><i class="fas fa-file-alt"></i> Extended Details</h4>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">Mailing Address</label>
+                        <textarea name="mailing_address" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['mailing_address']); ?></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">History of the Center</label>
+                        <textarea name="history_of_center" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['history_of_center']); ?></textarea>
+                    </div>
+                </div>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">Description of the Center</label>
+                        <textarea name="description_of_center" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['description_of_center']); ?></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Contact Person with Phone / Email</label>
+                        <textarea name="contact_person_details" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['contact_person_details']); ?></textarea>
+                    </div>
+                </div>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">Accomplishment</label>
+                        <textarea name="accomplishment" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['accomplishment']); ?></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Current Status</label>
+                        <select name="current_status" class="form-control <?php echo isset($errors['current_status']) ? 'is-invalid' : ''; ?>">
+                            <option value="supported" <?php echo $record['current_status'] === 'supported' ? 'selected' : ''; ?>>Supported</option>
+                            <option value="non_supported" <?php echo $record['current_status'] === 'non_supported' ? 'selected' : ''; ?>>Non-Supported</option>
+                        </select>
+                        <?php if (isset($errors['current_status'])): ?><div class="clc-error"><?php echo clp_escape($errors['current_status']); ?></div><?php endif; ?>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Persons -->
+            <div class="clc-form-section">
+                <h4 class="clc-form-section-title"><i class="fas fa-address-book"></i> Contact Persons</h4>
+
+                <h5 class="clc-form-subtitle">Headmaster (HM)</h5>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">HM Teacher Name</label>
+                        <input type="text" name="hm_teacher_name" class="form-control" value="<?php echo clp_escape($record['hm_teacher_name']); ?>" maxlength="255">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">HM Phone Number</label>
+                        <input type="text" name="hm_phone_number" class="form-control <?php echo isset($errors['hm_phone_number']) ? 'is-invalid' : ''; ?>" value="<?php echo clp_escape($record['hm_phone_number']); ?>" maxlength="50">
+                        <?php if (isset($errors['hm_phone_number'])): ?><div class="clc-error"><?php echo clp_escape($errors['hm_phone_number']); ?></div><?php endif; ?>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">HM Email</label>
+                        <input type="email" name="hm_email" class="form-control <?php echo isset($errors['hm_email']) ? 'is-invalid' : ''; ?>" value="<?php echo clp_escape($record['hm_email']); ?>" maxlength="254">
+                        <?php if (isset($errors['hm_email'])): ?><div class="clc-error"><?php echo clp_escape($errors['hm_email']); ?></div><?php endif; ?>
+                    </div>
+                </div>
+
+                <h5 class="clc-form-subtitle">CLC Teacher</h5>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">CLC Teacher Name</label>
+                        <input type="text" name="clc_teacher_name" class="form-control" value="<?php echo clp_escape($record['clc_teacher_name']); ?>" maxlength="255">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">CLC Teacher Email</label>
+                        <input type="email" name="clc_teacher_email" class="form-control <?php echo isset($errors['clc_teacher_email']) ? 'is-invalid' : ''; ?>" value="<?php echo clp_escape($record['clc_teacher_email']); ?>" maxlength="254">
+                        <?php if (isset($errors['clc_teacher_email'])): ?><div class="clc-error"><?php echo clp_escape($errors['clc_teacher_email']); ?></div><?php endif; ?>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">CLC Teacher Phone</label>
+                        <input type="text" name="clc_teacher_phone" class="form-control <?php echo isset($errors['clc_teacher_phone']) ? 'is-invalid' : ''; ?>" value="<?php echo clp_escape($record['clc_teacher_phone']); ?>" maxlength="50">
+                        <?php if (isset($errors['clc_teacher_phone'])): ?><div class="clc-error"><?php echo clp_escape($errors['clc_teacher_phone']); ?></div><?php endif; ?>
+                    </div>
+                </div>
+
+                <h5 class="clc-form-subtitle">SCR Teacher</h5>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">SCR Teacher Name</label>
+                        <input type="text" name="scr_teacher_name" class="form-control" value="<?php echo clp_escape($record['scr_teacher_name']); ?>" maxlength="255">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">SCR Teacher Email</label>
+                        <input type="email" name="scr_teacher_email" class="form-control <?php echo isset($errors['scr_teacher_email']) ? 'is-invalid' : ''; ?>" value="<?php echo clp_escape($record['scr_teacher_email']); ?>" maxlength="254">
+                        <?php if (isset($errors['scr_teacher_email'])): ?><div class="clc-error"><?php echo clp_escape($errors['scr_teacher_email']); ?></div><?php endif; ?>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">SCR Teacher Phone</label>
+                        <input type="text" name="scr_teacher_phone" class="form-control <?php echo isset($errors['scr_teacher_phone']) ? 'is-invalid' : ''; ?>" value="<?php echo clp_escape($record['scr_teacher_phone']); ?>" maxlength="50">
+                        <?php if (isset($errors['scr_teacher_phone'])): ?><div class="clc-error"><?php echo clp_escape($errors['scr_teacher_phone']); ?></div><?php endif; ?>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programs -->
+            <div class="clc-form-section">
+                <h4 class="clc-form-section-title"><i class="fas fa-laptop-code"></i> Programs</h4>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">Global Classroom</label>
+                        <select name="global_classroom" class="form-control">
+                            <option value="yes" <?php echo $record['global_classroom'] === 'yes' ? 'selected' : ''; ?>>Yes</option>
+                            <option value="no" <?php echo $record['global_classroom'] === 'no' ? 'selected' : ''; ?>>No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">CLP PI English Club</label>
+                        <select name="program_clp_pi_english_club" class="form-control">
+                            <option value="yes" <?php echo $record['program_clp_pi_english_club'] === 'yes' ? 'selected' : ''; ?>>Yes</option>
+                            <option value="no" <?php echo $record['program_clp_pi_english_club'] === 'no' ? 'selected' : ''; ?>>No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">EGL English</label>
+                        <select name="program_egl_english" class="form-control">
+                            <option value="yes" <?php echo $record['program_egl_english'] === 'yes' ? 'selected' : ''; ?>>Yes</option>
+                            <option value="no" <?php echo $record['program_egl_english'] === 'no' ? 'selected' : ''; ?>>No</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">EGL Math</label>
+                        <select name="program_egl_math" class="form-control">
+                            <option value="yes" <?php echo $record['program_egl_math'] === 'yes' ? 'selected' : ''; ?>>Yes</option>
+                            <option value="no" <?php echo $record['program_egl_math'] === 'no' ? 'selected' : ''; ?>>No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">CSAW</label>
+                        <select name="program_csaw" class="form-control">
+                            <option value="yes" <?php echo $record['program_csaw'] === 'yes' ? 'selected' : ''; ?>>Yes</option>
+                            <option value="no" <?php echo $record['program_csaw'] === 'no' ? 'selected' : ''; ?>>No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">School Grading</label>
+                        <select name="school_grading" class="form-control">
+                            <option value="">—</option>
+                            <?php foreach (['a', 'b', 'c', 'd'] as $g): ?>
+                                <option value="<?php echo $g; ?>" <?php echo strtolower((string)$record['school_grading']) === $g ? 'selected' : ''; ?>><?php echo strtoupper($g); ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Media Uploads -->
+            <div class="clc-form-section">
+                <h4 class="clc-form-section-title"><i class="fas fa-images"></i> Media</h4>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">Banner Images</label>
+                        <input type="file" name="banner_images[]" class="form-control" multiple accept="image/*">
+                        <small class="clc-help">Upload multiple images. They will appear as a slider on the details page.</small>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Plaque Images</label>
+                        <input type="file" name="plaque_images[]" class="form-control" multiple accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">School Photos</label>
+                        <input type="file" name="school_photos[]" class="form-control" multiple accept="image/*">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sponsors -->
+            <div class="clc-form-section">
+                <h4 class="clc-form-section-title"><i class="fas fa-handshake"></i> Sponsors</h4>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">Sponsor Name (legacy)</label>
+                        <input type="text" name="sponsor_name" class="form-control" value="<?php echo clp_escape($record['sponsor_name']); ?>" maxlength="1000">
+                    </div>
+                </div>
+                <div id="sponsor-entries">
+                    <div class="clc-form-row clc-sponsor-row" data-index="0">
+                        <div class="form-group">
+                            <label class="form-label">Sponsor Name</label>
+                            <input type="text" class="form-control sponsor-name" value="" maxlength="255">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Country</label>
+                            <input type="text" class="form-control sponsor-country" value="" maxlength="255">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone</label>
+                            <input type="text" class="form-control sponsor-phone" value="" maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control sponsor-email" value="" maxlength="254">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Address</label>
+                            <textarea class="form-control sponsor-address" rows="2" maxlength="1000"></textarea>
+                        </div>
+                        <div class="form-group form-group-actions">
+                            <button type="button" class="btn btn-sm btn-danger clc-remove-sponsor" style="display:none;"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-sm btn-secondary" id="clp-add-sponsor"><i class="fas fa-plus"></i> Add Sponsor</button>
+                <input type="hidden" name="sponsors_json" id="sponsors-json" value="[]">
+            </div>
+
+            <!-- Additional Text Fields -->
+            <div class="clc-form-section">
+                <h4 class="clc-form-section-title"><i class="fas fa-graduation-cap"></i> Additional Text Fields</h4>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">CLC Graduate Students</label>
+                        <textarea name="clc_graduate_students" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['clc_graduate_students']); ?></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">SCR Benefited Students</label>
+                        <textarea name="scr_benefited_students" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['scr_benefited_students']); ?></textarea>
+                    </div>
+                </div>
+                <div class="clc-form-row">
+                    <div class="form-group">
+                        <label class="form-label">Hardware Status</label>
+                        <textarea name="hardware_status" class="form-control" rows="3" maxlength="4000"><?php echo clp_escape($record['hardware_status']); ?></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Last Visit Date</label>
+                        <input type="text" name="last_visit_date" class="form-control" value="<?php echo clp_escape($record['last_visit_date']); ?>" placeholder="YYYY-MM-DD HH:MM">
+                        <small class="clc-help">Format: 2025-01-15 14:30</small>
+                    </div>
+                </div>
+            </div>
+
             <button type="submit" class="btn btn-success"><i class="fas fa-save"></i> Save Center</button>
             <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="btn btn-primary">Cancel</a>
         </form>
@@ -385,10 +836,165 @@ include __DIR__ . '/includes/header.php';
 .clc-form-section { margin-bottom: 26px; padding-bottom: 8px; border-bottom: 1px solid #eef0f4; }
 .clc-form-section:last-of-type { border-bottom: 0; }
 .clc-form-section-title { font-size: 15px; color: #006b4f; margin: 0 0 16px; display: flex; align-items: center; gap: 8px; }
+.clc-form-subtitle { font-size: 13px; color: #3e4e4a; margin: 18px 0 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .4px; }
+.clc-form-subtitle:first-child { margin-top: 0; }
 .clc-form-row { display: flex; flex-wrap: wrap; gap: 16px; }
 .clc-form-row .form-group { flex: 1; min-width: 200px; }
 .clc-error { color: #b82b00; font-size: 12px; margin-top: 5px; }
 .form-control.is-invalid { border-color: #b82b00; box-shadow: 0 0 0 3px rgba(184,43,0,.1); }
+.clc-help { color: #6a737b; font-size: 12px; margin-top: 6px; display: block; }
+.clc-sponsor-row { align-items: flex-end; }
+.form-group-actions { flex: 0 0 auto; min-width: 40px; }
+
+#sponsor-entries .clc-sponsor-row { background: #f8f9fb; padding: 12px; border-radius: 8px; border: 1px solid #eef0f4; }
+#sponsor-entries .clc-sponsor-row .form-group { margin-bottom: 10px; }
+#clp-add-sponsor { margin-top: 10px; }
 </style>
+
+<script>
+(function () {
+    var entries = document.getElementById('sponsor-entries');
+    var jsonInput = document.getElementById('sponsors-json');
+    var addBtn = document.getElementById('clp-add-sponsor');
+    if (!entries || !jsonInput || !addBtn) return;
+
+    var existingSponsors = <?php echo json_encode($existingSponsors, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?>;
+
+    function escapeHtml(str) {
+        return (str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function collectRow(row) {
+        return {
+            name: (row.querySelector('.sponsor-name') || {}).value || '',
+            country: (row.querySelector('.sponsor-country') || {}).value || '',
+            phone: (row.querySelector('.sponsor-phone') || {}).value || '',
+            email: (row.querySelector('.sponsor-email') || {}).value || '',
+            address: (row.querySelector('.sponsor-address') || {}).value || ''
+        };
+    }
+
+    function collectAll() {
+        var data = [];
+        entries.querySelectorAll('.clc-sponsor-row').forEach(function (row) {
+            data.push(collectRow(row));
+        });
+        return data;
+    }
+
+    function updateJson() {
+        jsonInput.value = JSON.stringify(collectAll());
+    }
+
+    function toggleRemoveButtons() {
+        var rows = entries.querySelectorAll('.clc-sponsor-row');
+        rows.forEach(function (row) {
+            var btn = row.querySelector('.clc-remove-sponsor');
+            if (rows.length <= 1) {
+                btn.style.display = 'none';
+            } else {
+                btn.style.display = btn ? '' : 'none';
+            }
+        });
+    }
+
+    function populateRow(row, data) {
+        var nameInput = row.querySelector('.sponsor-name');
+        var countryInput = row.querySelector('.sponsor-country');
+        var phoneInput = row.querySelector('.sponsor-phone');
+        var emailInput = row.querySelector('.sponsor-email');
+        var addressInput = row.querySelector('.sponsor-address');
+        if (nameInput) nameInput.value = data.name || '';
+        if (countryInput) countryInput.value = data.country || '';
+        if (phoneInput) phoneInput.value = data.phone || '';
+        if (emailInput) emailInput.value = data.email || '';
+        if (addressInput) addressInput.value = data.address || '';
+    }
+
+    function initSponsors() {
+        entries.innerHTML = '';
+        var list = existingSponsors && existingSponsors.length ? existingSponsors : [{}];
+        list.forEach(function (sponsor) {
+            var tmpl = entries.querySelector('.clc-sponsor-row');
+            var clone = tmpl ? tmpl.cloneNode(true) : document.createElement('div');
+            clone.className = 'clc-form-row clc-sponsor-row';
+            clone.setAttribute('data-index', entries.children.length);
+            clone.innerHTML = '<div class="form-group"><label class="form-label">Sponsor Name</label><input type="text" class="form-control sponsor-name" value="" maxlength="255"></div>' +
+                '<div class="form-group"><label class="form-label">Country</label><input type="text" class="form-control sponsor-country" value="" maxlength="255"></div>' +
+                '<div class="form-group"><label class="form-label">Phone</label><input type="text" class="form-control sponsor-phone" value="" maxlength="50"></div>' +
+                '<div class="form-group"><label class="form-label">Email</label><input type="email" class="form-control sponsor-email" value="" maxlength="254"></div>' +
+                '<div class="form-group"><label class="form-label">Address</label><textarea class="form-control sponsor-address" rows="2" maxlength="1000"></textarea></div>' +
+                '<div class="form-group form-group-actions"><button type="button" class="btn btn-sm btn-danger clc-remove-sponsor"><i class="fas fa-trash"></i></button></div>';
+            entries.appendChild(clone);
+            populateRow(clone, sponsor);
+        });
+
+        var btn = entries.querySelector('.clc-remove-sponsor');
+        if (btn) {
+            btn.addEventListener('click', function () {
+                entries.removeChild(clone);
+                updateJson();
+                toggleRemoveButtons();
+            });
+        }
+
+        entries.addEventListener('click', function (e) {
+            var target = e.target.closest('.clc-remove-sponsor');
+            if (!target) return;
+            var row = target.closest('.clc-sponsor-row');
+            if (!row) return;
+            row.parentNode.removeChild(row);
+            updateJson();
+            toggleRemoveButtons();
+        });
+
+        entries.addEventListener('input', function () {
+            updateJson();
+        });
+
+        updateJson();
+        toggleRemoveButtons();
+    }
+
+    window.collectAllSponsors = function () {
+        updateJson();
+        return collectAll();
+    };
+
+    addBtn.addEventListener('click', function () {
+        var tmpl = entries.querySelector('.clc-sponsor-row');
+        var clone = tmpl ? tmpl.cloneNode(true) : document.createElement('div');
+        clone.className = 'clc-form-row clc-sponsor-row';
+        clone.setAttribute('data-index', entries.children.length);
+        clone.innerHTML = '<div class="form-group"><label class="form-label">Sponsor Name</label><input type="text" class="form-control sponsor-name" value="" maxlength="255"></div>' +
+            '<div class="form-group"><label class="form-label">Country</label><input type="text" class="form-control sponsor-country" value="" maxlength="255"></div>' +
+            '<div class="form-group"><label class="form-label">Phone</label><input type="text" class="form-control sponsor-phone" value="" maxlength="50"></div>' +
+            '<div class="form-group"><label class="form-label">Email</label><input type="email" class="form-control sponsor-email" value="" maxlength="254"></div>' +
+            '<div class="form-group"><label class="form-label">Address</label><textarea class="form-control sponsor-address" rows="2" maxlength="1000"></textarea></div>' +
+            '<div class="form-group form-group-actions"><button type="button" class="btn btn-sm btn-danger clc-remove-sponsor"><i class="fas fa-trash"></i></button></div>';
+        entries.appendChild(clone);
+
+        var btn = clone.querySelector('.clc-remove-sponsor');
+        btn.addEventListener('click', function () {
+            entries.removeChild(clone);
+            updateJson();
+            toggleRemoveButtons();
+        });
+
+        updateJson();
+        toggleRemoveButtons();
+    });
+
+    initSponsors();
+
+    // Form submission hook for sponsors.
+    var form = entries.closest('form');
+    if (form) {
+        form.addEventListener('submit', function () {
+            updateJson();
+        });
+    }
+})();
+</script>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
