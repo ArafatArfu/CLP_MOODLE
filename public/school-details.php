@@ -3,10 +3,24 @@ require_once(__DIR__ . '/config.php');
 
 use local_centermanagement\local\center_repository;
 
+if (!function_exists('clp_get_string')) {
+    function clp_get_string(string $identifier, string $component): string {
+        try {
+            $result = get_string($identifier, $component);
+            if ($result === '[' . $identifier . ']') {
+                return ucwords(str_replace('_', ' ', $identifier));
+            }
+            return $result;
+        } catch (\Throwable $e) {
+            return ucwords(str_replace('_', ' ', $identifier));
+        }
+    }
+}
+
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/school-details.php');
-$PAGE->set_title(get_string('schoolinfo', 'local_centermanagement'));
-$PAGE->set_heading(get_string('schoolinfo', 'local_centermanagement'));
+$PAGE->set_title(clp_get_string('schoolinfo', 'local_centermanagement'));
+$PAGE->set_heading(clp_get_string('schoolinfo', 'local_centermanagement'));
 $PAGE->requires->css(new moodle_url('/local/centermanagement/styles.css'));
 
 $schoolInfoId = required_param('schoolInfo', PARAM_INT);
@@ -30,13 +44,13 @@ $centerTypeLabel = '';
 if ($center) {
     $ct = strtolower((string) ($center->center_type ?? 'clc'));
     if ($ct === 'scr') {
-        $centerTypeLabel = get_string('centertypescr', 'local_centermanagement');
+        $centerTypeLabel = clp_get_string('centertypescr', 'local_centermanagement');
     } elseif ($ct === 'clc_scr') {
-        $centerTypeLabel = get_string('centertypeclcscr', 'local_centermanagement');
+        $centerTypeLabel = clp_get_string('centertypeclcscr', 'local_centermanagement');
     } elseif ($ct === 'other') {
-        $centerTypeLabel = get_string('centertypeother', 'local_centermanagement');
+        $centerTypeLabel = clp_get_string('centertypeother', 'local_centermanagement');
     } else {
-        $centerTypeLabel = get_string('centertypeclc', 'local_centermanagement');
+        $centerTypeLabel = clp_get_string('centertypeclc', 'local_centermanagement');
     }
 }
 $mailingAddress = $center ? (string) ($center->mailing_address ?? '') : '';
@@ -45,7 +59,7 @@ $description = $center ? (string) ($center->description_of_center ?? '') : '';
 $contactPerson = $center ? (string) ($center->contact_person_details ?? '') : '';
 $accomplishment = $center ? (string) ($center->accomplishment ?? '') : '';
 $currentStatus = $center ? (string) ($center->current_status ?? '') : '';
-$currentStatusLabel = $currentStatus === 'non_supported' ? get_string('nonsupported', 'local_centermanagement') : get_string('supported', 'local_centermanagement');
+$currentStatusLabel = $currentStatus === 'non_supported' ? clp_get_string('nonsupported', 'local_centermanagement') : clp_get_string('supported', 'local_centermanagement');
 $globalClassroom = $center ? (string) ($center->global_classroom ?? '') : '';
 $schoolGrading = $center ? strtoupper((string) ($center->school_grading ?? '')) : '';
 $clcGraduate = $center ? (string) ($center->clc_graduate_students ?? '') : '';
@@ -60,7 +74,7 @@ $programCsaw = $center ? (string) ($center->program_csaw ?? 'no') : 'no';
 
 $startDate = '';
 if ($center && !empty($center->start_date)) {
-    $startDate = userdate($center->start_date, get_string('strftimedate', 'langconfig'));
+    $startDate = userdate($center->start_date, clp_get_string('strftimedate', 'langconfig'));
 }
 $lastVisitDate = '';
 if ($lastVisit) {
@@ -113,7 +127,7 @@ function center_pluginfile_url($filename, $filearea, $itemid) {
 
 function render_slider(array $images, int $itemid, string $filearea): string {
     if (empty($images)) {
-        return '<div class="sd-slider" data-simpleslider="true"><div class="sd-slide is-empty"><img src="/theme/clp/assets/images/placeholder.jpg" alt="' . get_string('noplaceholder', 'local_centermanagement') . '"></div></div>';
+        return '<div class="sd-slider" data-simpleslider="true"><div class="sd-slide is-empty"><img src="/theme/clp/assets/images/placeholder.jpg" alt="' . clp_get_string('noplaceholder', 'local_centermanagement') . '"></div></div>';
     }
     $slides = '';
     $dots = '';
@@ -137,7 +151,7 @@ function render_slider(array $images, int $itemid, string $filearea): string {
 
 function render_gallery(array $images, int $itemid, string $filearea, string $idprefix): string {
     if (empty($images)) {
-        return '<p class="text-muted">' . get_string('noimages', 'local_centermanagement') . '</p>';
+        return '<p class="text-muted">' . clp_get_string('noimages', 'local_centermanagement') . '</p>';
     }
     $html = '<div class="sd-gallery" id="' . $idprefix . '">';
     foreach ($images as $idx => $img) {
@@ -159,10 +173,10 @@ function program_table_row(string $label, string $value, bool $isBadge = false):
 }
 
 $programs = [
-    ['program' => get_string('programclppienglishclub', 'local_centermanagement'), 'status' => $programClpPi],
-    ['program' => get_string('programeglenglish', 'local_centermanagement'), 'status' => $programEglEng],
-    ['program' => get_string('programeglmath', 'local_centermanagement'), 'status' => $programEglMath],
-    ['program' => get_string('programcsaw', 'local_centermanagement'), 'status' => $programCsaw],
+    ['program' => clp_get_string('programclppienglishclub', 'local_centermanagement'), 'status' => $programClpPi],
+    ['program' => clp_get_string('programeglenglish', 'local_centermanagement'), 'status' => $programEglEng],
+    ['program' => clp_get_string('programeglmath', 'local_centermanagement'), 'status' => $programEglMath],
+    ['program' => clp_get_string('programcsaw', 'local_centermanagement'), 'status' => $programCsaw],
 ];
 ?>
 <!DOCTYPE html>
@@ -170,7 +184,7 @@ $programs = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>CLP | <?php echo $center ? htmlspecialchars($institutionName, ENT_QUOTES) : get_string('schoolinfo', 'local_centermanagement'); ?></title>
+    <title>CLP | <?php echo $center ? htmlspecialchars($institutionName, ENT_QUOTES) : clp_get_string('schoolinfo', 'local_centermanagement'); ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
@@ -227,13 +241,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">mail</span>
-                        <h2><?php echo get_string('mailingaddress', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('mailingaddress', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
                         <?php if ($mailingAddress): ?>
                             <?php echo format_text($mailingAddress, FORMAT_HTML); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -241,13 +255,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">history</span>
-                        <h2><?php echo get_string('historyofthecenter', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('historyofthecenter', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
                         <?php if ($history): ?>
                             <?php echo format_text($history, FORMAT_HTML); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -255,13 +269,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">description</span>
-                        <h2><?php echo get_string('descriptionofthecenter', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('descriptionofthecenter', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
                         <?php if ($description): ?>
                             <?php echo format_text($description, FORMAT_HTML); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -269,13 +283,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">contact_page</span>
-                        <h2><?php echo get_string('contactpersonwithphoneemail', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('contactpersonwithphoneemail', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
                         <?php if ($contactPerson): ?>
                             <?php echo format_text($contactPerson, FORMAT_HTML); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -283,13 +297,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">emoji_events</span>
-                        <h2><?php echo get_string('accomplishment', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('accomplishment', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
                         <?php if ($accomplishment): ?>
                             <?php echo format_text($accomplishment, FORMAT_HTML); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -297,7 +311,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">groups</span>
-                        <h2><?php echo get_string('sponsors', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('sponsors', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <?php if (!empty($sponsors)): ?>
@@ -333,7 +347,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                                 <?php endforeach; ?>
                             </div>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -341,13 +355,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">school</span>
-                        <h2><?php echo get_string('clcgraduatestudents', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('clcgraduatestudents', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
                         <?php if ($clcGraduate): ?>
                             <?php echo format_text($clcGraduate, FORMAT_HTML); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -355,13 +369,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">volunteer_activism</span>
-                        <h2><?php echo get_string('scrbenefitedstudents', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('scrbenefitedstudents', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
                         <?php if ($scrBenefited): ?>
                             <?php echo format_text($scrBenefited, FORMAT_HTML); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -369,13 +383,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">computer</span>
-                        <h2><?php echo get_string('hardwarestatus', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('hardwarestatus', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
                         <?php if ($hardware): ?>
                             <?php echo format_text($hardware, FORMAT_HTML); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -383,13 +397,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">calendar_today</span>
-                        <h2><?php echo get_string('lastvisitdate', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('lastvisitdate', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <?php if ($lastVisitDate): ?>
                             <p><?php echo htmlspecialchars($lastVisitDate, ENT_QUOTES); ?></p>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -397,13 +411,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">photo_library</span>
-                        <h2><?php echo get_string('plaque', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('plaque', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <?php if (!empty($plaqueImages)): ?>
                             <?php echo render_gallery($plaqueImages, $center->id, 'plaque_image', 'plaque-gallery'); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('noimages', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('noimages', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -411,13 +425,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">photo_camera</span>
-                        <h2><?php echo get_string('schoolphotos', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('schoolphotos', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <?php if (!empty($schoolPhotos)): ?>
                             <?php echo render_gallery($schoolPhotos, $center->id, 'school_photo', 'school-photo-gallery'); ?>
                         <?php else: ?>
-                            <p class="sd-empty-state"><?php echo get_string('noimages', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-state"><?php echo clp_get_string('noimages', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -427,7 +441,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card sd-info-card">
                     <div class="sd-card-header">
                         <span class="material-icons">info</span>
-                        <h2><?php echo get_string('currentstatus', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('currentstatus', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <span class="sd-badge sd-badge-status sd-badge-<?php echo $currentStatus === 'supported' ? 'success' : 'secondary'; ?>">
@@ -439,15 +453,15 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card sd-info-card">
                     <div class="sd-card-header">
                         <span class="material-icons">contact_phone</span>
-                        <h2><?php echo get_string('contactinformation', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('contactinformation', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <div class="sd-contact-block">
-                            <h3><?php echo get_string('hm', 'local_centermanagement'); ?></h3>
+                            <h3><?php echo clp_get_string('hm', 'local_centermanagement'); ?></h3>
                             <?php if ($center->hm_teacher_name): ?>
                             <p><?php echo htmlspecialchars($center->hm_teacher_name, ENT_QUOTES); ?></p>
                             <?php else: ?>
-                            <p class="sd-empty-field"><?php echo get_string('notprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-field"><?php echo clp_get_string('notprovided', 'local_centermanagement'); ?></p>
                             <?php endif; ?>
                             <?php if ($center->hm_phone_number): ?>
                             <p><a href="tel:<?php echo htmlspecialchars($center->hm_phone_number, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->hm_phone_number, ENT_QUOTES); ?></a></p>
@@ -458,11 +472,11 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         </div>
 
                         <div class="sd-contact-block">
-                            <h3><?php echo get_string('clc', 'local_centermanagement'); ?></h3>
+                            <h3><?php echo clp_get_string('clc', 'local_centermanagement'); ?></h3>
                             <?php if ($center->clc_teacher_name): ?>
                             <p><?php echo htmlspecialchars($center->clc_teacher_name, ENT_QUOTES); ?></p>
                             <?php else: ?>
-                            <p class="sd-empty-field"><?php echo get_string('notprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-field"><?php echo clp_get_string('notprovided', 'local_centermanagement'); ?></p>
                             <?php endif; ?>
                             <?php if ($center->clc_teacher_email): ?>
                             <p><a href="mailto:<?php echo htmlspecialchars($center->clc_teacher_email, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->clc_teacher_email, ENT_QUOTES); ?></a></p>
@@ -473,11 +487,11 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         </div>
 
                         <div class="sd-contact-block">
-                            <h3><?php echo get_string('scr', 'local_centermanagement'); ?></h3>
+                            <h3><?php echo clp_get_string('scr', 'local_centermanagement'); ?></h3>
                             <?php if ($center->scr_teacher_name): ?>
                             <p><?php echo htmlspecialchars($center->scr_teacher_name, ENT_QUOTES); ?></p>
                             <?php else: ?>
-                            <p class="sd-empty-field"><?php echo get_string('notprovided', 'local_centermanagement'); ?></p>
+                            <p class="sd-empty-field"><?php echo clp_get_string('notprovided', 'local_centermanagement'); ?></p>
                             <?php endif; ?>
                             <?php if ($center->scr_teacher_email): ?>
                             <p><a href="mailto:<?php echo htmlspecialchars($center->scr_teacher_email, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->scr_teacher_email, ENT_QUOTES); ?></a></p>
@@ -492,11 +506,11 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card sd-info-card">
                     <div class="sd-card-header">
                         <span class="material-icons">public</span>
-                        <h2><?php echo get_string('globalclassroom', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('globalclassroom', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <span class="sd-badge sd-badge-<?php echo $globalClassroom === 'yes' ? 'success' : 'secondary'; ?>">
-                            <?php echo $globalClassroom === 'yes' ? get_string('yes', 'local_centermanagement') : get_string('no', 'local_centermanagement'); ?>
+                            <?php echo $globalClassroom === 'yes' ? clp_get_string('yes', 'local_centermanagement') : clp_get_string('no', 'local_centermanagement'); ?>
                         </span>
                     </div>
                 </div>
@@ -504,7 +518,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card sd-info-card">
                     <div class="sd-card-header">
                         <span class="material-icons">stars</span>
-                        <h2><?php echo get_string('schoolgrading', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('schoolgrading', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <?php if ($schoolGrading): ?>
@@ -520,14 +534,14 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                 <div class="sd-card sd-info-card">
                     <div class="sd-card-header">
                         <span class="material-icons">assignment</span>
-                        <h2><?php echo get_string('otherprograms', 'local_centermanagement'); ?></h2>
+                        <h2><?php echo clp_get_string('otherprograms', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
                         <table class="sd-programs-table">
                             <thead>
                                 <tr>
-                                    <th><?php echo get_string('otherprograms', 'local_centermanagement'); ?></th>
-                                    <th><?php echo get_string('status', 'local_centermanagement'); ?></th>
+                                    <th><?php echo clp_get_string('otherprograms', 'local_centermanagement'); ?></th>
+                                    <th><?php echo clp_get_string('status', 'local_centermanagement'); ?></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -536,7 +550,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                                     <td><?php echo htmlspecialchars($prog['program'], ENT_QUOTES); ?></td>
                                     <td>
                                         <span class="sd-badge sd-badge-<?php echo $prog['status'] === 'yes' ? 'success' : 'secondary'; ?>">
-                                            <?php echo $prog['status'] === 'yes' ? get_string('yes', 'local_centermanagement') : get_string('no', 'local_centermanagement'); ?>
+                                            <?php echo $prog['status'] === 'yes' ? clp_get_string('yes', 'local_centermanagement') : clp_get_string('no', 'local_centermanagement'); ?>
                                         </span>
                                     </td>
                                 </tr>
