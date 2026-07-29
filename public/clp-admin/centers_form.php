@@ -349,12 +349,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $sponsorTable = $prefix . 'local_centermanagement_sponsors';
                     $db = clp_db_connect();
                     $db->query("DELETE FROM {$sponsorTable} WHERE center_id = " . (int)$centerId);
-                    foreach ($sponsors as $sortorder => $sponsor) {
+                    $sort = 0;
+                    foreach ($sponsors as $sponsor) {
+                        $name = trim((string)($sponsor['name'] ?? ''));
+                        if ($name === '') continue;
+                        $country = trim((string)($sponsor['country'] ?? ''));
+                        $address = trim((string)($sponsor['address'] ?? ''));
+                        $email = trim((string)($sponsor['email'] ?? ''));
+                        $phone = trim((string)($sponsor['phone'] ?? ''));
                         $stmt = $db->prepare("INSERT INTO {$sponsorTable} (center_id, name, country, address, email, phone, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
-                        $sort = (int)$sortorder;
-                        $stmt->bind_param("issssssii", $centerId, $sponsor['name'], $sponsor['country'], $sponsor['address'], $sponsor['email'], $sponsor['phone'], $sort, $now, $now);
+                        $stmt->bind_param("issssssii", $centerId, $name, $country, $address, $email, $phone, $sort, $now, $now);
                         $stmt->execute();
                         $stmt->close();
+                        $sort++;
                     }
                     $db->close();
                 }

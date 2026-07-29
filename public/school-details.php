@@ -316,33 +316,26 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                     <div class="sd-card-body">
                         <?php if (!empty($sponsors)): ?>
                             <div class="sd-sponsors-grid">
-                                <?php foreach ($sponsors as $sponsor): ?>
+                                <?php foreach ($sponsors as $sponsor):
+                                    $name = trim((string)($sponsor->name ?? ''));
+                                    if ($name === '') continue;
+                                    $fields = [];
+                                    if (trim((string)($sponsor->country ?? '')) !== '') {
+                                        $fields[] = '<p class="sd-sponsor-field"><span class="material-icons">public</span>' . htmlspecialchars(trim($sponsor->country), ENT_QUOTES) . '</p>';
+                                    }
+                                    if (trim((string)($sponsor->address ?? '')) !== '') {
+                                        $fields[] = '<p class="sd-sponsor-field"><span class="material-icons">location_on</span>' . htmlspecialchars(trim($sponsor->address), ENT_QUOTES) . '</p>';
+                                    }
+                                    if (trim((string)($sponsor->email ?? '')) !== '') {
+                                        $fields[] = '<p class="sd-sponsor-field"><span class="material-icons">email</span><a href="mailto:' . htmlspecialchars(trim($sponsor->email), ENT_QUOTES) . '">' . htmlspecialchars(trim($sponsor->email), ENT_QUOTES) . '</a></p>';
+                                    }
+                                    if (trim((string)($sponsor->phone ?? '')) !== '') {
+                                        $fields[] = '<p class="sd-sponsor-field"><span class="material-icons">phone</span><a href="tel:' . htmlspecialchars(trim($sponsor->phone), ENT_QUOTES) . '">' . htmlspecialchars(trim($sponsor->phone), ENT_QUOTES) . '</a></p>';
+                                    }
+                                ?>
                                 <div class="sd-sponsor-card">
-                                    <h3 class="sd-sponsor-name"><?php echo htmlspecialchars($sponsor->name, ENT_QUOTES); ?></h3>
-                                    <?php if ($sponsor->country): ?>
-                                    <p class="sd-sponsor-field">
-                                        <span class="material-icons">public</span>
-                                        <?php echo htmlspecialchars($sponsor->country, ENT_QUOTES); ?>
-                                    </p>
-                                    <?php endif; ?>
-                                    <?php if ($sponsor->address): ?>
-                                    <p class="sd-sponsor-field">
-                                        <span class="material-icons">location_on</span>
-                                        <?php echo htmlspecialchars($sponsor->address, ENT_QUOTES); ?>
-                                    </p>
-                                    <?php endif; ?>
-                                    <?php if ($sponsor->email): ?>
-                                    <p class="sd-sponsor-field">
-                                        <span class="material-icons">email</span>
-                                        <a href="mailto:<?php echo htmlspecialchars($sponsor->email, ENT_QUOTES); ?>"><?php echo htmlspecialchars($sponsor->email, ENT_QUOTES); ?></a>
-                                    </p>
-                                    <?php endif; ?>
-                                    <?php if ($sponsor->phone): ?>
-                                    <p class="sd-sponsor-field">
-                                        <span class="material-icons">phone</span>
-                                        <a href="tel:<?php echo htmlspecialchars($sponsor->phone, ENT_QUOTES); ?>"><?php echo htmlspecialchars($sponsor->phone, ENT_QUOTES); ?></a>
-                                    </p>
-                                    <?php endif; ?>
+                                    <h3 class="sd-sponsor-name"><?php echo htmlspecialchars($name, ENT_QUOTES); ?></h3>
+                                    <?php echo implode('', $fields); ?>
                                 </div>
                                 <?php endforeach; ?>
                             </div>
