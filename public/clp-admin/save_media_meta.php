@@ -22,9 +22,9 @@ if ($centerId <= 0 || $filearea === '' || $filename === '' || $action === '') {
 
 $db = clp_db_connect();
 $fileareaTables = [
-    'banner_images' => 'local_centermanagement_banner_images',
-    'plaque_images' => 'local_centermanagement_plaque_gallery',
-    'school_photos' => 'local_centermanagement_school_photo_gallery',
+    'banner_images' => 'mdl_local_centermanagement_banner_images',
+    'plaque_images' => 'mdl_local_centermanagement_plaque_gallery',
+    'school_photos' => 'mdl_local_centermanagement_school_photo_gallery',
 ];
 $table = $fileareaTables[$filearea] ?? null;
 

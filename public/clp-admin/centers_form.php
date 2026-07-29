@@ -356,7 +356,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $db->close();
 
                 if (!empty($sponsors)) {
-                    $sponsorTable = 'local_centermanagement_sponsors';
+                    $sponsorTable = 'mdl_local_centermanagement_sponsors';
                     $db = clp_db_connect();
                     $db->query("DELETE FROM {$sponsorTable} WHERE center_id = " . (int)$centerId);
                     $sort = 0;
@@ -378,9 +378,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 $fileareas = ['banner_images', 'plaque_images', 'school_photos'];
                 $fileareaTables = [
-                    'banner_images' => 'local_centermanagement_banner_images',
-                    'plaque_images' => 'local_centermanagement_plaque_gallery',
-                    'school_photos' => 'local_centermanagement_school_photo_gallery',
+                    'banner_images' => 'mdl_local_centermanagement_banner_images',
+                    'plaque_images' => 'mdl_local_centermanagement_plaque_gallery',
+                    'school_photos' => 'mdl_local_centermanagement_school_photo_gallery',
                 ];
                 foreach ($fileareas as $filearea) {
                     if (!empty($_FILES[$filearea]['name'][0]) || !empty($_FILES[$filearea]['name'])) {
@@ -446,7 +446,7 @@ $db->close();
 $existingSponsors = [];
 if ($isEdit && !empty($record['id'])) {
     $db = clp_db_connect();
-    $sponsorTable = 'local_centermanagement_sponsors';
+    $sponsorTable = 'mdl_local_centermanagement_sponsors';
     if ($res = $db->query("SELECT name, country, address, email, phone FROM {$sponsorTable} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
         while ($row = $res->fetch_assoc()) {
             $existingSponsors[] = $row;
@@ -462,9 +462,9 @@ $existingMedia = [
     'school_photos' => [],
 ];
 $fileareaTables = [
-    'banner_images' => 'local_centermanagement_banner_images',
-    'plaque_images' => 'local_centermanagement_plaque_gallery',
-    'school_photos' => 'local_centermanagement_school_photo_gallery',
+    'banner_images' => 'mdl_local_centermanagement_banner_images',
+    'plaque_images' => 'mdl_local_centermanagement_plaque_gallery',
+    'school_photos' => 'mdl_local_centermanagement_school_photo_gallery',
 ];
 if ($isEdit && !empty($record['id'])) {
     $db = clp_db_connect();
