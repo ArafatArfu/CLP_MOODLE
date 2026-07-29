@@ -2,6 +2,11 @@
 require_once(__DIR__ . '/config.php');
 use local_centermanagement\local\center_repository;
 
+header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+header('Cache-Control: post-check=0, pre-check=0', false);
+header('Pragma: no-cache');
+header('Expires: 0');
+
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url('/school-info.php');
 $PAGE->set_title('CLP | Your Sponsored Center(s)');

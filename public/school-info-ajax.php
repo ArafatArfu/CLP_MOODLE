@@ -9,6 +9,11 @@
 // returned as JSON (table + pagination + meta) for a seamless, no-reload
 // refresh. This mirrors the `ajax=1` behaviour of local/clp/program.php.
 
+header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+header('Cache-Control: post-check=0, pre-check=0', false);
+header('Pragma: no-cache');
+header('Expires: 0');
+
 require_once(__DIR__ . '/config.php');
 
 require_once(__DIR__ . '/local/centermanagement/public_view.php');
