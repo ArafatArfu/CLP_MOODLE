@@ -145,6 +145,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $record['last_visit_date'] = 0;
         }
 
+        $estDate = trim($_POST['establishment_date'] ?? '');
+        $startDate = trim($_POST['start_date'] ?? '');
+
         $sponsorsJson = $_POST['sponsors_json'] ?? '[]';
         $sponsors = json_decode($sponsorsJson, true);
         if (!is_array($sponsors)) {
@@ -169,9 +172,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         if ($record['center_name'] === '') {
             $errors['center_name'] = 'Center name is required.';
-        }
-        if (!in_array($record['center_type'], ['clc', 'scr'], true)) {
-            $errors['center_type'] = 'Please select a valid center type.';
         }
         if (!in_array($record['status'], [0, 1], true)) {
             $record['status'] = 1;
@@ -258,6 +258,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if (empty($errors)) {
             $now = time();
+            $usermodified = 1;
 
             if (!empty($record['id'])) {
                 $stmt = $db->prepare(
@@ -289,7 +290,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $record['global_classroom'], $record['program_clp_pi_english_club'], $record['program_egl_english'],
                     $record['program_egl_math'], $record['program_csaw'], $record['school_grading'],
                     $record['clc_graduate_students'], $record['scr_benefited_students'], $record['hardware_status'],
-                    $record['last_visit_date'], $now, 1, $record['id']
+                    $record['last_visit_date'], $now, $usermodified, $record['id']
                 );
                 $ok = $stmt->execute();
                 $stmt->close();
@@ -365,11 +366,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $db->close();
                 }
 
-                $fileareas = ['banner_images', 'plaque_gallery', 'school_photos'];
+                $fileareas = ['banner_images', 'plaque_images', 'school_photos'];
+                $fileareaTables = [
+                    'banner_images' => 'local_centermanagement_banner_images',
+                    'plaque_images' => 'local_centermanagement_plaque_gallery',
+                    'school_photos' => 'local_centermanagement_school_photo_gallery',
+                ];
                 foreach ($fileareas as $filearea) {
                     if (!empty($_FILES[$filearea]['name'][0]) || !empty($_FILES[$filearea]['name'])) {
                         $db = clp_db_connect();
-                        $table = 'local_centermanagement_' . $filearea;
+                        $table = $fileareaTables[$filearea];
                         $db->query("DELETE FROM {$table} WHERE center_id = " . (int)$centerId);
                         $sortorder = 0;
 
@@ -442,13 +448,18 @@ if ($isEdit && !empty($record['id'])) {
 // Load existing media for form display.
 $existingMedia = [
     'banner_images' => [],
-    'plaque_gallery' => [],
+    'plaque_images' => [],
     'school_photos' => [],
+];
+$fileareaTables = [
+    'banner_images' => 'local_centermanagement_banner_images',
+    'plaque_images' => 'local_centermanagement_plaque_gallery',
+    'school_photos' => 'local_centermanagement_school_photo_gallery',
 ];
 if ($isEdit && !empty($record['id'])) {
     $db = clp_db_connect();
     foreach ($existingMedia as $filearea => $items) {
-        $table = 'local_centermanagement_' . $filearea;
+        $table = $fileareaTables[$filearea];
         if ($res = $db->query("SELECT id, filename, alt_text, is_featured, sortorder FROM {$table} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
             while ($row = $res->fetch_assoc()) {
                 $existingMedia[$filearea][] = $row;
@@ -773,7 +784,7 @@ include __DIR__ . '/includes/header.php';
                 <?php
                 $mediaConfig = [
                     'banner_images' => 'School Banner Images (Slider)',
-                    'plaque_gallery' => 'Plaque Images (Gallery)',
+                    'plaque_images' => 'Plaque Images (Gallery)',
                     'school_photos' => 'School Photos (Gallery)',
                 ];
                 foreach ($mediaConfig as $filearea => $label):

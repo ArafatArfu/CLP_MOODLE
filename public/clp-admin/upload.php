@@ -22,7 +22,7 @@ if ($centerId <= 0 || $filearea === '') {
     exit;
 }
 
-$allowedAreas = ['banner_images', 'plaque_gallery', 'school_photos'];
+$allowedAreas = ['banner_images', 'plaque_images', 'school_photos'];
 if (!in_array($filearea, $allowedAreas, true)) {
     echo json_encode(['success' => false, 'message' => 'Invalid file area']);
     exit;
@@ -57,8 +57,12 @@ $altText = '';
 $isFeatured = 0;
 
 $db = clp_db_connect();
-$prefix = CLP_DB_PREFIX;
-$table = $prefix . 'local_centermanagement_' . $filearea;
+$fileareaTables = [
+    'banner_images' => 'local_centermanagement_banner_images',
+    'plaque_images' => 'local_centermanagement_plaque_gallery',
+    'school_photos' => 'local_centermanagement_school_photo_gallery',
+];
+$table = $fileareaTables[$filearea];
 
 $sortorder = 0;
 if ($result = $db->query("SELECT MAX(sortorder) as max_sort FROM {$table} WHERE center_id = " . (int)$centerId)) {

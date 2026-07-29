@@ -134,8 +134,14 @@ include __DIR__ . '/includes/header.php';
             'plaque_gallery' => 'Plaque Images',
             'school_photo_gallery' => 'School Photos',
         ];
+        $fileareaMap = [
+            'banner_images' => 'banner_images',
+            'plaque_gallery' => 'plaque_images',
+            'school_photo_gallery' => 'school_photos',
+        ];
         foreach ($mediaTypes as $tableSuffix => $label) {
             $table = 'local_centermanagement_' . $tableSuffix;
+            $filearea = $fileareaMap[$tableSuffix];
             $items = [];
             if ($res = $db->query("SELECT filename, alt_text, is_featured, sortorder FROM {$table} WHERE center_id = " . (int)$id . " ORDER BY sortorder ASC, id ASC")) {
                 while ($row = $res->fetch_assoc()) {
@@ -148,7 +154,7 @@ include __DIR__ . '/includes/header.php';
                     <div class="clc-media-grid-view">
                         <?php foreach ($items as $item): ?>
                             <div class="clc-media-card">
-                                <img src="<?php echo clp_uploaded_file_url(str_replace('_gallery', '', str_replace('school_photo_', 'school_photos/', $tableSuffix)), $item['filename']); ?>"
+                                <img src="<?php echo clp_uploaded_file_url($filearea, $item['filename']); ?>"
                                      alt="<?php echo clp_escape($item['alt_text']); ?>"
                                      style="width:120px; height:80px; object-fit:cover; border-radius:6px;">
                                 <div class="clc-media-card-meta">

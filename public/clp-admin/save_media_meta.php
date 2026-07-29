@@ -21,8 +21,17 @@ if ($centerId <= 0 || $filearea === '' || $filename === '' || $action === '') {
 }
 
 $db = clp_db_connect();
-$prefix = CLP_DB_PREFIX;
-$table = $prefix . 'local_centermanagement_' . $filearea;
+$fileareaTables = [
+    'banner_images' => 'local_centermanagement_banner_images',
+    'plaque_images' => 'local_centermanagement_plaque_gallery',
+    'school_photos' => 'local_centermanagement_school_photo_gallery',
+];
+$table = $fileareaTables[$filearea] ?? null;
+
+if (!$table) {
+    echo json_encode(['success' => false, 'message' => 'Invalid file area']);
+    exit;
+}
 
 if ($action === 'update_alt') {
     $altText = clp_sanitize($_POST['alt_text'] ?? '');
