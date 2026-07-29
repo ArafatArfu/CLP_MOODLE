@@ -15,8 +15,8 @@ class center_repository {
     public static function get_centers(array $filters = [], int $limit = 20, int $offset = 0, string $sort = 'timecreated DESC') {
         global $DB;
 
-        $sql = "SELECT * FROM {local_centermanagement_centers} WHERE 1=1";
-        $countsql = "SELECT COUNT(*) FROM {local_centermanagement_centers} WHERE 1=1";
+        $sql = "SELECT * FROM " . $DB->get_prefix() . "local_centermanagement_centers WHERE 1=1";
+        $countsql = "SELECT COUNT(*) FROM " . $DB->get_prefix() . "local_centermanagement_centers WHERE 1=1";
         $params = [];
 
         if (!empty($filters['search'])) {
@@ -300,7 +300,7 @@ class center_repository {
 
         $whereSql = implode(' AND ', $where);
         $total = $DB->count_records_sql(
-            "SELECT COUNT(*) FROM {local_centermanagement_centers} WHERE $whereSql",
+            "SELECT COUNT(*) FROM " . $DB->get_prefix() . "local_centermanagement_centers WHERE $whereSql",
             $params
         );
 
@@ -308,7 +308,7 @@ class center_repository {
         $page = max(1, min($page, $totalpages));
         $limitfrom = ($page - 1) * $perpage;
 
-        $sql = "SELECT * FROM {local_centermanagement_centers} WHERE $whereSql ORDER BY $sortfield $dir, id DESC";
+        $sql = "SELECT * FROM " . $DB->get_prefix() . "local_centermanagement_centers WHERE $whereSql ORDER BY $sortfield $dir, id DESC";
         $rows = $DB->get_records_sql($sql, $params, $limitfrom, $perpage);
 
         return [
