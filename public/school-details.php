@@ -224,179 +224,203 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
 
         <div class="sd-grid">
             <div class="sd-main-col">
-                <?php if ($mailingAddress): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">mail</span>
                         <h2><?php echo get_string('mailingaddress', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
-                        <?php echo format_text($mailingAddress, FORMAT_HTML); ?>
+                        <?php if ($mailingAddress): ?>
+                            <?php echo format_text($mailingAddress, FORMAT_HTML); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if ($history): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">history</span>
                         <h2><?php echo get_string('historyofthecenter', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
-                        <?php echo format_text($history, FORMAT_HTML); ?>
+                        <?php if ($history): ?>
+                            <?php echo format_text($history, FORMAT_HTML); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if ($description): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">description</span>
                         <h2><?php echo get_string('descriptionofthecenter', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
-                        <?php echo format_text($description, FORMAT_HTML); ?>
+                        <?php if ($description): ?>
+                            <?php echo format_text($description, FORMAT_HTML); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if ($contactPerson): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">contact_page</span>
                         <h2><?php echo get_string('contactpersonwithphoneemail', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
-                        <?php echo format_text($contactPerson, FORMAT_HTML); ?>
+                        <?php if ($contactPerson): ?>
+                            <?php echo format_text($contactPerson, FORMAT_HTML); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if ($accomplishment): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">emoji_events</span>
                         <h2><?php echo get_string('accomplishment', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
-                        <?php echo format_text($accomplishment, FORMAT_HTML); ?>
+                        <?php if ($accomplishment): ?>
+                            <?php echo format_text($accomplishment, FORMAT_HTML); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if (!empty($sponsors)): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">groups</span>
                         <h2><?php echo get_string('sponsors', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
-                        <div class="sd-sponsors-grid">
-                            <?php foreach ($sponsors as $sponsor): ?>
-                            <div class="sd-sponsor-card">
-                                <h3 class="sd-sponsor-name"><?php echo htmlspecialchars($sponsor->name, ENT_QUOTES); ?></h3>
-                                <?php if ($sponsor->country): ?>
-                                <p class="sd-sponsor-field">
-                                    <span class="material-icons">public</span>
-                                    <?php echo htmlspecialchars($sponsor->country, ENT_QUOTES); ?>
-                                </p>
-                                <?php endif; ?>
-                                <?php if ($sponsor->address): ?>
-                                <p class="sd-sponsor-field">
-                                    <span class="material-icons">location_on</span>
-                                    <?php echo htmlspecialchars($sponsor->address, ENT_QUOTES); ?>
-                                </p>
-                                <?php endif; ?>
-                                <?php if ($sponsor->email): ?>
-                                <p class="sd-sponsor-field">
-                                    <span class="material-icons">email</span>
-                                    <a href="mailto:<?php echo htmlspecialchars($sponsor->email, ENT_QUOTES); ?>"><?php echo htmlspecialchars($sponsor->email, ENT_QUOTES); ?></a>
-                                </p>
-                                <?php endif; ?>
-                                <?php if ($sponsor->phone): ?>
-                                <p class="sd-sponsor-field">
-                                    <span class="material-icons">phone</span>
-                                    <a href="tel:<?php echo htmlspecialchars($sponsor->phone, ENT_QUOTES); ?>"><?php echo htmlspecialchars($sponsor->phone, ENT_QUOTES); ?></a>
-                                </p>
-                                <?php endif; ?>
+                        <?php if (!empty($sponsors)): ?>
+                            <div class="sd-sponsors-grid">
+                                <?php foreach ($sponsors as $sponsor): ?>
+                                <div class="sd-sponsor-card">
+                                    <h3 class="sd-sponsor-name"><?php echo htmlspecialchars($sponsor->name, ENT_QUOTES); ?></h3>
+                                    <?php if ($sponsor->country): ?>
+                                    <p class="sd-sponsor-field">
+                                        <span class="material-icons">public</span>
+                                        <?php echo htmlspecialchars($sponsor->country, ENT_QUOTES); ?>
+                                    </p>
+                                    <?php endif; ?>
+                                    <?php if ($sponsor->address): ?>
+                                    <p class="sd-sponsor-field">
+                                        <span class="material-icons">location_on</span>
+                                        <?php echo htmlspecialchars($sponsor->address, ENT_QUOTES); ?>
+                                    </p>
+                                    <?php endif; ?>
+                                    <?php if ($sponsor->email): ?>
+                                    <p class="sd-sponsor-field">
+                                        <span class="material-icons">email</span>
+                                        <a href="mailto:<?php echo htmlspecialchars($sponsor->email, ENT_QUOTES); ?>"><?php echo htmlspecialchars($sponsor->email, ENT_QUOTES); ?></a>
+                                    </p>
+                                    <?php endif; ?>
+                                    <?php if ($sponsor->phone): ?>
+                                    <p class="sd-sponsor-field">
+                                        <span class="material-icons">phone</span>
+                                        <a href="tel:<?php echo htmlspecialchars($sponsor->phone, ENT_QUOTES); ?>"><?php echo htmlspecialchars($sponsor->phone, ENT_QUOTES); ?></a>
+                                    </p>
+                                    <?php endif; ?>
+                                </div>
+                                <?php endforeach; ?>
                             </div>
-                            <?php endforeach; ?>
-                        </div>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if ($clcGraduate): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">school</span>
                         <h2><?php echo get_string('clcgraduatestudents', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
-                        <?php echo format_text($clcGraduate, FORMAT_HTML); ?>
+                        <?php if ($clcGraduate): ?>
+                            <?php echo format_text($clcGraduate, FORMAT_HTML); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if ($scrBenefited): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">volunteer_activism</span>
                         <h2><?php echo get_string('scrbenefitedstudents', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
-                        <?php echo format_text($scrBenefited, FORMAT_HTML); ?>
+                        <?php if ($scrBenefited): ?>
+                            <?php echo format_text($scrBenefited, FORMAT_HTML); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if ($hardware): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">computer</span>
                         <h2><?php echo get_string('hardwarestatus', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body sd-rich-text">
-                        <?php echo format_text($hardware, FORMAT_HTML); ?>
+                        <?php if ($hardware): ?>
+                            <?php echo format_text($hardware, FORMAT_HTML); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if ($lastVisitDate): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">calendar_today</span>
                         <h2><?php echo get_string('lastvisitdate', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
-                        <p><?php echo htmlspecialchars($lastVisitDate, ENT_QUOTES); ?></p>
+                        <?php if ($lastVisitDate): ?>
+                            <p><?php echo htmlspecialchars($lastVisitDate, ENT_QUOTES); ?></p>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if (!empty($plaqueImages)): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">photo_library</span>
                         <h2><?php echo get_string('plaque', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
-                        <?php echo render_gallery($plaqueImages, $center->id, 'plaque_image', 'plaque-gallery'); ?>
+                        <?php if (!empty($plaqueImages)): ?>
+                            <?php echo render_gallery($plaqueImages, $center->id, 'plaque_image', 'plaque-gallery'); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('noimages', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
 
-                <?php if (!empty($schoolPhotos)): ?>
                 <div class="sd-card">
                     <div class="sd-card-header">
                         <span class="material-icons">photo_camera</span>
                         <h2><?php echo get_string('schoolphotos', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
-                        <?php echo render_gallery($schoolPhotos, $center->id, 'school_photo', 'school-photo-gallery'); ?>
+                        <?php if (!empty($schoolPhotos)): ?>
+                            <?php echo render_gallery($schoolPhotos, $center->id, 'school_photo', 'school-photo-gallery'); ?>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo get_string('noimages', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
-                <?php endif; ?>
             </div>
 
             <div class="sd-sidebar">
@@ -418,11 +442,12 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         <h2><?php echo get_string('contactinformation', 'local_centermanagement'); ?></h2>
                     </div>
                     <div class="sd-card-body">
-                        <?php if ($center->hm_teacher_name || $center->hm_phone_number || $center->hm_email): ?>
                         <div class="sd-contact-block">
                             <h3><?php echo get_string('hm', 'local_centermanagement'); ?></h3>
                             <?php if ($center->hm_teacher_name): ?>
                             <p><?php echo htmlspecialchars($center->hm_teacher_name, ENT_QUOTES); ?></p>
+                            <?php else: ?>
+                            <p class="sd-empty-field"><?php echo get_string('notprovided', 'local_centermanagement'); ?></p>
                             <?php endif; ?>
                             <?php if ($center->hm_phone_number): ?>
                             <p><a href="tel:<?php echo htmlspecialchars($center->hm_phone_number, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->hm_phone_number, ENT_QUOTES); ?></a></p>
@@ -431,13 +456,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                             <p><a href="mailto:<?php echo htmlspecialchars($center->hm_email, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->hm_email, ENT_QUOTES); ?></a></p>
                             <?php endif; ?>
                         </div>
-                        <?php endif; ?>
 
-                        <?php if ($center->clc_teacher_name || $center->clc_teacher_email || $center->clc_teacher_phone): ?>
                         <div class="sd-contact-block">
                             <h3><?php echo get_string('clc', 'local_centermanagement'); ?></h3>
                             <?php if ($center->clc_teacher_name): ?>
                             <p><?php echo htmlspecialchars($center->clc_teacher_name, ENT_QUOTES); ?></p>
+                            <?php else: ?>
+                            <p class="sd-empty-field"><?php echo get_string('notprovided', 'local_centermanagement'); ?></p>
                             <?php endif; ?>
                             <?php if ($center->clc_teacher_email): ?>
                             <p><a href="mailto:<?php echo htmlspecialchars($center->clc_teacher_email, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->clc_teacher_email, ENT_QUOTES); ?></a></p>
@@ -446,13 +471,13 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                             <p><a href="tel:<?php echo htmlspecialchars($center->clc_teacher_phone, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->clc_teacher_phone, ENT_QUOTES); ?></a></p>
                             <?php endif; ?>
                         </div>
-                        <?php endif; ?>
 
-                        <?php if ($center->scr_teacher_name || $center->scr_teacher_email || $center->scr_teacher_phone): ?>
                         <div class="sd-contact-block">
                             <h3><?php echo get_string('scr', 'local_centermanagement'); ?></h3>
                             <?php if ($center->scr_teacher_name): ?>
                             <p><?php echo htmlspecialchars($center->scr_teacher_name, ENT_QUOTES); ?></p>
+                            <?php else: ?>
+                            <p class="sd-empty-field"><?php echo get_string('notprovided', 'local_centermanagement'); ?></p>
                             <?php endif; ?>
                             <?php if ($center->scr_teacher_email): ?>
                             <p><a href="mailto:<?php echo htmlspecialchars($center->scr_teacher_email, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->scr_teacher_email, ENT_QUOTES); ?></a></p>
@@ -461,7 +486,6 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                             <p><a href="tel:<?php echo htmlspecialchars($center->scr_teacher_phone, ENT_QUOTES); ?>"><?php echo htmlspecialchars($center->scr_teacher_phone, ENT_QUOTES); ?></a></p>
                             <?php endif; ?>
                         </div>
-                        <?php endif; ?>
                     </div>
                 </div>
 
@@ -487,6 +511,8 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                         <span class="sd-grade-badge sd-grade-<?php echo strtolower($schoolGrading); ?>">
                             <?php echo htmlspecialchars($schoolGrading, ENT_QUOTES); ?>
                         </span>
+                        <?php else: ?>
+                        <span class="sd-grade-badge sd-grade-na">N/A</span>
                         <?php endif; ?>
                     </div>
                 </div>

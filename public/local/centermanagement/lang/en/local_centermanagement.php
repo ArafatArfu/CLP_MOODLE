@@ -225,4 +225,6 @@ $string['retry'] = 'Retry';
 $string['loadfailed'] = 'Failed to load image';
 $string['keyboardnav'] = 'Use arrow keys to navigate';
 $string['touchnav'] = 'Swipe to navigate';
+$string['nodataprovided'] = 'No data provided';
+$string['notprovided'] = 'Not provided';
 
