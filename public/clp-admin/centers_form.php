@@ -345,8 +345,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $db->close();
 
                 if (!empty($sponsors)) {
-                    $prefix = CLP_DB_PREFIX;
-                    $sponsorTable = $prefix . 'local_centermanagement_sponsors';
+                    $sponsorTable = 'local_centermanagement_sponsors';
                     $db = clp_db_connect();
                     $db->query("DELETE FROM {$sponsorTable} WHERE center_id = " . (int)$centerId);
                     $sort = 0;
@@ -366,12 +365,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $db->close();
                 }
 
-                $fileareas = ['banner_images', 'plaque_images', 'school_photos'];
+                $fileareas = ['banner_images', 'plaque_gallery', 'school_photos'];
                 foreach ($fileareas as $filearea) {
                     if (!empty($_FILES[$filearea]['name'][0]) || !empty($_FILES[$filearea]['name'])) {
                         $db = clp_db_connect();
-                        $prefix = CLP_DB_PREFIX;
-                        $table = $prefix . 'local_centermanagement_' . $filearea;
+                        $table = 'local_centermanagement_' . $filearea;
                         $db->query("DELETE FROM {$table} WHERE center_id = " . (int)$centerId);
                         $sortorder = 0;
 
@@ -432,8 +430,7 @@ $db->close();
 $existingSponsors = [];
 if ($isEdit && !empty($record['id'])) {
     $db = clp_db_connect();
-    $prefix = CLP_DB_PREFIX;
-    $sponsorTable = $prefix . 'local_centermanagement_sponsors';
+    $sponsorTable = 'local_centermanagement_sponsors';
     if ($res = $db->query("SELECT name, country, address, email, phone FROM {$sponsorTable} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
         while ($row = $res->fetch_assoc()) {
             $existingSponsors[] = $row;
@@ -445,14 +442,13 @@ if ($isEdit && !empty($record['id'])) {
 // Load existing media for form display.
 $existingMedia = [
     'banner_images' => [],
-    'plaque_images' => [],
+    'plaque_gallery' => [],
     'school_photos' => [],
 ];
 if ($isEdit && !empty($record['id'])) {
     $db = clp_db_connect();
-    $prefix = CLP_DB_PREFIX;
     foreach ($existingMedia as $filearea => $items) {
-        $table = $prefix . 'local_centermanagement_' . $filearea;
+        $table = 'local_centermanagement_' . $filearea;
         if ($res = $db->query("SELECT id, filename, alt_text, is_featured, sortorder FROM {$table} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
             while ($row = $res->fetch_assoc()) {
                 $existingMedia[$filearea][] = $row;
@@ -777,7 +773,7 @@ include __DIR__ . '/includes/header.php';
                 <?php
                 $mediaConfig = [
                     'banner_images' => 'School Banner Images (Slider)',
-                    'plaque_images' => 'Plaque Images (Gallery)',
+                    'plaque_gallery' => 'Plaque Images (Gallery)',
                     'school_photos' => 'School Photos (Gallery)',
                 ];
                 foreach ($mediaConfig as $filearea => $label):

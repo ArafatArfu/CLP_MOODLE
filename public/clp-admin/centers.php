@@ -41,11 +41,10 @@ if (isset($_GET['action'])) {
     }
 
     if ($_GET['action'] === 'delete' && $id > 0) {
-        $prefix = CLP_DB_PREFIX;
-        $db->query("DELETE FROM {$prefix}local_centermanagement_sponsors WHERE center_id = " . (int)$id);
-        $db->query("DELETE FROM {$prefix}local_centermanagement_banner_images WHERE center_id = " . (int)$id);
-        $db->query("DELETE FROM {$prefix}local_centermanagement_plaque_gallery WHERE center_id = " . (int)$id);
-        $db->query("DELETE FROM {$prefix}local_centermanagement_school_photo_gallery WHERE center_id = " . (int)$id);
+        $db->query("DELETE FROM local_centermanagement_sponsors WHERE center_id = " . (int)$id);
+        $db->query("DELETE FROM local_centermanagement_banner_images WHERE center_id = " . (int)$id);
+        $db->query("DELETE FROM local_centermanagement_plaque_gallery WHERE center_id = " . (int)$id);
+        $db->query("DELETE FROM local_centermanagement_school_photo_gallery WHERE center_id = " . (int)$id);
         $stmt = $db->prepare("DELETE FROM " . CLP_CENTERS_TABLE . " WHERE id = ?");
         $stmt->bind_param("i", $id);
         if ($stmt->execute()) {

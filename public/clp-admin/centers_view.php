@@ -135,7 +135,7 @@ include __DIR__ . '/includes/header.php';
             'school_photo_gallery' => 'School Photos',
         ];
         foreach ($mediaTypes as $tableSuffix => $label) {
-            $table = CLP_DB_PREFIX . 'local_centermanagement_' . $tableSuffix;
+            $table = 'local_centermanagement_' . $tableSuffix;
             $items = [];
             if ($res = $db->query("SELECT filename, alt_text, is_featured, sortorder FROM {$table} WHERE center_id = " . (int)$id . " ORDER BY sortorder ASC, id ASC")) {
                 while ($row = $res->fetch_assoc()) {

@@ -22,7 +22,7 @@ if ($centerId <= 0 || $filearea === '') {
     exit;
 }
 
-$allowedAreas = ['banner_images', 'plaque_images', 'school_photos'];
+$allowedAreas = ['banner_images', 'plaque_gallery', 'school_photos'];
 if (!in_array($filearea, $allowedAreas, true)) {
     echo json_encode(['success' => false, 'message' => 'Invalid file area']);
     exit;
