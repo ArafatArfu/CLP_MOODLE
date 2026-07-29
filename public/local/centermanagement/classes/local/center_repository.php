@@ -153,7 +153,7 @@ class center_repository {
         }
 
         $sql = "SELECT DISTINCT $field
-                  FROM {local_centermanagement_centers}
+                  FROM " . $DB->get_prefix() . "local_centermanagement_centers
                  WHERE $field IS NOT NULL AND $field <> ''
                  ORDER BY $field ASC";
         $values = $DB->get_fieldset_sql($sql);
@@ -322,7 +322,7 @@ class center_repository {
     public static function get_distinct_sponsors(): array {
         global $DB;
         $sql = "SELECT DISTINCT sponsor_name
-                  FROM {local_centermanagement_centers}
+                  FROM " . $DB->get_prefix() . "local_centermanagement_centers
                  WHERE sponsor_name IS NOT NULL AND sponsor_name <> '' AND status = 1
                  ORDER BY sponsor_name ASC";
         $names = $DB->get_fieldset_sql($sql);
