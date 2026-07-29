@@ -210,7 +210,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
     <div class="sd-container">
         <div class="sd-card sd-hero-card">
             <div class="sd-hero-banner">
-                <?php echo render_slider($bannerImages, $center->id, 'banner_image'); ?>
+                <?php echo render_slider($bannerImages, $center->id, 'banner_images'); ?>
             </div>
             <div class="sd-hero-content">
                 <h1 class="sd-school-title"><?php echo htmlspecialchars($institutionName, ENT_QUOTES); ?></h1>
@@ -408,7 +408,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                     </div>
                     <div class="sd-card-body">
                         <?php if (!empty($plaqueImages)): ?>
-                            <?php echo render_gallery($plaqueImages, $center->id, 'plaque_image', 'plaque-gallery'); ?>
+                            <?php echo render_gallery($plaqueImages, $center->id, 'plaque_images', 'plaque-gallery'); ?>
                         <?php else: ?>
                             <p class="sd-empty-state"><?php echo clp_get_string('noimages', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
@@ -422,7 +422,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                     </div>
                     <div class="sd-card-body">
                         <?php if (!empty($schoolPhotos)): ?>
-                            <?php echo render_gallery($schoolPhotos, $center->id, 'school_photo', 'school-photo-gallery'); ?>
+                            <?php echo render_gallery($schoolPhotos, $center->id, 'school_photos', 'school-photo-gallery'); ?>
                         <?php else: ?>
                             <p class="sd-empty-state"><?php echo clp_get_string('noimages', 'local_centermanagement'); ?></p>
                         <?php endif; ?>
