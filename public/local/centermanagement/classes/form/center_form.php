@@ -44,10 +44,6 @@ class center_form extends \moodleform {
         $mform->addRule('center_code', get_string('requiredfield', 'local_centermanagement'), 'required', null, 'client');
         $mform->addRule('center_code', get_string('maximumchars', '', 255), 'maxlength', 255, 'client');
 
-        $mform->addElement('text', 'school_name', get_string('schoolname', 'local_centermanagement'));
-        $mform->setType('school_name', PARAM_TEXT);
-        $mform->addRule('school_name', get_string('maximumchars', '', 255), 'maxlength', 255, 'client');
-
         $mform->addElement('radios', 'center_type', get_string('centertype', 'local_centermanagement'), [
             'clc' => get_string('centertypeclc', 'local_centermanagement'),
             'scr' => get_string('centertypescr', 'local_centermanagement'),

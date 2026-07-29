@@ -13,7 +13,6 @@ class center_manager {
         $data = new \stdClass();
         $data->center_code = trim($formdata->center_code);
         $data->center_name = trim($formdata->center_name);
-        $data->school_name = trim($formdata->school_name ?? '');
         $data->center_type = $formdata->center_type ?? 'clc';
         $data->division = trim($formdata->division ?? '');
         $data->district = trim($formdata->district ?? '');
@@ -55,6 +54,8 @@ class center_manager {
         $data->scr_benefited_students = $formdata->scr_benefited_students ?? '';
         $data->hardware_status = $formdata->hardware_status ?? '';
         $data->last_visit_date = $formdata->last_visit_date ?? null;
+        $data->follow_up_over_phone = (int)($formdata->follow_up_over_phone ?? 0);
+        $data->last_follow_up_date = $formdata->last_follow_up_date ?? '';
         $data->image = '';
 
         $id = center_repository::create_center((array)$data);
@@ -144,7 +145,7 @@ class center_manager {
 
         $data = [];
         $fields = [
-            'center_code', 'school_name', 'center_type', 'division', 'district', 'upazila',
+            'center_code', 'center_type', 'division', 'district', 'upazila',
             'address', 'contact_person', 'contact_number', 'email',
             'support', 'sponsor_name', 'devices_count', 'students_count', 'status', 'description',
             'mailing_address', 'history_of_center', 'description_of_center', 'contact_person_details',
@@ -159,7 +160,7 @@ class center_manager {
         foreach ($fields as $field) {
             if (property_exists($formdata, $field)) {
                 $value = $formdata->$field;
-                if (in_array($field, ['center_code', 'school_name', 'division', 'district', 'upazila', 'address',
+                if (in_array($field, ['center_code', 'division', 'district', 'upazila', 'address',
                     'contact_person', 'contact_number', 'email', 'support', 'sponsor_name',
                     'hm_teacher_name', 'hm_phone_number', 'hm_email',
                     'clc_teacher_name', 'clc_teacher_email', 'clc_teacher_phone',
@@ -181,6 +182,12 @@ class center_manager {
         }
         if (property_exists($formdata, 'last_visit_date')) {
             $data['last_visit_date'] = $formdata->last_visit_date ?: null;
+        }
+        if (property_exists($formdata, 'follow_up_over_phone')) {
+            $data['follow_up_over_phone'] = (int)$formdata->follow_up_over_phone;
+        }
+        if (property_exists($formdata, 'last_follow_up_date')) {
+            $data['last_follow_up_date'] = $formdata->last_follow_up_date ?: '';
         }
 
         center_repository::update_center($id, $data);

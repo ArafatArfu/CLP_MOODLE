@@ -330,7 +330,7 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                             $("#school").empty();
                             $("#school").append('<option>Select</option>');
                             $.each(res, function (key, value) {
-                                $("#school").append(`<option value="${value.id}">${value.school_name}</option>`);
+                                $("#school").append(`<option value="${value.id}">${value.center_name}</option>`);
                             });
                         } else {
                             $("#school").empty();

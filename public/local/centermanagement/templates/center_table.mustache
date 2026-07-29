@@ -40,7 +40,6 @@
                             <tr>
                                 <th>{{#str}}centercode, local_centermanagement{{/str}}</th>
                                 <th>{{#str}}centername, local_centermanagement{{/str}}</th>
-                                <th>{{#str}}schoolname, local_centermanagement{{/str}}</th>
                                 <th>{{#str}}centertype, local_centermanagement{{/str}}</th>
                                 <th>{{#str}}district, local_centermanagement{{/str}}</th>
                                 <th>{{#str}}division, local_centermanagement{{/str}}</th>
@@ -56,7 +55,6 @@
                                 <tr>
                                     <td>{{center_code}}</td>
                                     <td>{{center_name}}</td>
-                                    <td>{{school_name}}</td>
                                     <td>{{center_type}}</td>
                                     <td>{{district}}</td>
                                     <td>{{division}}</td>
@@ -72,7 +70,7 @@
                                 </tr>
                             {{/centers}}
                             {{^centers}}
-                                <tr><td colspan="11" class="text-center">{{#str}}nocentersfound, local_centermanagement{{/str}}</td></tr>
+                                <tr><td colspan="10" class="text-center">{{#str}}nocentersfound, local_centermanagement{{/str}}</td></tr>
                             {{/centers}}
                         </tbody>
                     </table>

@@ -53,7 +53,6 @@ $sponsors = \local_centermanagement\local\center_repository::get_sponsors($cente
 $context_data = [
     'center_code' => $center->center_code ?? '',
     'center_name' => $center->center_name ?? '',
-    'school_name' => $center->school_name ?? '',
     'center_type' => strtoupper($center->center_type ?? 'CLC'),
     'division' => $center->division ?? '',
     'district' => $center->district ?? '',

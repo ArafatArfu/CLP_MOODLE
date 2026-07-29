@@ -21,10 +21,6 @@
                                     <input type="text" name="center_code" id="id_center_code" value="{{center_code}}" class="form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="id_school_name">{{#str}}schoolname, local_centermanagement{{/str}}</label>
-                                    <input type="text" name="school_name" id="id_school_name" value="{{school_name}}" class="form-control">
-                                </div>
-                                <div class="form-group">
                                     <label for="id_center_type">{{#str}}centertype, local_centermanagement{{/str}} <span class="text-danger">*</span></label>
                                     <select name="center_type" id="id_center_type" class="form-control" required>
                                         <option value="clc" {{#center_type_clc}}selected{{/center_type_clc}}>{{#str}}centertypeclc, local_centermanagement{{/str}}</option>

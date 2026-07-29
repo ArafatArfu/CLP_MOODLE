@@ -22,16 +22,13 @@ class center_repository {
         if (!empty($filters['search'])) {
             $search = '%' . $DB->sql_like_escape($filters['search']) . '%';
             $sql .= " AND (" . $DB->sql_like('center_name', '?', false) .
-                    " OR " . $DB->sql_like('school_name', '?', false) .
                     " OR " . $DB->sql_like('center_code', '?', false) .
                     " OR " . $DB->sql_like('sponsor_name', '?', false) .
                     " OR " . $DB->sql_like('district', '?', false) . ")";
             $countsql .= " AND (" . $DB->sql_like('center_name', '?', false) .
-                         " OR " . $DB->sql_like('school_name', '?', false) .
                          " OR " . $DB->sql_like('center_code', '?', false) .
                          " OR " . $DB->sql_like('sponsor_name', '?', false) .
                          " OR " . $DB->sql_like('district', '?', false) . ")";
-            $params[] = $search;
             $params[] = $search;
             $params[] = $search;
             $params[] = $search;
@@ -261,11 +258,9 @@ class center_repository {
         if (!empty($f['q'])) {
             $like = '%' . $DB->sql_like_escape($f['q']) . '%';
             $where[] = '(' . $DB->sql_like('center_name', '?', false) .
-                ' OR ' . $DB->sql_like('school_name', '?', false) .
                 ' OR ' . $DB->sql_like('center_code', '?', false) .
                 ' OR ' . $DB->sql_like('sponsor_name', '?', false) .
                 ' OR ' . $DB->sql_like('district', '?', false) . ')';
-            $params[] = $like;
             $params[] = $like;
             $params[] = $like;
             $params[] = $like;

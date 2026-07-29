@@ -118,7 +118,6 @@ function clp_centers_render_table(array $rows, int $startno): string {
                 . '<td class="sc-col-sl">' . $sl . '</td>'
                 . '<td><strong>' . clp_escape($r['center_code']) . '</strong></td>'
                 . '<td>' . clp_escape($r['center_name']) . '</td>'
-                . '<td>' . clp_escape($r['school_name']) . '</td>'
                 . '<td><span class="' . $typeClass . '">' . $typeLabel . '</span></td>'
                 . '<td>' . clp_escape($r['district']) . '</td>'
                 . '<td>' . clp_escape($r['sponsor_name']) . '</td>'
@@ -187,7 +186,7 @@ function clp_centers_build_data($db, array $f, int $page, int $perpage) {
 
     if ($f['q'] !== '') {
         $like = '%' . $f['q'] . '%';
-        $fields = ['center_code', 'center_name', 'school_name', 'sponsor_name', 'district', 'division', 'upazila'];
+        $fields = ['center_code', 'center_name', 'sponsor_name', 'district', 'division', 'upazila'];
         $ors = [];
         foreach ($fields as $field) {
             $ors[] = "$field LIKE ?";

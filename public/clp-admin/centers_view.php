@@ -41,7 +41,6 @@ $formatDate = function ($ts) {
 $fields = [
     'Center Code'   => $record['center_code'],
     'Center Name'   => $record['center_name'],
-    'School Name'   => $record['school_name'],
     'Center Type'   => $typeLabel,
     'Division'      => $record['division'],
     'District'      => $record['district'],
@@ -83,6 +82,8 @@ $fields = [
     'SCR Benefited Students' => $record['scr_benefited_students'],
     'Hardware Status' => $record['hardware_status'],
     'Last Visit Date' => $formatDate($record['last_visit_date']),
+    'Follow-up Over Phone' => $record['follow_up_over_phone'],
+    'Last Follow-up Date' => $formatDate($record['last_follow_up_date']),
 ];
 
 include __DIR__ . '/includes/header.php';

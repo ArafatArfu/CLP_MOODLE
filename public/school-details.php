@@ -66,6 +66,8 @@ $clcGraduate = $center ? (string) ($center->clc_graduate_students ?? '') : '';
 $scrBenefited = $center ? (string) ($center->scr_benefited_students ?? '') : '';
 $hardware = $center ? (string) ($center->hardware_status ?? '') : '';
 $lastVisit = $center ? (int) ($center->last_visit_date ?? 0) : 0;
+$followUpPhone = $center ? (int) ($center->follow_up_over_phone ?? 0) : 0;
+$lastFollowUpDate = $center ? (string) ($center->last_follow_up_date ?? '') : '';
 
 $programClpPi = $center ? (string) ($center->program_clp_pi_english_club ?? 'no') : 'no';
 $programEglEng = $center ? (string) ($center->program_egl_english ?? 'no') : 'no';
@@ -395,6 +397,30 @@ echo $OUTPUT->render_from_template('theme_clp/navbar', $navContext);
                     <div class="sd-card-body">
                         <?php if ($lastVisitDate): ?>
                             <p><?php echo htmlspecialchars($lastVisitDate, ENT_QUOTES); ?></p>
+                        <?php else: ?>
+                            <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+                <div class="sd-card">
+                    <div class="sd-card-header">
+                        <span class="material-icons">phone</span>
+                        <h2>Follow-up Over Phone</h2>
+                    </div>
+                    <div class="sd-card-body">
+                        <p><?php echo (int)$followUpPhone; ?></p>
+                    </div>
+                </div>
+
+                <div class="sd-card">
+                    <div class="sd-card-header">
+                        <span class="material-icons">event</span>
+                        <h2>Last Follow-up Date</h2>
+                    </div>
+                    <div class="sd-card-body">
+                        <?php if ($lastFollowUpDate): ?>
+                            <p><?php echo htmlspecialchars($lastFollowUpDate, ENT_QUOTES); ?></p>
                         <?php else: ?>
                             <p class="sd-empty-state"><?php echo clp_get_string('nodataprovided', 'local_centermanagement'); ?></p>
                         <?php endif; ?>

@@ -20,7 +20,6 @@ $record = [
     'id' => '',
     'center_code' => '',
     'center_name' => '',
-    'school_name' => '',
     'center_type' => 'clc',
     'division' => '',
     'district' => '',
@@ -97,7 +96,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $record['id'] = (int)($_POST['id'] ?? 0);
         $record['center_code'] = trim($_POST['center_code'] ?? '');
         $record['center_name'] = trim($_POST['center_name'] ?? '');
-        $record['school_name'] = trim($_POST['school_name'] ?? '');
         $record['center_type'] = trim($_POST['center_type'] ?? 'clc');
         $record['division'] = trim($_POST['division'] ?? '');
         $record['district'] = trim($_POST['district'] ?? '');
@@ -136,6 +134,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $record['clc_graduate_students'] = trim($_POST['clc_graduate_students'] ?? '');
         $record['scr_benefited_students'] = trim($_POST['scr_benefited_students'] ?? '');
         $record['hardware_status'] = trim($_POST['hardware_status'] ?? '');
+        $record['follow_up_over_phone'] = (int)($_POST['follow_up_over_phone'] ?? 0);
+
+        $lastFollow = trim($_POST['last_follow_up_date'] ?? '');
+        if ($lastFollow !== '') {
+            $record['last_follow_up_date'] = date('Y-m-d', strtotime($lastFollow));
+        } else {
+            $record['last_follow_up_date'] = '';
+        }
 
         $lastVisit = trim($_POST['last_visit_date'] ?? '');
         if ($lastVisit !== '') {
@@ -266,7 +272,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if (!empty($record['id'])) {
                 $stmt = $db->prepare(
                     "UPDATE " . CLP_CENTERS_TABLE . " SET
-                        center_code=?, center_name=?, school_name=?, center_type=?, division=?, district=?,
+                        center_code=?, center_name=?, center_type=?, division=?, district=?,
                         upazila=?, address=?, contact_person=?, contact_number=?, email=?, establishment_date=?,
                         start_date=?, support=?, sponsor_name=?, devices_count=?, students_count=?, status=?,
                         description=?, mailing_address=?, history_of_center=?, description_of_center=?,
@@ -274,13 +280,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         hm_phone_number=?, hm_email=?, clc_teacher_name=?, clc_teacher_email=?, clc_teacher_phone=?,
                         scr_teacher_name=?, scr_teacher_email=?, scr_teacher_phone=?, global_classroom=?,
                         program_clp_pi_english_club=?, program_egl_english=?, program_egl_math=?, program_csaw=?,
-                        school_grading=?, clc_graduate_students=?, scr_benefited_students=?, hardware_status=?,
-                        last_visit_date=?, timemodified=?, usermodified=?
-                     WHERE id=?"
+                         school_grading=?, clc_graduate_students=?, scr_benefited_students=?, hardware_status=?,
+                         last_visit_date=?, follow_up_over_phone=?, last_follow_up_date=?, timemodified=?, usermodified=?
+                      WHERE id=?"
                 );
                 $stmt->bind_param(
-                    "sssssssssssiissiiisssssssssssssssssssssssssiiii",
-                    $record['center_code'], $record['center_name'], $record['school_name'], $record['center_type'],
+                    "ssssssssssiissiiisssssssssssssssssssssssssiisisi",
+                    $record['center_code'], $record['center_name'], $record['center_type'],
                     $record['division'], $record['district'], $record['upazila'], $record['address'],
                     $record['contact_person'], $record['contact_number'], $record['email'], $estTs,
                     $startTs, $record['support'], $record['sponsor_name'], $record['devices_count'],
@@ -293,7 +299,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $record['global_classroom'], $record['program_clp_pi_english_club'], $record['program_egl_english'],
                     $record['program_egl_math'], $record['program_csaw'], $record['school_grading'],
                     $record['clc_graduate_students'], $record['scr_benefited_students'], $record['hardware_status'],
-                    $record['last_visit_date'], $now, $usermodified, $record['id']
+                    $record['last_visit_date'], $record['follow_up_over_phone'], $record['last_follow_up_date'], $now, $usermodified, $record['id']
                 );
                 $ok = $stmt->execute();
                 $stmt->close();
@@ -306,7 +312,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             } else {
                 $stmt = $db->prepare(
                     "INSERT INTO " . CLP_CENTERS_TABLE . "
-                        (center_code, center_name, school_name, center_type, division, district, upazila, address,
+                        (center_code, center_name, center_type, division, district, upazila, address,
                          contact_person, contact_number, email, establishment_date, start_date, support, sponsor_name,
                          devices_count, students_count, status, description, mailing_address, history_of_center,
                          description_of_center, contact_person_details, accomplishment, current_status,
@@ -314,13 +320,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                          clc_teacher_phone, scr_teacher_name, scr_teacher_email, scr_teacher_phone,
                          global_classroom, program_clp_pi_english_club, program_egl_english, program_egl_math,
                          program_csaw, school_grading, clc_graduate_students, scr_benefited_students,
-                         hardware_status, last_visit_date, timecreated, timemodified, usermodified)
-                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
-                );
+                         hardware_status, last_visit_date, follow_up_over_phone, last_follow_up_date,
+                         timecreated, timemodified, usermodified)
+                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+                 );
                 $usermodified = 1;
                 $stmt->bind_param(
-                    "sssssssssssiissiiisssssssssssssssssssssssssiiii",
-                    $record['center_code'], $record['center_name'], $record['school_name'], $record['center_type'],
+                    "ssssssssssiissiiisssssssssssssssssssssssssiisiis",
+                    $record['center_code'], $record['center_name'], $record['center_type'],
                     $record['division'], $record['district'], $record['upazila'], $record['address'],
                     $record['contact_person'], $record['contact_number'], $record['email'], $estTs,
                     $startTs, $record['support'], $record['sponsor_name'], $record['devices_count'],
@@ -332,8 +339,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $record['scr_teacher_name'], $record['scr_teacher_email'], $record['scr_teacher_phone'],
                     $record['global_classroom'], $record['program_clp_pi_english_club'], $record['program_egl_english'],
                     $record['program_egl_math'], $record['program_csaw'], $record['school_grading'],
-                    $record['clc_graduate_students'], $record['scr_benefited_students'], $record['hardware_status'],
-                    $record['last_visit_date'], $now, $now, $usermodified
+                     $record['clc_graduate_students'], $record['scr_benefited_students'], $record['hardware_status'],
+                     $record['last_visit_date'], $record['follow_up_over_phone'], $record['last_follow_up_date'], $now, $now, $usermodified
                 );
                 $ok = $stmt->execute();
                 $stmt->close();
@@ -505,10 +512,6 @@ include __DIR__ . '/includes/header.php';
                         <input type="text" name="center_name" class="form-control <?php echo isset($errors['center_name']) ? 'is-invalid' : ''; ?>" value="<?php echo clp_escape($record['center_name']); ?>" maxlength="255">
                         <?php if (isset($errors['center_name'])): ?><div class="clc-error"><?php echo clp_escape($errors['center_name']); ?></div><?php endif; ?>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label class="form-label">School Name</label>
-                    <input type="text" name="school_name" class="form-control" value="<?php echo clp_escape($record['school_name']); ?>" maxlength="255">
                 </div>
                 <div class="clc-form-row">
                     <div class="form-group">
@@ -913,6 +916,14 @@ include __DIR__ . '/includes/header.php';
                         <label class="form-label">Last Visit Date</label>
                         <input type="text" name="last_visit_date" class="form-control" value="<?php echo clp_escape($record['last_visit_date']); ?>" placeholder="YYYY-MM-DD HH:MM">
                         <small class="clc-help">Format: 2025-01-15 14:30</small>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Follow-up Over Phone</label>
+                        <input type="number" name="follow_up_over_phone" class="form-control" value="<?php echo (int)$record['follow_up_over_phone']; ?>" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Last Follow-up Date</label>
+                        <input type="date" name="last_follow_up_date" class="form-control" value="<?php echo clp_escape($record['last_follow_up_date']); ?>">
                     </div>
                 </div>
             </div>
