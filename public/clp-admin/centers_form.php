@@ -95,47 +95,47 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         clp_set_error('Invalid security token. Please try again.');
     } else {
         $record['id'] = (int)($_POST['id'] ?? 0);
-        $record['center_code'] = clp_sanitize($_POST['center_code'] ?? '');
-        $record['center_name'] = clp_sanitize($_POST['center_name'] ?? '');
-        $record['school_name'] = clp_sanitize($_POST['school_name'] ?? '');
-        $record['center_type'] = clp_sanitize($_POST['center_type'] ?? 'clc');
-        $record['division'] = clp_sanitize($_POST['division'] ?? '');
-        $record['district'] = clp_sanitize($_POST['district'] ?? '');
-        $record['upazila'] = clp_sanitize($_POST['upazila'] ?? '');
-        $record['address'] = clp_sanitize($_POST['address'] ?? '');
-        $record['contact_person'] = clp_sanitize($_POST['contact_person'] ?? '');
-        $record['contact_number'] = clp_sanitize($_POST['contact_number'] ?? '');
-        $record['email'] = clp_sanitize($_POST['email'] ?? '');
-        $record['support'] = clp_sanitize($_POST['support'] ?? '');
-        $record['sponsor_name'] = clp_sanitize($_POST['sponsor_name'] ?? '');
+        $record['center_code'] = trim($_POST['center_code'] ?? '');
+        $record['center_name'] = trim($_POST['center_name'] ?? '');
+        $record['school_name'] = trim($_POST['school_name'] ?? '');
+        $record['center_type'] = trim($_POST['center_type'] ?? 'clc');
+        $record['division'] = trim($_POST['division'] ?? '');
+        $record['district'] = trim($_POST['district'] ?? '');
+        $record['upazila'] = trim($_POST['upazila'] ?? '');
+        $record['address'] = trim($_POST['address'] ?? '');
+        $record['contact_person'] = trim($_POST['contact_person'] ?? '');
+        $record['contact_number'] = trim($_POST['contact_number'] ?? '');
+        $record['email'] = trim($_POST['email'] ?? '');
+        $record['support'] = trim($_POST['support'] ?? '');
+        $record['sponsor_name'] = trim($_POST['sponsor_name'] ?? '');
         $record['devices_count'] = (int)($_POST['devices_count'] ?? 0);
         $record['students_count'] = (int)($_POST['students_count'] ?? 0);
         $record['status'] = (int)($_POST['status'] ?? 1);
-        $record['description'] = clp_sanitize($_POST['description'] ?? '');
-        $record['mailing_address'] = clp_sanitize($_POST['mailing_address'] ?? '');
-        $record['history_of_center'] = clp_sanitize($_POST['history_of_center'] ?? '');
-        $record['description_of_center'] = clp_sanitize($_POST['description_of_center'] ?? '');
-        $record['contact_person_details'] = clp_sanitize($_POST['contact_person_details'] ?? '');
-        $record['accomplishment'] = clp_sanitize($_POST['accomplishment'] ?? '');
-        $record['current_status'] = clp_sanitize($_POST['current_status'] ?? 'supported');
-        $record['hm_teacher_name'] = clp_sanitize($_POST['hm_teacher_name'] ?? '');
-        $record['hm_phone_number'] = clp_sanitize($_POST['hm_phone_number'] ?? '');
-        $record['hm_email'] = clp_sanitize($_POST['hm_email'] ?? '');
-        $record['clc_teacher_name'] = clp_sanitize($_POST['clc_teacher_name'] ?? '');
-        $record['clc_teacher_email'] = clp_sanitize($_POST['clc_teacher_email'] ?? '');
-        $record['clc_teacher_phone'] = clp_sanitize($_POST['clc_teacher_phone'] ?? '');
-        $record['scr_teacher_name'] = clp_sanitize($_POST['scr_teacher_name'] ?? '');
-        $record['scr_teacher_email'] = clp_sanitize($_POST['scr_teacher_email'] ?? '');
-        $record['scr_teacher_phone'] = clp_sanitize($_POST['scr_teacher_phone'] ?? '');
-        $record['global_classroom'] = clp_sanitize($_POST['global_classroom'] ?? 'no');
-        $record['program_clp_pi_english_club'] = clp_sanitize($_POST['program_clp_pi_english_club'] ?? 'no');
-        $record['program_egl_english'] = clp_sanitize($_POST['program_egl_english'] ?? 'no');
-        $record['program_egl_math'] = clp_sanitize($_POST['program_egl_math'] ?? 'no');
-        $record['program_csaw'] = clp_sanitize($_POST['program_csaw'] ?? 'no');
-        $record['school_grading'] = clp_sanitize($_POST['school_grading'] ?? '');
-        $record['clc_graduate_students'] = clp_sanitize($_POST['clc_graduate_students'] ?? '');
-        $record['scr_benefited_students'] = clp_sanitize($_POST['scr_benefited_students'] ?? '');
-        $record['hardware_status'] = clp_sanitize($_POST['hardware_status'] ?? '');
+        $record['description'] = trim($_POST['description'] ?? '');
+        $record['mailing_address'] = trim($_POST['mailing_address'] ?? '');
+        $record['history_of_center'] = trim($_POST['history_of_center'] ?? '');
+        $record['description_of_center'] = trim($_POST['description_of_center'] ?? '');
+        $record['contact_person_details'] = trim($_POST['contact_person_details'] ?? '');
+        $record['accomplishment'] = trim($_POST['accomplishment'] ?? '');
+        $record['current_status'] = trim($_POST['current_status'] ?? 'supported');
+        $record['hm_teacher_name'] = trim($_POST['hm_teacher_name'] ?? '');
+        $record['hm_phone_number'] = trim($_POST['hm_phone_number'] ?? '');
+        $record['hm_email'] = trim($_POST['hm_email'] ?? '');
+        $record['clc_teacher_name'] = trim($_POST['clc_teacher_name'] ?? '');
+        $record['clc_teacher_email'] = trim($_POST['clc_teacher_email'] ?? '');
+        $record['clc_teacher_phone'] = trim($_POST['clc_teacher_phone'] ?? '');
+        $record['scr_teacher_name'] = trim($_POST['scr_teacher_name'] ?? '');
+        $record['scr_teacher_email'] = trim($_POST['scr_teacher_email'] ?? '');
+        $record['scr_teacher_phone'] = trim($_POST['scr_teacher_phone'] ?? '');
+        $record['global_classroom'] = trim($_POST['global_classroom'] ?? 'no');
+        $record['program_clp_pi_english_club'] = trim($_POST['program_clp_pi_english_club'] ?? 'no');
+        $record['program_egl_english'] = trim($_POST['program_egl_english'] ?? 'no');
+        $record['program_egl_math'] = trim($_POST['program_egl_math'] ?? 'no');
+        $record['program_csaw'] = trim($_POST['program_csaw'] ?? 'no');
+        $record['school_grading'] = trim($_POST['school_grading'] ?? '');
+        $record['clc_graduate_students'] = trim($_POST['clc_graduate_students'] ?? '');
+        $record['scr_benefited_students'] = trim($_POST['scr_benefited_students'] ?? '');
+        $record['hardware_status'] = trim($_POST['hardware_status'] ?? '');
 
         $lastVisit = trim($_POST['last_visit_date'] ?? '');
         if ($lastVisit !== '') {
@@ -411,7 +411,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     }
                 }
 
-                $submitAction = clp_sanitize($_POST['submit_action'] ?? 'save');
+                $submitAction = trim($_POST['submit_action'] ?? 'save');
                 if ($submitAction === 'save_continue' && !empty($centerId)) {
                     clp_redirect(CLP_ADMIN_URL . '/centers_form.php?id=' . (int)$centerId);
                 }
@@ -484,7 +484,7 @@ include __DIR__ . '/includes/header.php';
             <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Back to List</a>
         </div>
 
-        <form method="POST" action="" class="clc-form" novalidate>
+        <form method="POST" action="" class="clc-form" enctype="multipart/form-data" novalidate>
             <input type="hidden" name="csrf_token" value="<?php echo clp_csrf_token(); ?>">
             <input type="hidden" name="id" value="<?php echo (int)($record['id'] ?: 0); ?>">
 
@@ -1080,6 +1080,9 @@ include __DIR__ . '/includes/header.php';
     if (form) {
         form.addEventListener('submit', function () {
             updateJson();
+            if (typeof tinymce !== 'undefined') {
+                tinymce.triggerSave();
+            }
         });
     }
 })();

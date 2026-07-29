@@ -63,16 +63,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         clp_set_error('Invalid security token. Please try again.');
     } else {
         $record['id'] = (int)($_POST['id'] ?? 0);
-        $record['name'] = clp_sanitize($_POST['name'] ?? '');
-        $record['father_name'] = clp_sanitize($_POST['father_name'] ?? '');
-        $record['mother_name'] = clp_sanitize($_POST['mother_name'] ?? '');
-        $record['gender'] = clp_sanitize($_POST['gender'] ?? '');
-        $record['district'] = clp_sanitize($_POST['district'] ?? '');
-        $record['division'] = clp_sanitize($_POST['division'] ?? '');
-        $record['upazila'] = clp_sanitize($_POST['upazila'] ?? '');
-        $record['mobile'] = clp_sanitize($_POST['mobile'] ?? '');
-        $record['email'] = clp_sanitize($_POST['email'] ?? '');
-        $record['school'] = clp_sanitize($_POST['school'] ?? '');
+        $record['name'] = trim($_POST['name'] ?? '');
+        $record['father_name'] = trim($_POST['father_name'] ?? '');
+        $record['mother_name'] = trim($_POST['mother_name'] ?? '');
+        $record['gender'] = trim($_POST['gender'] ?? '');
+        $record['district'] = trim($_POST['district'] ?? '');
+        $record['division'] = trim($_POST['division'] ?? '');
+        $record['upazila'] = trim($_POST['upazila'] ?? '');
+        $record['mobile'] = trim($_POST['mobile'] ?? '');
+        $record['email'] = trim($_POST['email'] ?? '');
+        $record['school'] = trim($_POST['school'] ?? '');
         $record['month'] = (int)($_POST['month'] ?? date('n'));
         $record['year'] = (int)($_POST['year'] ?? date('Y'));
 
