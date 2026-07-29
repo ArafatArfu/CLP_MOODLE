@@ -108,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $record['sponsor_name'] = trim($_POST['sponsor_name'] ?? '');
         $record['devices_count'] = (int)($_POST['devices_count'] ?? 0);
         $record['students_count'] = (int)($_POST['students_count'] ?? 0);
-        $record['status'] = (int)($_POST['status'] ?? 1);
+        $record['status'] = (int)($record['id'] === 0 ? 1 : ($_POST['status'] ?? 1));
         $record['description'] = trim($_POST['description'] ?? '');
         $record['mailing_address'] = trim($_POST['mailing_address'] ?? '');
         $record['history_of_center'] = trim($_POST['history_of_center'] ?? '');
@@ -527,8 +527,8 @@ include __DIR__ . '/includes/header.php';
                     <div class="form-group">
                         <label class="form-label">Status</label>
                         <select name="status" class="form-control">
-                            <option value="1" <?php echo (int)$record['status'] === 1 ? 'selected' : ''; ?>>Enabled (visible on website)</option>
-                            <option value="0" <?php echo (int)$record['status'] === 0 ? 'selected' : ''; ?>>Disabled (hidden from website)</option>
+                            <option value="1" <?php echo ((int)$record['status'] === 1 || (int)$record['status'] === 0 && $isEdit === false) ? 'selected' : ''; ?>>Enabled (visible on website)</option>
+                            <option value="0" <?php echo (int)$record['status'] === 0 && $isEdit === true ? 'selected' : ''; ?>>Disabled (hidden from website)</option>
                         </select>
                     </div>
                 </div>
