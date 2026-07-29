@@ -223,6 +223,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if (!empty($sponsors)) {
             foreach ($sponsors as $idx => $sponsor) {
+                if (empty($sponsor['name']) && empty($sponsor['email']) && empty($sponsor['phone']) && empty($sponsor['address'])) {
+                    continue;
+                }
                 if (empty($sponsor['name'])) {
                     $errors['sponsors_json'] = 'Sponsor #' . ($idx + 1) . ' name is required.';
                     break;
@@ -881,6 +884,9 @@ include __DIR__ . '/includes/header.php';
                         </div>
                     </div>
                 </div>
+                <?php if (isset($errors['sponsors_json'])): ?>
+                    <div class="clc-error" style="margin-top:10px;"><?php echo clp_escape($errors['sponsors_json']); ?></div>
+                <?php endif; ?>
                 <button type="button" class="btn btn-sm btn-secondary" id="clp-add-sponsor"><i class="fas fa-plus"></i> Add Sponsor</button>
                 <input type="hidden" name="sponsors_json" id="sponsors-json" value="[]">
             </div>
