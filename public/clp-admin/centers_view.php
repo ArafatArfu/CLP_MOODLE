@@ -2,34 +2,22 @@
 // CLP Admin Panel - Sponsored Center Detail (View).
 //
 // Read-only view of a single centre record from the shared centres table
-// (mdl_local_centermanagement_centers), with quick links to Edit and Delete.
-// The same table powers the public "Your Sponsored Center(s)" page.
+// which powers the public "Your Sponsored Center(s)" page at /school-info.php.
 
 require_once __DIR__ . '/includes/auth.php';
 
-define('CLP_CENTERS_TABLE', 'mdl_local_centermanagement_centers');
-
 $page_title = 'Sponsored Center Details';
 
-$db = clp_db_connect();
-
 $id = (int)($_GET['id'] ?? 0);
-$record = null;
-if ($id) {
-    $stmt = $db->prepare("SELECT * FROM " . CLP_CENTERS_TABLE . " WHERE id = ? LIMIT 1");
-    $stmt->bind_param("i", $id);
-    $stmt->execute();
-    $record = clp_stmt_fetch_assoc($stmt);
-    $stmt->close();
-}
-
-$db->close();
+global $DB;
+$record = $DB->get_record('local_centermanagement_centers', ['id' => $id], '*', MUST_EXIST);
 
 if (!$record) {
     clp_set_error('Center record not found.');
     clp_redirect(CLP_ADMIN_URL . '/centers.php');
 }
 
+$record = (array) $record;
 $ctype = strtolower($record['center_type'] ?? 'clc');
 $typeLabel = $ctype === 'scr' ? 'Smart Classroom (SCR)' : 'Computer Literacy Center (CLC)';
 $isActive = !empty($record['status']);
@@ -129,45 +117,40 @@ include __DIR__ . '/includes/header.php';
     <div class="clc-media-section">
         <h3 class="clc-detail-section-title"><i class="fas fa-images"></i> Media</h3>
         <?php
-        $id = (int)$_GET['id'];
+        $id = (int)$record['id'];
         $mediaTypes = [
             'banner_images' => 'Banner Images',
-            'plaque_gallery' => 'Plaque Images',
-            'school_photo_gallery' => 'School Photos',
+            'plaque_images' => 'Plaque Images',
+            'school_photos' => 'School Photos',
         ];
-        $fileareaMap = [
-            'banner_images' => 'banner_images',
-            'plaque_gallery' => 'plaque_images',
-            'school_photo_gallery' => 'school_photos',
-        ];
-        foreach ($mediaTypes as $tableSuffix => $label) {
-            $table = 'mdl_local_centermanagement_' . $tableSuffix;
-            $filearea = $fileareaMap[$tableSuffix];
-            $items = [];
-            if ($res = $db->query("SELECT filename, alt_text, is_featured, sortorder FROM {$table} WHERE center_id = " . (int)$id . " ORDER BY sortorder ASC, id ASC")) {
-                while ($row = $res->fetch_assoc()) {
-                    $items[] = $row;
-                }
+        foreach ($mediaTypes as $filearea => $label) {
+            $records = $DB->get_records('local_centermanagement_' . $filearea, ['center_id' => $id], 'sortorder ASC, id ASC');
+            if (empty($records)) {
+                continue;
             }
-            if (!empty($items)): ?>
-                <div class="clc-media-block">
-                    <h4><?php echo $label; ?></h4>
-                    <div class="clc-media-grid-view">
-                        <?php foreach ($items as $item): ?>
-                            <div class="clc-media-card">
-                                <img src="<?php echo clp_uploaded_file_url($filearea, $item['filename']); ?>"
-                                     alt="<?php echo clp_escape($item['alt_text']); ?>"
-                                     style="width:120px; height:80px; object-fit:cover; border-radius:6px;">
-                                <div class="clc-media-card-meta">
-                                    <span><?php echo clp_escape($item['filename']); ?></span>
-                                    <?php if ($item['alt_text']): ?><small>Alt: <?php echo clp_escape($item['alt_text']); ?></small><?php endif; ?>
-                                    <?php if ($item['is_featured']): ?><span class="badge badge-success">Featured</span><?php endif; ?>
-                                </div>
+            $items = [];
+            foreach ($records as $r) {
+                $items[] = (array)$r;
+            }
+        ?>
+            <div class="clc-media-block">
+                <h4><?php echo $label; ?></h4>
+                <div class="clc-media-grid-view">
+                    <?php foreach ($items as $item): ?>
+                        <div class="clc-media-card">
+                            <img src="<?php echo clp_uploaded_file_url($filearea, $item['filename'], $id); ?>"
+                                 alt="<?php echo clp_escape($item['alt_text']); ?>"
+                                 style="width:120px; height:80px; object-fit:cover; border-radius:6px;">
+                            <div class="clc-media-card-meta">
+                                <span><?php echo clp_escape($item['filename']); ?></span>
+                                <?php if ($item['alt_text']): ?><small>Alt: <?php echo clp_escape($item['alt_text']); ?></small><?php endif; ?>
+                                <?php if ($item['is_featured']): ?><span class="badge badge-success">Featured</span><?php endif; ?>
                             </div>
-                        <?php endforeach; ?>
-                    </div>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
-            <?php endif;
+            </div>
+        <?php
         }
         ?>
     </div>

@@ -116,11 +116,8 @@ if ($center) {
     }
 }
 
-function center_pluginfile_url($filename, $filearea, $itemid) {
+function center_pluginfile_url(string $filename, string $filearea, int $itemid): string {
     $filename = rawurlencode($filename);
-    if ($filearea === 'banner_images' || $filearea === 'plaque_images' || $filearea === 'school_photos') {
-        return '/clp-admin/uploads/centermanagement/' . $filearea . '/' . $filename;
-    }
     $context = \context_system::instance();
     return (string) \moodle_url::make_pluginfile_url(
         $context->id,

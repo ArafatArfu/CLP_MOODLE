@@ -4,7 +4,7 @@
 // Start output buffering to prevent "headers already sent" errors
 ob_start();
 
-require_once __DIR__ . '/includes/functions.php';
+require_once __DIR__ . '/includes/auth.php';
 
 // If already logged in, redirect to dashboard
 if (clp_is_logged_in()) {
@@ -17,43 +17,39 @@ $timeout = isset($_GET['timeout']) && $_GET['timeout'] == '1';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = clp_sanitize($_POST['username'] ?? '');
     $password = $_POST['password'] ?? '';
+    $csrfToken = $_POST['csrf_token'] ?? '';
     
-    if (empty($username) || empty($password)) {
+    if (!clp_verify_csrf($csrfToken)) {
+        $error = 'Invalid security token. Please try again.';
+    } elseif (empty($username) || empty($password)) {
         $error = 'Please enter both username and password.';
     } else {
-        $db = clp_db_connect();
-        $stmt = $db->prepare("SELECT id, username, password, full_name, role, status FROM clp_admin_users WHERE username = ? AND status = 'active' LIMIT 1");
-        $stmt->bind_param("s", $username);
-        $stmt->execute();
-        if ($user = clp_stmt_fetch_assoc($stmt)) {
-            if (clp_verify_password($password, $user['password'])) {
-                // Login successful - set session
-                $_SESSION['clp_admin_id'] = $user['id'];
-                $_SESSION['clp_admin_username'] = $user['username'];
-                $_SESSION['clp_admin_full_name'] = $user['full_name'];
-                $_SESSION['clp_admin_role'] = $user['role'];
-                $_SESSION['clp_admin_last_activity'] = time();
-                
-                // Update last login
-                $stmt = $db->prepare("UPDATE clp_admin_users SET last_login = NOW() WHERE id = ?");
-                $stmt->bind_param("i", $user['id']);
-                $stmt->execute();
-                
-                $stmt->close();
-                $db->close();
-                
-                // Clear any buffered output and redirect
-                ob_end_clean();
-                clp_redirect(CLP_ADMIN_URL . '/dashboard.php');
-            } else {
-                $error = 'Invalid username or password.';
-            }
+        global $DB;
+        $sql = "SELECT id, username, password, full_name, role, status
+                  FROM clp_admin_users
+                 WHERE username = :username AND status = 'active'
+                 LIMIT 1";
+        $user = $DB->get_record_sql($sql, ['username' => $username]);
+        
+        if ($user && clp_verify_password($password, $user->password)) {
+            $_SESSION['clp_admin'] = [
+                'id' => $user->id,
+                'username' => $user->username,
+                'full_name' => $user->full_name,
+                'role' => $user->role,
+                'last_activity' => time(),
+            ];
+            
+            $DB->execute("UPDATE clp_admin_users SET last_login = :now WHERE id = :id", [
+                'now' => date('Y-m-d H:i:s'),
+                'id' => $user->id,
+            ]);
+            
+            ob_end_clean();
+            clp_redirect(CLP_ADMIN_URL . '/dashboard.php');
         } else {
             $error = 'Invalid username or password.';
         }
-        
-        $stmt->close();
-        $db->close();
     }
 }
 ?>
@@ -64,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login | <?php echo CLP_SITE_TITLE; ?></title>
     <link href="/theme/clp/assets/images/favicon-icon.png" rel="icon" sizes="32x32" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="<?php echo CLP_ADMIN_URL; ?>/assets/css/admin.css">
 </head>
@@ -91,7 +87,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
             <?php endif; ?>
             
-            <form method="POST" action="/clp-admin/login" class="login-form">
+            <form method="POST" action="<?php echo CLP_ADMIN_URL; ?>/login.php" class="login-form">
+                <input type="hidden" name="csrf_token" value="<?php echo clp_csrf_token(); ?>">
                 <div class="form-group">
                     <label for="username">Username</label>
                     <div class="input-group">
@@ -136,3 +133,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </style>
 </body>
 </html>
+

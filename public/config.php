@@ -32,7 +32,6 @@ $CFG->sessionhandlergroup = '\\core\\session\\handler';
 
 // Debug settings (disable in production)
 $CFG->debug = (E_ALL | E_STRICT);
-$CFG->debugdisplay = 1;
 $CFG->debugdeveloper = 1;
 
 // Theme settings
@@ -48,4 +47,12 @@ $CFG->release = '5.2.1+';
 // File paths
 $CFG->dirroot = __DIR__;
 
-require_once(__DIR__ . '/lib/setup.php');
+$CFG$CFG->debug = (E_ALL | E_STRICT);
+$CFGrequire_once(__DIR__ . '/lib/setup.php');
+
+$CFG
+$CFG->debug = (E_ALL | E_STRICT);
+$CFG$CFG
+
+
+

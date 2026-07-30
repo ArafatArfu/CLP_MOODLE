@@ -340,6 +340,35 @@ class center_manager {
             $DB->insert_record('local_centermanagement_sponsors', (object)$newsponsor);
         }
 
+        $fs = get_file_storage();
+        $context = \context_system::instance();
+        foreach (['banner_images', 'plaque_images', 'school_photos'] as $fa) {
+            $files = $fs->get_area_files($context->id, 'local_centermanagement', $fa, $id, 'sortorder', false);
+            foreach ($files as $file) {
+                $filerecord = [
+                    'contextid' => $context->id,
+                    'component' => 'local_centermanagement',
+                    'filearea' => $fa,
+                    'itemid' => $newid,
+                    'filepath' => $file->get_filepath(),
+                    'filename' => $file->get_filename(),
+                    'timecreated' => time(),
+                    'timemodified' => time(),
+                ];
+                $fs->create_file_from_storedfile($filerecord, $file);
+            }
+            $records = $DB->get_records('local_centermanagement_' . $fa, ['center_id' => $id], 'sortorder ASC, id ASC');
+            foreach ($records as $r) {
+                $DB->insert_record('local_centermanagement_' . $fa, (object)[
+                    'center_id' => $newid,
+                    'filename' => $r->filename,
+                    'sortorder' => $r->sortorder,
+                    'timecreated' => time(),
+                    'timemodified' => time(),
+                ]);
+            }
+        }
+
         return $newid;
     }
 }

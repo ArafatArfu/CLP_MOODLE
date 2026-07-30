@@ -258,5 +258,9 @@ function xmldb_local_centermanagement_upgrade($oldversion) {
         upgrade_plugin_savepoint(true, 2026072806, 'local', 'centermanagement');
     }
 
+    if ($oldversion < 2026073001) {
+        upgrade_plugin_savepoint(true, 2026073001, 'local', 'centermanagement');
+    }
+
     return true;
 }

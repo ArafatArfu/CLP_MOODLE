@@ -2,19 +2,12 @@
 // CLP Admin Panel - Sponsored Center Form (Add / Edit).
 //
 // Creates and edits a single centre record in the shared centres table
-// (mdl_local_centermanagement_centers) which powers the public
-// "Your Sponsored Center(s)" page at /school-info.php. Mirrors the other
-// dashboard record forms: grouped fields with server-side validation for
-// required fields, email format and a unique centre code. Date fields are
-// stored as UNIX timestamps, matching the public page's date() rendering.
+// which powers the public "Your Sponsored Center(s)" page at /school-info.php.
+// Mirrors the other dashboard record forms with server-side validation.
 
 require_once __DIR__ . '/includes/auth.php';
 
-define('CLP_CENTERS_TABLE', 'mdl_local_centermanagement_centers');
-
 $page_title = 'Sponsored Center Form';
-
-$db = clp_db_connect();
 
 $record = [
     'id' => '',
@@ -67,23 +60,20 @@ $isEdit = false;
 
 // --- Load existing record for edit. ---
 if (isset($_GET['id'])) {
-    $id = (int)$_GET['id'];
-    $stmt = $db->prepare("SELECT * FROM " . CLP_CENTERS_TABLE . " WHERE id = ? LIMIT 1");
-    $stmt->bind_param("i", $id);
-    $stmt->execute();
-    if ($row = clp_stmt_fetch_assoc($stmt)) {
-        $record = $row;
-        $record['establishment_date'] = !empty($row['establishment_date']) ? date('Y-m-d', (int)$row['establishment_date']) : '';
-        $record['start_date'] = !empty($row['start_date']) ? date('Y-m-d', (int)$row['start_date']) : '';
-        $record['last_visit_date'] = !empty($row['last_visit_date']) ? date('Y-m-d H:i', (int)$row['last_visit_date']) : '';
+    $id = (int)$_GET['id']; file_put_contents('C:/xampp/tmp/debug_get.log', 'ID=' . $id . ' GET=' . print_r($_GET, true) . PHP_EOL, FILE_APPEND);
+    global $DB;
+    error_log('DEBUG: About to query centers table for id=' . $id);
+    $record = $DB->get_record('local_centermanagement_centers', ['id' => $id], '*', MUST_EXIST);
+    if ($record) {
+        $record = (array) $record;
+        $record['establishment_date'] = !empty($record['establishment_date']) ? date('Y-m-d', (int)$record['establishment_date']) : '';
+        $record['start_date'] = !empty($record['start_date']) ? date('Y-m-d', (int)$record['start_date']) : '';
+        $record['last_visit_date'] = !empty($record['last_visit_date']) ? date('Y-m-d H:i', (int)$record['last_visit_date']) : '';
         $isEdit = true;
     } else {
-        $stmt->close();
-        $db->close();
         clp_set_error('Center record not found.');
         clp_redirect(CLP_ADMIN_URL . '/centers.php');
     }
-    $stmt->close();
 }
 
 $errors = [];
@@ -166,12 +156,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } elseif (!preg_match('/^[A-Za-z0-9\-]+$/', $record['center_code'])) {
             $errors['center_code'] = 'Use letters, numbers and dashes only (e.g. CLC-DHK-001).';
         } else {
-            // Ensure the code is unique (excluding the record being edited).
-            $check = $db->prepare("SELECT COUNT(*) AS c FROM " . CLP_CENTERS_TABLE . " WHERE center_code = ? AND id <> ?");
-            $check->bind_param("si", $record['center_code'], $record['id']);
-            $check->execute();
-            $exists = (int)(clp_stmt_fetch_assoc($check)['c'] ?? 0);
-            $check->close();
+            global $DB;
+            $exists = (int)$DB->count_records_select('local_centermanagement_centers', 'center_code = ? AND id <> ?', [$record['center_code'], $record['id']]);
             if ($exists > 0) {
                 $errors['center_code'] = 'This center code is already in use.';
             }
@@ -265,87 +251,122 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
 
-        if (empty($errors)) {
+if (empty($errors)) {
             $now = time();
             $usermodified = 1;
+            global $DB;
 
             if (!empty($record['id'])) {
-                $stmt = $db->prepare(
-                    "UPDATE " . CLP_CENTERS_TABLE . " SET
-                        center_code=?, center_name=?, center_type=?, division=?, district=?,
-                        upazila=?, address=?, contact_person=?, contact_number=?, email=?, establishment_date=?,
-                        start_date=?, support=?, sponsor_name=?, devices_count=?, students_count=?, status=?,
-                        description=?, mailing_address=?, history_of_center=?, description_of_center=?,
-                        contact_person_details=?, accomplishment=?, current_status=?, hm_teacher_name=?,
-                        hm_phone_number=?, hm_email=?, clc_teacher_name=?, clc_teacher_email=?, clc_teacher_phone=?,
-                        scr_teacher_name=?, scr_teacher_email=?, scr_teacher_phone=?, global_classroom=?,
-                        program_clp_pi_english_club=?, program_egl_english=?, program_egl_math=?, program_csaw=?,
-                         school_grading=?, clc_graduate_students=?, scr_benefited_students=?, hardware_status=?,
-                         last_visit_date=?, follow_up_over_phone=?, last_follow_up_date=?, timemodified=?, usermodified=?
-                      WHERE id=?"
-                );
-                $stmt->bind_param(
-                    "ssssssssssiissiiisssssssssssssssssssssssssiisisi",
-                    $record['center_code'], $record['center_name'], $record['center_type'],
-                    $record['division'], $record['district'], $record['upazila'], $record['address'],
-                    $record['contact_person'], $record['contact_number'], $record['email'], $estTs,
-                    $startTs, $record['support'], $record['sponsor_name'], $record['devices_count'],
-                    $record['students_count'], $record['status'], $record['description'],
-                    $record['mailing_address'], $record['history_of_center'], $record['description_of_center'],
-                    $record['contact_person_details'], $record['accomplishment'], $record['current_status'],
-                    $record['hm_teacher_name'], $record['hm_phone_number'], $record['hm_email'],
-                    $record['clc_teacher_name'], $record['clc_teacher_email'], $record['clc_teacher_phone'],
-                    $record['scr_teacher_name'], $record['scr_teacher_email'], $record['scr_teacher_phone'],
-                    $record['global_classroom'], $record['program_clp_pi_english_club'], $record['program_egl_english'],
-                    $record['program_egl_math'], $record['program_csaw'], $record['school_grading'],
-                    $record['clc_graduate_students'], $record['scr_benefited_students'], $record['hardware_status'],
-                    $record['last_visit_date'], $record['follow_up_over_phone'], $record['last_follow_up_date'], $now, $usermodified, $record['id']
-                );
-                $ok = $stmt->execute();
-                $stmt->close();
+                $data = [
+                    'center_code' => $record['center_code'],
+                    'center_name' => $record['center_name'],
+                    'center_type' => $record['center_type'],
+                    'division' => $record['division'],
+                    'district' => $record['district'],
+                    'upazila' => $record['upazila'],
+                    'address' => $record['address'],
+                    'contact_person' => $record['contact_person'],
+                    'contact_number' => $record['contact_number'],
+                    'email' => $record['email'],
+                    'establishment_date' => $estTs ?: null,
+                    'start_date' => $startTs ?: null,
+                    'support' => $record['support'],
+                    'sponsor_name' => $record['sponsor_name'],
+                    'devices_count' => $record['devices_count'],
+                    'students_count' => $record['students_count'],
+                    'status' => $record['status'],
+                    'description' => $record['description'],
+                    'mailing_address' => $record['mailing_address'],
+                    'history_of_center' => $record['history_of_center'],
+                    'description_of_center' => $record['description_of_center'],
+                    'contact_person_details' => $record['contact_person_details'],
+                    'accomplishment' => $record['accomplishment'],
+                    'current_status' => $record['current_status'],
+                    'hm_teacher_name' => $record['hm_teacher_name'],
+                    'hm_phone_number' => $record['hm_phone_number'],
+                    'hm_email' => $record['hm_email'],
+                    'clc_teacher_name' => $record['clc_teacher_name'],
+                    'clc_teacher_email' => $record['clc_teacher_email'],
+                    'clc_teacher_phone' => $record['clc_teacher_phone'],
+                    'scr_teacher_name' => $record['scr_teacher_name'],
+                    'scr_teacher_email' => $record['scr_teacher_email'],
+                    'scr_teacher_phone' => $record['scr_teacher_phone'],
+                    'global_classroom' => $record['global_classroom'],
+                    'program_clp_pi_english_club' => $record['program_clp_pi_english_club'],
+                    'program_egl_english' => $record['program_egl_english'],
+                    'program_egl_math' => $record['program_egl_math'],
+                    'program_csaw' => $record['program_csaw'],
+                    'school_grading' => $record['school_grading'],
+                    'clc_graduate_students' => $record['clc_graduate_students'],
+                    'scr_benefited_students' => $record['scr_benefited_students'],
+                    'hardware_status' => $record['hardware_status'],
+                    'last_visit_date' => $record['last_visit_date'] ?: null,
+                    'follow_up_over_phone' => $record['follow_up_over_phone'],
+                    'last_follow_up_date' => $lastFollow !== '' ? $lastFollow : null,
+                    'timemodified' => $now,
+                    'usermodified' => $usermodified,
+                ];
+                $data['id'] = (int)$record['id'];
+                $ok = $DB->update_record('local_centermanagement_centers', (object)$data);
                 if ($ok) {
-                    $centerId = $record['id'];
+                    $centerId = (int)$record['id'];
                     clp_set_success('Center record updated successfully.');
                 } else {
                     clp_set_error('Failed to update center record.');
                 }
             } else {
-                $stmt = $db->prepare(
-                    "INSERT INTO " . CLP_CENTERS_TABLE . "
-                        (center_code, center_name, center_type, division, district, upazila, address,
-                         contact_person, contact_number, email, establishment_date, start_date, support, sponsor_name,
-                         devices_count, students_count, status, description, mailing_address, history_of_center,
-                         description_of_center, contact_person_details, accomplishment, current_status,
-                         hm_teacher_name, hm_phone_number, hm_email, clc_teacher_name, clc_teacher_email,
-                         clc_teacher_phone, scr_teacher_name, scr_teacher_email, scr_teacher_phone,
-                         global_classroom, program_clp_pi_english_club, program_egl_english, program_egl_math,
-                         program_csaw, school_grading, clc_graduate_students, scr_benefited_students,
-                         hardware_status, last_visit_date, follow_up_over_phone, last_follow_up_date,
-                         timecreated, timemodified, usermodified)
-                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
-                 );
-                $usermodified = 1;
-                $stmt->bind_param(
-                    "ssssssssssiissiiisssssssssssssssssssssssssiisiis",
-                    $record['center_code'], $record['center_name'], $record['center_type'],
-                    $record['division'], $record['district'], $record['upazila'], $record['address'],
-                    $record['contact_person'], $record['contact_number'], $record['email'], $estTs,
-                    $startTs, $record['support'], $record['sponsor_name'], $record['devices_count'],
-                    $record['students_count'], $record['status'], $record['description'],
-                    $record['mailing_address'], $record['history_of_center'], $record['description_of_center'],
-                    $record['contact_person_details'], $record['accomplishment'], $record['current_status'],
-                    $record['hm_teacher_name'], $record['hm_phone_number'], $record['hm_email'],
-                    $record['clc_teacher_name'], $record['clc_teacher_email'], $record['clc_teacher_phone'],
-                    $record['scr_teacher_name'], $record['scr_teacher_email'], $record['scr_teacher_phone'],
-                    $record['global_classroom'], $record['program_clp_pi_english_club'], $record['program_egl_english'],
-                    $record['program_egl_math'], $record['program_csaw'], $record['school_grading'],
-                     $record['clc_graduate_students'], $record['scr_benefited_students'], $record['hardware_status'],
-                     $record['last_visit_date'], $record['follow_up_over_phone'], $record['last_follow_up_date'], $now, $now, $usermodified
-                );
-                $ok = $stmt->execute();
-                $stmt->close();
-                if ($ok) {
-                    $centerId = $db->insert_id;
+                $data = [
+                    'center_code' => $record['center_code'],
+                    'center_name' => $record['center_name'],
+                    'center_type' => $record['center_type'],
+                    'division' => $record['division'],
+                    'district' => $record['district'],
+                    'upazila' => $record['upazila'],
+                    'address' => $record['address'],
+                    'contact_person' => $record['contact_person'],
+                    'contact_number' => $record['contact_number'],
+                    'email' => $record['email'],
+                    'establishment_date' => $estTs ?: null,
+                    'start_date' => $startTs ?: null,
+                    'support' => $record['support'],
+                    'sponsor_name' => $record['sponsor_name'],
+                    'devices_count' => $record['devices_count'],
+                    'students_count' => $record['students_count'],
+                    'status' => $record['status'],
+                    'description' => $record['description'],
+                    'mailing_address' => $record['mailing_address'],
+                    'history_of_center' => $record['history_of_center'],
+                    'description_of_center' => $record['description_of_center'],
+                    'contact_person_details' => $record['contact_person_details'],
+                    'accomplishment' => $record['accomplishment'],
+                    'current_status' => $record['current_status'],
+                    'hm_teacher_name' => $record['hm_teacher_name'],
+                    'hm_phone_number' => $record['hm_phone_number'],
+                    'hm_email' => $record['hm_email'],
+                    'clc_teacher_name' => $record['clc_teacher_name'],
+                    'clc_teacher_email' => $record['clc_teacher_email'],
+                    'clc_teacher_phone' => $record['clc_teacher_phone'],
+                    'scr_teacher_name' => $record['scr_teacher_name'],
+                    'scr_teacher_email' => $record['scr_teacher_email'],
+                    'scr_teacher_phone' => $record['scr_teacher_phone'],
+                    'global_classroom' => $record['global_classroom'],
+                    'program_clp_pi_english_club' => $record['program_clp_pi_english_club'],
+                    'program_egl_english' => $record['program_egl_english'],
+                    'program_egl_math' => $record['program_egl_math'],
+                    'program_csaw' => $record['program_csaw'],
+                    'school_grading' => $record['school_grading'],
+                    'clc_graduate_students' => $record['clc_graduate_students'],
+                    'scr_benefited_students' => $record['scr_benefited_students'],
+                    'hardware_status' => $record['hardware_status'],
+                    'last_visit_date' => $record['last_visit_date'] ?: null,
+                    'follow_up_over_phone' => $record['follow_up_over_phone'],
+                    'last_follow_up_date' => $lastFollow !== '' ? $lastFollow : null,
+                    'timecreated' => $now,
+                    'timemodified' => $now,
+                    'usermodified' => $usermodified,
+                ];
+                $centerId = $DB->insert_record('local_centermanagement_centers', (object)$data);
+                if ($centerId) {
                     clp_set_success('Center record created successfully.');
                 } else {
                     clp_set_error('Failed to create center record.');
@@ -353,12 +374,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
 
             if ($ok && $centerId > 0) {
-                $db->close();
-
                 if (!empty($sponsors)) {
-                    $sponsorTable = 'mdl_local_centermanagement_sponsors';
-                    $db = clp_db_connect();
-                    $db->query("DELETE FROM {$sponsorTable} WHERE center_id = " . (int)$centerId);
+                    global $DB;
+                    $DB->delete_records('local_centermanagement_sponsors', ['center_id' => $centerId]);
                     $sort = 0;
                     foreach ($sponsors as $sponsor) {
                         $name = trim((string)($sponsor['name'] ?? ''));
@@ -367,26 +385,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         $address = trim((string)($sponsor['address'] ?? ''));
                         $email = trim((string)($sponsor['email'] ?? ''));
                         $phone = trim((string)($sponsor['phone'] ?? ''));
-                        $stmt = $db->prepare("INSERT INTO {$sponsorTable} (center_id, name, country, address, email, phone, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
-                        $stmt->bind_param("issssssii", $centerId, $name, $country, $address, $email, $phone, $sort, $now, $now);
-                        $stmt->execute();
-                        $stmt->close();
+                        $DB->insert_record('local_centermanagement_sponsors', (object)[
+                            'center_id' => $centerId,
+                            'name' => $name,
+                            'country' => $country,
+                            'address' => $address,
+                            'email' => $email,
+                            'phone' => $phone,
+                            'sortorder' => $sort,
+                            'timecreated' => $now,
+                            'timemodified' => $now,
+                        ]);
                         $sort++;
                     }
-                    $db->close();
                 }
 
                 $fileareas = ['banner_images', 'plaque_images', 'school_photos'];
-                $fileareaTables = [
-                    'banner_images' => 'mdl_local_centermanagement_banner_images',
-                    'plaque_images' => 'mdl_local_centermanagement_plaque_gallery',
-                    'school_photos' => 'mdl_local_centermanagement_school_photo_gallery',
-                ];
+                global $DB;
+
                 foreach ($fileareas as $filearea) {
-                    if (!empty($_FILES[$filearea]['name'][0]) || !empty($_FILES[$filearea]['name'])) {
-                        $db = clp_db_connect();
-                        $table = $fileareaTables[$filearea];
-                        $db->query("DELETE FROM {$table} WHERE center_id = " . (int)$centerId);
+                    $hasNewUploads = !empty($_FILES[$filearea]['name'][0]) || !empty($_FILES[$filearea]['name']);
+
+                    if ($hasNewUploads) {
+                        if ($filearea === 'banner_images' || $filearea === 'plaque_images') {
+                            clp_delete_all_files($centerId, $filearea);
+                        }
+
                         $sortorder = 0;
 
                         if (!empty($_FILES[$filearea]['name'][0]) && is_array($_FILES[$filearea]['name'])) {
@@ -400,10 +424,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         'size' => $_FILES[$filearea]['size'][$idx],
                                     ], $filearea, $centerId);
                                     if ($filename) {
-                                        $stmt = $db->prepare("INSERT INTO {$table} (center_id, filename, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?)");
-                                        $stmt->bind_param("isiii", $centerId, $filename, $sortorder, $now, $now);
-                                        $stmt->execute();
-                                        $stmt->close();
+                                        $DB->insert_record('local_centermanagement_' . $filearea, (object)[
+                                            'center_id' => $centerId,
+                                            'filename' => $filename,
+                                            'sortorder' => $sortorder,
+                                            'timecreated' => $now,
+                                            'timemodified' => $now,
+                                        ]);
                                         $sortorder++;
                                     }
                                 }
@@ -411,13 +438,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         } elseif (!empty($_FILES[$filearea]['name']) && $_FILES[$filearea]['error'] === UPLOAD_ERR_OK) {
                             $filename = clp_upload_file($_FILES[$filearea], $filearea, $centerId);
                             if ($filename) {
-                                $stmt = $db->prepare("INSERT INTO {$table} (center_id, filename, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?)");
-                                $stmt->bind_param("isiii", $centerId, $filename, $sortorder, $now, $now);
-                                $stmt->execute();
-                                $stmt->close();
+                                $DB->insert_record('local_centermanagement_' . $filearea, (object)[
+                                    'center_id' => $centerId,
+                                    'filename' => $filename,
+                                    'sortorder' => $sortorder,
+                                    'timecreated' => $now,
+                                    'timemodified' => $now,
+                                ]);
                             }
                         }
-                        $db->close();
+                    }
+
+                    if ($filearea === 'school_photos' && !empty($_POST['deleted_school_photos'])) {
+                        $deletedIds = array_filter(array_map('intval', explode(',', $_POST['deleted_school_photos'])));
+                        foreach ($deletedIds as $delId) {
+                            $record = $DB->get_record('local_centermanagement_school_photo_gallery', ['id' => $delId, 'center_id' => $centerId]);
+                            if ($record) {
+                                clp_delete_file('school_photos', $record->filename, $centerId);
+                            }
+                        }
+                        $DB->delete_records_list('local_centermanagement_school_photo_gallery', 'id', $deletedIds);
                     }
                 }
 
@@ -435,24 +475,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // Distinct districts for the datalist helper.
 $districtList = [];
-if ($res = $db->query("SELECT DISTINCT district FROM " . CLP_CENTERS_TABLE . " WHERE district <> '' ORDER BY district ASC")) {
-    while ($r = $res->fetch_assoc()) {
-        $districtList[] = $r['district'];
-    }
+global $DB;
+$records = $DB->get_records_sql("SELECT DISTINCT district FROM {local_centermanagement_centers} WHERE district <> '' ORDER BY district ASC");
+foreach ($records as $r) {
+    $districtList[] = $r->district;
 }
-
-$db->close();
 
 $existingSponsors = [];
 if ($isEdit && !empty($record['id'])) {
-    $db = clp_db_connect();
-    $sponsorTable = 'mdl_local_centermanagement_sponsors';
-    if ($res = $db->query("SELECT name, country, address, email, phone FROM {$sponsorTable} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
-        while ($row = $res->fetch_assoc()) {
-            $existingSponsors[] = $row;
-        }
+    global $DB;
+    $records = $DB->get_records('local_centermanagement_sponsors', ['center_id' => (int)$record['id']], 'sortorder ASC, id ASC');
+    foreach ($records as $row) {
+        $existingSponsors[] = (array)$row;
     }
-    $db->close();
 }
 
 // Load existing media for form display.
@@ -461,22 +496,21 @@ $existingMedia = [
     'plaque_images' => [],
     'school_photos' => [],
 ];
-$fileareaTables = [
-    'banner_images' => 'mdl_local_centermanagement_banner_images',
-    'plaque_images' => 'mdl_local_centermanagement_plaque_gallery',
-    'school_photos' => 'mdl_local_centermanagement_school_photo_gallery',
-];
 if ($isEdit && !empty($record['id'])) {
-    $db = clp_db_connect();
+    global $DB;
+    $centerId = (int)$record['id'];
+    $fileareaTables = [
+        'banner_images' => 'local_centermanagement_banner_images',
+        'plaque_images' => 'local_centermanagement_plaque_gallery',
+        'school_photos' => 'local_centermanagement_school_photo_gallery',
+    ];
     foreach ($existingMedia as $filearea => $items) {
-        $table = $fileareaTables[$filearea];
-        if ($res = $db->query("SELECT id, filename, alt_text, is_featured, sortorder FROM {$table} WHERE center_id = " . (int)$record['id'] . " ORDER BY sortorder ASC, id ASC")) {
-            while ($row = $res->fetch_assoc()) {
-                $existingMedia[$filearea][] = $row;
-            }
+        $tablename = $fileareaTables[$filearea] ?? 'local_centermanagement_' . $filearea;
+        $records = $DB->get_records($tablename, ['center_id' => $centerId], 'sortorder ASC, id ASC');
+        foreach ($records as $row) {
+            $existingMedia[$filearea][] = (array)$row;
         }
     }
-    $db->close();
 }
 
 include __DIR__ . '/includes/header.php';
@@ -809,7 +843,7 @@ include __DIR__ . '/includes/header.php';
                                  data-sortorder="<?php echo (int)$media['sortorder']; ?>"
                                  data-is-featured="<?php echo (int)$media['is_featured']; ?>">
                                 <div class="clc-media-preview">
-                                    <img src="<?php echo clp_uploaded_file_url($filearea, $media['filename']); ?>" alt="">
+                                    <img src="<?php echo clp_uploaded_file_url($filearea, $media['filename'], (int)($record['id'] ?: 0)); ?>" alt="">
                                     <?php if ($hasFeatured): ?>
                                         <div class="clc-media-featured-badge <?php echo $media['is_featured'] ? 'is-active' : ''; ?>">Featured</div>
                                     <?php endif; ?>
@@ -932,6 +966,7 @@ include __DIR__ . '/includes/header.php';
             <button type="submit" name="submit_action" value="save_continue" class="btn btn-secondary"><i class="fas fa-save"></i> Save and Continue Editing</button>
             <button type="submit" name="submit_action" value="save" class="btn btn-success"><i class="fas fa-save"></i> <?php echo $isEdit ? 'Update' : 'Save'; ?></button>
             <a href="<?php echo CLP_ADMIN_URL; ?>/centers.php" class="btn btn-primary">Cancel</a>
+        <input type="hidden" name="deleted_school_photos" id="deleted-school-photos" value="">
         </form>
     </div>
 </div>
@@ -1227,11 +1262,23 @@ function initTinyMCE() {
                 formData.append('center_id', centerId);
                 formData.append('filearea', filearea);
                 formData.append('filename', filename);
+                formData.append('id', item.dataset.id || '');
                 formData.append('csrf_token', CSRF_TOKEN);
                 fetch(ADMIN_URL + '/delete_upload.php', { method: 'POST', body: formData })
                     .then(function (r) { return r.json(); })
                     .then(function (json) {
-                        if (json.success) item.remove();
+                        if (json.success) {
+                            var recordId = item.dataset.id;
+                            if (recordId && filearea === 'school_photos') {
+                                var hidden = document.getElementById('deleted-school-photos');
+                                var current = hidden.value ? hidden.value.split(',') : [];
+                                if (!current.includes(recordId)) {
+                                    current.push(recordId);
+                                    hidden.value = current.join(',');
+                                }
+                            }
+                            item.remove();
+                        }
                     });
             });
 
@@ -1373,3 +1420,5 @@ function initTinyMCE() {
 </script>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
+
+
