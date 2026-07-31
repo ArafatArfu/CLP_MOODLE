@@ -1,6 +1,18 @@
 <?php
 // CLP Admin Panel - Authentication Middleware
+// Uses a dedicated session namespace isolated from Moodle's session handler.
 
+define('CLP_SESSION_NAME', 'CLP_ADMIN_SESS');
+define('CLP_SESSION_EXPIRE', 3600 * 2);
+
+session_name(CLP_SESSION_NAME);
+session_set_cookie_params(CLP_SESSION_EXPIRE, '/clp-admin/', 'moodle-clp.local', false, true);
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+require_once __DIR__ . '/../moodle_bootstrap.php';
 require_once __DIR__ . '/functions.php';
 
 // Handle logout

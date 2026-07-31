@@ -1,37 +1,73 @@
 <?php
 // CLP Admin Panel - Configuration and Helper Functions
+// Uses Moodle APIs ($DB, File API) via moodle_bootstrap.php
 
-// Database Configuration
+// Admin Panel Configuration
+define('CLP_ADMIN_URL', 'http://moodle-clp.local/clp-admin');
+define('CLP_SITE_NAME', 'CLP Admin Panel');
+define('CLP_SITE_TITLE', 'Computer Literacy Program');
+
+// Database Configuration (kept for backward compatibility with non-center pages)
 define('CLP_DB_HOST', '127.0.0.1');
 define('CLP_DB_NAME', 'moodle_db');
 define('CLP_DB_USER', 'root');
 define('CLP_DB_PASS', 'Admin@12345');
 define('CLP_DB_PREFIX', 'clp_');
 
-// Admin Panel Configuration
-define('CLP_ADMIN_URL', 'http://moodle-clp.local/clp-admin');
-define('CLP_SITE_NAME', 'CLP Admin Panel');
-define('CLP_SITE_TITLE', 'Computer Literacy Program');
-define('CLP_ADMIN_UPLOAD_DIR', __DIR__ . '/../../clp-admin/uploads/centermanagement');
+// Moodle file storage constants
+define('CLP_FILE_COMPONENT', 'local_centermanagement');
+define('CLP_IMAGE_AREAS', ['banner_images', 'plaque_images', 'school_photos']);
 
-// Session Configuration
-define('CLP_SESSION_NAME', 'clp_admin_session');
-define('CLP_SESSION_EXPIRE', 3600 * 2); // 2 hours
+// Session Configuration (isolated from Moodle's PHPSESSID session).
+// Uses a dedicated session name and cookie scoped to /clp-admin/.
+if (!defined('CLP_SESSION_NAME')) {
+    define('CLP_SESSION_NAME', 'CLP_ADMIN_SESS');
+}
+if (!defined('CLP_SESSION_EXPIRE')) {
+    define('CLP_SESSION_EXPIRE', 3600 * 2);
+}
 
-// Start session if not already started
+// Bootstrap Moodle if not already loaded (provides $DB, $CFG, $USER, File API)
+if (!defined('MOODLE_INTERNAL')) {
+    require_once __DIR__ . '/../moodle_bootstrap.php';
+}
+
+// Start PHP session if not already started.
+// Configure session name and cookie params for isolation from Moodle's session.
 if (session_status() === PHP_SESSION_NONE) {
     session_name(CLP_SESSION_NAME);
+    session_set_cookie_params(CLP_SESSION_EXPIRE, '/clp-admin/', 'moodle-clp.local', false, true);
     session_start();
 }
 
-// Database Connection
+/**
+ * Get Moodle $DB instance
+ */
+function clp_db() {
+    global $DB;
+    return $DB;
+}
+
+/**
+ * Backward compatibility wrapper for raw MySQL connections.
+ * Prefer using Moodle $DB via clp_db() for Center Management operations.
+ */
 function clp_db_connect() {
-    $conn = new mysqli(CLP_DB_HOST, CLP_DB_USER, CLP_DB_PASS, CLP_DB_NAME);
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-    $conn->set_charset("utf8mb4");
-    return $conn;
+    return new mysqli(CLP_DB_HOST, CLP_DB_USER, CLP_DB_PASS, CLP_DB_NAME);
+}
+
+/**
+ * Get Moodle file storage instance
+ */
+function clp_fs() {
+    return get_file_storage();
+}
+
+/**
+ * Get Moodle system context
+ */
+function clp_context() {
+    return \context_system::instance();
 }
 
 // Secure password hash
@@ -54,13 +90,13 @@ function clp_redirect($url) {
     if (session_status() === PHP_SESSION_ACTIVE) {
         session_write_close();
     }
-    header("Location: $url");
+    header('Location: ' . $url);
     exit;
 }
 
-// Check if admin is logged in
+// Check if admin is logged in (data stored in Moodle session under 'clp_admin' key)
 function clp_is_logged_in() {
-    return isset($_SESSION['clp_admin_id']) && isset($_SESSION['clp_admin_username']);
+    return isset($_SESSION['clp_admin']['id']) && isset($_SESSION['clp_admin']['username']);
 }
 
 // Get current admin user
@@ -69,10 +105,10 @@ function clp_get_admin() {
         return null;
     }
     return [
-        'id' => $_SESSION['clp_admin_id'],
-        'username' => $_SESSION['clp_admin_username'],
-        'full_name' => $_SESSION['clp_admin_full_name'],
-        'role' => $_SESSION['clp_admin_role']
+        'id' => $_SESSION['clp_admin']['id'],
+        'username' => $_SESSION['clp_admin']['username'],
+        'full_name' => $_SESSION['clp_admin']['full_name'] ?? '',
+        'role' => $_SESSION['clp_admin']['role'] ?? 'admin',
     ];
 }
 
@@ -82,22 +118,21 @@ function clp_require_login() {
         clp_redirect(CLP_ADMIN_URL . '/login.php');
     }
     
-    // Check session expiration
-    if (isset($_SESSION['clp_admin_last_activity']) && (time() - $_SESSION['clp_admin_last_activity'] > CLP_SESSION_EXPIRE)) {
+    if (isset($_SESSION['clp_admin']['last_activity']) && (time() - $_SESSION['clp_admin']['last_activity'] > CLP_SESSION_EXPIRE)) {
         clp_logout();
         clp_redirect(CLP_ADMIN_URL . '/login.php?timeout=1');
     }
     
-    $_SESSION['clp_admin_last_activity'] = time();
+    $_SESSION['clp_admin']['last_activity'] = time();
 }
 
 // Logout admin
 function clp_logout() {
-    $_SESSION = [];
-    if (isset($_COOKIE[session_name()])) {
-        setcookie(session_name(), '', time() - 3600, '/');
+    unset($_SESSION['clp_admin']);
+    $cookieName = defined('CLP_SESSION_NAME') ? CLP_SESSION_NAME : session_name();
+    if (isset($_COOKIE[$cookieName])) {
+        setcookie($cookieName, '', time() - 3600, '/clp-admin/', 'moodle-clp.local', false, true);
     }
-    session_destroy();
 }
 
 // Get CSRF token
@@ -119,38 +154,6 @@ function clp_sanitize($input) {
         return array_map('clp_sanitize', $input);
     }
     return htmlspecialchars(trim($input ?? ''), ENT_QUOTES, 'UTF-8');
-}
-
-// Fetch single row from prepared statement (works without mysqlnd get_result)
-function clp_stmt_fetch_assoc($stmt) {
-    $meta = $stmt->result_metadata();
-    if (!$meta) {
-        return null;
-    }
-    
-    $fields = [];
-    $row = [];
-    while ($field = $meta->fetch_field()) {
-        $fields[] = &$row[$field->name];
-    }
-    
-    call_user_func_array([$stmt, 'bind_result'], $fields);
-    
-    if ($stmt->fetch()) {
-        // Copy values out of the bound (by-reference) row before freeing.
-        $result = [];
-        foreach ($row as $key => $value) {
-            $result[$key] = $value;
-        }
-        // Free the result set so the connection is ready for the next query
-        // (prevents "Commands out of sync" errors on subsequent statements).
-        $stmt->free_result();
-        return $result;
-    }
-    
-    // No row: still free the result set to keep the connection clean.
-    $stmt->free_result();
-    return null;
 }
 
 // Format date
@@ -179,14 +182,21 @@ function clp_get_message($type) {
     return null;
 }
 
-// Upload a file to the CLP admin uploads directory and return the stored filename.
+/**
+ * Upload a file to Moodle File API and return the stored filename.
+ */
 function clp_upload_file(array $file, string $filearea, int $centerId): ?string {
     if (empty($file['tmp_name']) || $file['error'] !== UPLOAD_ERR_OK) {
         return null;
     }
 
+    // Validate actual MIME type using fileinfo
+    $finfo = finfo_open(FILEINFO_MIME_TYPE);
+    $mimeType = finfo_file($finfo, $file['tmp_name']);
+    finfo_close($finfo);
+
     $allowedTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
-    if (!in_array($file['type'], $allowedTypes, true)) {
+    if (!in_array($mimeType, $allowedTypes, true)) {
         return null;
     }
 
@@ -195,57 +205,194 @@ function clp_upload_file(array $file, string $filearea, int $centerId): ?string 
         return null;
     }
 
-    $ext = pathinfo($file['name'], PATHINFO_EXTENSION);
-    $filename = $centerId . '_' . time() . '_' . bin2hex(random_bytes(4)) . '.' . $ext;
-    $destination = CLP_ADMIN_UPLOAD_DIR . '/' . $filearea . '/' . $filename;
+    $originalName = $file['name'];
+    $ext = strtolower(pathinfo($originalName, PATHINFO_EXTENSION));
+    $safeBase = preg_replace('/[^a-z0-9]/i', '', pathinfo($originalName, PATHINFO_FILENAME));
+    if ($safeBase === '') {
+        $safeBase = 'image';
+    }
+    $filename = $safeBase . '_' . $centerId . '_' . time() . '_' . bin2hex(random_bytes(4)) . '.' . $ext;
 
-    if (!move_uploaded_file($file['tmp_name'], $destination)) {
-        return null;
+    $context = \context_system::instance();
+    $fs = get_file_storage();
+
+    $filerecord = [
+        'contextid' => $context->id,
+        'component' => 'local_centermanagement',
+        'filearea' => $filearea,
+        'itemid' => $centerId,
+        'filepath' => '/',
+        'filename' => $filename,
+    ];
+
+    try {
+        $fileobj = $fs->create_file_from_pathname($filerecord, $file['tmp_name']);
+        if ($fileobj) {
+            return $fileobj->get_filename();
+        }
+    } catch (Exception $e) {
+        error_log('CLP upload error: ' . $e->getMessage());
     }
 
-    return $filename;
+    return null;
 }
 
-// Delete a file from the CLP admin uploads directory.
-function clp_delete_file(string $filearea, string $filename): void {
-    $path = CLP_ADMIN_UPLOAD_DIR . '/' . $filearea . '/' . $filename;
-    if (file_exists($path)) {
-        @unlink($path);
+/**
+ * Return the Moodle database table name for a media file area.
+ *
+ * Moodle's Database API expects table names without the configured prefix.
+ */
+function clp_media_table_name(string $filearea): ?string {
+    $tableMap = [
+        'banner_images' => 'local_centermanagement_banner_images',
+        'plaque_images' => 'local_centermanagement_plaque_gallery',
+        'school_photos' => 'local_centermanagement_school_photo_gallery',
+    ];
+
+    return $tableMap[$filearea] ?? null;
+}
+
+/**
+ * Delete a file from Moodle File API and its media database table.
+ */
+function clp_delete_file(string $filearea, string $filename, int $centerId = 0): void {
+    $table = clp_media_table_name($filearea);
+
+    if ($table === null) {
+        return;
+    }
+
+    $context = \context_system::instance();
+    $fs = get_file_storage();
+
+    $files = $fs->get_area_files(
+        $context->id,
+        'local_centermanagement',
+        $filearea,
+        $centerId,
+        'id',
+        false
+    );
+
+    foreach ($files as $file) {
+        if ($file->get_filename() === $filename) {
+            $file->delete();
+        }
+    }
+
+    if ($centerId > 0) {
+        clp_db()->delete_records(
+            $table,
+            [
+                'center_id' => $centerId,
+                'filename' => $filename,
+            ]
+        );
+    } else {
+        clp_db()->delete_records_select(
+            $table,
+            'filename = ?',
+            [$filename]
+        );
     }
 }
 
-// Get all uploaded filenames for a center and filearea.
+/**
+ * Get all filenames for a center and file area.
+ */
 function clp_get_uploaded_files(int $centerId, string $filearea): array {
-    global $db;
-    $table = 'mdl_local_centermanagement_' . $filearea;
+    $table = clp_media_table_name($filearea);
+
+    if ($table === null) {
+        return [];
+    }
+
     $files = [];
 
-    if ($res = $db->query("SELECT filename FROM {$table} WHERE center_id = " . (int)$centerId . " ORDER BY sortorder ASC, id ASC")) {
-        while ($row = $res->fetch_assoc()) {
-            $files[] = $row['filename'];
-        }
+    $records = clp_db()->get_records(
+        $table,
+        ['center_id' => $centerId],
+        'sortorder ASC, id ASC'
+    );
+
+    foreach ($records as $record) {
+        $files[] = $record->filename;
     }
 
     return $files;
 }
 
-// Save uploaded filenames for a center and filearea.
-function clp_save_uploaded_files(int $centerId, string $filearea, array $filenames): void {
-    global $db;
-    $table = 'mdl_local_centermanagement_' . $filearea;
+/**
+ * Delete all files for a center/file area from Moodle storage and database.
+ */
+function clp_delete_all_files(int $centerId, string $filearea): void {
+    $table = clp_media_table_name($filearea);
 
-    $db->query("DELETE FROM {$table} WHERE center_id = " . (int)$centerId);
-
-    foreach ($filenames as $sortorder => $filename) {
-        $stmt = $db->prepare("INSERT INTO {$table} (center_id, filename, sortorder, timecreated, timemodified) VALUES (?, ?, ?, ?, ?)");
-        $now = time();
-        $stmt->bind_param("isiii", $centerId, $filename, $sortorder, $now, $now);
-        $stmt->execute();
-        $stmt->close();
+    if ($table === null) {
+        return;
     }
+
+    $context = \context_system::instance();
+    $fs = get_file_storage();
+
+    $files = $fs->get_area_files(
+        $context->id,
+        'local_centermanagement',
+        $filearea,
+        $centerId,
+        'id',
+        false
+    );
+
+    foreach ($files as $file) {
+        $file->delete();
+    }
+
+    clp_db()->delete_records(
+        $table,
+        ['center_id' => $centerId]
+    );
 }
 
-// Build the public URL for an uploaded file.
-function clp_uploaded_file_url(string $filearea, string $filename): string {
-    return CLP_ADMIN_URL . '/uploads/centermanagement/' . $filearea . '/' . rawurlencode($filename);
+/**
+ * Build the public pluginfile URL for an uploaded file.
+ */
+function clp_uploaded_file_url(string $filearea, string $filename, int $centerId = 0): string {
+    $context = \context_system::instance();
+    return (string) \moodle_url::make_pluginfile_url(
+        $context->id,
+        'local_centermanagement',
+        $filearea,
+        $centerId,
+        '/',
+        $filename
+    );
+}
+
+/**
+ * Validate a center record has required fields.
+ */
+function clp_validate_center_record(array $record): array {
+    $errors = [];
+
+    if (empty($record['center_code'])) {
+        $errors['center_code'] = 'Center code is required.';
+    }
+    if (empty($record['center_name'])) {
+        $errors['center_name'] = 'Center name is required.';
+    }
+    if (empty($record['center_type']) || !in_array($record['center_type'], ['clc', 'scr', 'clc_scr', 'other'], true)) {
+        $errors['center_type'] = 'Valid center type is required.';
+    }
+    if (empty($record['division'])) {
+        $errors['division'] = 'Division is required.';
+    }
+    if (empty($record['district'])) {
+        $errors['district'] = 'District is required.';
+    }
+    if (!empty($record['email']) && !filter_var($record['email'], FILTER_VALIDATE_EMAIL)) {
+        $errors['email'] = 'Invalid email format.';
+    }
+
+    return $errors;
 }

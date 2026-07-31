@@ -1,12 +1,17 @@
 <?php
-// CLP Admin Panel - Save media metadata (alt_text, is_featured, sortorder).
+// CLP Admin Panel - Save media metadata
+// (alt_text, is_featured, sortorder).
+
 require_once __DIR__ . '/includes/auth.php';
 require_once __DIR__ . '/includes/functions.php';
 
-$response = ['success' => false, 'message' => 'Invalid request'];
+header('Content-Type: application/json; charset=utf-8');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    echo json_encode($response);
+    echo json_encode([
+        'success' => false,
+        'message' => 'Invalid request method',
+    ]);
     exit;
 }
 
@@ -14,51 +19,124 @@ $centerId = (int)($_POST['center_id'] ?? 0);
 $filearea = clp_sanitize($_POST['filearea'] ?? '');
 $filename = clp_sanitize($_POST['filename'] ?? '');
 $action = clp_sanitize($_POST['action'] ?? '');
+$id = (int)($_POST['id'] ?? 0);
 
-if ($centerId <= 0 || $filearea === '' || $filename === '' || $action === '') {
-    echo json_encode(['success' => false, 'message' => 'Invalid parameters']);
+if (
+    $centerId <= 0 ||
+    $filearea === '' ||
+    $filename === '' ||
+    $action === '' ||
+    $id <= 0
+) {
+    echo json_encode([
+        'success' => false,
+        'message' => 'Invalid parameters',
+    ]);
     exit;
 }
 
-$db = clp_db_connect();
-$fileareaTables = [
-    'banner_images' => 'mdl_local_centermanagement_banner_images',
-    'plaque_images' => 'mdl_local_centermanagement_plaque_gallery',
-    'school_photos' => 'mdl_local_centermanagement_school_photo_gallery',
+// Get the correct Moodle database table name from functions.php.
+$table = clp_media_table_name($filearea);
+
+if ($table === null) {
+    echo json_encode([
+        'success' => false,
+        'message' => 'Invalid file area',
+    ]);
+    exit;
+}
+
+$criteria = [
+    'id' => $id,
+    'center_id' => $centerId,
+    'filename' => $filename,
 ];
-$table = $fileareaTables[$filearea] ?? null;
 
-if (!$table) {
-    echo json_encode(['success' => false, 'message' => 'Invalid file area']);
-    exit;
+try {
+    $db = clp_db();
+
+    if (!$db->record_exists($table, $criteria)) {
+        echo json_encode([
+            'success' => false,
+            'message' => 'Media record not found',
+        ]);
+        exit;
+    }
+
+    switch ($action) {
+        case 'update_alt':
+            $altText = clp_sanitize($_POST['alt_text'] ?? '');
+
+            $success = $db->set_field(
+                $table,
+                'alt_text',
+                $altText,
+                $criteria
+            );
+
+            echo json_encode([
+                'success' => (bool)$success,
+                'message' => $success
+                    ? 'Alternative text updated successfully'
+                    : 'Unable to update alternative text',
+            ]);
+            break;
+
+        case 'toggle_featured':
+            $isFeatured = !empty($_POST['is_featured']) ? 1 : 0;
+
+            $success = $db->set_field(
+                $table,
+                'is_featured',
+                $isFeatured,
+                $criteria
+            );
+
+            echo json_encode([
+                'success' => (bool)$success,
+                'message' => $success
+                    ? 'Featured status updated successfully'
+                    : 'Unable to update featured status',
+            ]);
+            break;
+
+        case 'update_order':
+            $newOrder = max(
+                0,
+                (int)($_POST['sortorder'] ?? 0)
+            );
+
+            $success = $db->set_field(
+                $table,
+                'sortorder',
+                $newOrder,
+                $criteria
+            );
+
+            echo json_encode([
+                'success' => (bool)$success,
+                'message' => $success
+                    ? 'Sort order updated successfully'
+                    : 'Unable to update sort order',
+            ]);
+            break;
+
+        default:
+            echo json_encode([
+                'success' => false,
+                'message' => 'Unknown action',
+            ]);
+            break;
+    }
+} catch (Throwable $exception) {
+    error_log(
+        'CLP media metadata error: ' . $exception->getMessage()
+    );
+
+    echo json_encode([
+        'success' => false,
+        'message' => 'An error occurred while updating media metadata',
+    ]);
 }
 
-if ($action === 'update_alt') {
-    $altText = clp_sanitize($_POST['alt_text'] ?? '');
-    $stmt = $db->prepare("UPDATE {$table} SET alt_text = ?, timemodified = ? WHERE center_id = ? AND filename = ?");
-    $now = time();
-    $stmt->bind_param("sisi", $altText, $now, $centerId, $filename);
-    $ok = $stmt->execute();
-    $stmt->close();
-    echo json_encode(['success' => $ok]);
-} elseif ($action === 'toggle_featured') {
-    $isFeatured = (int)($_POST['is_featured'] ?? 0);
-    $stmt = $db->prepare("UPDATE {$table} SET is_featured = ?, timemodified = ? WHERE center_id = ? AND filename = ?");
-    $now = time();
-    $stmt->bind_param("iiis", $isFeatured, $now, $centerId, $filename);
-    $ok = $stmt->execute();
-    $stmt->close();
-    echo json_encode(['success' => $ok]);
-} elseif ($action === 'update_order') {
-    $newOrder = (int)($_POST['sortorder'] ?? 0);
-    $stmt = $db->prepare("UPDATE {$table} SET sortorder = ?, timemodified = ? WHERE center_id = ? AND filename = ?");
-    $now = time();
-    $stmt->bind_param("iiis", $newOrder, $now, $centerId, $filename);
-    $ok = $stmt->execute();
-    $stmt->close();
-    echo json_encode(['success' => $ok]);
-} else {
-    echo json_encode(['success' => false, 'message' => 'Unknown action']);
-}
-
-$db->close();
+exit;

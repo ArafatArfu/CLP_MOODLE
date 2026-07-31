@@ -35,6 +35,32 @@ function local_clp_create_participants_table($dbman): void {
 }
 
 /**
+ * Rename clp_clc_participants from unprefixed to prefixed table name
+ * when the database prefix is not empty.
+ *
+ * @param string $prefix
+ * @return void
+ */
+function local_clp_fix_participants_table_prefix(string $prefix): void {
+    global $DB;
+
+    if (trim($prefix) === '') {
+        return;
+    }
+
+    $oldname = 'clp_clc_participants';
+    $newname = $prefix . 'clp_clc_participants';
+
+    $sql = "SHOW TABLES LIKE '$oldname'";
+    $old_exists = $DB->get_records_sql($sql);
+
+    if (!empty($old_exists)) {
+        $renamesql = "RENAME TABLE `$oldname` TO `$newname`";
+        $DB->execute($renamesql);
+    }
+}
+
+/**
  * Generate and insert demo participants for CLC.
  *
  * @param int $count
@@ -113,6 +139,12 @@ function xmldb_local_clp_upgrade($oldversion) {
         }
 
         upgrade_plugin_savepoint(true, 2026071900, 'local', 'clp');
+    }
+
+    if ($oldversion < 2026073000) {
+        local_clp_fix_participants_table_prefix($DB->get_prefix());
+
+        upgrade_plugin_savepoint(true, 2026073000, 'local', 'clp');
     }
 
     return true;

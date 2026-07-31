@@ -2,41 +2,26 @@
 // CLP Admin Panel - Sponsored Centers Records Management (List).
 //
 // Lists the centre records stored in the shared centres table
-// (mdl_local_centermanagement_centers) which powers the public
-// "Your Sponsored Center(s)" page at /school-info.php.
-//
-// The list UI (description/hero box, filter panel, data table and pagination)
-// intentionally reuses the SAME component design as the public CLC program
-// page (local/clp/program.php -> program.css) and the public school-info.php
-// page, so the filtering system looks and behaves identically everywhere.
-// Only the data differs. Filtering/search/sort/pagination run through AJAX
-// (JSON) with no full page reload, mirroring program.php's `ajax=1` flow.
-// Add / Edit / View live in centers_form.php and centers_view.php.
+// which powers the public "Your Sponsored Center(s)" page at /school-info.php.
+// Uses $DB for all database operations.
 
 require_once __DIR__ . '/includes/auth.php';
 
-// The centres table is owned by the Moodle local_centermanagement plugin and
-// uses the Moodle table prefix, so it is referenced with the mdl_ prefix here.
-define('CLP_CENTERS_TABLE', 'mdl_local_centermanagement_centers');
-
 $page_title = 'Sponsored Centers';
-
-$db = clp_db_connect();
 
 // --- Handle enable/disable (status toggle) and delete actions. ---
 if (isset($_GET['action'])) {
     $id = (int)($_GET['id'] ?? 0);
+    global $DB;
 
     if ($_GET['action'] === 'toggle' && $id > 0) {
-        $stmt = $db->prepare("UPDATE " . CLP_CENTERS_TABLE . " SET status = 1 - status, timemodified = ? WHERE id = ?");
-        $now = time();
-        $stmt->bind_param("ii", $now, $id);
-        if ($stmt->execute()) {
+        $center = $DB->get_record('local_centermanagement_centers', ['id' => $id]);
+        if ($center) {
+            $DB->set_field('local_centermanagement_centers', 'status', 1 - (int)$center->status, ['id' => $id]);
             clp_set_success('Center status updated successfully.');
         } else {
-            clp_set_error('Failed to update center status.');
+            clp_set_error('Center not found.');
         }
-        $stmt->close();
         clp_redirect(CLP_ADMIN_URL . '/centers.php');
     }
 
@@ -75,15 +60,10 @@ $perpage = 20;
 /**
  * Return distinct, sorted values for a column (used for filter dropdowns).
  */
-function clp_centers_distinct($db, $field) {
-    $out = [];
-    $sql = "SELECT DISTINCT $field FROM " . CLP_CENTERS_TABLE . " WHERE $field <> '' ORDER BY $field ASC";
-    if ($res = $db->query($sql)) {
-        while ($r = $res->fetch_assoc()) {
-            $out[] = $r[$field];
-        }
-    }
-    return $out;
+function clp_centers_distinct(string $field): array {
+    global $DB;
+    $sql = "SELECT DISTINCT $field FROM {local_centermanagement_centers} WHERE $field <> '' ORDER BY $field ASC";
+    return array_values($DB->get_fieldset_sql($sql));
 }
 
 /**
@@ -107,27 +87,27 @@ function clp_centers_render_table(array $rows, int $startno): string {
         $body = '';
         $sl = $startno;
         foreach ($rows as $r) {
-            $ctype = strtolower($r['center_type'] ?? 'clc');
+            $ctype = strtolower($r->center_type ?? 'clc');
             $typeLabel = $ctype === 'scr' ? 'Smart Classroom' : 'Computer Literacy Center';
             $typeClass = $ctype === 'scr' ? 'sc-badge sc-badge-info' : 'sc-badge sc-badge-secondary';
-            $isActive = !empty($r['status']);
+            $isActive = !empty($r->status);
             $statusClass = $isActive ? 'sc-badge sc-badge-success' : 'sc-badge sc-badge-secondary';
             $statusLabel = $isActive ? 'Enabled' : 'Disabled';
 
             $body .= '<tr>'
                 . '<td class="sc-col-sl">' . $sl . '</td>'
-                . '<td><strong>' . clp_escape($r['center_code']) . '</strong></td>'
-                . '<td>' . clp_escape($r['center_name']) . '</td>'
+                . '<td><strong>' . clp_escape($r->center_code) . '</strong></td>'
+                . '<td>' . clp_escape($r->center_name) . '</td>'
                 . '<td><span class="' . $typeClass . '">' . $typeLabel . '</span></td>'
-                . '<td>' . clp_escape($r['district']) . '</td>'
-                . '<td>' . clp_escape($r['sponsor_name']) . '</td>'
-                . '<td>' . clp_escape($r['support']) . '</td>'
+                . '<td>' . clp_escape($r->district) . '</td>'
+                . '<td>' . clp_escape($r->sponsor_name) . '</td>'
+                . '<td>' . clp_escape($r->support) . '</td>'
                 . '<td><span class="' . $statusClass . '">' . $statusLabel . '</span></td>'
                 . '<td class="sc-actions">'
-                . '<a href="' . CLP_ADMIN_URL . '/centers_view.php?id=' . (int)$r['id'] . '" class="sc-btn sc-btn-sm sc-btn-secondary" title="View"><i class="fas fa-eye"></i></a>'
-                . '<a href="' . CLP_ADMIN_URL . '/centers_form.php?id=' . (int)$r['id'] . '" class="sc-btn sc-btn-sm sc-btn-primary" title="Edit"><i class="fas fa-edit"></i></a>'
-                . '<a href="' . CLP_ADMIN_URL . '/centers.php?action=toggle&id=' . (int)$r['id'] . '" class="sc-btn sc-btn-sm sc-btn-warning" title="' . ($isActive ? 'Disable' : 'Enable') . '"><i class="fas fa-' . ($isActive ? 'eye-slash' : 'eye') . '"></i></a>'
-                . '<a href="' . CLP_ADMIN_URL . '/centers.php?action=delete&id=' . (int)$r['id'] . '" class="sc-btn sc-btn-sm sc-btn-danger confirm-delete" title="Delete"><i class="fas fa-trash"></i></a>'
+                . '<a href="' . CLP_ADMIN_URL . '/centers_view.php?id=' . (int)$r->id . '" class="sc-btn sc-btn-sm sc-btn-secondary" title="View"><i class="fas fa-eye"></i></a>'
+                . '<a href="' . CLP_ADMIN_URL . '/centers_form.php?id=' . (int)$r->id . '" class="sc-btn sc-btn-sm sc-btn-primary" title="Edit"><i class="fas fa-edit"></i></a>'
+                . '<a href="' . CLP_ADMIN_URL . '/centers.php?action=toggle&id=' . (int)$r->id . '" class="sc-btn sc-btn-sm sc-btn-warning" title="' . ($isActive ? 'Disable' : 'Enable') . '"><i class="fas fa-' . ($isActive ? 'eye-slash' : 'eye') . '"></i></a>'
+                . '<a href="' . CLP_ADMIN_URL . '/centers.php?action=delete&id=' . (int)$r->id . '" class="sc-btn sc-btn-sm sc-btn-danger confirm-delete" title="Delete"><i class="fas fa-trash"></i></a>'
                 . '</td>'
                 . '</tr>';
             $sl++;
@@ -179,19 +159,19 @@ function clp_centers_render_pagination(int $page, int $totalpages, int $total, i
 /**
  * Build the data payload (table + pagination + meta) for the centres list.
  */
-function clp_centers_build_data($db, array $f, int $page, int $perpage) {
+function clp_centers_build_data(array $f, int $page, int $perpage): array {
+    global $DB;
+
     $where = ['1=1'];
     $params = [];
-    $types = '';
 
     if ($f['q'] !== '') {
         $like = '%' . $f['q'] . '%';
         $fields = ['center_code', 'center_name', 'sponsor_name', 'district', 'division', 'upazila'];
         $ors = [];
         foreach ($fields as $field) {
-            $ors[] = "$field LIKE ?";
+            $ors[] = $DB->sql_like($field, '?', false);
             $params[] = $like;
-            $types .= 's';
         }
         $where[] = '(' . implode(' OR ', $ors) . ')';
     }
@@ -200,64 +180,39 @@ function clp_centers_build_data($db, array $f, int $page, int $perpage) {
         if ($f[$col] !== '') {
             $where[] = "$col = ?";
             $params[] = $f[$col];
-            $types .= 's';
         }
     }
     if ($f['status'] !== '') {
         $where[] = "status = ?";
         $params[] = (int)$f['status'];
-        $types .= 'i';
     }
 
     $whereSql = implode(' AND ', $where);
 
-    $countSql = "SELECT COUNT(*) AS c FROM " . CLP_CENTERS_TABLE . " WHERE $whereSql";
-    if ($params) {
-        $stmt = $db->prepare($countSql);
-        $stmt->bind_param($types, ...$params);
-        $stmt->execute();
-        $total = (int)(clp_stmt_fetch_assoc($stmt)['c'] ?? 0);
-        $stmt->close();
-    } else {
-        $total = (int)$db->query($countSql)->fetch_assoc()['c'];
-    }
+    $total = $DB->count_records_sql("SELECT COUNT(*) FROM {local_centermanagement_centers} WHERE $whereSql", $params);
 
     $totalpages = max(1, (int)ceil($total / $perpage));
     $page = max(1, min($page, $totalpages));
     $offset = ($page - 1) * $perpage;
 
     $allowedSort = [
-        'center_name' => 'center_name',
-        'district'    => 'district',
-        'division'    => 'division',
-        'start_date'  => 'start_date',
+        'center_name'  => 'center_name',
+        'district'     => 'district',
+        'division'     => 'division',
+        'start_date'   => 'start_date',
         'sponsor_name' => 'sponsor_name',
-        'support'     => 'support',
-        'status'      => 'status',
+        'support'      => 'support',
+        'status'       => 'status',
     ];
-    $sortfield = $allowedSort[$f['sort']] ?? 'start_date';
+    $sortfield = $allowedSort[$f['sort'] ?? ''] ?? 'start_date';
     $dir = $f['dir'] === 'DESC' ? 'DESC' : 'ASC';
 
-    $listSql = "SELECT * FROM " . CLP_CENTERS_TABLE . " WHERE $whereSql ORDER BY $sortfield $dir, id DESC LIMIT ? OFFSET ?";
-    $listTypes = $types . 'ii';
-    $listParams = array_merge($params, [$perpage, $offset]);
-
-    $stmt = $db->prepare($listSql);
-    $stmt->bind_param($listTypes, ...$listParams);
-    $stmt->execute();
-
-    $rows = [];
-    $result = $stmt->get_result();
-    if ($result) {
-        while ($row = $result->fetch_assoc()) {
-            $rows[] = $row;
-        }
-    } else {
-        while ($row = clp_stmt_fetch_assoc($stmt)) {
-            $rows[] = $row;
-        }
-    }
-    $stmt->close();
+    $rows = $DB->get_records_sql(
+        "SELECT * FROM {local_centermanagement_centers} WHERE $whereSql ORDER BY $sortfield $dir, id DESC",
+        $params,
+        $offset,
+        $perpage
+    );
 
     $startno = (($page - 1) * $perpage) + 1;
 
@@ -273,15 +228,14 @@ function clp_centers_build_data($db, array $f, int $page, int $perpage) {
 // AJAX request: return JSON and stop.
 if (isset($_GET['ajax'])) {
     header('Content-Type: application/json; charset=utf-8');
-    echo json_encode(clp_centers_build_data($db, $f, $page, $perpage));
-    $db->close();
+    echo json_encode(clp_centers_build_data($f, $page, $perpage));
     exit;
 }
 
 // Distinct values for the filter dropdowns.
-$districts = clp_centers_distinct($db, 'district');
-$divisions = clp_centers_distinct($db, 'division');
-$upazilas  = clp_centers_distinct($db, 'upazila');
+$districts = clp_centers_distinct('district');
+$divisions = clp_centers_distinct('division');
+$upazilas  = clp_centers_distinct('upazila');
 
 $types = ['clc' => 'CLC', 'scr' => 'SCR'];
 $supports = [
@@ -300,13 +254,12 @@ $sortoptions = [
     'status'       => 'Status',
 ];
 
-$initial = clp_centers_build_data($db, $f, $page, $perpage);
+$initial = clp_centers_build_data($f, $page, $perpage);
 
 // Dashboard stat cards.
-$totalAll = (int)$db->query("SELECT COUNT(*) AS c FROM " . CLP_CENTERS_TABLE)->fetch_assoc()['c'];
-$totalActive = (int)$db->query("SELECT COUNT(*) AS c FROM " . CLP_CENTERS_TABLE . " WHERE status = 1")->fetch_assoc()['c'];
-
-$db->close();
+global $DB;
+$totalAll = (int)$DB->count_records('local_centermanagement_centers');
+$totalActive = (int)$DB->count_records('local_centermanagement_centers', ['status' => 1]);
 
 include __DIR__ . '/includes/header.php';
 ?>
@@ -327,7 +280,6 @@ include __DIR__ . '/includes/header.php';
     .sc-btn-danger:hover { background: #f9d2d2; }
     .sc-actions { white-space: nowrap; }
     .sc-actions .sc-btn { margin-right: 4px; }
-    /* Lift the component above the admin card so it matches the public look. */
     .content-area { background: transparent; }
     .sc-program-panel { margin-top: 28px; }
     .sc-program-toolbar .sc-btn { margin-left: auto; }
@@ -347,7 +299,7 @@ include __DIR__ . '/includes/header.php';
         <header class="sc-program-header">
             <span class="sc-program-eyebrow">Database</span>
             <h1 class="sc-program-title">Sponsored Centers</h1>
-            <p class="sc-program-desc">Manage the Computer Literacy Centers (CLCs) and Smart Classrooms (SCRs) that appear on the public &ldquo;Your Sponsored Center(s)&rdquo; page. Search, filter and sort the directory, or add and edit records.</p>
+            <p class="sc-program-desc">Manage the Computer Literacy Centers (CLCs) and Smart Classrooms (SCRs) that appear on the public "Your Sponsored Center(s)" page. Search, filter and sort the directory, or add and edit records.</p>
             <div class="sc-program-meta">
                 <span class="sc-program-badge">
                     <span class="sc-program-dot" aria-hidden="true"></span>Centers
@@ -371,7 +323,7 @@ include __DIR__ . '/includes/header.php';
             <form class="sc-program-filters" id="sc-program-filters" method="get" autocomplete="off">
                 <div class="sc-filter-search">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"/></svg>
-                    <input type="search" name="q" value="<?php echo clp_escape($f['q']); ?>" placeholder="Search by code, name, school, sponsor, district…" aria-label="Search centers">
+                    <input type="search" name="q" value="<?php echo clp_escape($f['q']); ?>" placeholder="Search by code, name, school, sponsor, district..." aria-label="Search centers">
                 </div>
 
                 <div class="sc-filter-grid">

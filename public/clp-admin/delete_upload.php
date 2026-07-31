@@ -1,9 +1,15 @@
 <?php
 // CLP Admin Panel - Delete uploaded file.
+
 require_once __DIR__ . '/includes/auth.php';
 require_once __DIR__ . '/includes/functions.php';
 
-$response = ['success' => false, 'message' => 'Invalid request'];
+header('Content-Type: application/json; charset=utf-8');
+
+$response = [
+    'success' => false,
+    'message' => 'Invalid request',
+];
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode($response);
@@ -13,34 +19,80 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 $centerId = (int)($_POST['center_id'] ?? 0);
 $filearea = clp_sanitize($_POST['filearea'] ?? '');
 $filename = clp_sanitize($_POST['filename'] ?? '');
+$id = (int)($_POST['id'] ?? 0);
 
-if ($centerId <= 0 || $filearea === '' || $filename === '') {
-    echo json_encode(['success' => false, 'message' => 'Invalid parameters']);
+if (
+    $centerId <= 0 ||
+    $filearea === '' ||
+    $filename === '' ||
+    $id <= 0
+) {
+    echo json_encode([
+        'success' => false,
+        'message' => 'Invalid parameters',
+    ]);
     exit;
 }
 
-$db = clp_db_connect();
-$fileareaTables = [
-    'banner_images' => 'mdl_local_centermanagement_banner_images',
-    'plaque_images' => 'mdl_local_centermanagement_plaque_gallery',
-    'school_photos' => 'mdl_local_centermanagement_school_photo_gallery',
+// Moodle database table names without the configured prefix.
+$tableMap = [
+    'banner_images' => 'local_centermanagement_banner_images',
+    'plaque_images' => 'local_centermanagement_plaque_gallery',
+    'school_photos' => 'local_centermanagement_school_photo_gallery',
 ];
-$table = $fileareaTables[$filearea] ?? null;
 
-if (!$table) {
-    echo json_encode(['success' => false, 'message' => 'Invalid file area']);
+$table = $tableMap[$filearea] ?? null;
+
+if ($table === null) {
+    echo json_encode([
+        'success' => false,
+        'message' => 'Invalid file area',
+    ]);
     exit;
 }
 
-$stmt = $db->prepare("DELETE FROM {$table} WHERE center_id = ? AND filename = ?");
-$stmt->bind_param("is", $centerId, $filename);
-$ok = $stmt->execute();
-$stmt->close();
-$db->close();
+$criteria = [
+    'id' => $id,
+    'center_id' => $centerId,
+    'filename' => $filename,
+];
 
-if ($ok) {
-    clp_delete_file($filearea, $filename);
-    echo json_encode(['success' => true]);
-} else {
-    echo json_encode(['success' => false, 'message' => 'Database error']);
+try {
+    $db = clp_db();
+
+    if (!$db->record_exists($table, $criteria)) {
+        echo json_encode([
+            'success' => false,
+            'message' => 'Record not found',
+        ]);
+        exit;
+    }
+
+    $deleted = $db->delete_records($table, $criteria);
+
+    if (!$deleted) {
+        echo json_encode([
+            'success' => false,
+            'message' => 'Unable to delete the database record',
+        ]);
+        exit;
+    }
+
+    clp_delete_file($filearea, $filename, $centerId);
+
+    echo json_encode([
+        'success' => true,
+        'message' => 'File deleted successfully',
+    ]);
+    exit;
+} catch (Throwable $exception) {
+    error_log(
+        'CLP file deletion error: ' . $exception->getMessage()
+    );
+
+    echo json_encode([
+        'success' => false,
+        'message' => 'An error occurred while deleting the file',
+    ]);
+    exit;
 }
