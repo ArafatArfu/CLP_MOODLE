@@ -217,8 +217,7 @@ function clp_delete_file(string $filearea, string $filename): void {
 // Get all uploaded filenames for a center and filearea.
 function clp_get_uploaded_files(int $centerId, string $filearea): array {
     global $db;
-    $prefix = CLP_DB_PREFIX;
-    $table = $prefix . 'local_centermanagement_' . $filearea;
+    $table = 'mdl_local_centermanagement_' . $filearea;
     $files = [];
 
     if ($res = $db->query("SELECT filename FROM {$table} WHERE center_id = " . (int)$centerId . " ORDER BY sortorder ASC, id ASC")) {
@@ -233,8 +232,7 @@ function clp_get_uploaded_files(int $centerId, string $filearea): array {
 // Save uploaded filenames for a center and filearea.
 function clp_save_uploaded_files(int $centerId, string $filearea, array $filenames): void {
     global $db;
-    $prefix = CLP_DB_PREFIX;
-    $table = $prefix . 'local_centermanagement_' . $filearea;
+    $table = 'mdl_local_centermanagement_' . $filearea;
 
     $db->query("DELETE FROM {$table} WHERE center_id = " . (int)$centerId);
 

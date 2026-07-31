@@ -6,7 +6,7 @@
 // clc_import_service). It provides:
 //   - download_template(): stream an .xlsx template with the expected columns
 //   - preview():           parse an uploaded .xlsx / .csv file, validate rows
-//   - import():            insert the valid rows into clp_clc_participants
+//   - import():            insert the valid rows into mdl_clp_clc_participants
 //
 // XLSX is read/written natively (an .xlsx file is a ZIP of XML parts), so no
 // external library (PhpSpreadsheet, Spout, etc.) or Composer autoloader is
@@ -23,8 +23,8 @@ require_once __DIR__ . '/functions.php';
 
 class Clp_Clc_Excel {
 
-    /** Physical table name for CLC participants (no prefix). */
-    const TABLE = 'clp_clc_participants';
+    /** Physical table name for CLC participants (mdl_ prefix). */
+    const TABLE = 'mdl_clp_clc_participants';
 
     /** Template / expected column headers, in order. */
     public static function columns() {

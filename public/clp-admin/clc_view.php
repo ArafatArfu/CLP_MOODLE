@@ -2,11 +2,11 @@
 // CLP Admin Panel - CLC Participant Detail (View).
 //
 // Read-only view of a single CLC participant record from the shared CLC table
-// (clp_clc_participants), with quick links to Edit and Delete.
+// (mdl_clp_clc_participants), with quick links to Edit and Delete.
 
 require_once __DIR__ . '/includes/auth.php';
 
-define('CLP_CLC_TABLE', 'clp_clc_participants');
+define('CLP_CLC_TABLE', 'mdl_clp_clc_participants');
 
 $page_title = 'CLC Participant Details';
 

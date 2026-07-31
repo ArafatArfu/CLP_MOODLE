@@ -2,7 +2,7 @@
 // CLP Admin Panel - CLC Participant Form (Add / Edit).
 //
 // Creates and edits a single CLC participant record in the shared CLC table
-// (clp_clc_participants). Mirrors the SkillConnect dashboard record form:
+// (mdl_clp_clc_participants). Mirrors the SkillConnect dashboard record form:
 // grouped fields (School / Enrolment date / Personal / Location / Contact),
 // with server-side validation for required fields, email and mobile format.
 // The enrolment date is stored as `timecreated` (Jan 1 of the chosen year) plus
@@ -10,7 +10,7 @@
 
 require_once __DIR__ . '/includes/auth.php';
 
-define('CLP_CLC_TABLE', 'clp_clc_participants');
+define('CLP_CLC_TABLE', 'mdl_clp_clc_participants');
 
 $page_title = 'CLC Participant Form';
 
